@@ -1,0 +1,72 @@
+{
+  "Root": {
+    "company": "Talshir",
+    "owner": "Ilan Ber"
+  },
+  "StatsComp": {
+    "clients": "Clientes",
+    "products": "Productos",
+    "patents": "Patentes",
+    "countries": "Países"
+  },
+  "ProductPage": {
+    "exploreModel": "Explorar modelo"
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "language": "Idioma",
+    "contact": "Contacto",
+    "products": "Productos"
+  },
+  "Hero": {
+    "title": "Talshir-IBC",
+    "description": "Desarrollo, fabricación y comercialización de productos únicos en la industria de la construcción.",
+    "highlight": "Todos los productos cuentan con patentes únicas y diseños exclusivos.",
+    "actions": {
+      "products": "Nuestros productos",
+      "contact": "Contactar ventas"
+    }
+  },
+  "About": {
+    "title": "Sobre Talshir",
+    "tag": "Construyendo excelencia desde 1994",
+    "description": "Talshir-IBC es una empresa líder en la industria de la construcción, especializada en el desarrollo, fabricación y comercialización de soluciones innovadoras y de alta calidad.",
+    "mission": "En Talshir-IBC estamos comprometidos con redefinir la industria de la construcción a través de la innovación de vanguardia, la ingeniería de precisión y las prácticas sostenibles. Como desarrollador y fabricante certificado, buscamos crear soluciones duraderas, eficientes y avanzadas que mejoren la infraestructura, aumenten la seguridad y eleven los estándares de la industria.",
+    "vision": "Nuestra visión es ser líderes globales en innovación en la construcción, desarrollando la próxima generación de soluciones para la edificación. Buscamos impulsar los límites de la tecnología, la sostenibilidad y la artesanía, mientras mantenemos nuestros valores fundamentales de calidad, integridad e innovación."
+  },
+  "WhyUs": {
+    "title": "¿Por qué elegir nuestras patentes?",
+    "description": "Proporcionamos soluciones avanzadas para las principales empresas de construcción y desarrolladores privados en Israel.",
+    "cards": {
+      "card1": {
+        "title": "Diseños únicos",
+        "description": "Materiales innovadores, de alta calidad y ecológicos, diseñados para la durabilidad y eficiencia en la construcción moderna."
+      },
+      "card2": {
+        "title": "Asesoramiento experto",
+        "description": "Nuestros ingenieros y diseñadores experimentados trabajan en estrecha colaboración con los clientes, ofreciendo soluciones personalizadas y asesoramiento profesional en cada etapa."
+      },
+      "card3": {
+        "title": "Entrega confiable",
+        "description": "Garantizamos una entrega rápida, segura y transparente, con seguimiento basado en blockchain para mantener sus proyectos en tiempo y forma."
+      },
+      "card4": {
+        "title": "Estándares globales",
+        "description": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad a nivel internacional y son confiables por los líderes de la industria."
+      },
+      "card5": {
+        "title": "Enfoque en el cliente",
+        "description": "Priorizamos las necesidades del cliente, brindando un soporte personalizado, servicio eficiente y compromiso con su satisfacción a largo plazo."
+      },
+      "card6": {
+        "title": "Alianzas estratégicas",
+        "description": "Colaboramos con líderes de la industria para desarrollar soluciones que se integren perfectamente con las demandas cambiantes de la construcción."
+      }
+    }
+  },
+  "Coops": {
+    "title": "Al servicio de los líderes de la industria",
+    "description": "Brindamos soluciones avanzadas e innovadoras a las principales empresas de construcción y desarrolladores privados, mejorando la eficiencia, la sostenibilidad y el éxito del proyecto."
+  }
+}

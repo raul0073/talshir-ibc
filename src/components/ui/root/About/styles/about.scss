@@ -1,0 +1,50 @@
+.container {
+	.grid {
+		.left {
+			position: relative;
+			z-index: 0;
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: -30%; // Keep the blob sticking out at the top
+				right: -20%; // Ensure it stays in the top-left corner
+				width: 500px;
+				height: 450px;
+				z-index: -1;
+				opacity: 0.65;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22%3E%3Cstop offset=%220%25%22 stop-color=%22%23467BFF%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%237a92cf%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M840.5 658Q683 816 487.5 837.5T219 679.5q-73-179.5-11-379t290.5-197Q727 106 862.5 303t-22 355Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M840.5 658Q683 816 487.5 837.5T219 679.5q-73-179.5-11-379t290.5-197Q727 106 862.5 303t-22 355Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+
+				@media screen and (max-width: 1286px) {
+					width: 300px;
+					height: 300px;
+                                        top: -30%;
+					right: -20%;
+				}
+				@media screen and (max-width: 1024px) {
+					width: 300px;
+					height: 300px;
+                                        top: -20%;
+					right: -20%;
+				}
+
+				@media screen and (max-width: 768px) {
+					width: 300px;
+					height: 300px;
+					bottom: 0;
+					right: -20%;
+				}
+
+				@media screen and (max-width: 480px) {
+					width: 200px;
+					height: 200px;
+					bottom: 0;
+					right: -20%;
+				}
+			}
+		}
+	}
+}
