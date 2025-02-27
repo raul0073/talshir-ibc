@@ -11,7 +11,7 @@ function HeroContent() {
 
 	return (
 		<div className="text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 md:h-1/2 h-2/3 w-full">
-			<div className="container mx-auto w-full md:w-2/3 lg:w-1/2 border p-2">
+			<div className="container mx-auto w-full md:w-2/3 lg:w-1/2 p-2">
 				<div className="w-full flex justify-end pb-6 mb-6">
 					<Tag>✨ {content("highlight")}</Tag>
 				</div>
@@ -25,8 +25,8 @@ function HeroContent() {
 						<div
 							className={`absolute ${
 								isRTL
-									? "-right-8 -top-12 sm:-right-24 sm:-top-24 "
-									: "-left-8 -top-12 sm:-left-24 sm:-top-24 "
+									? "-right-12 -top-12 sm:-right-28 sm:-top-24 "
+									: "-left-12 -top-12 sm:-left-28 sm:-top-24 "
 							}`}>
 							<LogoComp />
 						</div>

@@ -14,13 +14,13 @@ function CoopsComp() {
 		<Fragment>
 			{/* boxes */}
 			{/* top right */}
-			<span className="w-24 lg:w-44 h-24 lg:h-44 bg-appGray absolute top-0 right-0 z-0"></span>
-			<span className="w-24 lg:w-44 h-24 lg:h-44 mt-24 lg:mt-44 bg-[#4B4B4B] opacity-20 absolute top-0 right-0 z-0"></span>
-			<span className="w-24 lg:w-44 h-24 lg:h-44 mt-24 lg:mt-44 mr-24 lg:mr-44 bg-white absolute top-0 right-0 z-0 opacity-10"></span>
-			<span className="w-24 lg:w-44 h-24 lg:h-44 mt-48 lg:mt-[22rem] bg-[#4B4B4B] opacity-10 absolute top-0 right-0 z-0"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 bg-appGray absolute top-0 right-0 z-0"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 mt-12 lg:mt-44 bg-[#4B4B4B] opacity-20 absolute top-0 right-0 z-0"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 mt-12 lg:mt-44 mr-12 lg:mr-44 bg-white absolute top-0 right-0 z-0 opacity-10"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 mt-24 lg:mt-[22rem] bg-[#4B4B4B] opacity-10 absolute top-0 right-0 z-0"></span>
 			{/* bottom left */}
-			<span className="w-24 lg:w-44 h-24 lg:h-44 mb-24 lg:mb-44 ml-24 lg:ml-44 bg-white absolute bottom-0 left-0 z-0 opacity-10"></span>
-			<span className="w-24 lg:w-44 h-24 lg:h-44 bg-[#4B4B4B] opacity-10 absolute bottom-0 left-0 z-0"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 mb-12 lg:mb-44 ml-12 lg:ml-44 bg-white absolute bottom-0 left-0 z-0 opacity-10"></span>
+			<span className="w-12 lg:w-44 h-12 lg:h-44 bg-[#4B4B4B] opacity-10 absolute bottom-0 left-0 z-0"></span>
 			{/* content */}
 			
 			<div className="container mx-auto p-6 md:p-24 z-10 relative">

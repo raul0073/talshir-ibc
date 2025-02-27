@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { MouseEvent } from "react";
+import LocaleSwitcher from "./langSwitcher";
 interface MenuOption {
 	label: string;
 	href: string;
@@ -19,6 +20,7 @@ const menuAnimation = {
 
 function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 	const content = useTranslations("Navbar");
+	const locale = useLocale();
 	function handleNavigationMove(e: MouseEvent<HTMLAnchorElement>) {
 		e.preventDefault();
 		setIsOpen(false);
@@ -32,10 +34,6 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 		{ label: content.raw("home"), href: "#home" },
 		{ label: content.raw("about"), href: "#about" },
 		{ label: content.raw("products"), href: "#products" },
-		{
-			label: content.raw("language"),
-			href: "#experience",
-		},
 		{ label: content.raw("contact"), href: "#contact" },
 	];
 	return (
@@ -55,14 +53,22 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 								<li
 									key={href}
 									className="relative group/nav-item transition-all duration-300 ease-in-out font-axure  border-b dark:border-stone-200/10 border-zinc-800/10 py-8">
-									<a
-										href={href}
-										onClick={handleNavigationMove}
-										className="group/nav-item flex h-full justify-between items-center dark:text-white/40 text-zinc-900/60 text-4xl group-hover/nav-item:pl-4 group-hover/nav-item:dark:text-appYellow group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
-										{label}
-									</a>
+								
+										<a
+											href={href}
+											onClick={handleNavigationMove}
+											className="group/nav-item flex h-full justify-between items-center dark:text-white/40 text-zinc-900/60 text-4xl group-hover/nav-item:pl-4 group-hover/nav-item:dark:text-appYellow group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
+											{label}
+										</a>
+							
 								</li>
 							))}
+							<li className="relative group/nav-item transition-all duration-300 ease-in-out font-axure  border-b dark:border-stone-200/10 border-zinc-800/10 py-8">
+							<span className="group/nav-item flex h-full justify-between items-center dark:text-white/40 text-zinc-900/60 text-4xl group-hover/nav-item:pl-4 group-hover/nav-item:dark:text-appYellow group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
+
+							<LocaleSwitcher currentLocale={locale} className="text-lg" />
+							</span>
+							</li>
 						</ul>
 					</nav>
 				</motion.div>

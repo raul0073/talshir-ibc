@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
@@ -12,8 +13,10 @@ const languages = [
 
 export default function LocaleSwitcher({
 	currentLocale,
+	className
 }: {
 	currentLocale: string;
+	className?:string;
 }) {
 	const router = useRouter();
 	const path = usePathname();
@@ -29,7 +32,7 @@ export default function LocaleSwitcher({
 	};
 
 	return (
-		<div className="text-xs">
+		<div className={cn("text-xs", `${className}`)}>
 			<select
 				onChange={(e) => changeLanguage(e.target.value)}
 				disabled={isPending}
