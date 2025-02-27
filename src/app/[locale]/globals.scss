@@ -265,6 +265,19 @@
 	}
 
 }
+
+@media (max-width: 768px) {
+	.btn-default, .btn-outline, .btn-secondary {
+		font-size: 14px;
+		gap: 10px;
+		padding: 0.5em 1.5em;
+		box-shadow: 4px 4px 0px lightGray;
+	}
+
+	.btn-default:hover, .btn-outline:hover, .btn-secondary:hover {
+		box-shadow: 6px 6px 0px lightGray;
+	}
+}
 .btn-outline-blue {
 	font-size: 20px;
 	letter-spacing: 2px;

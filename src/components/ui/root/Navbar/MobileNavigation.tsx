@@ -1,6 +1,10 @@
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { MouseEvent } from "react";
-import { menuOptions } from "./data/MenuOptions";
+interface MenuOption {
+	label: string;
+	href: string;
+}
 
 interface MobileNavigationProps {
 	isOpen: boolean;
@@ -14,6 +18,7 @@ const menuAnimation = {
 };
 
 function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
+	const content = useTranslations("Navbar");
 	function handleNavigationMove(e: MouseEvent<HTMLAnchorElement>) {
 		e.preventDefault();
 		setIsOpen(false);
@@ -23,7 +28,16 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 		if (!target) return;
 		target.scrollIntoView({ behavior: "smooth" });
 	}
-
+	const menuOptions: MenuOption[] = [
+		{ label: content.raw("home"), href: "#home" },
+		{ label: content.raw("about"), href: "#about" },
+		{ label: content.raw("products"), href: "#products" },
+		{
+			label: content.raw("language"),
+			href: "#experience",
+		},
+		{ label: content.raw("contact"), href: "#contact" },
+	];
 	return (
 		<AnimatePresence>
 			{isOpen && (
@@ -46,13 +60,11 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 										onClick={handleNavigationMove}
 										className="group/nav-item flex h-full justify-between items-center dark:text-white/40 text-zinc-900/60 text-4xl group-hover/nav-item:pl-4 group-hover/nav-item:dark:text-appYellow group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
 										{label}
-										
 									</a>
 								</li>
 							))}
 						</ul>
 					</nav>
-				
 				</motion.div>
 			)}
 		</AnimatePresence>

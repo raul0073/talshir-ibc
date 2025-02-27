@@ -1,13 +1,12 @@
-import { useLocale } from "next-intl";
 import { BoxesBG } from "./BoxesBG";
 import HeroContent from "./HeroContent";
+import SectionWithLocale from "@/components/Section/SectionWithLocale";
 function HeroComp() {
-	const locale = useLocale();
 	return (
-		<section className="relative hero  h-[90vh] ">
+		<SectionWithLocale sectionName="hero" className="relative hero h-[90vh] pt-0">
 			<BoxesBG />
-			<HeroContent locale={locale} />
-		</section>
+			<HeroContent />
+		</SectionWithLocale>
 	);
 }
 
