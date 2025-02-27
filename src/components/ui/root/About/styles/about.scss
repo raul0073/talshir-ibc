@@ -21,28 +21,28 @@
 				@media screen and (max-width: 1286px) {
 					width: 300px;
 					height: 300px;
-                                        top: -30%;
+                                        top: -20%;
 					right: -20%;
 				}
 				@media screen and (max-width: 1024px) {
 					width: 300px;
 					height: 300px;
-                                        top: -20%;
+                                        top: -10%;
 					right: -20%;
 				}
 
 				@media screen and (max-width: 768px) {
 					width: 300px;
 					height: 300px;
-					bottom: 0;
-					right: -20%;
+					top: -20%;
+					left: -20%;
 				}
 
 				@media screen and (max-width: 480px) {
 					width: 200px;
 					height: 200px;
-					bottom: 0;
-					right: -20%;
+					top: -20%;
+					left: -20%;
 				}
 			}
 		}

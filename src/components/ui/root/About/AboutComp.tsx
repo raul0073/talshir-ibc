@@ -8,7 +8,7 @@ import "./styles/about.scss";
 function About() {
 	const content = useTranslations("About");
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto !w-screen">
 			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8">
 				<div className="left w-full">
 					<div className="image-wrapper relative p-2">

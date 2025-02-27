@@ -26,7 +26,7 @@ function FeatureCard({
             <rect width="100%" height="100%" strokeWidth="0" fill="url(#pattern1)" className="rounded-[.2rem]"></rect>
           </svg>
         </div>
-        <div className="absolute inset-0 rounded-[.2rem] bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100"
+        <div className="absolute inset-0 rounded-[.2rem] bg-gradient-to-r from-[#D7EDEA] to-appBlue opacity-0 transition duration-300 group-hover:opacity-100"
           style={{ maskImage: "radial-gradient(300px at 300px 10px, white, transparent)" }}
         ></div>
         <div className="absolute inset-0 rounded-[.2rem] opacity-0 mix-blend-overlay transition duration-300 group-hover:opacity-100"
