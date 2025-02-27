@@ -5,7 +5,7 @@ import {
 	GrCycle,
 	GrDeliver,
 	GrGlobe,
-	GrShareOption ,
+	GrShareOption,
 	GrVideo,
 } from "react-icons/gr";
 import SectionHeader from "../Header/SectionHeader";
@@ -22,7 +22,7 @@ function FeaturesComp() {
 		card3: <GrDeliver className="w-8 h-8 text-amber-50" />,
 		card4: <GrGlobe className="w-8 h-8 text-amber-50" />,
 		card5: <GrCycle className="w-8 h-8 text-amber-50" />,
-		card6: <GrShareOption  className="w-8 h-8 text-amber-50" />,
+		card6: <GrShareOption className="w-8 h-8 text-amber-50" />,
 	};
 
 	// Convert JSON into an array
@@ -36,8 +36,8 @@ function FeaturesComp() {
 
 	// Optimized title handling
 	const titleParts = content("title").split(" ");
-	const lastWord = titleParts.pop(); 
-	const title = titleParts.join(" "); 
+	const lastWord = titleParts.pop();
+	const title = titleParts.join(" ");
 
 	return (
 		<div className="container mx-auto p-6 md:p-24">
@@ -48,6 +48,7 @@ function FeaturesComp() {
 				{content("description")}
 			</p>
 			<div className="features-grid wrapper w-full h-full flex justify-center items-center mt-24">
+			
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto gap-4">
 					{featuresList.map((feature, i) => (
 						<FeatureCard
@@ -64,3 +65,4 @@ function FeaturesComp() {
 }
 
 export default FeaturesComp;
+

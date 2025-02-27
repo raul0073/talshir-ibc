@@ -10,7 +10,7 @@ function HeroContent() {
 	const isRTL = locale === "he" || locale === "ar";
 
 	return (
-		<div className="text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 h-1/2 w-full">
+		<div className="text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 md:h-1/2 h-2/3 w-full">
 			<div className="container mx-auto w-full md:w-2/3 lg:w-1/2 border p-2">
 				<div className="w-full flex justify-end pb-6 mb-6">
 					<Tag>✨ {content("highlight")}</Tag>
