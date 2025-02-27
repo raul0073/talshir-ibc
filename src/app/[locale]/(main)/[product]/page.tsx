@@ -9,19 +9,19 @@ function Page() {
 	const locale = useLocale()
 	const isRtl = locale === "he" || locale === "ar";
 	return (
-		<SectionWithLocale sectionName="product-page">
+		<SectionWithLocale sectionName="product-page ">
 			<div className="container  mx-auto min-h-[90vh]">
 				<div className="grid grid-cols-1 md:grid-cols-5">
 					<div className={`${isRtl? 'border-l': 'border-r'} col-span-2`}>
 						<div className="model-header p-4">
-							<h1 className="font-bold text-7xl uppercase text-appBlue">
+							<h1 className="font-bold text-4xl md:text-7xl uppercase text-appBlue">
 								Model name
 							</h1>
 							<p>Patent Pending 656514</p>
 						</div>
 						<Separator />
 						<div className="model-description p-4">
-							<h1 className="font-semibold text-5xl uppercase text-zinc-900 mb-4">
+							<h1 className="font-semibold text-2xl md:text-5xl uppercase text-zinc-900 mb-4">
 								model description
 							</h1>
 							<p className="text-base font-medium">
@@ -35,7 +35,7 @@ function Page() {
 							<h1 className="font-semibold text-2xl uppercase text-zinc-900 mb-4">
 								model usage
 							</h1>
-							<p className="text-base capitalize">
+							<p className="text-sm md:text-base capitalize">
 								* Keeper 20 is a universal plastic accessory Easy to install,{" "}
 								<br />
 								* connects with a click Designed to be used in casting of
@@ -57,30 +57,11 @@ function Page() {
 							</p>
 						</div>
 						<Separator />
-						<div className="model-certifications p-4">
+						<div className="model-certifications p-4 hidden md:flex">
 							<h1 className="font-bold text-2xl uppercase text-sky-900 mb-4">
-								model usage
+								model certifications / materials / anydata
 							</h1>
-							<p className="text-base">
-								* Keeper 20 is a universal plastic accessory Easy to install,{" "}
-								<br />
-								* connects with a click Designed to be used in casting of
-								concrete <br />
-								* walls, columns and beams Compatible with 6-12 mm rebars <br />
-								* Significant saving in time and manpower required for formwork{" "}
-								<br />
-								* Maintains standard spaces between the reinforcing meshes and
-								the <br />
-								* forms High compressive strength Maximal accuracy in laying{" "}
-								<br />
-								* meshes and forms. Minimal interface with the forms 3 built-in{" "}
-								<br />
-								* water seals designed to prevent water penetration, corrosion
-								and <br />
-								* crack formation Low self-weight – convenient handling, <br />
-								* transportation and storage Recommended use 3-4 units per 1 m²{" "}
-								<br />
-							</p>
+						
 						</div>
 					</div>
 					<div className="left flex flex-col col-span-3">
@@ -89,34 +70,20 @@ function Page() {
 						</div>
 						<div className="images-col p-4">
 							<h1 className="font-bold text-2xl uppercase text-sky-900 mb-4">
-								model usage
+								model usage graphics
 							</h1>
-							<p className="text-base">
-								* Keeper 20 is a universal plastic accessory Easy to install,{" "}
-								<br />
-								* connects with a click Designed to be used in casting of
-								concrete <br />
-								* walls, columns and beams Compatible with 6-12 mm rebars <br />
-								* Significant saving in time and manpower required for formwork{" "}
-								<br />
-								* Maintains standard spaces between the reinforcing meshes and
-								the <br />
-								* forms High compressive strength Maximal accuracy in laying{" "}
-								<br />
-								* meshes and forms. Minimal interface with the forms 3 built-in{" "}
-								<br />
-								* water seals designed to prevent water penetration, corrosion
-								and <br />
-								* crack formation Low self-weight – convenient handling, <br />
-								* transportation and storage Recommended use 3-4 units per 1 m²{" "}
-								<br />
-							</p>
+							<div className="w-full flex justify-evenly items-center gap-4">
+							<div className="w-24 md:w-36 h-24 md:h-36 bg-gray-300"></div>
+							<div className="w-24 md:w-36 h-24 md:h-36 bg-gray-300"></div>
+							<div className="w-24 md:w-36 h-24 md:h-36 bg-gray-300"></div>
+							<div className="w-24 md:w-36 h-24 md:h-36 bg-gray-300"></div>
+							</div>
 						</div>
 						<Separator />
 						<div className="actions  h-full p-4 gap-4 flex flex-col justify-center">
 							<ShadowButton
 
-							className="w-1/2"
+							className="w-full text-nowrap"
 							variant="secondary"
 								icon={
 									<svg

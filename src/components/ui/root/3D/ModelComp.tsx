@@ -94,7 +94,7 @@ const ModelComp: React.FC = () => {
 
 	return <div className="relative w-full h-full">
 	<canvas ref={canvasRef} className="w-full h-full" />
-	<p className="absolute left-2 bottom-2 text-white text-2xl uppercase">{labels("exploreModel")}</p>
+	<p className="absolute left-2 bottom-2 text-white text-lg md:text-2xl uppercase">{labels("exploreModel")}</p>
 </div>
 };
 
