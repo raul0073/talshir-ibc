@@ -3,13 +3,13 @@
     "company": "Talshir",
     "owner": "Ilan Ber"
   },
-  "StatsComp" : {
-    "clients" : "Clients",
-    "products" : "Products",
+  "StatsComp": {
+    "clients": "Clients",
+    "products": "Products",
     "patents": "Patents",
-    "countries" : "Countries"
+    "countries": "Countries"
   },
-  "ProductPage":{
+  "ProductPage": {
     "exploreModel": "Explore Model"
   },
   "Navbar": {
@@ -28,52 +28,49 @@
       "contact": "contact sales"
     }
   },
-    "About": {
-  "title": "About Talshir",
-  "tag": "Building Excellence Since 1994",
-  "description": "Talshir-IBC is a premier company in the construction industry, specializing in the development, manufacturing, and marketing of innovative, high-quality solutions.",
-  "mission": "At Talshir-IBC, we are committed to redefining the construction industry through cutting-edge innovation, precision engineering, and sustainable practices. As a certified developer and manufacturer, we strive to create durable, efficient, and forward-thinking solutions that enhance infrastructure, improve safety, and elevate industry standards. Our mission is to empower construction professionals with advanced materials and technologies that drive progress and long-term success.",
-  "vision": "Our vision is to be a global leader in construction innovation, pioneering the next generation of building solutions. We aim to shape the future of the industry by continuously pushing the boundaries of technology, sustainability, and craftsmanship. Through a customer-centric approach, strategic partnerships, and a relentless pursuit of excellence, we aspire to create a lasting impact on the built environment while maintaining our core values of quality, integrity, and innovation."
-}
-,
-"WhyUs": {
-  "title": "Why Choose Our Patents",
-  "description": "We provide cutting-edge solutions for leading construction companies and private developers in Israel.",
-  "cards": {
-    "card1": {
-      "title": "Unique Designs",
-      "description": "Innovative, high-quality, and eco-friendly materials, engineered for durability and efficiency in modern construction."
-    },
-    "card2": {
-      "title": "Expert Guidance",
-      "description": "Our experienced engineers and designers work closely with clients, offering tailored solutions and expert advice at every stage."
-    },
-    "card3": {
-      "title": "Reliable Delivery",
-      "description": "We ensure fast, secure, and transparent delivery with blockchain-backed tracking, keeping your projects on schedule."
-    },
-    "card4": {
-      "title": "Global Standards",
-      "description": "Trusted by international construction leaders, our products meet the highest global quality and safety benchmarks."
-    },
-    "card5": {
-      "title": "Customer Focus",
-      "description": "We prioritize client needs, offering personalized support, responsive service, and a commitment to long-term satisfaction."
-    },
-    "card6": {
-      "title": "Strong Partnerships",
-      "description": "Collaborating with industry leaders, we develop solutions that integrate seamlessly with evolving construction demands."
+  "About": {
+    "title": "About Talshir",
+    "tag": "Building Excellence Since 1994",
+    "description": "Talshir-IBC is a premier company in the construction industry, specializing in the development, manufacturing, and marketing of innovative, high-quality solutions.",
+    "mission": "At Talshir-IBC, we are committed to redefining the construction industry through cutting-edge innovation, precision engineering, and sustainable practices. As a certified developer and manufacturer, we strive to create durable, efficient, and forward-thinking solutions that enhance infrastructure, improve safety, and elevate industry standards. Our mission is to empower construction professionals with advanced materials and technologies that drive progress and long-term success.",
+    "vision": "Our vision is to be a global leader in construction innovation, pioneering the next generation of building solutions. We aim to shape the future of the industry by continuously pushing the boundaries of technology, sustainability, and craftsmanship. Through a customer-centric approach, strategic partnerships, and a relentless pursuit of excellence, we aspire to create a lasting impact on the built environment while maintaining our core values of quality, integrity, and innovation."
+  },
+  "WhyUs": {
+    "title": "Why Choose Our Patents",
+    "description": "We provide cutting-edge solutions for leading construction companies and private developers in Israel.",
+    "cards": {
+      "card1": {
+        "title": "Unique Designs",
+        "description": "Innovative, high-quality, and eco-friendly materials, engineered for durability and efficiency in modern construction."
+      },
+      "card2": {
+        "title": "Expert Guidance",
+        "description": "Our experienced engineers and designers work closely with clients, offering tailored solutions and expert advice at every stage."
+      },
+      "card3": {
+        "title": "Reliable Delivery",
+        "description": "We ensure fast, secure, and transparent delivery with blockchain-backed tracking, keeping your projects on schedule."
+      },
+      "card4": {
+        "title": "Global Standards",
+        "description": "Trusted by international construction leaders, our products meet the highest global quality and safety benchmarks."
+      },
+      "card5": {
+        "title": "Customer Focus",
+        "description": "We prioritize client needs, offering personalized support, responsive service, and a commitment to long-term satisfaction."
+      },
+      "card6": {
+        "title": "Strong Partnerships",
+        "description": "Collaborating with industry leaders, we develop solutions that integrate seamlessly with evolving construction demands."
+      }
     }
+  },
+  "Coops": {
+    "title": "Serving Industry Leaders",
+    "description": "Empowering top construction companies and private developers with advanced, innovative solutions that enhance efficiency, sustainability, and project success."
+  },
+  "Products": {
+    "title": "Our Solutions",
+    "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction."
   }
-}
-,
-"Coops": {
-  "title": "Serving Industry Leaders",
-  "description": "Empowering top construction companies and private developers with advanced, innovative solutions that enhance efficiency, sustainability, and project success."
-},
-"Products" :{
-  "title" : "Our Solutions",
-  "description" : "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction."
-}
-  
 }

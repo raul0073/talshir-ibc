@@ -3,7 +3,7 @@ import About from "@/components/ui/root/About/AboutComp";
 import CoopsComp from "@/components/ui/root/Coops/CoopsComp";
 import FeaturesComp from "@/components/ui/root/Features/FeaturesComp";
 import HeroComp from "@/components/ui/root/Hero/HeroComp";
-import ProductsComp from "@/components/ui/root/Stats/Products/ProductsComp";
+import ProductsComp from "@/components/ui/root/Products/ProductsComp";
 import { Fragment } from "react";
 export default function Home() {
 	return (

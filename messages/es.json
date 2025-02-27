@@ -68,5 +68,9 @@
   "Coops": {
     "title": "Al servicio de los líderes de la industria",
     "description": "Brindamos soluciones avanzadas e innovadoras a las principales empresas de construcción y desarrolladores privados, mejorando la eficiencia, la sostenibilidad y el éxito del proyecto."
+  },
+  "Products": {
+    "title": "Nuestras Soluciones",
+    "description": "Los productos de Talshir-IBC abarcan diversas industrias, incluidas la infraestructura, la construcción residencial, comercial e industrial."
   }
 }
