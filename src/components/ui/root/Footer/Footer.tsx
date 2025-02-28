@@ -68,10 +68,10 @@ function Footer() {
 						<nav className="w-full">
 							<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
 							<ul className="space-y-3">
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
+								<li className="capitalize text-white/50">terms & conditions</li>
+								<li className="capitalize text-white/50">accessibility</li>
+								<li className="capitalize text-white/50">privacy policy</li>
+								<li className="capitalize text-white/50">impressum</li>
 							</ul>
 						</nav>
 					</div>
@@ -86,7 +86,7 @@ function Footer() {
 						/>
 					</div>
 				</div>
-				<Separator className="w-full mx-auto bg-gradient-to-r from-transparent via-white/60 to-transparent my-12" />
+				<Separator className="mx-auto bg-gradient-to-r from-transparent via-white/60 to-transparent my-12" />
 				<div className="seo">
 					<div className="social flex flex-col justify-center gap-2 items-center ">
 						<div className="flex text-white gap-4">

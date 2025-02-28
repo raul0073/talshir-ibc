@@ -13,13 +13,13 @@ function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 					isScrolled && "text-appBlue/80"
 				}`}>
 				<li className="hover:text-appBlue">
-					<Link href="/about">{content("products")}</Link>
+					<Link href="#products">{content("products")}</Link>
 				</li>
 				<li className="hover:text-appBlue">
-					<Link href="/about">{content("about")}</Link>
+					<Link href="#about">{content("about")}</Link>
 				</li>
 				<li className="hover:text-appBlue border border-appBlue/80 px-3 py-1 hover:border-appBlue">
-					<Link href="/contact">{content("contact")}</Link>
+					<Link href="#contact">{content("contact")}</Link>
 				</li>
 				<li className={`${isRTL ? "border-r" : "border-l"}`}>
 					<LocaleSwitcher currentLocale={locale} />

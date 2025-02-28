@@ -12,19 +12,19 @@ export default function Home() {
 			<HeroComp />
 			<SectionWithLocale
 				sectionName="about"
-				className="bg-white text-white mt-24 min-h-screen">
+				className="bg-white text-white sm:mt-24 min-h-screen">
 				<About />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="whyus" className="bg-appGray">
+			<SectionWithLocale sectionName="whyus" className="bg-appGray" id="whyus">
 				<FeaturesComp />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="coops" className="relative bg-appBlue">
+			<SectionWithLocale sectionName="coops" className="relative bg-appBlue" id="coops">
 				<CoopsComp />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="products" className="relative bg-white">
+			<SectionWithLocale sectionName="products" className="relative bg-white" id="products">
 				<ProductsComp />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="contact" className="bg-white">
+			<SectionWithLocale sectionName="contact" className="bg-appGray" id="contact">
 				<ContactUsCopmp />
 			</SectionWithLocale>
 

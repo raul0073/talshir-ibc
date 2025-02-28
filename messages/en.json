@@ -73,5 +73,16 @@
   "Products": {
     "title": "Our Solutions",
     "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction."
+  },
+  "Contact" :{
+    "title" : "Contact Us",
+    "description" : "Our team of experts is here for you.",
+    "form" : {
+      "name" : "Name",
+      "email" : "Email",
+      "phone" : "Phone",
+      "message" : "Message",
+      "submit" : "Submit"
+    }
   }
 }
