@@ -14,8 +14,8 @@ function Footer() {
 			<div className="container mx-auto py-8 px-4 sm:p-12 md:p-24">
 				<div className="w-full grid grid-cols-3 md:grid-cols-4 gap-6 place-items-center text-white h-full">
 			
-					<nav className="col-span-2 sm:col-span-1">
-						<h3 className="uppercase mb-4 text-lg sm:text-xl">contact</h3>
+					<nav className="col-span-2 md:col-span-1">
+						<h3 className="uppercase mb-4 text-lg md:text-xl">contact</h3>
 						<ul className="space-y-2">
 							<li className="capitalize flex items-center justify-start gap-2 w-full">
 								<span>

@@ -11,11 +11,11 @@ function LogoComp({alt} : {alt?:boolean}) {
 			src={alt? logo2 : logo}
 			alt="talshir-ibc logo 300X300"
 			width={300}
-			height={350}
+			height={300}
 			style={{
 				transform: `${isRTL && "rotateY(180deg)"}`,
 			}}
-			className={` w-[100px] h-[100px]  sm:w-[200px] sm:h-[200px]`}
+			className={` w-[100px] h-[100px]  sm:w-[200px] sm:h-[200px] aspect-square`}
 		/>
 	);
 }

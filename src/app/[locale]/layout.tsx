@@ -5,6 +5,12 @@ import { Assistant, Rajdhani } from "next/font/google";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: 'TALSHIR-IBC',
+	description: 'CONSTRUCTION PATENT COMPANY',
+  }
 
 // Define fonts
 const rajdhani = Rajdhani({

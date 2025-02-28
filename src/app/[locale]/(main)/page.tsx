@@ -1,5 +1,5 @@
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
-import ContactUsCopmp from "@/components/ui/Contact/ContactUsCopmp";
+import ContactUsCopmp from "@/components/ui/root/Contact/ContactUsCopmp";
 import About from "@/components/ui/root/About/AboutComp";
 import CoopsComp from "@/components/ui/root/Coops/CoopsComp";
 import FeaturesComp from "@/components/ui/root/Features/FeaturesComp";
