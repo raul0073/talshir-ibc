@@ -1,4 +1,5 @@
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
+import ContactUsCopmp from "@/components/ui/Contact/ContactUsCopmp";
 import About from "@/components/ui/root/About/AboutComp";
 import CoopsComp from "@/components/ui/root/Coops/CoopsComp";
 import FeaturesComp from "@/components/ui/root/Features/FeaturesComp";
@@ -23,6 +24,10 @@ export default function Home() {
 			<SectionWithLocale sectionName="products" className="relative bg-white">
 				<ProductsComp />
 			</SectionWithLocale>
+			<SectionWithLocale sectionName="contact" className="bg-white">
+				<ContactUsCopmp />
+			</SectionWithLocale>
+
 		</Fragment>
 	);
 }

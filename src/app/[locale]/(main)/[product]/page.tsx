@@ -1,6 +1,6 @@
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
 import ModelComp from "@/components/ui/root/3D/ModelComp";
-import ShadowButton from "@/components/ui/root/shadow-button";
+import ShadowButton from "@/components/ui/shadow-button";
 import { Separator } from "@/components/ui/separator";
 import { useLocale } from "next-intl";
 

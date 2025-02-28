@@ -7,7 +7,7 @@ function Layout({ children }: { children: ReactNode }) {
 		<Fragment>
 			<NavigationComp />
 			<main className="mt-20">{children}</main>
-			<footer>
+			<footer className="bg-appBlue">
 				<Footer />
 			</footer>
 		</Fragment>

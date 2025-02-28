@@ -1,16 +1,17 @@
 import logo from "@/app/assets/images/logo/IBC-300x230-noBG-noIBC-noBottom.png";
+import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 
-function LogoComp() {
+function LogoComp({alt} : {alt?:boolean}) {
 	const locale = useLocale();
 	const isRTL = locale === "he" || locale === "ar";
 	return (
 		<Image
-			src={logo}
+			src={alt? logo2 : logo}
 			alt="talshir-ibc logo 300X300"
 			width={300}
-			height={300}
+			height={350}
 			style={{
 				transform: `${isRTL && "rotateY(180deg)"}`,
 			}}

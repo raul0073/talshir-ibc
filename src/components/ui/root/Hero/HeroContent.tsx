@@ -1,7 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import LogoComp from "../Logo/LogoComp";
-import ShadowButton from "../shadow-button";
+import ShadowButton from "../../shadow-button";
 import Tag from "./Tag";
 
 function HeroContent() {
