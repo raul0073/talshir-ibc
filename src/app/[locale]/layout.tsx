@@ -8,8 +8,8 @@ import "./globals.scss";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: 'TALSHIR-IBC',
-	description: 'CONSTRUCTION PATENT COMPANY',
+	title: 'Talshir-IBC',
+	description: 'Ilan Ber Co. Construction Solutions',
   }
 
 // Define fonts

@@ -15,7 +15,7 @@ function HamburgerMenuBtn({
 	return (
 		<button
 		{...props}
-			className={`hamburger-btn md:hidden text-gray-500 size-11 relative outline-none transition-colors duration-300 ease-linear  bg-transparent hover:bg-transparent  hover:text-black ${isOpen && 'border-red-600/30'}`}
+			className={`hamburger-btn md:hidden text-gray-500 size-11 relative outline-none transition-colors duration-300 ease-linear  bg-transparent hover:bg-transparent  hover:text-black ${isOpen && 'text-appRed'}`}
 			onClick={toggleMenu}>
 			<div className="block w-6 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
 				<span

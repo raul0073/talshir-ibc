@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { MouseEvent } from "react";
 import LocaleSwitcher from "./langSwitcher";
+import { GrLinkedin, GrTwitter, GrYoutube } from "react-icons/gr";
 interface MenuOption {
 	label: string;
 	href: string;
@@ -70,6 +71,11 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 							</span>
 							</li>
 						</ul>
+						<div className="w-full flex justify-center items-center gap-4 pt-1/2 h-44 text-appBlue/80">
+							<GrLinkedin />
+							<GrTwitter />
+							<GrYoutube />
+						</div>
 					</nav>
 				</motion.div>
 			)}
