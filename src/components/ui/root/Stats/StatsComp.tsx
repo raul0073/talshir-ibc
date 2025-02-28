@@ -59,7 +59,7 @@ export default function StatsBar() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              className="text-2xl md:text-5xl font-bold text-white after:content-['+']"
+              className={`text-2xl md:text-5xl font-bold text-white ${isRTL ?  "after:content-['+']" : "before:content-['+']" }`}
               id={id}
             />
             <div className="stat-title text-stone-900">{title}</div>

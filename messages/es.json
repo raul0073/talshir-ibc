@@ -1,7 +1,8 @@
 {
   "Root": {
     "company": "Talshir",
-    "owner": "Ilan Ber"
+    "owner": "Ilan Ber",
+     "btnLink": "Ver Mas"
   },
   "StatsComp": {
     "clients": "Clientes",

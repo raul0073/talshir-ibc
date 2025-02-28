@@ -1,7 +1,8 @@
 {
   "Root": {
     "company": "تالشير",
-    "owner": "إيلان بير"
+    "owner": "إيلان بير",
+     "btnLink": "See More"
   },
   "StatsComp": {
     "clients": "العملاء",

@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import { StaticImageData } from "next/image";
 import { motion } from 'framer-motion';
+import ButtonArrow from "../../button-arrow";
 export type ProductAccordionProps = {
     modelName: string;
     modelDesc: string;
@@ -25,17 +26,17 @@ export function ProductAccordion({modelName, modelDesc, modelImg} : ProductAccor
 				/>
 				<AccordionContent className="w-full">
 					
-					<div className="w-full flex justify-between items-end gap-8 md:text-lg mt-4">
+					<div className="w-full flex flex-col sm:flex-row justify-between sm:items-end gap-8 md:text-lg mt-4">
 					<p className="max-w-2xl">
                     Yes. It adheres to the WAI-ARIA design pattern. <br />
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus voluptate, quam architecto fuga illo omnis soluta rerum aut sequi. Possimus iusto dolorem beatae? Consectetur officiis laboriosam necessitatibus dolore totam.
                     </p>
-					<div className="w-fit grid grid-cols-3 gap-6">
+					<div className="w-fit grid grid-cols-3 gap-2 sm:gap-6">
 						<AccordionChart value={60} label="metal" />
 						<AccordionChart value={35} label="iron" />
 						<AccordionChart value={4.8} label="water" />
 						</div>
-                    <button className="btn-small text-nowrap py-0 px-0" >see more &#8594;</button>
+                   <ButtonArrow link={`/product/${modelName}`} />
 					</div>
 				</AccordionContent>
 			</AccordionItem>
@@ -56,7 +57,7 @@ export const AccordionChart = ({ value, label }: AccordionChartProps) => {
   const strokeDashoffset = ((100 - value) / 100) * strokeDasharray;
 
   return (
-    <div className="flex justify-center items-center w-24 h-24 relative">
+    <div className="flex justify-center items-center w-24 h-24 relative scale-75 sm:scale-100">
       <svg
         width="100%"
         height="100%"

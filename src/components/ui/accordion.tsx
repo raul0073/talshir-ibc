@@ -64,8 +64,8 @@ const CustomAccordionTrigger = ({
   imageSrc: StaticImageData
 }) => (
   <AccordionTrigger className="group w-full flex items-end gap-4">
-    <span className="w-1/4 uppercase text-appBlue text-lg md:text-2xl font-bold">{title}</span>
-    <span className="w-2/3 capitalize  md:text-lg group-data-[state=open]:hidden">{description}</span>
+    <span className="w-1/4 uppercase flex justify-start text-appBlue text-lg md:text-2xl font-bold">{title}</span>
+    <span className="w-2/3 capitalize  md:text-lg hidden sm:flex group-data-[state=open]:hidden">{description}</span>
     <span className="w-1/3 group-data-[state=open]:w-1/2 flex justify-end">
       <Image
         src={imageSrc}

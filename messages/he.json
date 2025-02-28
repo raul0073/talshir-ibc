@@ -1,7 +1,8 @@
 {
   "Root": {
     "company": "תלשיר",
-    "owner": "אילן בר"
+    "owner": "אילן בר",
+     "btnLink": "פרטים נוספים"
   },
   "StatsComp": {
     "clients": "לקוחות",

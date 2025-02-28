@@ -15,8 +15,9 @@ function About() {
 						<Image
 							src={ilan}
 							alt="ilan_ber"
-							objectFit="contain"
-							className="md:h-2/3 lg:h-full w-full shadow-lg z-10"
+							width={500}
+							height={500}
+							className="md:h-2/3 lg:h-full w-full shadow-lg z-10 object-contain"
 						/>
 						<PlayButton className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 md:w-24 h-12 md:h-24 bg-white opacity-45 z-10 rounded-full shadow-md hover:opacity-100 hover:shadow-sm transition-all duration-200 ease-in-out" />
 					</div>
