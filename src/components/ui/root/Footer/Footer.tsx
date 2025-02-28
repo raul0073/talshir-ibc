@@ -11,26 +11,9 @@ import { Separator } from "../../separator";
 function Footer() {
 	return (
 		<footer>
-			<div className="container mx-auto p-6 sm:p-12 md:p-24">
-				<div className="w-full grid grid-cols-3 md:grid-cols-4 gap-6 place-items-center text-white">
-					<nav className="w-full">
-						<h3 className="uppercase mb-4 text-lg sm:text-xl">menu</h3>
-						<ul className="space-y-2">
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-						</ul>
-					</nav>
-					<nav className="w-full">
-						<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
-						<ul className="space-y-2">
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-							<li className="capitalize text-white/50">item</li>
-						</ul>
-					</nav>
+			<div className="container mx-auto py-8 px-4 sm:p-12 md:p-24">
+				<div className="w-full grid grid-cols-3 md:grid-cols-4 gap-6 place-items-center text-white h-full">
+			
 					<nav className="col-span-2 sm:col-span-1">
 						<h3 className="uppercase mb-4 text-lg sm:text-xl">contact</h3>
 						<ul className="space-y-2">
@@ -70,6 +53,24 @@ function Footer() {
 							className={` w-[100px] h-[100px]`}
 						/>
 					</div>
+					<nav className="hidden md:block sm:w-full ">
+						<h3 className="uppercase mb-4 text-lg sm:text-xl">menu</h3>
+						<ul className="space-y-2 text-white/80">
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+						</ul>
+					</nav>
+					<nav className="hidden md:block sm:w-full">
+						<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
+						<ul className="space-y-2">
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+							<li className="capitalize text-white/50">item</li>
+						</ul>
+					</nav>
 				</div>
 				<Separator className="w-full mx-auto bg-gradient-to-r from-transparent via-white/60 to-transparent my-12" />
 				<div className="seo">
@@ -86,7 +87,7 @@ function Footer() {
 							Hod HaSharon, Hatchelet 32, ISRAEL
 						</p>
 
-						<div className="w-full grid grid-cols-2 place-items-center gap-8 mt-6 text-white/60">
+						<div className="w-full grid grid-cols-2 place-items-center gap-8 mt-6 text-white/60 text-xs sm:text-base">
 							<div className="flex justify-start items-start w-full">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
 								industry. Lorem Ipsum has been the industry&apos;s standard dummy
