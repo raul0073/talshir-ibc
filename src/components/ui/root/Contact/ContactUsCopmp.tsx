@@ -1,5 +1,5 @@
 import { IconPhone, IconPin, IconSend } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { HTMLAttributes } from "react";
 import ShadowButton from "../../shadow-button";
 import SectionHeader from "../Header/SectionHeader";
@@ -8,44 +8,46 @@ function ContactUsCopmp() {
 	const content = useTranslations("Contact");
 	const title = content.raw("title").split(" ")[0];
 	const lastWord = content.raw("title").split(" ")[1];
+	const locale = useLocale()
+	const isRTL = locale === "he" || locale === "ar";
 	return (
 		<div className="container mx-auto p-6 md:p-12">
 			<div className="header w-full max-w-xl">
 				<SectionHeader>
 					{title} <span className="font-bold">{lastWord}</span>
 				</SectionHeader>
-				<p className="max-w-2xl text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-6">
+				<p className="text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-4">
 					{content("description")}
 				</p>
 			</div>
 			<div className="grid sm:grid-cols-2 gap-12 py-24">
 				<div className="form w-3/4">
 					<form className="flex flex-col space-y-6">
-						<InputComp type="text" placeholder="Full Name *" className="" />
+						<InputComp type="text" placeholder={content("form.name") + '*'} className="" />
 						<InputComp
 							type="email"
-							placeholder="Email *"
-							className="shadow-md border border-gray-400 p-4 placeholder:text-red-600"
+							placeholder={content("form.email") + '*'}
+							className="shadow-md border border-gray-400 placeholder:text-red-600"
 						/>
 						<InputComp
 							type="phone"
-							placeholder="Phone *"
-							className="shadow-md border border-gray-400 p-4 placeholder:text-red-600"
+							placeholder={content("form.phone") + '*'}
+							className="shadow-md border border-gray-400 placeholder:text-red-600"
 						/>
 						<textarea
-							placeholder="Message *"
-							className="border border-gray-400 p-4 placeholder:text-red-600 focus:outline-none"
+							placeholder={content("form.message") + '*'}
+							className="border border-gray-400 p-3 placeholder:text-red-600 focus:outline-none"
 						/>
 						<div>
 							<ShadowButton
-								icon={<IconSend />}
+								icon={<IconSend className={`${isRTL && '-rotate-[90deg]'}`} />}
 								variant="default"
-								className="mt-4"
+								className={`mt-4 `}
 								style={{
-									height: '50px'
+									height: '40px'
 								}}
 								>
-								Send
+								{content("form.submit")}
 							</ShadowButton>
 						</div>
 					</form>

@@ -37,7 +37,7 @@ export default function LocaleSwitcher({
 				onChange={(e) => changeLanguage(e.target.value)}
 				disabled={isPending}
 				defaultValue={currentLocale}
-				className="px-3 py-1  bg-white rounded-none">
+				className="py-1  bg-white rounded-none">
 				{languages.map(({ code, label }) => (
 					<option key={code} value={code} className="rounded-none text-xs">
 						{label}

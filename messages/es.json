@@ -15,10 +15,29 @@
   },
   "Navbar": {
     "home": "Inicio",
-    "about": "Nosotros",
+    "about": "Sobre nosotros",
     "language": "Idioma",
     "contact": "Contacto",
-    "products": "Productos"
+    "products": "Productos",
+    "menus": {
+      "main": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "products": "Productos",
+        "contact": "Contacto"
+      },
+      "legal": {
+        "terms": "Términos",
+        "accessibility": "Accesibilidad",
+        "privacyPolicy": "Política de privacidad",
+        "impressum": "Aviso legal"
+      },
+      "contact": {
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "location": "Ubicación"
+      }
+    }
   },
   "Hero": {
     "title": "Talshir-IBC",

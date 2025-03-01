@@ -28,7 +28,7 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex w-full items-center justify-between gap-4 py-4 text-left text-sm font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+        "flex w-full items-center justify-between gap-4 py-4 text-left text-sm font-medium transition-all [&[data-state=open]>svg]:rotate-180",
         className
       )}
       {...props}
@@ -64,15 +64,15 @@ const CustomAccordionTrigger = ({
   imageSrc: StaticImageData
 }) => (
   <AccordionTrigger className="group w-full flex items-end gap-4">
-    <span className="w-1/4 uppercase flex justify-start text-appBlue text-lg md:text-2xl font-bold">{title}</span>
-    <span className="w-2/3 capitalize  md:text-lg hidden sm:flex group-data-[state=open]:hidden">{description}</span>
-    <span className="w-1/3 group-data-[state=open]:w-1/2 flex justify-end">
+    <span className="w-full lg:w-1/4 uppercase flex justify-start text-appBlue text-lg md:text-2xl font-bold">{title}</span>
+    <span className="w-2/3 capitalize  md:text-lg hidden lg:flex group-data-[state=open]:hidden">{description}</span>
+    <span className="w-full sm:w-1/3 group-data-[state=open]:w-1/2 flex justify-end">
       <Image
         src={imageSrc}
         alt={title}
         width={500}
         height={500}
-        className="w-24 h-auto group-data-[state=open]:w-64"
+        className="w-16 sm:w-24 h-auto sm:group-data-[state=open]:w-64 group-data-[state=open]:w-24"
       />
     </span>
   </AccordionTrigger>

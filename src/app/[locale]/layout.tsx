@@ -1,11 +1,11 @@
 import { routing } from "@/i18n/routing";
+import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Assistant, Rajdhani } from "next/font/google";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: 'Talshir-IBC',
@@ -26,6 +26,7 @@ const assistant = Assistant({
 	weight: ["200", "300", "400", "500", "600", "700", "800"],
 	display: "swap",
 });
+
 
 export default async function LocaleLayout({
 	children,

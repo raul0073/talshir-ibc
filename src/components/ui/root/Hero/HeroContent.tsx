@@ -19,7 +19,7 @@ function HeroContent() {
 				<div className="relative w-full h-full flex flex-col items-center text-center">
 					<div className="relative flex items-center justify-center mb-6">
 						<h1
-							className={`text-6xl md:text-7xl lg:text-9xl font-bold text-appBlue text-nowrap`}>
+							className={`text-6xl sm:text-9xl font-bold text-appBlue text-nowrap`}>
 							{content("title")}
 						</h1>
 						<div
@@ -36,7 +36,7 @@ function HeroContent() {
 						{content("description")}
 					</p>
 
-					<div className="actions mt-12 w-full flex flex-col md:flex-row justify-center gap-8">
+					<div className="actions mt-16 w-full flex flex-col md:flex-row justify-center gap-8">
 						<Link href={"#"}>
 							<ShadowButton
 								variant="default"

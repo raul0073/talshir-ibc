@@ -26,12 +26,12 @@ export function ProductAccordion({modelName, modelDesc, modelImg} : ProductAccor
 				/>
 				<AccordionContent className="w-full">
 					
-					<div className="w-full flex flex-col sm:flex-row justify-between sm:items-end gap-8 md:text-lg mt-4">
+					<div className="w-full flex flex-col xl:flex-row justify-between xl:items-end gap-8 lg:text-lg mt-4">
 					<p className="max-w-2xl">
                     Yes. It adheres to the WAI-ARIA design pattern. <br />
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus voluptate, quam architecto fuga illo omnis soluta rerum aut sequi. Possimus iusto dolorem beatae? Consectetur officiis laboriosam necessitatibus dolore totam.
                     </p>
-					<div className="w-fit grid grid-cols-3 gap-2 sm:gap-6">
+					<div className="w-fit grid grid-cols-3 gap-2 xl:gap-6">
 						<AccordionChart value={60} label="metal" />
 						<AccordionChart value={35} label="iron" />
 						<AccordionChart value={4.8} label="water" />

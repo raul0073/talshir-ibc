@@ -61,7 +61,7 @@ export default {
   		},
   		fontFamily: {
   			assistant: 'var(--font-assistant)',
-  			rajdhani: 'var(--font-rajdhani)'
+  			rajdhani: 'var(--font-rajdhani)',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

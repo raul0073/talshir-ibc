@@ -13,12 +13,31 @@
   "ProductPage": {
     "exploreModel": "استكشاف النموذج"
   },
-  "Navbar": {
+"Navbar": {
     "home": "الرئيسية",
-    "about": "من نحن",
+    "about": "معلومات عنا",
     "language": "اللغة",
     "contact": "اتصل بنا",
-    "products": "المنتجات"
+    "products": "منتجات",
+    "menus": {
+      "main": {
+        "home": "الرئيسية",
+        "about": "معلومات عنا",
+        "products": "منتجات",
+        "contact": "اتصل بنا"
+      },
+      "legal": {
+        "terms": "الشروط",
+        "accessibility": "إمكانية الوصول",
+        "privacyPolicy": "سياسة الخصوصية",
+        "impressum": "إمبريسيوم"
+      },
+      "contact": {
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "location": "الموقع"
+      }
+    }
   },
   "Hero": {
     "title": "تالشير-IBC",

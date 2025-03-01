@@ -22,9 +22,9 @@ function NavigationComp() {
 	}, [scrollY]);
 
 	return (
-		<header className={`navbar-header fixed top-0 left-0 w-full z-40 h-fit ${isScrolled ? 'border-b shadow-md shadow-appBlue/30 border-appYellow/10  bg-white':'bg-transparent'}`}>
+		<header className={`navbar-header fixed top-0 left-0 w-full z-40 h-fit  ${isScrolled ? 'border-b shadow-md shadow-appBlue/30 border-appYellow/10  bg-white':'bg-transparent'}`}>
 			<div className="container mx-auto">
-				<div className="wrapper flex justify-between items-center py-4 px-4">
+				<div className={`wrapper flex justify-between items-center py-4 px-4 `}>
 					<div className="logo transition-transform duration-300 ease-in-out">
 						<Image
 							src={logo}

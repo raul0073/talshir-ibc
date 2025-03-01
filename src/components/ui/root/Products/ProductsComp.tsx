@@ -1,5 +1,5 @@
-import fireProofC from "@/app/assets/images/certifications/FIRE-PROOF-circle.webp";
-import waterProofc from "@/app/assets/images/certifications/WATER-PROOF-circle.webp";
+import fireProofC from "@/app/assets/images/certifications/FIRE-PROOF.webp";
+import waterProofc from "@/app/assets/images/certifications/WATER-PROOF.webp";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
@@ -45,7 +45,7 @@ export default ProductsComp;
 export const CertificationsIcons = () => {
 	return (
 		<div className="certifications mt-12">
-			<div className="fire w-fit px-4 py-2 rounded-xl flex justify-start gap-2 items-end">
+			<div className="fire w-fit py-2 rounded-xl flex justify-start gap-2 items-end">
 				<Image
 					src={fireProofC}
 					alt="fire_proof"
@@ -54,7 +54,7 @@ export const CertificationsIcons = () => {
 					className=""
 				/>
 			</div>
-			<div className="water w-fit px-4 py-2 rounded-xl flex justify-start gap-2 items-end">
+			<div className="water w-fit py-2 rounded-xl flex justify-start gap-2 items-end">
 				<Image
 					src={waterProofc}
 					alt="water_proof"

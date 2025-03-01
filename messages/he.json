@@ -13,13 +13,33 @@
   "ProductPage": {
     "exploreModel": "חקרו את הדגם"
   },
-  "Navbar": {
+"Navbar": {
     "home": "בית",
     "about": "אודות",
     "language": "שפה",
     "contact": "צור קשר",
-    "products": "מוצרים"
+    "products": "מוצרים",
+    "menus": {
+      "main": {
+        "home": "בית",
+        "about": "אודות",
+        "products": "מוצרים",
+        "contact": "צור קשר"
+      },
+      "legal": {
+        "terms": "תנאים",
+        "accessibility": "נגישות",
+        "privacyPolicy": "מדיניות פרטיות",
+        "impressum": "כתב אחריות"
+      },
+      "contact": {
+        "email": "אימייל",
+        "phone": "טלפון",
+        "location": "מיקום"
+      }
+    }
   },
+
   "Hero": {
     "title": "טלשיר-IBC",
     "description": "פיתוח, ייצור ושיווק מוצרים ייחודיים לתעשיית הבנייה.",

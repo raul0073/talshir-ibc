@@ -8,7 +8,11 @@ import {
 import Image from "next/image";
 import { GrLinkedin, GrTwitter, GrYoutube } from "react-icons/gr";
 import { Separator } from "../../separator";
+import { useTranslations } from "next-intl";
+import { getMenusOptions } from "../Navbar/data/menus";
 function Footer() {
+	const content = useTranslations("Navbar");
+	const MENUS_OPTIONS = getMenusOptions(content);
 	return (
 		<footer>
 			<div className="container mx-auto py-8 px-4 sm:p-12 md:p-24">
@@ -40,7 +44,7 @@ function Footer() {
 										<IconClockCheck className="inline text-white/50 w-4 h-4" />
 									</span>
 									<span className="text-white/50">
-										SUN - SAT @ 07:00 - 16:00
+										SUN - FRI @ 07:00 - 16:30
 									</span>
 								</li>
 							</ul>
@@ -58,21 +62,35 @@ function Footer() {
 					<div className="flex md:gap-6 md:w-2/4 md:justify-between w-full">
 						<nav className="w-full">
 							<h3 className="uppercase mb-4 text-lg sm:text-xl">menu</h3>
-							<ul className="space-y-3 ">
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
-								<li className="capitalize text-white/50">item</li>
-							</ul>
+							<ul className="space-y-3">
+							{MENUS_OPTIONS.MAIN.map(({ label, href }) => (
+								<li
+									key={href}
+									className="capitalize text-white/50">
+									<a
+										href={href}
+										className="">
+										{label}{" "}
+									</a>
+								</li>
+							))}
+						</ul>
 						</nav>
 						<nav className="w-full">
 							<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
 							<ul className="space-y-3">
-								<li className="capitalize text-white/50">terms & conditions</li>
-								<li className="capitalize text-white/50">accessibility</li>
-								<li className="capitalize text-white/50">privacy policy</li>
-								<li className="capitalize text-white/50">impressum</li>
-							</ul>
+							{MENUS_OPTIONS.LEGAL.map(({ label, href }) => (
+								<li
+									key={href}
+									className="capitalize text-white/50">
+									<a
+										href={href}
+										className="">
+										{label}{" "}
+									</a>
+								</li>
+							))}
+						</ul>
 						</nav>
 					</div>
 

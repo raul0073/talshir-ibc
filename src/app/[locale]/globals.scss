@@ -251,7 +251,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
 	.btn-default, .btn-outline, .btn-secondary {
 		font-size: 14px;
 		gap: 10px;
@@ -320,6 +320,9 @@
 }
 .btn-small {
 	height: 50px;
+	@media (max-width: 640px) {
+		height: 35px;
+	}
 	font-size: 14px;
 	letter-spacing: 2px;
 	text-transform: uppercase;

@@ -13,12 +13,31 @@
   "ProductPage": {
     "exploreModel": "Explore Model"
   },
-  "Navbar": {
+"Navbar": {
     "home": "Home",
     "about": "About",
     "language": "Language",
     "contact": "Contact",
-    "products": "Products"
+    "products": "Products",
+    "menus": {
+      "main": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "contact": "Contact"
+      },
+      "legal": {
+        "terms": "Terms",
+        "accessibility": "Accessibility",
+        "privacyPolicy": "Privacy Policy",
+        "impressum": "Impressum"
+      },
+      "contact": {
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location"
+      }
+    }
   },
   "Hero": {
     "title": "Talshir-IBC",
