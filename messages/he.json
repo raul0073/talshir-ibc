@@ -92,7 +92,291 @@
   },
   "Products": {
     "title": "הפתרונות שלנו",
-    "description": "המוצרים של Talshir-IBC משתרעים על פני תעשיות שונות, כולל תשתיות, בנייה למגורים, מסחרית ותעשייתית."
+    "description": "המוצרים של Talshir-IBC משתרעים על פני תעשיות שונות, כולל תשתיות, בנייה למגורים, מסחרית ותעשייתית.",
+      "ProductsList": [
+        {
+          "id": 1,
+          "modelName": "FAST CONE",
+          "modelDescription": "קונוס פלסטיק לסגירת תעלות ממתכת בתבניות ליציקות בטון.",
+          "modelUsage": [
+            "מונע חדירת בטון לתוך תעלות המתכת.",
+            "התקנה מהירה וקלה.",
+            "מתאים לשימוש חוזר."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 2,
+          "modelName": "SLAB HOLDER",
+          "modelDescription": "מחזיק פלסטיק המבטיח מרווח אחיד בין תבניות היציקה.",
+          "modelUsage": [
+            "קל להתקנה.",
+            "מתאים למגוון תבניות יציקה.",
+            "מונע עיוותים בקירות."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 3,
+          "modelName": "LOCKER CONE",
+          "modelDescription": "קונוס נעילה לשימוש עם ברגי עיגון בתבניות יציקה.",
+          "modelUsage": [
+            "מגן על הברגים מפני חדירת בטון.",
+            "מתאים למגוון קטרים של ברגים.",
+            "מיועד לשימוש חוזר."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 4,
+          "modelName": "LEVELER FOOT",
+          "modelDescription": "רגלית מפלסטיק המאפשרת יישור אלמנטים ביציקות בטון.",
+          "modelUsage": [
+            "מבטיח יציבות לפני ואחרי היציקה.",
+            "מתאים לאלמנטים מבטון טרומי.",
+            "עמיד בפני עומסים גבוהים."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 5,
+          "modelName": "BASE LEVELER",
+          "modelDescription": "מיועד ליישור אלמנטים מבטון טרומי כגון קירות, עמודים וקורות במהלך ההתקנה.",
+          "modelUsage": [
+            "התקנה והתאמה קלה.",
+            "מתאים למגוון אלמנטים מבטון טרומי.",
+            "מונע תזוזה במהלך התקשות הבטון."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 6,
+          "modelName": "TIE ROD SPACER",
+          "modelDescription": "אביזר רב פעמי השומר על המרחק הנכון בין תבניות יציקת בטון.",
+          "modelUsage": [
+            "מבטיח עובי קיר אחיד.",
+            "מונע כיפוף של התבניות.",
+            "מפחית את הצורך במדידות ידניות."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 7,
+          "modelName": "PIPE HOLDER",
+          "modelDescription": "מחזיק צינורות בצורה בטוחה בתוך קירות או תקרות בטון במהלך היציקה.",
+          "modelUsage": [
+            "התקנה פשוטה ללא כלים.",
+            "מתאים לקטרי צינור שונים.",
+            "מונע ציפה של הצינורות במהלך היציקה."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 8,
+          "modelName": "END CAP",
+          "modelDescription": "מגן על קצוות ברזל הזיון מפני נזק ומונע פציעות.",
+          "modelUsage": [
+            "עיצוב קל להתקנה.",
+            "חומר פלסטי עמיד.",
+            "עומד בתקני בטיחות."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 9,
+          "modelName": "CONCRETE COVER BLOCK",
+          "modelDescription": "מבטיח כיסוי בטון אחיד על ברזל הזיון בקירות ותקרות.",
+          "modelUsage": [
+            "עשוי מפלסטיק עמיד.",
+            "זמין בגדלים שונים.",
+            "מונע קורוזיה באמצעות שמירה על כיסוי מתאים."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 10,
+          "modelName": "PLASTIC REBAR SPACER",
+          "modelDescription": "מרווח פלסטיק לברזל זיון המבטיח רווח נכון בין רשתות הברזל לתבניות היציקה.",
+          "modelUsage": [
+            "התקנה פשוטה בלחיצה.",
+            "מתאים למגוון יישומי בנייה.",
+            "עמידות גבוהה בלחץ."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 11,
+          "modelName": "CONE SPACER",
+          "modelDescription": "משמש ליצירת מרווחים אחידים בין פאנלים מבטון ולשמירה על ריווח נכון.",
+          "modelUsage": [
+            "מבטיח מרווחים אחידים.",
+            "עיצוב פלסטיק קל משקל.",
+            "קל להתקנה והסרה."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/nadal-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        },
+        {
+          "id": 12,
+          "modelName": "WALL SPACER",
+          "modelDescription": "שומר על מרחק קבוע בין אלמנטים כפולים של קירות טרומיים במהלך היציקה.",
+          "modelUsage": [
+            "מונע תזוזת קירות.",
+            "התקנה מהירה.",
+            "חומר עמיד לביצועים לאורך זמן."
+          ],
+          "modelImages": {
+            "thumbnail": "/images/products/spacer-noBG.png",
+            "productPageMain": "",
+            "usage1": "",
+            "usage2": "",
+            "usage3": ""
+          },
+          "modelSizes": [],
+          "modelDemoVideo": "",
+          "modelSpecification": "",
+          "modelCertification": "",
+          "model3DObject": "",
+          "modelPatentNo": ""
+        
+        }
+      ],
+      "Certifications" :{
+        "fireProof" : "עמיד אש",
+        "waterResistant" : " דוחה מים"
+      }
+    
   },
   "Contact": {
     "title": "צור קשר",

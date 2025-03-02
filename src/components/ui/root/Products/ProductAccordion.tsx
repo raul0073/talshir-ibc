@@ -8,21 +8,24 @@ import {
 import { StaticImageData } from "next/image";
 import { motion } from 'framer-motion';
 import ButtonArrow from "../../button-arrow";
+import { useLocale } from "next-intl";
 export type ProductAccordionProps = {
     modelName: string;
     modelDesc: string;
     modelImg: StaticImageData;
 }
 export function ProductAccordion({modelName, modelDesc, modelImg} : ProductAccordionProps) {
-
+  const locale = useLocale();
+  const isRtl = locale === "he" || locale === "ar";
 
 	return (
-		<Accordion type="single" collapsible className="w-full">
+		<Accordion type="single" collapsible className="w-full" dir={isRtl ? 'rtl' : 'ltr'}>
 			<AccordionItem value="item-1">
 				<CustomAccordionTrigger
 					title={modelName}
 					description={modelDesc}
 					imageSrc={modelImg}
+          isRTL
 				/>
 				<AccordionContent className="w-full">
 					

@@ -91,7 +91,320 @@
   },
   "Products": {
     "title": "Our Solutions",
-    "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction."
+    "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction.",
+    "ProductsList" : [
+      {
+        "id": 1,
+        "modelName": "SPACER",
+        "modelDescription": "A standardized concrete form spacer ensuring maximal precision in placing concrete forms and meshes, saving time, money, and manpower.",
+        "modelUsage": [
+          "Universal plastic accessory, easy to install with a click.",
+          "Designed for casting concrete walls, columns, and beams.",
+          "Compatible with 6-12 mm rebars.",
+          "Maintains standard spaces between reinforcing meshes and forms.",
+          "High compressive strength.",
+          "Minimal interface with forms.",
+          "Recommended use: 3-4 units per 1 m²."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30-1030x641.jpg",
+          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG1.jpg",
+          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg",
+          "usage3": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg"
+        },
+        "modelSizes": [20, 25, 30],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "60215"
+      },
+      {
+        "id": 2,
+        "modelName": "Nadal – Rotem",
+        "modelDescription": "A specialized spacer designed for specific reinforcement needs in construction projects.",
+        "modelUsage": [
+          "Ensures proper spacing between reinforcement elements.",
+          "Facilitates accurate concrete coverage.",
+          "Easy to install and adjust."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 3,
+        "modelName": "Bench – Spacer for Upper Reinforcement",
+        "modelDescription": "The 'Sharon' Bench is designed to support upper reinforcement in ceilings, ensuring stability and precise positioning.",
+        "modelUsage": [
+          "Suitable for ceilings with a thickness of 20–27 cm.",
+          "Easy and quick assembly with a bottom iron clip.",
+          "Provides a straight line for mounting support iron to the net.",
+          "Cost-effective, requiring 1 unit per square meter of upper mesh.",
+          "High load resistance, with each bench supporting up to 200 kg."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-1.jpg",
+          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-3.jpg",
+          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-2.jpg",
+          "usage3": ""
+        },
+        "modelSizes": [20, 23, 25, 27],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 4,
+        "modelName": "Universal Spacer",
+        "modelDescription": "A circular distance guard with a diameter of 8 cm, suitable for various building elements.",
+        "modelUsage": [
+          "Applicable for walls, columns, beams, and ceilings.",
+          "Easy and quick to assemble, attaching easily to iron.",
+          "Cost-effective, suitable for all construction elements.",
+          "Available in concrete cover thicknesses of 2.5 cm and 3 cm."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Universal-spacer2.jpg",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [2.5, 3],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 5,
+        "modelName": "High Quality Tube Spacer",
+        "modelDescription": "A premium protective tube spacer designed to maintain proper spacing and prevent water infiltration.",
+        "modelUsage": [
+          "Ensures correct distance between reinforcing mesh and framework.",
+          "Built-in sealing rings prevent water infiltration along the pipe.",
+          "Significant savings in expenses and labor.",
+          "Available in lengths up to 200 cm."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/צינור-דיווידג-מחוזק1.jpg",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [200],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 5,
+        "modelName": "BASE LEVELER",
+        "modelDescription": "Designed to level prefabricated concrete elements such as walls, columns, and beams during installation.",
+        "modelUsage": [
+          "Easy to install and adjust.",
+          "Suitable for various prefabricated elements.",
+          "Prevents shifting during concrete curing."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 6,
+        "modelName": "TIE ROD SPACER",
+        "modelDescription": "A reusable accessory that maintains the correct distance between concrete form panels.",
+        "modelUsage": [
+          "Ensures consistent wall thickness.",
+          "Prevents bending of form panels.",
+          "Reduces the need for manual measurements."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 7,
+        "modelName": "PIPE HOLDER",
+        "modelDescription": "Securely holds pipes within concrete walls or slabs during casting.",
+        "modelUsage": [
+          "Easy installation without tools.",
+          "Compatible with different pipe diameters.",
+          "Prevents pipes from floating during pouring."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 8,
+        "modelName": "END CAP",
+        "modelDescription": "Protects the ends of rebars from damage and prevents injuries.",
+        "modelUsage": [
+          "Simple push-on design.",
+          "Durable plastic material.",
+          "Complies with safety regulations."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 9,
+        "modelName": "CONCRETE COVER BLOCK",
+        "modelDescription": "Ensures consistent concrete cover over rebars in slabs and walls.",
+        "modelUsage": [
+          "Made from durable plastic.",
+          "Different sizes available.",
+          "Prevents corrosion by maintaining proper cover."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 10,
+        "modelName": "REBAR CLIP",
+        "modelDescription": "Quickly attaches rebars together without the need for wire ties.",
+        "modelUsage": [
+          "Speeds up rebar installation.",
+          "Reusable design.",
+          "Compatible with various rebar diameters."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 11,
+        "modelName": "CONE SPACER",
+        "modelDescription": "Used to create consistent gaps between concrete panels and maintain proper spacing.",
+        "modelUsage": [
+          "Ensures uniform gaps.",
+          "Lightweight plastic design.",
+          "Easy to install and remove."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 12,
+        "modelName": "WALL SPACER",
+        "modelDescription": "Maintains a fixed distance between double-wall prefabricated elements during casting.",
+        "modelUsage": [
+          "Prevents wall shifting.",
+          "Quick installation.",
+          "Durable material for long-lasting performance."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      }
+    ],
+    "Certifications" :{
+      "fireProof" : "fire proof",
+      "waterResistant" : "water resistant"
+    }
   },
   "Contact" :{
     "title" : "Contact Us",

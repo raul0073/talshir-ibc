@@ -13,10 +13,10 @@ const languages = [
 
 export default function LocaleSwitcher({
 	currentLocale,
-	className
+	className,
 }: {
 	currentLocale: string;
-	className?:string;
+	className?: string;
 }) {
 	const router = useRouter();
 	const path = usePathname();
@@ -37,9 +37,12 @@ export default function LocaleSwitcher({
 				onChange={(e) => changeLanguage(e.target.value)}
 				disabled={isPending}
 				defaultValue={currentLocale}
-				className="py-1  bg-white rounded-none">
+				className="py-1  bg-white rounded-none p-2">
 				{languages.map(({ code, label }) => (
-					<option key={code} value={code} className="rounded-none text-xs">
+					<option
+						key={code}
+						value={code}
+						className="rounded-none text-xs font-sans">
 						{label}
 					</option>
 				))}

@@ -100,7 +100,7 @@ function Footer() {
 							alt="talshir-ibc logo 300X300"
 							width={100}
 							height={100}
-							className={` w-[100px] h-[100px]`}
+							className={` w-44 h-auto`}
 						/>
 					</div>
 				</div>

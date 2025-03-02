@@ -5,7 +5,6 @@ import LocaleSwitcher from "./langSwitcher";
 function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 	const content = useTranslations("Navbar");
 	const locale = useLocale();
-	const isRTL = locale === "he" || locale === "ar";
 	return (
 		<nav className="hidden md:flex ">
 			<ul
@@ -21,7 +20,7 @@ function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 				<li className="hover:text-appBlue border border-appBlue/80 px-3 py-1 hover:border-appBlue">
 					<Link href="#contact">{content("contact")}</Link>
 				</li>
-				<li className={`${isRTL ? "border-r" : "border-l"}`}>
+				<li className={``}>
 					<LocaleSwitcher currentLocale={locale} />
 				</li>
 			</ul>

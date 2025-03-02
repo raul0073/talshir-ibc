@@ -91,7 +91,321 @@
   },
   "Products": {
     "title": "Nuestras Soluciones",
-    "description": "Los productos de Talshir-IBC abarcan diversas industrias, incluidas la infraestructura, la construcción residencial, comercial e industrial."
+    "description": "Los productos de Talshir-IBC abarcan diversas industrias, incluidas la infraestructura, la construcción residencial, comercial e industrial.",
+    "ProductsList": [
+  {
+    "id": 1,
+    "modelName": "SPACER",
+    "modelDescription": "Un separador de hormigón estandarizado que garantiza la máxima precisión al colocar encofrados y mallas de hormigón, ahorrando tiempo, dinero y mano de obra.",
+    "modelUsage": [
+      "Accesorio plástico universal, fácil de instalar con un clic.",
+      "Diseñado para fundir paredes, columnas y vigas de hormigón.",
+      "Compatible con barras de refuerzo de 6-12 mm.",
+      "Mantiene espacios estándar entre mallas de refuerzo y encofrados.",
+      "Alta resistencia a la compresión.",
+      "Interfaz mínima con los encofrados.",
+      "Uso recomendado: 3-4 unidades por 1 m²."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30-1030x641.jpg",
+      "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG1.jpg",
+      "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg",
+      "usage3": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg"
+    },
+    "modelSizes": [20, 25, 30],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "60215"
+  },
+  {
+    "id": 2,
+    "modelName": "Nadal – Rotem",
+    "modelDescription": "Un separador especializado diseñado para necesidades específicas de refuerzo en proyectos de construcción.",
+    "modelUsage": [
+      "Garantiza la distancia adecuada entre elementos de refuerzo.",
+      "Facilita una cobertura precisa de hormigón.",
+      "Fácil de instalar y ajustar."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 3,
+    "modelName": "Bench – Spacer for Upper Reinforcement",
+    "modelDescription": "El banco 'Sharon' está diseñado para soportar refuerzos superiores en techos, garantizando estabilidad y posicionamiento preciso.",
+    "modelUsage": [
+      "Adecuado para techos con un grosor de 20–27 cm.",
+      "Montaje rápido y sencillo con un clip de hierro inferior.",
+      "Proporciona una línea recta para montar el hierro de soporte a la red.",
+      "Rentable, se requiere 1 unidad por metro cuadrado de malla superior.",
+      "Alta resistencia a la carga, con cada banco soportando hasta 200 kg."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-1.jpg",
+      "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-3.jpg",
+      "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-2.jpg",
+      "usage3": ""
+    },
+    "modelSizes": [20, 23, 25, 27],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 4,
+    "modelName": "Universal Spacer",
+    "modelDescription": "Un protector de distancia circular con un diámetro de 8 cm, adecuado para diversos elementos de construcción.",
+    "modelUsage": [
+      "Aplicable para paredes, columnas, vigas y techos.",
+      "Fácil y rápido de montar, se fija fácilmente al hierro.",
+      "Rentable, adecuado para todos los elementos de construcción.",
+      "Disponible en espesores de recubrimiento de hormigón de 2.5 cm y 3 cm."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Universal-spacer2.jpg",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [2.5, 3],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 5,
+    "modelName": "High Quality Tube Spacer",
+    "modelDescription": "Un separador de tubo protector de alta calidad diseñado para mantener la distancia adecuada y evitar la infiltración de agua.",
+    "modelUsage": [
+      "Garantiza la distancia correcta entre la malla de refuerzo y el encofrado.",
+      "Los anillos de sellado integrados evitan la infiltración de agua a lo largo de la tubería.",
+      "Ahorros significativos en gastos y mano de obra.",
+      "Disponible en longitudes de hasta 200 cm."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/צינור-דיווידג-מחוזק1.jpg",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [200],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 5,
+    "modelName": "BASE LEVELER",
+    "modelDescription": "Diseñado para nivelar elementos prefabricados de hormigón como paredes, columnas y vigas durante la instalación.",
+    "modelUsage": [
+      "Fácil de instalar y ajustar.",
+      "Adecuado para varios elementos prefabricados.",
+      "Evita el desplazamiento durante el fraguado del hormigón."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 6,
+    "modelName": "TIE ROD SPACER",
+    "modelDescription": "Accesorio reutilizable que mantiene la distancia correcta entre paneles de encofrado de hormigón.",
+    "modelUsage": [
+      "Garantiza un espesor de pared uniforme.",
+      "Evita la flexión de los paneles de encofrado.",
+      "Reduce la necesidad de mediciones manuales."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 7,
+    "modelName": "PIPE HOLDER",
+    "modelDescription": "Sujeta de forma segura las tuberías dentro de las paredes o losas de hormigón durante el vertido.",
+    "modelUsage": [
+      "Instalación sencilla sin herramientas.",
+      "Compatible con diferentes diámetros de tuberías.",
+      "Evita que las tuberías floten durante el vertido."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 8,
+    "modelName": "END CAP",
+    "modelDescription": "Protege los extremos de las barras de refuerzo contra daños y previene lesiones.",
+    "modelUsage": [
+      "Diseño de fácil colocación.",
+      "Material plástico duradero.",
+      "Cumple con las normativas de seguridad."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 9,
+    "modelName": "CONCRETE COVER BLOCK",
+    "modelDescription": "Garantiza una cobertura de hormigón uniforme sobre las barras de refuerzo en losas y paredes.",
+    "modelUsage": [
+      "Fabricado con plástico duradero.",
+      "Disponible en diferentes tamaños.",
+      "Previene la corrosión manteniendo la cobertura adecuada."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 10,
+    "modelName": "PLASTIC REBAR SPACER",
+    "modelDescription": "Espaciador de plástico para barras de refuerzo que garantiza la separación correcta entre las mallas de refuerzo y los encofrados.",
+    "modelUsage": [
+      "Fácil instalación con ajuste a presión.",
+      "Adecuado para varias aplicaciones de construcción.",
+      "Alta resistencia a la compresión."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 11,
+    "modelName": "REBAR CHAIR",
+    "modelDescription": "Soporte para barras de refuerzo que garantiza la posición adecuada de la malla de refuerzo en losas y elementos de hormigón.",
+    "modelUsage": [
+      "Proporciona estabilidad y espacio uniforme.",
+      "Fácil de instalar sin herramientas adicionales.",
+      "Disponible en diferentes alturas."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  },
+  {
+    "id": 12,
+    "modelName": "PLASTIC PIPE SPACER",
+    "modelDescription": "Espaciador de plástico para tuberías que garantiza la posición correcta de las tuberías dentro de los elementos de hormigón.",
+    "modelUsage": [
+      "Instalación rápida sin herramientas.",
+      "Compatible con diferentes diámetros de tuberías.",
+      "Evita el desplazamiento durante el vertido."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/spacer-noBG.png",
+      "productPageMain": "",
+      "usage1": "",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": ""
+  }
+],
+"Certifications" :{
+  "fireProof" : "fire proof",
+  "waterResistant" : "water resistant"
+}
+
   },
   
     "Contact": {

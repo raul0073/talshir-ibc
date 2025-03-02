@@ -1,15 +1,17 @@
-import fireProofC from "@/app/assets/images/certifications/FIRE-PROOF.webp";
-import waterProofc from "@/app/assets/images/certifications/WATER-PROOF.webp";
+
+import fire from "@/app/assets/icons/FIRE-resistance-icon 2.svg";
+import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
-import { PRODUCTS } from "../../../../../data/products";
 import SectionHeader from "../Header/SectionHeader";
 import { ProductAccordion } from "./ProductAccordion";
+import { ProductItem } from "../../../../../types/products";
 function ProductsComp() {
 	const content = useTranslations("Products");
 	const title = content.raw("title").split(" ")[0];
 	const lastWord = content.raw("title").split(" ")[1];
+	const products: ProductItem[] = content.raw("ProductsList");
 	return (
 		<Fragment>
 			<div className="absolute w-40 lg:w-[40rem] h-96 -top-24 right-[50%] translate-x-[50%] bg-gradient-to-t from-[#4f7df0] to-[#325ecc] blur-3xl  rounded-full opacity-20"></div>
@@ -24,7 +26,7 @@ function ProductsComp() {
 					<CertificationsIcons />
 				</div>
 				<div className="products mt-12 space-y-4">
-					{PRODUCTS.map((prod, i) => {
+					{products.map((prod, i) => {
 						return (
 							<ProductAccordion
 								key={i}
@@ -43,25 +45,30 @@ function ProductsComp() {
 export default ProductsComp;
 
 export const CertificationsIcons = () => {
+	const content = useTranslations("Products.Certifications")
 	return (
 		<div className="certifications mt-12">
-			<div className="fire w-fit py-2 rounded-xl flex justify-start gap-2 items-end">
+			<div className="fire w-fit py-2 flex justify-start gap-2 items-end ">
 				<Image
-					src={fireProofC}
+					src={fire}
 					alt="fire_proof"
-					width={100}
-					height={100}
-					className=""
+					width={45}
+					height={45}
+					className="object-fit"
 				/>
+				<span className=" uppercase text-xl font-medium">{content("fireProof")} 
+				</span>
 			</div>
-			<div className="water w-fit py-2 rounded-xl flex justify-start gap-2 items-end">
+			<div className="water w-fit py-2 flex justify-start gap-2 items-end ">
 				<Image
-					src={waterProofc}
+					src={water}
 					alt="water_proof"
-					width={100}
-					height={100}
-					className=""
+					width={45}
+					height={45}
+					className="object-fit"
 				/>
+				<span className=" uppercase text-xl font-medium">{content("waterResistant")} 
+				</span>
 			</div>
 		</div>
 	);

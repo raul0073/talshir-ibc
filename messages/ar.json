@@ -91,7 +91,289 @@
   },
   "Products": {
     "title": "حلولنا",
-    "description": "تغطي منتجات Talshir-IBC صناعات مختلفة، بما في ذلك البنية التحتية والبناء السكني والتجاري والصناعي."
+    "description": "تغطي منتجات Talshir-IBC صناعات مختلفة، بما في ذلك البنية التحتية والبناء السكني والتجاري والصناعي.",
+    "ProductsList": [
+      {
+        "id": 1,
+        "modelName": "مخروط سريع",
+        "modelDescription": "مخروط بلاستيكي لإغلاق القنوات المعدنية في قوالب صب الخرسانة.",
+        "modelUsage": [
+          "يمنع اختراق الخرسانة داخل القنوات المعدنية.",
+          "تركيب سريع وسهل.",
+          "قابل لإعادة الاستخدام."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 2,
+        "modelName": "حامل البلاطة",
+        "modelDescription": "حامل بلاستيكي يضمن مسافة موحدة بين قوالب الصب.",
+        "modelUsage": [
+          "سهل التركيب.",
+          "مناسب لأنواع مختلفة من قوالب الصب.",
+          "يمنع التشوهات في الجدران."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 3,
+        "modelName": "مخروط القفل",
+        "modelDescription": "مخروط قفل للاستخدام مع براغي التثبيت في قوالب الصب.",
+        "modelUsage": [
+          "يحمي البراغي من اختراق الخرسانة.",
+          "مناسب لمجموعة متنوعة من أقطار البراغي.",
+          "مصمم لإعادة الاستخدام."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 4,
+        "modelName": "قدم التسوية",
+        "modelDescription": "قاعدة بلاستيكية تساعد في تسوية العناصر أثناء صب الخرسانة.",
+        "modelUsage": [
+          "يوفر الاستقرار قبل وبعد الصب.",
+          "مناسب للعناصر الخرسانية سابقة الصب.",
+          "مقاوم للأحمال العالية."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 5,
+        "modelName": "قاعدة التسوية",
+        "modelDescription": "مصمم لتسوية العناصر الخرسانية سابقة الصب مثل الجدران، الأعمدة، والعوارض أثناء التركيب.",
+        "modelUsage": [
+          "تركيب وتعديل سهل.",
+          "مناسب لمجموعة متنوعة من العناصر الخرسانية سابقة الصب.",
+          "يمنع الحركة أثناء تصلب الخرسانة."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 6,
+        "modelName": "فاصل قضيب الربط",
+        "modelDescription": "إكسسوار متعدد الاستخدام يحافظ على المسافة الصحيحة بين قوالب صب الخرسانة.",
+        "modelUsage": [
+          "يضمن سمكًا موحدًا للجدران.",
+          "يمنع انحناء القوالب.",
+          "يقلل الحاجة إلى القياسات اليدوية."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 7,
+        "modelName": "حامل الأنابيب",
+        "modelDescription": "يُثبّت الأنابيب بأمان داخل الجدران أو الأسقف الخرسانية أثناء الصب.",
+        "modelUsage": [
+          "تركيب بسيط بدون أدوات.",
+          "مناسب لمجموعة متنوعة من أقطار الأنابيب.",
+          "يمنع طفو الأنابيب أثناء الصب."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 8,
+        "modelName": "غطاء النهاية",
+        "modelDescription": "يحمي أطراف حديد التسليح من التلف ويمنع الإصابات.",
+        "modelUsage": [
+          "تصميم سهل التركيب.",
+          "مصنوع من بلاستيك متين.",
+          "متوافق مع معايير السلامة."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 9,
+        "modelName": "كتلة تغطية الخرسانة",
+        "modelDescription": "يضمن تغطية خرسانية موحدة لحديد التسليح في الجدران والأسقف.",
+        "modelUsage": [
+          "مصنوع من بلاستيك متين.",
+          "متوفر بأحجام مختلفة.",
+          "يمنع التآكل عن طريق الحفاظ على التغطية المناسبة."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 10,
+        "modelName": "فاصل حديد التسليح البلاستيكي",
+        "modelDescription": "فاصل بلاستيكي يضمن المسافة الصحيحة بين شبكات حديد التسليح وقوالب الصب.",
+        "modelUsage": [
+          "تركيب بسيط بالضغط.",
+          "مناسب لمجموعة متنوعة من تطبيقات البناء.",
+          "مقاومة عالية للضغط."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 11,
+        "modelName": "مخروط الإغلاق",
+        "modelDescription": "مخروط بلاستيكي يستخدم لإغلاق فتحات قضبان الربط في قوالب صب الخرسانة.",
+        "modelUsage": [
+          "يحمي الفتحات من تسرب الخرسانة.",
+          "سهل التركيب والإزالة.",
+          "قابل لإعادة الاستخدام."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 12,
+        "modelName": "فاصل اللوح البلاستيكي",
+        "modelDescription": "فاصل بلاستيكي يستخدم لضمان المسافة الصحيحة بين ألواح الخرسانة الجاهزة أثناء الصب.",
+        "modelUsage": [
+          "يوفر مسافات دقيقة ومتساوية.",
+          "مقاوم للضغط العالي.",
+          "سهل التركيب دون الحاجة إلى أدوات."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/spacer-noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      }
+    ],
+    "Certifications" :{
+      "fireProof" : "fire proof",
+      "waterResistant" : "water resistant"
+    }
   },
   "Contact": {
     "title": "اتصل بنا",
