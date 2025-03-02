@@ -25,7 +25,6 @@ export function ProductAccordion({modelName, modelDesc, modelImg} : ProductAccor
 					title={modelName}
 					description={modelDesc}
 					imageSrc={modelImg}
-          isRTL
 				/>
 				<AccordionContent className="w-full">
 					
@@ -39,7 +38,7 @@ export function ProductAccordion({modelName, modelDesc, modelImg} : ProductAccor
 						<AccordionChart value={35} label="iron" />
 						<AccordionChart value={4.8} label="water" />
 						</div>
-                   <ButtonArrow link={`/product/${modelName}`} />
+            <ButtonArrow link={`product/${decodeURIComponent(modelName)}`} />
 					</div>
 				</AccordionContent>
 			</AccordionItem>

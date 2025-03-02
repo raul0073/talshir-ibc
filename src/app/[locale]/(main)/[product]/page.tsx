@@ -1,10 +1,13 @@
+"use client";
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
 import ModelComp from "@/components/ui/root/3D/ModelComp";
-import ShadowButton from "@/components/ui/shadow-button";
 import { Separator } from "@/components/ui/separator";
+import ShadowButton from "@/components/ui/shadow-button";
 import { useLocale } from "next-intl";
+import { useParams } from "next/navigation";
 
 function Page() {
+	const params = useParams<{ product: string }>();
 	const locale = useLocale();
 	const isRtl = locale === "he" || locale === "ar";
 	return (
@@ -14,7 +17,7 @@ function Page() {
 					<div className={`${isRtl ? "border-l" : "border-r"} col-span-2`}>
 						<div className="model-header p-4">
 							<h1 className="font-bold text-4xl md:text-7xl uppercase text-appBlue">
-								Model name
+								{params.product?.replace("%20", " ")}
 							</h1>
 							<p>Patent Pending 656514</p>
 						</div>

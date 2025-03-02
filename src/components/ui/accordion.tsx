@@ -58,24 +58,22 @@ const CustomAccordionTrigger = ({
   title,
   description,
   imageSrc,
-  isRTL
 }: {
   title: string
   description: string
   imageSrc: StaticImageData
-  isRTL: boolean
 }) => (
   
-  <AccordionTrigger className="group w-full flex items-end gap-4" >
-    <span className={`w-full lg:w-1/4 uppercase flex justify-start text-appBlue text-lg md:text-2xl font-bold ${isRTL ? 'text-right' : 'text-left'}`}>{title}</span>
-    <span className={`w-2/3 capitalize  md:text-lg hidden lg:flex group-data-[state=open]:hidden ${isRTL ? 'text-right' : 'text-left'}`}>{description}</span>
+  <AccordionTrigger className="group w-full flex items-end gap-4 transition-transform duration-300 ease-in-out" >
+    <span className={`w-full lg:w-1/4 uppercase flex justify-start text-appBlue text-lg md:text-2xl font-bold `}>{title}</span>
+    <span className={`w-2/3 capitalize  md:text-lg hidden lg:flex group-data-[state=open]:hidden `}>{description}</span>
     <span className="w-full sm:w-1/3 group-data-[state=open]:w-1/2 flex justify-end">
       <Image
         src={imageSrc}
         alt={title}
         width={500}
         height={500}
-        className="w-16 sm:w-24 h-auto sm:group-data-[state=open]:w-64 group-data-[state=open]:w-24"
+        className="w-16 sm:w-24 h-auto sm:group-data-[state=open]:w-64 group-data-[state=open]:w-24 transition-transform duration-300 ease-in-out"
       />
     </span>
   </AccordionTrigger>

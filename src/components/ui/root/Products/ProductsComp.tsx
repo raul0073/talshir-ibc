@@ -52,8 +52,8 @@ export const CertificationsIcons = () => {
 				<Image
 					src={fire}
 					alt="fire_proof"
-					width={45}
-					height={45}
+					width={35}
+					height={35}
 					className="object-fit"
 				/>
 				<span className=" uppercase text-xl font-medium">{content("fireProof")} 
@@ -63,8 +63,8 @@ export const CertificationsIcons = () => {
 				<Image
 					src={water}
 					alt="water_proof"
-					width={45}
-					height={45}
+					width={35}
+					height={35}
 					className="object-fit"
 				/>
 				<span className=" uppercase text-xl font-medium">{content("waterResistant")} 

@@ -375,4 +375,8 @@
 }
 .inputComp, textarea {
 	box-shadow: 6px 6px 0px gray;
+	transition: .3s all ease;
+	&:focus{
+		box-shadow: 10px 10px 0px gray;
+	}
 }

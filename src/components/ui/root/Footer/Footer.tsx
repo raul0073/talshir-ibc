@@ -1,3 +1,4 @@
+"use client";
 import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
 import {
 	IconBrandWhatsapp,
@@ -5,14 +6,26 @@ import {
 	IconMail,
 	IconPhone,
 } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useState } from "react";
 import { GrLinkedin, GrTwitter, GrYoutube } from "react-icons/gr";
 import { Separator } from "../../separator";
-import { useTranslations } from "next-intl";
 import { getMenusOptions } from "../Navbar/data/menus";
+import Modal, { ModalType } from "./Modal";
 function Footer() {
+	const [modalOn, setModalOn] = useState<boolean>(false);
+	const [modalType, setModalType] = useState<ModalType | null>(null);
+
+	function handleClick(type: ModalType, e: React.MouseEvent) {
+		e.preventDefault();
+		setModalOn(true);
+		setModalType(type);
+	}
+
 	const content = useTranslations("Navbar");
 	const MENUS_OPTIONS = getMenusOptions(content);
+
 	return (
 		<footer>
 			<div className="container mx-auto py-8 px-4 sm:p-12 md:p-24">
@@ -63,34 +76,32 @@ function Footer() {
 						<nav className="w-full">
 							<h3 className="uppercase mb-4 text-lg sm:text-xl">menu</h3>
 							<ul className="space-y-3">
-							{MENUS_OPTIONS.MAIN.map(({ label, href }) => (
-								<li
-									key={href}
-									className="capitalize text-white/50">
-									<a
-										href={href}
-										className="">
-										{label}{" "}
-									</a>
-								</li>
-							))}
-						</ul>
+								{MENUS_OPTIONS.MAIN.map(({ label, href }) => (
+									<li key={href} className="capitalize text-white/50">
+										<a href={href} className="">
+											{label}{" "}
+										</a>
+									</li>
+								))}
+							</ul>
+							{modalType && modalOn && (
+								<Modal modalOn={() => setModalType(null)} type={modalType} />
+							)}
 						</nav>
 						<nav className="w-full">
 							<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
 							<ul className="space-y-3">
-							{MENUS_OPTIONS.LEGAL.map(({ label, href }) => (
-								<li
-									key={href}
-									className="capitalize text-white/50">
-									<a
-										href={href}
-										className="">
-										{label}{" "}
-									</a>
-								</li>
-							))}
-						</ul>
+								{MENUS_OPTIONS.LEGAL.map(({ label, href }) => (
+									<li
+										key={href}
+										className="capitalize text-white/50"
+										onClick={(e) => handleClick(label, e)}>
+										<a href={href} className="">
+											{label}{" "}
+										</a>
+									</li>
+								))}
+							</ul>
 						</nav>
 					</div>
 
