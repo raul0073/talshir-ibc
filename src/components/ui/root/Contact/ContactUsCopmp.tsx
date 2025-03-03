@@ -6,8 +6,8 @@ import SectionHeader from "../Header/SectionHeader";
 
 function ContactUsCopmp() {
 	const content = useTranslations("Contact");
-	const title = content.raw("title").split(" ")[0];
-	const lastWord = content.raw("title").split(" ")[1];
+	const title = content.raw("title").split(" ")[0]|| "";;
+	const lastWord = content.raw("title").split(" ")[1]|| "";;
 	const locale = useLocale()
 	const isRTL = locale === "he" || locale === "ar";
 	return (

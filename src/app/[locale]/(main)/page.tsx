@@ -1,3 +1,4 @@
+'use client'
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
 import ContactUsCopmp from "@/components/ui/root/Contact/ContactUsCopmp";
 import About from "@/components/ui/root/About/AboutComp";
@@ -12,10 +13,10 @@ export default function Home() {
 			<HeroComp />
 			<SectionWithLocale
 				sectionName="about"
-				className="bg-appGray sm:mt-24 min-h-screen ">
+				className="bg-appGray sm:mt-24 min-h-screen">
 				<About />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="products" className="bg-white" id="products">
+			<SectionWithLocale sectionName="solutions" className="min-h-screen bg-white">
 				<ProductsComp />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="whyus" className="bg-appGray" id="whyus">
