@@ -14,7 +14,7 @@ function ProductsComp() {
 	const products: ProductItem[] = content.raw("ProductsList");
 	return (
 		<Fragment>
-			<div className="absolute w-40 lg:w-[40rem] h-96 -top-24 right-[50%] translate-x-[50%] bg-gradient-to-t from-[#4f7df0] to-[#325ecc] blur-3xl  rounded-full opacity-20"></div>
+			{/* <div className="absolute w-40 lg:w-[40rem] h-96 -top-24 right-[50%] translate-x-[50%] bg-gradient-to-t from-[#4f7df0] to-[#325ecc] blur-3xl  rounded-full opacity-20"></div> */}
 			<div className="container mx-auto p-6 md:p-24">
 				<div className="header w-full max-w-xl">
 					<SectionHeader className="">

@@ -1,6 +1,7 @@
+import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
-import LogoComp from "../Logo/LogoComp";
 import ShadowButton from "../../shadow-button";
 import Tag from "./Tag";
 
@@ -12,25 +13,27 @@ function HeroContent() {
 	return (
 		<div className="text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 md:h-1/2 h-2/3 w-full">
 			<div className="container mx-auto w-full md:w-2/3 lg:w-1/2 p-2">
-				<div className="w-full flex justify-end pb-6 mb-6">
+				<div className="w-full flex justify-end mb-6">
 					<Tag>✨ {content("highlight")}</Tag>
 				</div>
 
 				<div className="relative w-full h-full flex flex-col items-center text-center">
 					<div className="relative flex items-center justify-center mb-6">
-						<h1
+						<Image
+							src={logo2}
+							alt="talshir-ibc logo 300X300"
+							width={300}
+							height={300}
+							style={{
+								transform: `${isRTL && "rotateY(180deg)"}`,
+							}}
+							className={`w-[300px] h-auto`}
+						/>
+					</div>
+					{/* <h1
 							className={`text-6xl sm:text-9xl font-bold text-appBlue text-nowrap`}>
 							{content("title")}
-						</h1>
-						<div
-							className={`absolute ${
-								isRTL
-									? "-right-12 -top-12 sm:-right-28 sm:-top-24 "
-									: "-left-12 -top-12 sm:-left-28 sm:-top-24 "
-							}`}>
-							<LogoComp />
-						</div>
-					</div>
+						</h1> */}
 
 					<p className="text-xl md:text-4xl text-black/80 max-w-2xl">
 						{content("description")}
