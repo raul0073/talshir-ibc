@@ -11,6 +11,11 @@ const nextConfig = {
             hostname: 'talshir-ibc.com',
     
           },
+          {
+            protocol: 'https',
+            hostname: 'images.pexels.com',
+    
+          },
         ],
       },
 };

@@ -1,3 +1,4 @@
+
 import { BoxesBG } from "./BoxesBG";
 import HeroContent from "./HeroContent";
 import SectionWithLocale from "@/components/Section/SectionWithLocale";

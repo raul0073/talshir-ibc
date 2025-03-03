@@ -410,10 +410,11 @@
     "title" : "Contact Us",
     "description" : "Our team of experts is here for you.",
     "form" : {
-      "name" : "Name",
+      "name" : "Full Name",
       "email" : "Email",
       "phone" : "Phone",
       "message" : "Message",
+      "role" : "Role",
       "submit" : "Submit"
     }
   }

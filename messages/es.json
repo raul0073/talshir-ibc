@@ -416,6 +416,7 @@
         "email": "Correo electrónico",
         "phone": "Teléfono",
         "message": "Mensaje",
+        "role": "Rol",
         "submit": "Enviar"
       }
     }

@@ -1,4 +1,4 @@
-import { routing } from "@/i18n/routing";
+import { LocaleOptions, routing } from "@/i18n/routing";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -30,47 +30,32 @@ const assistant = Assistant({
 
 export default async function LocaleLayout({
 	children,
-  }: {
+}: {
 	children: React.ReactNode;
-  }) {
-	
-	
-	let locale = 'en';
-	const getRelevantLocale = async () => {
-        const cookie = await cookies();
-        const storedLocale = cookie.get("NEXT_LOCALE")?.value;
+}) {
+	const cookie = await cookies();
+	const storedLocale = cookie.get("NEXT_LOCALE")?.value || "en";
 
-        if (storedLocale) {
-			locale = storedLocale
-            return storedLocale;
-        }
-        return locale;
-	}
-	getRelevantLocale();
 	// Ensure that the incoming `locale` is valid
-	// eslint-disable-next-line
-	if (!routing.locales.includes(locale as any)) {
-	  notFound();
+	if (!routing.locales.includes(storedLocale as LocaleOptions)) {
+		notFound();
 	}
-   
-	// Providing all messages to the client
-	// side is the easiest way to get started
-	const messages = await getMessages();
 
-	const isRtl = locale === "he" || locale === "ar";
+	// Providing all messages to the client side
+	const messages = await getMessages({ locale: storedLocale });
+
+	const isRtl = storedLocale === "he" || storedLocale === "ar";
 	const fontClass = isRtl ? assistant.variable : rajdhani.variable;
 
 	return (
-		<html lang={locale} dir={isRtl ? "rtl" : "ltr"}>
+		<html lang={storedLocale} dir={isRtl ? "rtl" : "ltr"}>
 			<body
 				className={`${fontClass} ${
 					isRtl ? "font-assistant" : "font-rajdhani"
 				} antialiased bg-white`}>
-				<NextIntlClientProvider messages={messages}>
-				
-					{children}
-				</NextIntlClientProvider>
+				<NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
 			</body>
 		</html>
 	);
 }
+

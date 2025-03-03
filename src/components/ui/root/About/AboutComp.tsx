@@ -1,6 +1,5 @@
-import ilan from "@/app/assets/images/about/ilan1.jpg";
+
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import { HTMLAttributes } from "react";
 import SectionHeader from "../Header/SectionHeader";
 import Tag from "../Hero/Tag";
@@ -8,17 +7,16 @@ import "./styles/about.scss";
 function About() {
 	const content = useTranslations("About");
 	return (
-		<div className="container mx-auto !w-screen">
+		<div className="container mx-auto !w-screen pt-12">
 			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8">
 				<div className="left w-full">
-					<div className="image-wrapper relative p-2">
-						<Image
-							src={ilan}
-							alt="ilan_ber"
-							width={500}
-							height={500}
-							className="md:h-2/3 lg:h-full w-full shadow-lg z-10 object-contain"
-						/>
+					<div className="video-wrapper relative h-full min-h-56 p-2">
+						<iframe
+							className="h-full w-full shadow-lg z-10 object-contain border-none"
+							src="https://www.youtube.com/embed/BxM4aBJbNdU?si=RmlVCcYDUAMTqtz1"
+							title="YouTube video player"
+							allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 						<PlayButton className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 md:w-24 h-12 md:h-24 bg-white opacity-45 z-10 rounded-full shadow-md hover:opacity-100 hover:shadow-sm transition-all duration-200 ease-in-out" />
 					</div>
 				</div>

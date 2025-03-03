@@ -1,8 +1,10 @@
+
 import { IconPhone, IconPin, IconSend } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
 import { HTMLAttributes } from "react";
 import ShadowButton from "../../shadow-button";
 import SectionHeader from "../Header/SectionHeader";
+import Image from "next/image";
 
 function ContactUsCopmp() {
 	const content = useTranslations("Contact");
@@ -20,8 +22,8 @@ function ContactUsCopmp() {
 					{content("description")}
 				</p>
 			</div>
-			<div className="grid sm:grid-cols-2 gap-12 py-24">
-				<div className="form w-3/4">
+			<div className="grid sm:grid-cols-3 gap-12 py-24">
+				<div className="form sm:w-3/4 col-span-2">
 					<form className="flex flex-col space-y-6">
 						<InputComp type="text" placeholder={content("form.name") + '*'} className="" />
 						<InputComp
@@ -32,6 +34,11 @@ function ContactUsCopmp() {
 						<InputComp
 							type="phone"
 							placeholder={content("form.phone") + '*'}
+							className="shadow-md border border-gray-400 placeholder:text-red-600"
+						/>
+						<InputComp
+							type="text"
+							placeholder={content("form.role") + '*'}
 							className="shadow-md border border-gray-400 placeholder:text-red-600"
 						/>
 						<textarea
@@ -59,12 +66,12 @@ function ContactUsCopmp() {
 							minus, blanditiis veniam molestiae sunt sequi!
 						</p>
 					</div>
-					<iframe
-						src="https://snazzymaps.com/embed/687671"
-						width="100%"
-						height="350px"
-						style={{ border: "none" }}
-						className="shadow-md rounded-[.1rem] border-none"></iframe>
+					<Image
+					src="https://images.pexels.com/photos/7937313/pexels-photo-7937313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+					alt="contact us"
+					width={550}
+					height={550}
+					/>
 					<div className="flex flex-col mt-8">
 						<div className="flex gap-4 items-center">
 							<IconPhone className="inline text-appBlue w-4 h-4" />

@@ -63,7 +63,7 @@ function Page() {
 							</h1>
 						</div>
 					</div>
-					<div className="left flex flex-col col-span-3">
+					<div className="model flex flex-col col-span-3">
 						<div className="3d-model flex justify-start w-full flex-col items-start md:items-end">
 							<ModelComp />
 						</div>

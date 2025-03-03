@@ -1,29 +1,42 @@
-'use client'
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
 import ContactUsCopmp from "@/components/ui/root/Contact/ContactUsCopmp";
-import About from "@/components/ui/root/About/AboutComp";
-import CoopsComp from "@/components/ui/root/Coops/CoopsComp";
-import FeaturesComp from "@/components/ui/root/Features/FeaturesComp";
 import HeroComp from "@/components/ui/root/Hero/HeroComp";
-import ProductsComp from "@/components/ui/root/Products/ProductsComp";
 import { Fragment } from "react";
+import dynamic from "next/dynamic";
+import { Skeleton } from "@/components/ui/skeleton";
+
+
+const DynamicAboutSection = dynamic(()=> import("@/components/ui/root/About/AboutComp"), {
+	loading: ()=> <Skeleton className="w-full h-full" />
+})
+const DynamicProductsSection = dynamic(()=> import("@/components/ui/root/Products/ProductsComp"), {
+	loading: ()=> <Skeleton className="w-full h-full" />
+})
+const DynamicFeaturesSection = dynamic(()=> import("@/components/ui/root/Features/FeaturesComp"), {
+	loading: ()=> <Skeleton className="w-full h-full" />
+})
+const DynamicCoopsSection = dynamic(()=> import("@/components/ui/root/Coops/CoopsComp"), {
+	loading: ()=> <Skeleton className="w-full h-full" />
+})
+
+
 export default function Home() {
 	return (
 		<Fragment>
 			<HeroComp />
 			<SectionWithLocale
 				sectionName="about"
-				className="bg-appGray sm:mt-24 min-h-screen">
-				<About />
+				className="bg-appGray sm:mt-24 min-h-screen ">
+				<DynamicAboutSection />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="solutions" className="min-h-screen bg-white">
-				<ProductsComp />
+				<DynamicProductsSection />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="whyus" className="bg-appGray" id="whyus">
-				<FeaturesComp />
+				<DynamicFeaturesSection />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="coops" className="relative bg-appBlue" id="coops">
-				<CoopsComp />
+				<DynamicCoopsSection />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="contact" className="bg-white" id="contact">
 				<ContactUsCopmp />
