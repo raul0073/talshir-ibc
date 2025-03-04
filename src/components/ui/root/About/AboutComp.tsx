@@ -17,7 +17,7 @@ function About() {
 							title="YouTube video player"
 							allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen></iframe>
-						<PlayButton className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 md:w-24 h-12 md:h-24 bg-white opacity-45 z-10 rounded-full shadow-md hover:opacity-100 hover:shadow-sm transition-all duration-200 ease-in-out" />
+						{/* <PlayButton className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 md:w-24 h-12 md:h-24 bg-white opacity-45 z-10 rounded-full shadow-md hover:opacity-100 hover:shadow-sm transition-all duration-200 ease-in-out" /> */}
 					</div>
 				</div>
 				<div className="right w-full p-4 md:pl-24">
