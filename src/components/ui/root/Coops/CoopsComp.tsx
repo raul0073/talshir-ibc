@@ -36,6 +36,7 @@ function CoopsComp() {
 				<div className="coops logos w-full py-24 mx-auto max-w-xl grid grid-cols-3 md:grid-cols-4 gap-4 place-content-center place-items-center">
 					<Image
 						src={coops1}
+						loading="lazy"
 						alt="coops"
 						className="grayscale w-44 h-auto hover:grayscale-0"
 						width={150}

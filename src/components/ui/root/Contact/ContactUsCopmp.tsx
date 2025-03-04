@@ -5,7 +5,6 @@ import { HTMLAttributes } from "react";
 import ShadowButton from "../../shadow-button";
 import SectionHeader from "../Header/SectionHeader";
 import Image from "next/image";
-
 function ContactUsCopmp() {
 	const content = useTranslations("Contact");
 	const title = content.raw("title").split(" ")[0]|| "";;
@@ -13,7 +12,7 @@ function ContactUsCopmp() {
 	const locale = useLocale()
 	const isRTL = locale === "he" || locale === "ar";
 	return (
-		<div className="container mx-auto p-6 md:p-12">
+		<div className="contact container mx-auto p-6 md:p-12">
 			<div className="header w-full max-w-xl">
 				<SectionHeader>
 					{title} <span className="font-bold">{lastWord}</span>

@@ -51,6 +51,7 @@ export const CertificationsIcons = () => {
 			<div className="fire w-fit py-2 flex justify-start gap-2 items-end ">
 				<Image
 					src={fire}
+					loading="lazy"
 					alt="fire_proof"
 					width={35}
 					height={35}
@@ -62,6 +63,7 @@ export const CertificationsIcons = () => {
 			<div className="water w-fit py-2 flex justify-start gap-2 items-end ">
 				<Image
 					src={water}
+					loading="lazy"
 					alt="water_proof"
 					width={35}
 					height={35}

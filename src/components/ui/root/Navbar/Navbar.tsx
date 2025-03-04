@@ -28,6 +28,7 @@ function NavigationComp() {
 					<div className="logo transition-transform duration-300 ease-in-out">
 						<Image
 							src={logo}
+							loading="eager"
 							alt="Logo"
 							width={70}
 							height={70}

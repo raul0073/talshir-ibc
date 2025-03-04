@@ -70,6 +70,7 @@ const CustomAccordionTrigger = ({
     <span className="w-full sm:w-1/4 group-data-[state=open]:w-1/2 flex justify-end">
       <Image
         src={imageSrc}
+        loading="lazy"
         alt={title}
         width={500}
         height={500}

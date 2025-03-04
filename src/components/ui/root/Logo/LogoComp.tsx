@@ -9,6 +9,7 @@ function LogoComp({alt} : {alt?:boolean}) {
 	return (
 		<Image
 			src={alt? logo2 : logo}
+			loading="eager"
 			alt="talshir-ibc logo 300X300"
 			width={300}
 			height={300}

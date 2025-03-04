@@ -38,7 +38,7 @@ export default function Home() {
 			<SectionWithLocale sectionName="coops" className="relative bg-appBlue" id="coops">
 				<DynamicCoopsSection />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="contact" className="bg-white" id="contact">
+			<SectionWithLocale sectionName="contact" className="contact" id="contact">
 				<ContactUsCopmp />
 			</SectionWithLocale>
 

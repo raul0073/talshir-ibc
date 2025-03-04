@@ -52,7 +52,7 @@ export default function StatsBar() {
       {memoStatsData.map(({ id, title, icon }) => (
         <div key={id} className="stat flex items-center gap-6 text-md md:text-lg">
           <div className="stat-figure text-white text-xs">
-            <Image src={icon} alt={title} className="h-10 w-10 md:h-12 md:w-12 grayscale" />
+            <Image src={icon} alt={title} className="h-10 w-10 md:h-12 md:w-12 grayscale" loading="lazy" />
           </div>
           <div className="flex flex-col">
             <motion.div

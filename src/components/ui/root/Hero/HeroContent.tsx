@@ -24,10 +24,11 @@ function HeroContent() {
 							alt="talshir-ibc logo 300X300"
 							width={300}
 							height={300}
+							loading="lazy"
 							style={{
 								transform: `${isRTL && "rotateY(180deg)"}`,
 							}}
-							className={`w-[300px] h-auto`}
+							className={`w-[300px]`}
 						/>
 					</div>
 					{/* <h1

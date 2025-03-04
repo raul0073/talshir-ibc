@@ -65,10 +65,11 @@ function Footer() {
 						<div className="md:hidden flex justify-end items-center w-fit">
 							<Image
 								src={logo2}
+								loading="lazy"
 								alt="talshir-ibc logo 300X300"
 								width={300}
 								height={300}
-								className={` w-44 h-auto`}
+								className={` w-44`}
 							/>
 						</div>
 					</div>
@@ -107,6 +108,7 @@ function Footer() {
 
 					<div className="hidden md:flex justify-center items-center ">
 						<Image
+						loading="lazy"
 							src={logo2}
 							alt="talshir-ibc logo 300X300"
 							width={100}

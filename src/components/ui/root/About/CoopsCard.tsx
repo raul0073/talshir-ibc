@@ -25,7 +25,7 @@ export default function CoopsSection() {
 							transform: `translate(${x}px, ${y}px)`,
 						}}
 					>
-						<Image src={coop1} alt="coop" layout="intrinsic" width={80} height={80} />
+						<Image src={coop1} alt="coop" layout="intrinsic" width={80} height={80} loading="lazy" />
 					</div>
 				);
 			})}
