@@ -3,11 +3,11 @@ import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 import {
 	GrCertificate,
-	GrCycle,
+	GrUserExpert  ,
 	GrDeliver,
 	GrGlobe,
 	GrShareOption,
-	GrVideo,
+	GrPlan  ,
 } from "react-icons/gr";
 import SectionHeader from "../Header/SectionHeader";
 import FeatureCard from "./components/FeatureCard";
@@ -19,10 +19,10 @@ function FeaturesComp() {
 	// Icon mapping for better control
 	const iconMap: Record<string, ReactNode> = {
 		card1: <GrCertificate className="w-8 h-8 text-amber-400" />,
-		card2: <GrVideo className="w-8 h-8 text-amber-50" />,
+		card2: <GrPlan   className="w-8 h-8 text-amber-50" />,
 		card3: <GrDeliver className="w-8 h-8 text-amber-50" />,
 		card4: <GrGlobe className="w-8 h-8 text-amber-50" />,
-		card5: <GrCycle className="w-8 h-8 text-amber-50" />,
+		card5: <GrUserExpert   className="w-8 h-8 text-amber-50" />,
 		card6: <GrShareOption className="w-8 h-8 text-amber-50" />,
 	};
 

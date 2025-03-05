@@ -27,6 +27,7 @@
         "contact": "Contacto"
       },
       "legal": {
+        "legal" : "Legal",
         "terms": "Términos",
         "accessibility": "Accesibilidad",
         "privacyPolicy": "Política de privacidad",
@@ -402,8 +403,9 @@
   }
 ],
 "Certifications" :{
-  "fireProof" : "fire proof",
-  "waterResistant" : "water resistant"
+  "fireProof": "a prueba de fuego",
+  "waterResistant": "resistente al agua",
+  "madeIn": "Hecho en Israel"
 }
 
   },
@@ -417,7 +419,14 @@
         "phone": "Teléfono",
         "message": "Mensaje",
         "role": "Rol",
-        "submit": "Enviar"
+        "submit": "Enviar",
+        "success": "Gracias por tu mensaje. Nos pondremos en contacto contigo en breve.",
+        "error": "Ocurrió un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.",
+        "required": "Este campo es obligatorio.",
+        "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida.",
+        "invalidPhone": "Por favor, introduce un número de teléfono válido.",
+        "maxLength": "Este campo no debe exceder los {30} caracteres.",
+        "minLength": "Este campo no debe tener menos de {2} caracteres."
       }
     }
 }

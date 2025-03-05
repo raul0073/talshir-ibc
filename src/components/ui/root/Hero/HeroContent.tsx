@@ -1,5 +1,5 @@
 import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import ShadowButton from "../../shadow-button";
@@ -7,8 +7,6 @@ import Tag from "./Tag";
 
 function HeroContent() {
 	const content = useTranslations("Hero");
-	const locale = useLocale();
-	const isRTL = locale === "he" || locale === "ar";
 
 	return (
 		<div className="text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2  w-full">
@@ -25,10 +23,6 @@ function HeroContent() {
 							width={300}
 							height={300}
 							loading="eager"
-							style={{
-								transform: `${isRTL && "rotateY(180deg)"}`,
-							}}
-							
 						/>
 					</div>
 					{/* <h1

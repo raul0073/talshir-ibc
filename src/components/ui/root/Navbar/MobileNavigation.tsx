@@ -51,13 +51,13 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 									<a
 										href={href}
 										onClick={handleNavigationMove}
-										className="group/nav-item flex h-full justify-between items-center text-zinc-900 text-xl group-hover/nav-item:pl-4 group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
+										className="group/nav-item flex h-full justify-between items-center text-blue-900 text-xl group-hover/nav-item:pl-4 group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
 										{label}{" "}
 									</a>
 								</li>
 							))}
 							<li className="relative group/nav-item transition-all duration-300 ease-in-out  border-b dark:border-stone-200/10 border-zinc-800/10 py-4">
-								<span className="group/nav-item flex h-full justify-between items-center text-zinc-900 text-4xl group-hover/nav-item:pl-4  group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
+								<span className="group/nav-item flex h-full justify-between items-center text-blue-900 text-4xl group-hover/nav-item:pl-4  group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
 									<LocaleSwitcher currentLocale={locale} className="text-lg" />
 								</span>
 							</li>
@@ -70,7 +70,7 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 									<a
 										href={href}
 										onClick={handleNavigationMove}
-										className="group/nav-item flex h-full justify-between items-center text-zinc-700 group-hover/nav-item:pl-2 transition-all duration-500 ease-in-out isolate text-sm">
+										className="group/nav-item flex h-full justify-between items-center text-blue-700 group-hover/nav-item:pl-2 transition-all duration-500 ease-in-out isolate text-sm">
 										{label}{" "}
 									</a>
 								</li>

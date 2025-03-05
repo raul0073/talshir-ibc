@@ -24,6 +24,7 @@ function Footer() {
 	}
 
 	const content = useTranslations("Navbar");
+	const rootContent = useTranslations("Root");
 	const MENUS_OPTIONS = getMenusOptions(content);
 
 	return (
@@ -32,7 +33,9 @@ function Footer() {
 				<div className="w-full flex flex-col md:flex-row justify-center gap-6  text-white h-full">
 					<div className="flex md:gap-6 md:w-2/4 md:justify-between w-full mb-6 md:mb-2">
 						<nav className="w-full">
-							<h3 className="uppercase mb-4 text-lg md:text-xl">contact</h3>
+							<h3 className="uppercase mb-4 text-lg md:text-xl">
+								{content("contact")}
+							</h3>
 							<ul className="space-y-3">
 								<li className="capitalize flex items-center justify-start gap-2 w-full">
 									<span>
@@ -75,7 +78,9 @@ function Footer() {
 					</div>
 					<div className="flex md:gap-6 md:w-2/4 md:justify-between w-full">
 						<nav className="w-full">
-							<h3 className="uppercase mb-4 text-lg sm:text-xl">menu</h3>
+							<h3 className="uppercase mb-4 text-lg sm:text-xl">
+								{rootContent("company")}
+							</h3>
 							<ul className="space-y-3">
 								{MENUS_OPTIONS.MAIN.map(({ label, href }) => (
 									<li key={href} className="capitalize text-white/50">
@@ -90,14 +95,16 @@ function Footer() {
 							)}
 						</nav>
 						<nav className="w-full">
-							<h3 className="uppercase mb-4 text-lg sm:text-xl">legal</h3>
+							<h3 className="uppercase mb-4 text-lg sm:text-xl">
+								{content("menus.legal.legal")}
+							</h3>
 							<ul className="space-y-3">
 								{MENUS_OPTIONS.LEGAL.map(({ label, href }) => (
 									<li
 										key={href}
 										className="capitalize text-white/50"
 										onClick={(e) => handleClick(label, e)}>
-										<a href={href} className="">
+										<a href={''} className="">
 											{label}{" "}
 										</a>
 									</li>
@@ -108,7 +115,7 @@ function Footer() {
 
 					<div className="hidden md:flex justify-center items-center ">
 						<Image
-						loading="lazy"
+							loading="lazy"
 							src={logo2}
 							alt="talshir-ibc logo 300X300"
 							width={100}
@@ -132,29 +139,32 @@ function Footer() {
 							Hod HaSharon, Hatchelet 32, ISRAEL
 						</p>
 
-						<div className="w-full grid grid-cols-2 place-items-center gap-8 mt-6 text-white/60 text-xs sm:text-base">
-							<div className="flex justify-start items-start w-full">
-								Lorem Ipsum is simply dummy text of the printing and typesetting
-								industry. Lorem Ipsum has been the industry&apos;s standard
-								dummy text ever since the 1500s, when an unknown printer took a
-								galley of type and scrambled it t El funcionamiento de la
-								plataforma es muy sencillo. Se debe completar la solicitud, ésta
-								información se envía a las entidades financieras a tiempo real
-								con el fin de que la herramienta compare, negocie y escanee las
-								mejores ofertas. Una vez aceptada la propuesta, se ingresa el
-								dinero directamente en la cuenta del cliente.
-							</div>
-							<div className="flex justify-start items-center w-full">
-								Lorem Ipsum is simply dummy text of the printing and typesetting
-								industry. Lorem Ipsum has been the industry&apos;s standard
-								dummy text ever since the 1500s, when an unknown printer took a
-								galley of type and scrambled it t El funcionamiento de la
-								plataforma es muy sencillo. Se debe completar la solicitud, ésta
-								información se envía a las entidades financieras a tiempo real
-								con el fin de que la herramienta compare, negocie y escanee las
-								mejores ofertas. Una vez aceptada la propuesta, se ingresa el
-								dinero directamente en la cuenta del cliente.
-							</div>
+						<div className="SEO w-full grid grid-cols-2 place-items-center gap-8 mt-6 text-white/40 text-xs sm:text-base">
+							<article className="flex justify-start items-start flex-col w-full">
+								<h4 className="uppercase font-bold text-white/60 mb-2">
+									Innovative Construction Patents
+								</h4>
+								<p>
+									Talshir-IBC specializes in **unique construction patent
+									solutions**, delivering innovative designs with **worldwide
+									protection**. Our patents cover revolutionary technologies in
+									**sustainable architecture** and **energy-efficient
+									structures**, setting new standards in the industry.
+								</p>
+							</article>
+
+							<article className="flex justify-start items-start flex-col w-full">
+								<h4 className="uppercase font-bold text-white/60 mb-2">
+									Global Reach, Local Expertise
+								</h4>
+								<p>
+									Based in **Hod HaSharon, Israel**, Talshir-IBC partners with
+									clients across the globe to bring patented construction
+									technologies to life. With a focus on **eco-friendly
+									innovations** and **cost-effective solutions**, we deliver
+									tailored services to meet the demands of modern architecture.
+								</p>
+							</article>
 						</div>
 					</div>
 				</div>

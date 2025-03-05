@@ -8,11 +8,11 @@ function About() {
 	const content = useTranslations("About");
 	return (
 		<div className="container mx-auto !w-screen pt-12">
-			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8">
-				<div className="left w-full">
-					<div className="video-wrapper relative h-full min-h-56 p-2">
+			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8   px-2">
+				<div className="left w-full px-2">
+					<div className="video-wrapper relative h-full min-h-56">
 						<iframe
-							className="h-full w-full shadow-lg z-10 object-contain border-none"
+							className="h-full w-full shadow-lg z-10 object-cover border-none"
 							src="https://www.youtube.com/embed/BxM4aBJbNdU?si=RmlVCcYDUAMTqtz1"
 							title="YouTube video player"
 							allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,6 +20,7 @@ function About() {
 						{/* <PlayButton className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 md:w-24 h-12 md:h-24 bg-white opacity-45 z-10 rounded-full shadow-md hover:opacity-100 hover:shadow-sm transition-all duration-200 ease-in-out" /> */}
 					</div>
 				</div>
+				
 				<div className="right w-full p-4 md:pl-24">
 					<SectionHeader className="mb-4">
 						{content("title").split(" ")[0]}{" "}

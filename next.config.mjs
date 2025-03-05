@@ -16,6 +16,11 @@ const nextConfig = {
             hostname: 'images.pexels.com',
     
           },
+          {
+            protocol: 'https',
+            hostname: 'flagcdn.com',
+    
+          },
         ],
       },
 };

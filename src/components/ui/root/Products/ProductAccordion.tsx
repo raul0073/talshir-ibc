@@ -48,7 +48,7 @@ export function ProductAccordion({
 							<AccordionChart value={35} label="iron" />
 							<AccordionChart value={4.8} label="water" />
 						</div>
-						<ButtonArrow link={`product/${decodeURIComponent(modelName)}`} />
+						<ButtonArrow link={`product/${decodeURIComponent(modelName)}`}  />
 					</div>
 				</AccordionContent>
 			</AccordionItem>

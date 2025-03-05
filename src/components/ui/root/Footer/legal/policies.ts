@@ -1,11 +1,13 @@
 import { ModalType } from "@/components/ui/root/Footer/Modal";
 
- const PRIVACY_POLICY = `**Privacy Policy**
+ const PRIVACY_POLICY = `**Privacy Policy** 
 
 **Effective Date:** [Date]
 
 **1. Introduction**
-Welcome to [Website Name]. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
+Welcome to [Website Name]. 
+We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. 
+This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
 
 **2. Information We Collect**
 We may collect the following types of information:
@@ -50,7 +52,6 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 [Email Address]
 [Phone Number]
 `;
-
  const TERMS_AND_CONDITIONS = `Terms and Conditions content here...`;
  const ACCESSIBILITY = `Accessibility content here...`;
  const IMPRESSIUM = `Impressium content here...`;
@@ -58,5 +59,5 @@ If you have any questions or concerns about this Privacy Policy, please contact 
     terms: TERMS_AND_CONDITIONS,
     accessibility: ACCESSIBILITY,
     privacy: PRIVACY_POLICY,
-    impressium: IMPRESSIUM,
+    impressum: IMPRESSIUM,
   };

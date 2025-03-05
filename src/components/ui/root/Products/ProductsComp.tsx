@@ -1,6 +1,7 @@
 
 import fire from "@/app/assets/icons/FIRE-resistance-icon 2.svg";
 import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
+import made from "@/app/assets/icons/ILMADE.svg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
@@ -72,6 +73,19 @@ export const CertificationsIcons = () => {
 				<span className=" uppercase text-xl font-medium">{content("waterResistant")} 
 				</span>
 			</div>
+			<div className="il w-fit py-2 flex justify-start gap-2 items-end ">
+				<Image
+					src={made}
+					loading="lazy"
+					alt="made_in_israel"
+					width={35}
+					height={35}
+					className="object-fit"
+				/>
+				<span className=" uppercase text-xl font-medium">{content("madeIn")} 
+				</span>
+			</div>
+
 		</div>
 	);
 };

@@ -27,6 +27,7 @@
         "contact": "اتصل بنا"
       },
       "legal": {
+        "legal" : "Legal",
         "terms": "الشروط",
         "accessibility": "إمكانية الوصول",
         "privacyPolicy": "سياسة الخصوصية",
@@ -371,8 +372,9 @@
       }
     ],
     "Certifications" :{
-      "fireProof" : "fire proof",
-      "waterResistant" : "water resistant"
+      "fireProof": "مقاوم للحريق",
+      "waterResistant": "مقاوم للماء",
+      "madeIn": "صنع في إسرائيل"
     }
   },
   "Contact": {
@@ -384,7 +386,14 @@
       "phone": "الهاتف",
       "role": "الدور",
       "message": "الرسالة",
-      "submit": "إرسال"
+      "submit": "إرسال",
+      "success": "شكرًا لك على رسالتك. سنعود إليك قريبًا.",
+    "error": "حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى لاحقًا.",
+    "required": "هذا الحقل مطلوب.",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+    "invalidPhone": "يرجى إدخال رقم هاتف صالح.",
+    "maxLength": "يجب ألا يتجاوز هذا الحقل {30} حرفًا.",
+    "minLength": "يجب ألا يقل هذا الحقل عن {2} حرفين."
     }
   }
 }

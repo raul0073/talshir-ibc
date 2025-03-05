@@ -83,6 +83,7 @@
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	display: flex;
+	height: 100%;
 	align-items: center;
 	gap: 15px;
 	text-align: center;
@@ -105,8 +106,8 @@
 	color: #b61e13;
 }
 .btn-secondary {
-	border-color: lightgray;
-	color: lightgray;
+	border-color: gray;
+	color: gray;
 }
 .btn-outline-blue {
 	font-size: 20px;
@@ -139,6 +140,10 @@
 .btn-default:focus {
 	color: #4f7df0;
 }
+.btn-secondary:hover,
+.btn-secondary:focus {
+	color: #ffffff;
+}
 .btn-outline:before,
 .btn-default:before,
 .btn-secondary:before,
@@ -162,7 +167,8 @@
 	background: #b61e13;
 }
 .btn-secondary:before {
-	background: lightgray;
+	background: rgb(117, 117, 117);
+	color: gray
 }
 .btn-outline-blue:before,
 .btn-small:before {
@@ -193,7 +199,7 @@
 	.btn-default,
 	.btn-outline,
 	.btn-secondary {
-		font-size: 14px;
+		font-size: 16px;
 		gap: 10px;
 		padding: 0.5em 1.5em;
 		box-shadow: 4px 4px 0 lightgray;
@@ -204,6 +210,7 @@
 		box-shadow: 6px 6px 0 lightgray;
 	}
 	.btn-small {
+		width: fit-content;
 		height: 35px;
 		&:hover{
 			box-shadow: 5px 5px 0 lightgray;
@@ -217,5 +224,7 @@ textarea {
 }
 .inputComp:focus,
 textarea:focus {
-	box-shadow: 10px 10px 0 gray;
+	box-shadow: 10px 10px 0 rgb(128, 128, 128);
 }
+
+  

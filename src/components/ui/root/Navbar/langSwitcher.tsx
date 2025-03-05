@@ -5,10 +5,10 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
 const languages = [
-	{ code: "en", label: "English" },
-	{ code: "he", label: "עברית" },
-	{ code: "es", label: "Español" },
-	{ code: "ar", label: "العربية" },
+	{ code: "en", label: "En ", flag: "🇺🇸" },
+	{ code: "es", label: "Es", flag: "🇪🇸" },
+	{ code: "he", label: "עב", flag: "🇮🇱" },
+	{ code: "ar", label: "Ar", flag: "🇸🇦" },
 ];
 
 export default function LocaleSwitcher({
@@ -37,13 +37,17 @@ export default function LocaleSwitcher({
 				onChange={(e) => changeLanguage(e.target.value)}
 				disabled={isPending}
 				defaultValue={currentLocale}
-				className="py-1  bg-white rounded-none p-2">
-				{languages.map(({ code, label }) => (
+				className="py-1  bg-white rounded-none p-2 flex items-center">
+				{languages.map(({ code, label, flag }) => (
 					<option
 						key={code}
 						value={code}
 						className="rounded-none text-xs font-sans">
-						{label}
+					
+						{label}&emsp;
+					
+						{flag}
+
 					</option>
 				))}
 			</select>
