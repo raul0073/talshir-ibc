@@ -1,11 +1,20 @@
 
 import { useTranslations } from "next-intl";
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, useMemo } from "react";
 import SectionHeader from "../Header/SectionHeader";
 import Tag from "../Hero/Tag";
 import "./styles/about.scss";
 function About() {
-	const content = useTranslations("About");
+	const t = useTranslations("About");
+	const content = useMemo( () => {
+		return {
+			title: t("title"),
+			tag: t("tag"),
+			mission: t("mission"),
+			vision: t("vision"),
+		}
+	}, [t]
+	)
 	return (
 		<div className="container mx-auto !w-screen pt-12">
 			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8   px-2">
@@ -23,12 +32,12 @@ function About() {
 				
 				<div className="right w-full p-4 md:pl-24">
 					<SectionHeader className="mb-4">
-						{content("title").split(" ")[0]}{" "}
-						<span className="font-bold">{content("title").split(" ")[1]}</span>
+						{content.title.split(" ")[0]}{" "}
+						<span className="font-bold">{content.title.split(" ")[1]}</span>
 					</SectionHeader>
-					<Tag>{content("tag")}</Tag>
-					<p className="text-zinc-800 mt-6 md:text-lg">{content("mission")}</p>
-					<p className="mt-4 text-zinc-800 md:text-lg">{content("vision")}</p>
+					<Tag>{content.tag}</Tag>
+					<p className="text-zinc-800 mt-6 md:text-lg">{content.mission}</p>
+					<p className="mt-4 text-zinc-800 md:text-lg">{content.vision}</p>
 				</div>
 			</div>
 		</div>

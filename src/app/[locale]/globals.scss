@@ -64,6 +64,9 @@
 		@apply overflow-x-hidden max-w-full;
 		@apply scroll-smooth;
 	}
+	.logoImg {
+		@apply w-[100px] sm:w-[200px] h-auto;
+	}
 }
 @layer base {
 	* {

@@ -14,10 +14,18 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import ShadowButton from "../../shadow-button";
 import { InputComp } from "./ContactUsComp";
-function ContactForm() {
+import { Dispatch, SetStateAction } from "react";
+function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateAction<boolean>>}) {
 	const locale = useLocale();
 	const isRTL = locale === "he" || locale === "ar";
 	const labels = useTranslations("Contact.form");
+
+	const handleFormCompleted = () => {
+		setFormComplete(true);
+		setTimeout(() => {
+			setFormComplete(false);
+		}, 3000);
+	};
 	const contactFormSchema = z.object({
 		full_name: z
 			.string({
@@ -83,8 +91,9 @@ function ContactForm() {
 	});
 	function onSubmit(values: z.infer<typeof contactFormSchema>) {
 		// Do something with the form values.
-		// ✅ This will be type-safe and validated.
+		handleFormCompleted()
 		console.log(values);
+		form.reset();
 	}
 
 	return (
@@ -181,28 +190,3 @@ function ContactForm() {
 }
 
 export default ContactForm;
-
-/**
- *     <form className="flex flex-col space-y-6">
-    <InputComp type="text" placeholder={content("form.name") + '*'} className="" />
-    <InputComp
-        type="email"
-        placeholder={content("form.email") + '*'}
-        className="shadow-md border border-gray-400 placeholder:text-red-600"
-    />
-    <InputComp
-        type="phone"
-        placeholder={content("form.phone") + '*'}
-        className="shadow-md border border-gray-400 placeholder:text-red-600"
-    />
-    <InputComp
-        type="text"
-        placeholder={content("form.role") + '*'}
-        className="shadow-md border border-gray-400 placeholder:text-red-600"
-    />
-   
-    <div>
-       
-    </div>
-</form>
- */

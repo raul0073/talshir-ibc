@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { useLocale } from "next-intl";
 import { StaticImageData } from "next/image";
 import ButtonArrow from "../../button-arrow";
+import { usePathname } from "next/navigation";
 export type ProductAccordionProps = {
 	modelName: string;
 	modelDesc: string;
@@ -21,7 +22,7 @@ export function ProductAccordion({
 }: ProductAccordionProps) {
 	const locale = useLocale();
 	const isRtl = locale === "he" || locale === "ar";
-
+	const path = usePathname()
 	return (
 		<Accordion
 			type="single"
@@ -48,7 +49,7 @@ export function ProductAccordion({
 							<AccordionChart value={35} label="iron" />
 							<AccordionChart value={4.8} label="water" />
 						</div>
-						<ButtonArrow link={`product/${decodeURIComponent(modelName)}`}  />
+						<ButtonArrow link={`${path}/${decodeURIComponent(modelName)}`}  />
 					</div>
 				</AccordionContent>
 			</AccordionItem>

@@ -6,7 +6,6 @@ export type LocaleOptions = "en" | "es" | "he" | "ar"
 
 export const routing = defineRouting({
   locales: ["en", "he", "es", "ar"],
-  
   defaultLocale: "en",
 });
  

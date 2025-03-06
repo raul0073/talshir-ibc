@@ -6,6 +6,7 @@ import logo from './../../../../app/assets/images/logo/IBC-300x230-noBG.png'
 import Image from "next/image";
 import NavigationLinks from "./NavigationLinks";
 import { useScroll } from "framer-motion";
+import Link from "next/link";
 
 
 function NavigationComp() {
@@ -26,14 +27,16 @@ function NavigationComp() {
 			<div className="container mx-auto">
 				<div className={`wrapper flex justify-between items-center py-4 px-4 `}>
 					<div className="logo transition-transform duration-300 ease-in-out">
+						<Link href={'/'}>
 						<Image
 							src={logo}
 							loading="eager"
 							alt="Logo"
 							width={70}
 							height={70}
-							className={`${isScrolled ? 'transition-transform duration-300 ease-in-out' :'opacity-45'}`}
+							className={`hover:opacity-100 ${isScrolled ? 'transition-transform duration-300 ease-in-out' :'opacity-45'} transition-transform duration-300 ease-in-out`}
 						/>
+						</Link>
 					</div>
 					<NavigationLinks isScrolled={isScrolled} />
 						

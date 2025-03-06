@@ -1,28 +1,31 @@
-
 import fire from "@/app/assets/icons/FIRE-resistance-icon 2.svg";
-import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
 import made from "@/app/assets/icons/ILMADE.svg";
+import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { Fragment } from "react";
+import { Fragment, useMemo } from "react";
+import { ProductItem } from "../../../../../types/products";
 import SectionHeader from "../Header/SectionHeader";
 import { ProductAccordion } from "./ProductAccordion";
-import { ProductItem } from "../../../../../types/products";
 function ProductsComp() {
-	const content = useTranslations("Products");
-	const title = content.raw("title").split(" ")[0];
-	const lastWord = content.raw("title").split(" ")[1];
-	const products: ProductItem[] = content.raw("ProductsList");
+	const t = useTranslations("Products");
+	const products: ProductItem[] = t.raw("ProductsList");
+	const content = useMemo(() => {
+		return {
+			title: t("title"),
+			description: t("description"),
+		};
+	}, [t]);
 	return (
 		<Fragment>
-			
 			<div className="container mx-auto p-6 md:p-24">
 				<div className="header w-full max-w-xl">
 					<SectionHeader className="">
-						{title} <span className="font-bold">{lastWord}</span>
+						{content.title.split(" ")[0]}{" "}
+						<span className="font-bold">{content.title.split(" ")[1]}</span>
 					</SectionHeader>
 					<p className="max-w-2xl text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-6">
-						{content("description")}
+						{content.description}
 					</p>
 					<CertificationsIcons />
 				</div>
@@ -46,7 +49,7 @@ function ProductsComp() {
 export default ProductsComp;
 
 export const CertificationsIcons = () => {
-	const content = useTranslations("Products.Certifications")
+	const content = useTranslations("Products.Certifications");
 	return (
 		<div className="certifications mt-12">
 			<div className="fire w-fit py-2 flex justify-start gap-2 items-end ">
@@ -58,7 +61,8 @@ export const CertificationsIcons = () => {
 					height={35}
 					className="object-fit"
 				/>
-				<span className=" uppercase text-xl font-medium">{content("fireProof")} 
+				<span className=" uppercase text-xl font-medium">
+					{content("fireProof")}
 				</span>
 			</div>
 			<div className="water w-fit py-2 flex justify-start gap-2 items-end ">
@@ -70,7 +74,8 @@ export const CertificationsIcons = () => {
 					height={35}
 					className="object-fit"
 				/>
-				<span className=" uppercase text-xl font-medium">{content("waterResistant")} 
+				<span className=" uppercase text-xl font-medium">
+					{content("waterResistant")}
 				</span>
 			</div>
 			<div className="il w-fit py-2 flex justify-start gap-2 items-end ">
@@ -82,10 +87,10 @@ export const CertificationsIcons = () => {
 					height={35}
 					className="object-fit"
 				/>
-				<span className=" uppercase text-xl font-medium">{content("madeIn")} 
+				<span className=" uppercase text-xl font-medium">
+					{content("madeIn")}
 				</span>
 			</div>
-
 		</div>
 	);
 };

@@ -17,10 +17,10 @@ function Footer() {
 	const [modalOn, setModalOn] = useState<boolean>(false);
 	const [modalType, setModalType] = useState<ModalType | null>(null);
 
-	function handleClick(type: ModalType, e: React.MouseEvent) {
+	function handleClick(type: string, e: React.MouseEvent) {
 		e.preventDefault();
 		setModalOn(true);
-		setModalType(type);
+		setModalType(type as ModalType);
 	}
 
 	const content = useTranslations("Navbar");
@@ -91,7 +91,7 @@ function Footer() {
 								))}
 							</ul>
 							{modalType && modalOn && (
-								<Modal modalOn={() => setModalType(null)} type={modalType} />
+								<Modal modalOn={() => setModalType(null)} type={modalType } />
 							)}
 						</nav>
 						<nav className="w-full">
@@ -103,7 +103,7 @@ function Footer() {
 									<li
 										key={href}
 										className="capitalize text-white/50"
-										onClick={(e) => handleClick(label, e)}>
+										onClick={(e) => handleClick(href, e)}>
 										<a href={''} className="">
 											{label}{" "}
 										</a>

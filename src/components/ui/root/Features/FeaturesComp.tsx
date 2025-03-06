@@ -14,9 +14,9 @@ import FeatureCard from "./components/FeatureCard";
 export type FeatureCard = { label: string; desc: string; icon: ReactNode };
 function FeaturesComp() {
 	const content = useTranslations("WhyUs");
-	const cards = content.raw("cards") ?? {}; // Ensure it's an object
+	const cards = content.raw("cards") ?? {}; 
 
-	// Icon mapping for better control
+	// Icon mapping
 	const iconMap: Record<string, ReactNode> = {
 		card1: <GrCertificate className="w-8 h-8 text-amber-400" />,
 		card2: <GrPlan   className="w-8 h-8 text-amber-50" />,
