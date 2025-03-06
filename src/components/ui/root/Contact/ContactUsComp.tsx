@@ -47,7 +47,7 @@ function ContactUsCopmp() {
 				alt="cover"
 				width={1440}
 				height={1440}
-				className="fixed left-0 top-0 inset-0 w-full h-full -z-10 opacity-20"
+				className="fixed left-0 top-0 -z-10 opacity-20 h-[80vh]"
 			/>
 			<div className="header w-full max-w-xl">
 				<SectionHeader>

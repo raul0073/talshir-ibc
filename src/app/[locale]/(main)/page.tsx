@@ -41,7 +41,7 @@ export default function Home() {
 			<HeroComp />
 			<SectionWithLocale
 				sectionName="about"
-				className="bg-appGray sm:mt-24 min-h-screen ">
+				className="bg-appGray sm:mt-12 min-h-screen py-8">
 				<DynamicAboutSection />
 			</SectionWithLocale>
 			<SectionWithLocale
@@ -58,7 +58,7 @@ export default function Home() {
 				id="coops">
 				<DynamicCoopsSection />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="contact" className="contact" id="contact">
+			<SectionWithLocale sectionName="contact" className="contact relative" id="contact">
 				<DynamicContactSection />
 			</SectionWithLocale>
 		</Fragment>

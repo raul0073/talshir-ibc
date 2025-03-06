@@ -16,7 +16,7 @@ function About() {
 	}, [t]
 	)
 	return (
-		<div className="container mx-auto !w-screen pt-12">
+		<div className="container mx-auto !w-screen sm:pt-12">
 			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-8   px-2">
 				<div className="left w-full px-2">
 					<div className="video-wrapper relative h-full min-h-56">
