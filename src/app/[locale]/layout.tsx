@@ -28,7 +28,7 @@ const assistant = Assistant({
 });
 
 
-export default async function LocaleLayout({
+export default async function Layout({
 	children,
 }: {
 	children: React.ReactNode;

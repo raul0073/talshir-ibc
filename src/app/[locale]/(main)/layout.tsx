@@ -1,10 +1,10 @@
 'use client'
-import Footer from "@/components/ui/root/Footer/Footer";
-import NavigationComp from "@/components/ui/root/Navbar/Navbar";
+import Footer from "@/components/Root/Footer/Footer";
+import NavigationComp from "@/components/Root/Navbar/Navbar";
 import { Fragment, ReactNode, useEffect, useState } from "react";
 
 function Layout({ children }: { children: ReactNode }) {
-	const [isClient, setIsClient] = useState(false);
+	const [isClient, setIsClient] = useState<boolean>(false);
 	useEffect(() => {
 		setIsClient(true);
 	  }, []);
@@ -15,7 +15,7 @@ function Layout({ children }: { children: ReactNode }) {
 	return (
 		<Fragment>
 			<NavigationComp />
-			<main className="mt-20">{children}</main>
+			<main className="">{children}</main>
 			<footer className="bg-appBlue">
 				<Footer />
 			</footer>

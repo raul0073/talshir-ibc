@@ -1,4 +1,4 @@
-import LogoComp from '@/components/ui/root/Logo/LogoComp'
+import LogoComp from '@/components/Root/Logo/LogoComp'
 import Link from 'next/link'
  
 export default function NotFound() {

@@ -18,6 +18,7 @@ export type ProductItem = {
   modelDemoVideo: string;
   modelSpecification: string;
   modelCertification: string;
+  modelCustomizable: boolean;
   model3DObject: string;
   modelPatentNo: string;
 };

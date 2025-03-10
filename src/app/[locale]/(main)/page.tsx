@@ -1,35 +1,35 @@
 import SectionWithLocale from "@/components/Section/SectionWithLocale";
-import HeroComp from "@/components/ui/root/Hero/HeroComp";
-import { Skeleton } from "@/components/ui/skeleton";
+import HeroComp from "@/components/Root/Hero/HeroComp";
 import dynamic from "next/dynamic";
 import { Fragment } from "react";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const DynamicAboutSection = dynamic(
-	() => import("@/components/ui/root/About/AboutComp"),
+	() => import("@/components/Root/About/AboutComp"),
 	{
 		loading: () => <Skeleton className="w-full h-full" />,
 	}
 );
 const DynamicProductsSection = dynamic(
-	() => import("@/components/ui/root/Products/ProductsComp"),
+	() => import("@/components/Root/Products/ProductsComp"),
 	{
 		loading: () => <Skeleton className="w-full h-full" />,
 	}
 );
 const DynamicFeaturesSection = dynamic(
-	() => import("@/components/ui/root/Features/FeaturesComp"),
+	() => import("@/components/Root/Features/FeaturesComp"),
 	{
 		loading: () => <Skeleton className="w-full h-full" />,
 	}
 );
 const DynamicCoopsSection = dynamic(
-	() => import("@/components/ui/root/Coops/CoopsComp"),
+	() => import("@/components/Root/Coops/CoopsComp"),
 	{
 		loading: () => <Skeleton className="w-full h-full" />,
 	}
 );
 const DynamicContactSection = dynamic(
-	() => import("@/components/ui/root/Contact/ContactUsComp"),
+	() => import("@/components/Root/Contact/ContactUsComp"),
 	{
 		loading: () => <Skeleton className="w-full h-full" />,
 	}
@@ -41,12 +41,12 @@ export default function Home() {
 			<HeroComp />
 			<SectionWithLocale
 				sectionName="about"
-				className="bg-appGray sm:mt-12 min-h-screen py-8">
+				className="bg-appGray min-h-screen py-8" id="about">
 				<DynamicAboutSection />
 			</SectionWithLocale>
 			<SectionWithLocale
-				sectionName="solutions"
-				className="min-h-screen bg-white">
+				sectionName="products"
+				className="min-h-screen bg-white" id="products">
 				<DynamicProductsSection />
 			</SectionWithLocale>
 			<SectionWithLocale sectionName="whyus" className="bg-appGray" id="whyus">
@@ -58,7 +58,7 @@ export default function Home() {
 				id="coops">
 				<DynamicCoopsSection />
 			</SectionWithLocale>
-			<SectionWithLocale sectionName="contact" className="contact relative" id="contact">
+			<SectionWithLocale sectionName="contact" className="contact relative overflow-hidden" id="contact">
 				<DynamicContactSection />
 			</SectionWithLocale>
 		</Fragment>

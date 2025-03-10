@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         hostname: 'flagcdn.com',
 
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+
+      },
     ],
   },
 }

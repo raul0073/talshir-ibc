@@ -13,7 +13,7 @@
   "ProductPage": {
     "exploreModel": "Explore Model"
   },
-"Navbar": {
+  "Navbar": {
     "home": "Home",
     "about": "About",
     "language": "Language",
@@ -27,7 +27,7 @@
         "contact": "Contact"
       },
       "legal": {
-        "legal" : "Legal",
+        "legal": "Legal",
         "terms": "Terms",
         "accessibility": "Accessibility",
         "privacyPolicy": "Privacy Policy",
@@ -42,7 +42,7 @@
   },
   "Hero": {
     "title": "Talshir-IBC",
-    "description": "Development, manufacturing, and marketing of unique products in the construction industry.",
+    "description": "Development, manufacturing and marketing of unique products in the construction industry.",
     "highlight": "All products hold unique patents and exclusive designs.",
     "actions": {
       "products": "Our products",
@@ -52,12 +52,10 @@
   "About": {
     "title": "About Talshir",
     "tag": "Building Excellence Since 1994",
-    "description": "Talshir-IBC is a premier company in the construction industry, specializing in the development, manufacturing, and marketing of innovative, high-quality solutions.",
-    "mission": "At Talshir-IBC, we are committed to redefining the construction industry through cutting-edge innovation, precision engineering, and sustainable practices. As a certified developer and manufacturer, we strive to create durable, efficient, and forward-thinking solutions that enhance infrastructure, improve safety, and elevate industry standards. Our mission is to empower construction professionals with advanced materials and technologies that drive progress and long-term success.",
-    "vision": "Our vision is to be a global leader in construction innovation, pioneering the next generation of building solutions. We aim to shape the future of the industry by continuously pushing the boundaries of technology, sustainability, and craftsmanship. Through a customer-centric approach, strategic partnerships, and a relentless pursuit of excellence, we aspire to create a lasting impact on the built environment while maintaining our core values of quality, integrity, and innovation."
+      "innovation": "Talshir - Ilan Bar Ltd. was founded in 1994. Initially, the company focused on constructing high-rise residential buildings and private homes in Israel. Over the years, with extensive hands-on experience in the operational and engineering fields, the company identified opportunities to advance and develop work processes. As part of its activities, the company began designing and developing unique and exclusive products aimed at improving construction processes, work quality, cost reduction, and providing a variety of solutions for the construction industry. Our products represent a breakthrough and innovation and are successfully marketed in the leading construction companies in Israel."
   },
   "WhyUs": {
-    "title": "Why Choose Our Patents",
+    "title": "Why Choose Our Products",
     "description": "We provide cutting-edge solutions for leading construction companies and private developers in Israel.",
     "cards": {
       "card1": {
@@ -87,34 +85,38 @@
     }
   },
   "Coops": {
-    "title": "Serving Industry Leaders",
+    "title": "Our Clients",
     "description": "Empowering top construction companies and private developers with advanced, innovative solutions that enhance efficiency, sustainability, and project success."
   },
   "Products": {
-    "title": "Our Solutions",
+    "title": "Our Products",
     "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction.",
-    "ProductsList" : [
+    "ProductsList": [
       {
         "id": 1,
         "modelName": "SPACER",
         "modelDescription": "A standardized concrete form spacer ensuring maximal precision in placing concrete forms and meshes, saving time, money, and manpower.",
         "modelUsage": [
-          "Universal plastic accessory, easy to install with a click.",
-          "Designed for casting concrete walls, columns, and beams.",
-          "Compatible with 6-12 mm rebars.",
-          "Maintains standard spaces between reinforcing meshes and forms.",
-          "High compressive strength.",
-          "Minimal interface with forms.",
-          "Recommended use: 3-4 units per 1 m²."
+          "Universal plastic accessory, easy to install with a click.\n",
+          "Designed for casting concrete walls, columns, and beams.\n",
+          "Compatible with 6-12 mm rebars.\n",
+          "Maintains standard spaces between reinforcing meshes and forms.\n",
+          "High compressive strength.\n",
+          "Minimal interface with forms.\n",
+          "Recommended use: 3-4 units per 1 m².\n"
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/spacer-noBG.png",
           "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30-1030x641.jpg",
           "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG1.jpg",
           "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg",
           "usage3": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg"
         },
-        "modelSizes": [20, 25, 30],
+        "modelSizes": [
+          20,
+          25,
+          30
+        ],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -146,7 +148,7 @@
       },
       {
         "id": 3,
-        "modelName": "Bench – Spacer for Upper Reinforcement",
+        "modelName": "Bench – Upper Reinforcement",
         "modelDescription": "The 'Sharon' Bench is designed to support upper reinforcement in ceilings, ensuring stability and precise positioning.",
         "modelUsage": [
           "Suitable for ceilings with a thickness of 20–27 cm.",
@@ -162,7 +164,12 @@
           "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-2.jpg",
           "usage3": ""
         },
-        "modelSizes": [20, 23, 25, 27],
+        "modelSizes": [
+          20,
+          23,
+          25,
+          27
+        ],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -186,7 +193,10 @@
           "usage2": "",
           "usage3": ""
         },
-        "modelSizes": [2.5, 3],
+        "modelSizes": [
+          2.5,
+          3
+        ],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -195,7 +205,7 @@
       },
       {
         "id": 5,
-        "modelName": "High Quality Tube Spacer",
+        "modelName": "Tube Spacer",
         "modelDescription": "A premium protective tube spacer designed to maintain proper spacing and prevent water infiltration.",
         "modelUsage": [
           "Ensures correct distance between reinforcing mesh and framework.",
@@ -210,7 +220,9 @@
           "usage2": "",
           "usage3": ""
         },
-        "modelSizes": [200],
+        "modelSizes": [
+          200
+        ],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -402,30 +414,42 @@
         "modelPatentNo": ""
       }
     ],
-    "Certifications" :{
-      "fireProof" : "fire proof",
-      "waterResistant" : "water resistant",
+    "Certifications": {
+      "fireProof": "fire proof",
+      "waterResistant": "water resistant",
       "madeIn": "made in israel"
     }
   },
-  "Contact" :{
-    "title" : "Contact Us",
-    "description" : "Our team of experts is here for you.",
-    "form" : {
-      "name" : "Full Name",
-      "email" : "Email",
-      "phone" : "Phone",
-      "message" : "Message",
-      "role" : "Role",
-      "submit" : "Submit",
-      "success" : "Thank you for your message. We will get back to you shortly.",
-      "error" : "An error occurred while sending your message. Please try again later.",
-      "required" : "This field is required.",
-      "invalidEmail" : "Please enter a valid email address.",
-      "invalidPhone" : "Please enter a valid phone number.",
-      "maxLength" : "This field should not exceed {30} characters.",
-      "minLength" : "This field should not be less than {2} characters."
-      
+  "Contact": {
+    "title": "Contact Us",
+    "description": "Our team of experts is here for you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "role": "Role",
+      "submit": "Submit",
+      "success": "Thank you for your message. We will get back to you shortly.",
+      "error": "An error occurred while sending your message. Please try again later.",
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidPhone": "Please enter a valid phone number.",
+      "maxLength": "This field should not exceed {30} characters.",
+      "minLength": "This field should not be less than {2} characters."
+    }
+  },
+  "Footer": {
+    "SEO": {
+      "left": {
+        "header": "Global Reach, Local Expertise",
+        "content": "Based in **Hod HaSharon, Israel**, Talshir-IBC partners with clients across the globe to bring patented construction technologies to life. With a focus on **eco-friendly innovations** and **cost-effective solutions**, we deliver tailored services to meet the demands of modern architecture"
+      },
+      "right": {
+        "header": "Innovative Construction Patents",
+        "content": "Talshir-IBC specializes in **unique construction patent solutions**, delivering innovative designs with **worldwide protection**. Our patents cover revolutionary technologies in **sustainable architecture** and **energy-efficient structures**, setting new standards in the industry"
+      },
+      "copyright": "2025 Talshir IBC. All rights reserved."
     }
   }
 }

@@ -152,3 +152,155 @@ talshir-ibc
    └─ products.tsx
 
 ```
+```
+talshir-ibc
+├─ components.json
+├─ eslint.config.mjs
+├─ messages
+│  ├─ ar.json
+│  ├─ en.json
+│  ├─ es.json
+│  └─ he.json
+├─ next.config.mjs
+├─ next.config.ts
+├─ package.json
+├─ pnpm-lock.yaml
+├─ postcss.config.mjs
+├─ public
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ images
+│  │  └─ products
+│  │     ├─ nadal-noBG.png
+│  │     ├─ nadal_action1.jpg
+│  │     ├─ slicer.jpg
+│  │     └─ spacer-noBG.png
+│  ├─ models
+│  │  ├─ divi-15-18.glb
+│  │  └─ untitled.glb
+│  └─ window.svg
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ api
+│  │  │  └─ locale
+│  │  │     └─ route.ts
+│  │  ├─ assets
+│  │  │  ├─ icons
+│  │  │  │  ├─ Delivery.svg
+│  │  │  │  ├─ FIRE-resistance-icon 2.svg
+│  │  │  │  ├─ globe.svg
+│  │  │  │  ├─ guidance.svg
+│  │  │  │  ├─ ILMADE.svg
+│  │  │  │  ├─ play.svg
+│  │  │  │  ├─ ribbon.svg
+│  │  │  │  └─ WATER-resistance-icon 2.svg
+│  │  │  └─ images
+│  │  │     ├─ about
+│  │  │     │  └─ ilan1.jpg
+│  │  │     ├─ certifications
+│  │  │     │  ├─ certificate.png
+│  │  │     │  ├─ handshake.png
+│  │  │     │  ├─ mati.png
+│  │  │     │  ├─ patent.png
+│  │  │     │  ├─ planet-earth.png
+│  │  │     │  └─ repair.png
+│  │  │     ├─ contact
+│  │  │     │  ├─ image 1.svg
+│  │  │     │  └─ magicpattern-grid-pattern-1741056465983.webp
+│  │  │     ├─ coops
+│  │  │     │  ├─ demri-removebg-preview.png
+│  │  │     │  └─ Tidhar-share1-removebg-preview.png
+│  │  │     └─ logo
+│  │  │        ├─ IBC-300x230-bottom.png
+│  │  │        ├─ IBC-300x230-noBG-noIBC-noBottom.png
+│  │  │        ├─ IBC-300x230-noBG-noIBC.png
+│  │  │        └─ IBC-300x230-noBG.png
+│  │  ├─ favicon.ico
+│  │  ├─ not-found.tsx
+│  │  └─ [locale]
+│  │     ├─ (main)
+│  │     │  ├─ layout.tsx
+│  │     │  ├─ not-found.tsx
+│  │     │  ├─ page.tsx
+│  │     │  └─ product
+│  │     │     └─ [productName]
+│  │     │        ├─ components
+│  │     │        │  └─ ProductComp.tsx
+│  │     │        └─ page.tsx
+│  │     ├─ globals.scss
+│  │     ├─ layout.tsx
+│  │     └─ not-found.tsx
+│  ├─ components
+│  │  ├─ Root
+│  │  │  ├─ 3D
+│  │  │  │  └─ ModelComp.tsx
+│  │  │  ├─ About
+│  │  │  │  ├─ AboutComp.tsx
+│  │  │  │  ├─ CoopsCard.tsx
+│  │  │  │  └─ styles
+│  │  │  │     └─ about.scss
+│  │  │  ├─ Contact
+│  │  │  │  ├─ ContactForm.tsx
+│  │  │  │  └─ ContactUsComp.tsx
+│  │  │  ├─ Coops
+│  │  │  │  └─ CoopsComp.tsx
+│  │  │  ├─ Features
+│  │  │  │  ├─ components
+│  │  │  │  │  └─ FeatureCard.tsx
+│  │  │  │  └─ FeaturesComp.tsx
+│  │  │  ├─ Footer
+│  │  │  │  ├─ Footer.tsx
+│  │  │  │  ├─ legal
+│  │  │  │  │  └─ policies.ts
+│  │  │  │  └─ Modal.tsx
+│  │  │  ├─ Header
+│  │  │  │  └─ SectionHeader.tsx
+│  │  │  ├─ Hero
+│  │  │  │  ├─ BoxesBG.tsx
+│  │  │  │  ├─ DotBg.tsx
+│  │  │  │  ├─ HeroComp.tsx
+│  │  │  │  ├─ HeroContent.tsx
+│  │  │  │  └─ Tag.tsx
+│  │  │  ├─ Logo
+│  │  │  │  └─ LogoComp.tsx
+│  │  │  ├─ Navbar
+│  │  │  │  ├─ data
+│  │  │  │  │  └─ menus.ts
+│  │  │  │  ├─ HamburgerMenuBtn.tsx
+│  │  │  │  ├─ langSwitcher.tsx
+│  │  │  │  ├─ MobileNavigation.tsx
+│  │  │  │  ├─ Navbar.tsx
+│  │  │  │  └─ NavigationLinks.tsx
+│  │  │  ├─ Products
+│  │  │  │  ├─ ProductAccordion.tsx
+│  │  │  │  └─ ProductsComp.tsx
+│  │  │  └─ Stats
+│  │  │     └─ StatsComp.tsx
+│  │  ├─ Section
+│  │  │  └─ SectionWithLocale.tsx
+│  │  ├─ Skeletons
+│  │  │  └─ ProductPageSkeleton.tsx
+│  │  └─ ui
+│  │     ├─ accordion.tsx
+│  │     ├─ background-boxes.tsx
+│  │     ├─ button-arrow.tsx
+│  │     ├─ button.tsx
+│  │     ├─ form.tsx
+│  │     ├─ label.tsx
+│  │     ├─ select.tsx
+│  │     ├─ separator.tsx
+│  │     ├─ shadow-button.tsx
+│  │     └─ skeleton.tsx
+│  ├─ i18n
+│  │  ├─ request.ts
+│  │  └─ routing.ts
+│  ├─ lib
+│  │  └─ utils.ts
+│  └─ middleware.ts
+├─ tailwind.config.ts
+├─ tsconfig.json
+└─ types
+   └─ products.tsx
+
+```

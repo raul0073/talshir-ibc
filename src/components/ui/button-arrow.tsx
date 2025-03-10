@@ -8,7 +8,7 @@ function ButtonArrow({ link }: { link: string }) {
 	const isRtl = locale === "he" || locale === "ar";
 	return (
 		<Link href={link} className="w-fit">
-			<button className="btn-small text-nowrap py-0 px-0">
+			<button className="btn-small text-nowrap py-0 px-0 flex justify-center items-center">
 				<span>{content("btnLink")}{" "}</span>
 				<span className={cn(`${isRtl ? "rotate-180" : ""}`)}>&#8594;</span>
 			</button>

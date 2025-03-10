@@ -230,4 +230,15 @@ textarea:focus {
 	box-shadow: 10px 10px 0 rgb(128, 128, 128);
 }
 
+  // typewriter effect
+.line {
+	@apply overflow-hidden;
+	@media (min-width: 768px) {
+	  line-height: 5rem;
+	}
+  }
+  .word{
+	@apply translate-y-full 
+  }
+  
   
