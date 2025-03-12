@@ -1,6 +1,8 @@
 import fire from "@/app/assets/icons/FIRE-resistance-icon 2.svg";
 import made from "@/app/assets/icons/ILMADE.svg";
 import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
+import mati from "@/app/assets/icons/mati.svg";
+import pikod from "@/app/assets/icons/pikod_haoref.svg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment, useMemo } from "react";
@@ -19,7 +21,7 @@ function ProductsComp() {
 	return (
 		<Fragment>
 			<div className="container mx-auto p-6 ">
-				<div className="header w-full max-w-xl">
+				<div className="header w-full max-w-3xl">
 					<SectionHeader className="">
 						{content.title.split(" ")[0]}{" "}
 						<span className="font-bold">{content.title.split(" ")[1]}</span>
@@ -49,7 +51,7 @@ export default ProductsComp;
 export const CertificationsIcons = () => {
 	const content = useTranslations("Products.Certifications");
 	return (
-		<div className="certifications mt-12">
+		<div className="certifications mt-12 grid grid-cols-2 sm:grid-cols-3 gap-2">
 			<div className="fire w-fit py-2 flex justify-start gap-2 items-end ">
 				<Image
 					src={fire}
@@ -63,7 +65,7 @@ export const CertificationsIcons = () => {
 					{content("fireProof")}
 				</span>
 			</div>
-			<div className="water w-fit py-2 flex justify-start gap-2 items-end ">
+			<div className="water w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
 				<Image
 					src={water}
 					loading="lazy"
@@ -76,7 +78,7 @@ export const CertificationsIcons = () => {
 					{content("waterResistant")}
 				</span>
 			</div>
-			<div className="il w-fit py-2 flex justify-start gap-2 items-end ">
+			<div className="il w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
 				<Image
 					src={made}
 					loading="lazy"
@@ -87,6 +89,32 @@ export const CertificationsIcons = () => {
 				/>
 				<span className=" uppercase text-sm sm:text-xl font-medium">
 					{content("madeIn")}
+				</span>
+			</div>
+			<div className="il w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
+				<Image
+					src={pikod}
+					loading="lazy"
+					alt="pikod_haoref_idf"
+					width={35}
+					height={35}
+					className="object-fit"
+				/>
+				<span className=" uppercase text-sm sm:text-xl font-medium">
+					{content("pikod_haoref")}
+				</span>
+			</div>
+			<div className="il w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
+				<Image
+					src={mati}
+					loading="lazy"
+					alt="institute_of_regulations_israel"
+					width={35}
+					height={35}
+					className="object-fit"
+				/>
+				<span className=" uppercase text-sm sm:text-xl font-medium">
+					{content("mati")}
 				</span>
 			</div>
 		</div>

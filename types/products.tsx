@@ -14,6 +14,7 @@ export type ProductItem = {
   modelDescription: string;
   modelUsage: string[];
   modelImages: ProductImage;
+  modelSizesCustomize: boolean;
   modelSizes: string[];
   modelDemoVideo: string;
   modelSpecification: string;

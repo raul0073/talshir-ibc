@@ -54,7 +54,7 @@ export default function Home() {
 			</SectionWithLocale>
 			<SectionWithLocale
 				sectionName="coops"
-				className="relative bg-appBlue"
+				className="relative bg-appBlue py-12"
 				id="coops">
 				<DynamicCoopsSection />
 			</SectionWithLocale>

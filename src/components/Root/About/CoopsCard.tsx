@@ -1,5 +1,5 @@
 import Image from "next/image";
-import coop1 from "./../../../../app/assets/images/coops/Tidhar-share1-removebg-preview.png";
+import coop1 from "@/app/assets/images/coops/Tidhar-share1-removebg-preview.png";
 
 export default function CoopsSection() {
 	const totalCards = 6; // Number of coops

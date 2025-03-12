@@ -42,7 +42,7 @@
   },
   "Hero": {
     "title": "تالشير-IBC",
-    "description": "تطوير وتصنيع وتسويق منتجات فريدة في قطاع البناء.",
+    "description": "تطوير وإنتاج وتسويق منتجات فريدة في صناعة البناء، والابتكار والاختراق في أساليب العمل في مجال الهياكل والتشطيبات.",
     "highlight": "جميع المنتجات تمتلك براءات اختراع وتصميمات حصرية.",
     "actions": {
       "products": "منتجاتنا",
@@ -89,25 +89,26 @@
     "description": "تمكين شركات البناء الكبرى والمطورين العقاريين بحلول متقدمة ومبتكرة تعزز الكفاءة والاستدامة ونجاح المشاريع."
   },
   "Products": {
-    "title": "حلولنا",
-    "description": "تغطي منتجات Talshir-IBC صناعات مختلفة، بما في ذلك البنية التحتية والبناء السكني والتجاري والصناعي.",
+    "title": "منتجاتنا",
+    "description": "نحن متخصصون في تصميم وتطوير منتجات فريدة وحصرية تهدف إلى تحسين عمليات البناء وجودة العمل وتقليل التكاليف وتوفير مجموعة متنوعة من الحلول لصناعة البناء.",
     "ProductsList": [
       {
         "id": 1,
-        "modelName": "مخروط سريع",
-        "modelDescription": "مخروط بلاستيكي لإغلاق القنوات المعدنية في قوالب صب الخرسانة.",
+        "modelName": "أنبوب ديفيدج",
+        "modelDescription": "أنبوب ديفيدج عالي الجودة لمسمار ديفيدج والحفاظ على المسافة بين القوالب المتقابلة.",
         "modelUsage": [
-          "يمنع اختراق الخرسانة داخل القنوات المعدنية.",
+          "يمنع دخول الخرسانة إلى القنوات المعدنية.",
           "تركيب سريع وسهل.",
-          "قابل لإعادة الاستخدام."
+          "مناسب لإعادة الاستخدام."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/dividag/dividag_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": true,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -117,20 +118,21 @@
       },
       {
         "id": 2,
-        "modelName": "حامل البلاطة",
-        "modelDescription": "حامل بلاستيكي يضمن مسافة موحدة بين قوالب الصب.",
+        "modelName": "سدادة",
+        "modelDescription": "ختم للماء والغازات تحت ضغط عالٍ لأنبوب ديفيدج في الجدران الخرسانية.",
         "modelUsage": [
           "سهل التركيب.",
-          "مناسب لأنواع مختلفة من قوالب الصب.",
+          "مناسب لمجموعة متنوعة من قوالب الصب.",
           "يمنع التشوهات في الجدران."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/stopper/stopper_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -140,20 +142,21 @@
       },
       {
         "id": 3,
-        "modelName": "مخروط القفل",
-        "modelDescription": "مخروط قفل للاستخدام مع براغي التثبيت في قوالب الصب.",
+        "modelName": "حافظة المسافة - كيبر",
+        "modelDescription": "حافظة مسافة عالية الجودة للقوالب في الجدران الخرسانية.",
         "modelUsage": [
-          "يحمي البراغي من اختراق الخرسانة.",
+          "يحمي البراغي من دخول الخرسانة.",
           "مناسب لمجموعة متنوعة من أقطار البراغي.",
           "مصمم لإعادة الاستخدام."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/keeper/keeper_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": true,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -163,20 +166,21 @@
       },
       {
         "id": 4,
-        "modelName": "قدم التسوية",
-        "modelDescription": "قاعدة بلاستيكية تساعد في تسوية العناصر أثناء صب الخرسانة.",
+        "modelName": "نادل روتيم (50 سم)",
+        "modelDescription": "حافظة مسافة عالية الجودة وقوية للشبكة السفلية في الأرضيات الخرسانية + مشبك للجدران الخرسانية.",
         "modelUsage": [
-          "يوفر الاستقرار قبل وبعد الصب.",
-          "مناسب للعناصر الخرسانية سابقة الصب.",
+          "يضمن الاستقرار قبل وبعد الصب.",
+          "مناسب للعناصر الخرسانية مسبقة الصب.",
           "مقاوم للأحمال العالية."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/nadal/nadal_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -186,20 +190,21 @@
       },
       {
         "id": 5,
-        "modelName": "قاعدة التسوية",
-        "modelDescription": "مصمم لتسوية العناصر الخرسانية سابقة الصب مثل الجدران، الأعمدة، والعوارض أثناء التركيب.",
+        "modelName": "مقعد شارون للشبكة العلوية",
+        "modelDescription": "مقعد للحديد العلوي في الأرضيات الخرسانية بسماكة (19-30 سم).",
         "modelUsage": [
           "تركيب وتعديل سهل.",
-          "مناسب لمجموعة متنوعة من العناصر الخرسانية سابقة الصب.",
+          "مناسب لمجموعة متنوعة من العناصر الخرسانية مسبقة الصب.",
           "يمنع الحركة أثناء تصلب الخرسانة."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/safsal/safsal_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -209,20 +214,21 @@
       },
       {
         "id": 6,
-        "modelName": "فاصل قضيب الربط",
-        "modelDescription": "إكسسوار متعدد الاستخدام يحافظ على المسافة الصحيحة بين قوالب صب الخرسانة.",
+        "modelName": "فلكستوب",
+        "modelDescription": "ختم مرن وعالي الجودة لأنبوب ديفيدج.",
         "modelUsage": [
-          "يضمن سمكًا موحدًا للجدران.",
+          "يضمن سمك جدار موحد.",
           "يمنع انحناء القوالب.",
           "يقلل الحاجة إلى القياسات اليدوية."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/palscope/palscope_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -232,20 +238,21 @@
       },
       {
         "id": 7,
-        "modelName": "حامل الأنابيب",
-        "modelDescription": "يُثبّت الأنابيب بأمان داخل الجدران أو الأسقف الخرسانية أثناء الصب.",
+        "modelName": "نادل +",
+        "modelDescription": "حافظة مسافة للشبكة السفلية للأحمال الثقيلة من الحديد في الأسقف الضخمة.",
         "modelUsage": [
           "تركيب بسيط بدون أدوات.",
-          "مناسب لمجموعة متنوعة من أقطار الأنابيب.",
+          "مناسب لأقطار أنابيب مختلفة.",
           "يمنع طفو الأنابيب أثناء الصب."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -255,20 +262,21 @@
       },
       {
         "id": 8,
-        "modelName": "غطاء النهاية",
-        "modelDescription": "يحمي أطراف حديد التسليح من التلف ويمنع الإصابات.",
+        "modelName": "أنبوب ديفيدج مع حافظة مسافة قابلة للتعديل",
+        "modelDescription": "حافظة مسافة مركبة على الأنبوب بالضغط مع آلية دوران 360 درجة.",
         "modelUsage": [
           "تصميم سهل التركيب.",
-          "مصنوع من بلاستيك متين.",
-          "متوافق مع معايير السلامة."
+          "مادة بلاستيكية متينة.",
+          "يلبي معايير السلامة."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -278,20 +286,21 @@
       },
       {
         "id": 9,
-        "modelName": "كتلة تغطية الخرسانة",
-        "modelDescription": "يضمن تغطية خرسانية موحدة لحديد التسليح في الجدران والأسقف.",
+        "modelName": "حافظة مسافة عالمية",
+        "modelDescription": "حافظة مسافة بقطر (8 سم) مناسبة لجميع العناصر الخرسانية في المبنى.",
         "modelUsage": [
-          "مصنوع من بلاستيك متين.",
-          "متوفر بأحجام مختلفة.",
-          "يمنع التآكل عن طريق الحفاظ على التغطية المناسبة."
+          "مصنوعة من البلاستيك المتين.",
+          "متوفرة بأحجام مختلفة.",
+          "يمنع التآكل عن طريق الحفاظ على غطاء مناسب."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail":          "/images/products/universal_keeper/universal_keeper_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -301,20 +310,21 @@
       },
       {
         "id": 10,
-        "modelName": "فاصل حديد التسليح البلاستيكي",
-        "modelDescription": "فاصل بلاستيكي يضمن المسافة الصحيحة بين شبكات حديد التسليح وقوالب الصب.",
+        "modelName": "كم",
+        "modelDescription": "كم حماية للجرانيت البورسلين في تكسية الجدران.",
         "modelUsage": [
-          "تركيب بسيط بالضغط.",
+          "إيكو وول.",
           "مناسب لمجموعة متنوعة من تطبيقات البناء.",
           "مقاومة عالية للضغط."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -324,20 +334,21 @@
       },
       {
         "id": 11,
-        "modelName": "مخروط الإغلاق",
-        "modelDescription": "مخروط بلاستيكي يستخدم لإغلاق فتحات قضبان الربط في قوالب صب الخرسانة.",
+        "modelName": "مزراب 3/4 بوصة",
+        "modelDescription": "ملحق طرفي لمزراب مياه الأمطار.",
         "modelUsage": [
-          "يحمي الفتحات من تسرب الخرسانة.",
-          "سهل التركيب والإزالة.",
-          "قابل لإعادة الاستخدام."
+          "ملحق طرفي لمرور الأنابيب في الجدران الخارجية.",
+          "تصميم بلاستيكي خفيف الوزن.",
+          "سهل التركيب والإزالة."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -347,20 +358,69 @@
       },
       {
         "id": 12,
-        "modelName": "فاصل اللوح البلاستيكي",
-        "modelDescription": "فاصل بلاستيكي يستخدم لضمان المسافة الصحيحة بين ألواح الخرسانة الجاهزة أثناء الصب.",
+        "modelName": "مشبك قابل للتعديل لزاوية الجص",
+        "modelDescription": "مشبك بلاستيكي مثبت على زاوية الجص يسمح بالتعديل في مستويين للجدار.",
         "modelUsage": [
-          "يوفر مسافات دقيقة ومتساوية.",
-          "مقاوم للضغط العالي.",
-          "سهل التركيب دون الحاجة إلى أدوات."
+          "يمنع حركة الجدران.",
+          "تركيب سريع.",
+          "مادة متينة للأداء طويل الأمد."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 13,
+        "modelName": "مشبك قابل للتعديل للميكات",
+        "modelDescription": "يسمح بتركيب وتعديل الميكات بسهولة وسرعة وبدقة قصوى.",
+        "modelUsage": [
+          "يمنع حركة الجدران.",
+          "تركيب سريع.",
+          "مادة متينة للأداء طويل الأمد."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 14,
+        "modelName": "عجلة انزلاق للركائز",
+        "modelDescription": "عجلة بقطر 110 مم، تحافظ على قفص الحديد من ملامسة الأرض.",
+        "modelUsage": [
+          "يمنع حركة الجدران.",
+          "تركيب سريع.",
+          "مادة متينة للأداء طويل الأمد."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -372,7 +432,15 @@
     "Certifications": {
       "fireProof": "مقاوم للحريق",
       "waterResistant": "مقاوم للماء",
-      "madeIn": "صنع في إسرائيل"
+      "madeIn": "صنع في إسرائيل",
+      "pikod_haoref": "قيادة الجبهة الداخلية",
+      "mati": "معهد المواصفات الإسرائيلي",
+      "customizable": "يمكن الحصول عليه حسب المقاس",
+      "moreSizesAvailable": "متوفر بأحجام إضافية",
+      "customColors": "متوفر بمجموعة متنوعة من الألوان"
+    },
+    "Actions": {
+      "btnProductPage": "صفحة المنتج"
     }
   },
   "Contact": {

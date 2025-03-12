@@ -1,4 +1,3 @@
-
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
@@ -13,7 +12,6 @@ function CoopsComp() {
 	const title = titleParts.join(" ");
 	return (
 		<Fragment>
-	
 			{/* boxes */}
 			{/* top right */}
 			{/* 
@@ -26,74 +24,43 @@ function CoopsComp() {
 			<span className="w-12 lg:w-44 h-12 lg:h-44 bg-[#4B4B4B] opacity-10 absolute bottom-0 left-0 z-0"></span>
 			*/}
 			{/* content */}
-			
+
 			<div className="container mx-auto relative">
-				<div className="w-full mx-auto max-w-xl text-center">
+				<div className="w-full mx-auto max-w-xl text-center mb-4">
 					<SectionHeader className="text-center text-white">
 						{title} <span className="font-bold">{lastWord}</span>
 					</SectionHeader>
-
 				</div>
-				<div className="coops logos w-full py-12 mx-auto max-w-xl grid grid-cols-3 md:grid-cols-4 gap-4 place-content-center place-items-center">
-					<Image
-						src={coops1}
-						loading="lazy"
-						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
-						width={150}
-						height={150}
-					/>
+				<div className="coops logos w-full py-12 mx-auto max-w-xl grid grid-cols-2 md:grid-cols-4 gap-4 place-content-center place-items-center">
 					<Image
 						src={coops2}
 						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
+						className=" w-44 h-auto "
 						width={150}
 						height={150}
 					/>
 					<Image
 						src={coops1}
 						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
+						className=" w-44 h-auto "
 						width={150}
 						height={150}
 					/>
 					<Image
 						src={coops2}
 						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
+						className=" w-44 h-auto "
 						width={150}
 						height={150}
 					/>
 					<Image
 						src={coops1}
 						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
-						width={150}
-						height={150}
-					/>
-					<Image
-						src={coops2}
-						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
-						width={150}
-						height={150}
-					/>
-					<Image
-						src={coops1}
-						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
-						width={150}
-						height={150}
-					/>
-					<Image
-						src={coops2}
-						alt="coops"
-						className="grayscale w-44 h-auto hover:grayscale-0"
+						className=" w-44 h-auto "
 						width={150}
 						height={150}
 					/>
 				</div>
-		
 			</div>
 			<div className="stats w-full max-w-5xl mx-auto">
 				<StatsBar />

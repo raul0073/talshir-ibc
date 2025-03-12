@@ -1,5 +1,5 @@
 "use client";
-import img1 from "@/app/../../public/images/products/nadal_action1.jpg";
+import img1 from "@/app/../../public/images/products/nadal/nadal_action1.jpg";
 import ModelComp from "@/components/Root/3D/ModelComp";
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { Separator } from "@/components/ui/separator";
@@ -12,11 +12,13 @@ import ProductModal from "./ProductModal";
 function ProductComp({ productName }: { productName: string }) {
 	const [ModalOn, setModalOn] = useState<boolean>(false);
 	const [productImg, setProductImg] = useState<StaticImageData>();
+
+	const tPage = useTranslations("ProductPage");
 	const t = useTranslations("Products");
 	const thisProd = useMemo(() => {
 		return t
 			.raw("ProductsList")
-			.find((p: ProductItem) => p.modelName === productName);
+			.find((p: ProductItem) => p.modelName.trim() === productName.trim());
 	}, [t, productName]);
 	const locale = useLocale();
 	const isRtl = locale === "he" || locale === "ar";
@@ -39,7 +41,7 @@ function ProductComp({ productName }: { productName: string }) {
 						<Separator />
 						<div className="model-description p-3 sm:p-4">
 							<h1 className="font-semibold text-2xl md:text-3xl uppercase text-zinc-900 mb-4 tracking-tight">
-								model description
+								{tPage("modelDescription")}
 							</h1>
 							<p className="text-base sm:font-medium break-words text-pretty">
 								{thisProd.modelDescription}
@@ -48,7 +50,7 @@ function ProductComp({ productName }: { productName: string }) {
 						<Separator />
 						<div className="model-usage p-3 sm:p-4">
 							<h1 className="font-semibold text-xl sm:text-2xl uppercase text-zinc-900 mb-4">
-								model usage
+							{tPage("modelUsage")}
 							</h1>
 							<ul className="text-sm md:text-base capitalize w-full list-disc px-2 sm:px-1 space-y-1">
 								{thisProd.modelUsage.map((line: string, index: number) => (
@@ -59,7 +61,7 @@ function ProductComp({ productName }: { productName: string }) {
 						<Separator />
 						<div className="model-certifications p-3 sm:p-4 hidden md:flex">
 							<h1 className="font-bold text-2xl uppercase text-sky-900 mb-4">
-								model certifications / materials / anydata
+							{tPage("modelMoreData")}
 							</h1>
 							{productImg && ModalOn && (
 								<ProductModal
@@ -76,7 +78,7 @@ function ProductComp({ productName }: { productName: string }) {
 						</div>
 						<div className="images-col p-4">
 							<h1 className="font-bold text-2xl uppercase text-sky-900 mb-4">
-								model usage graphics
+							{tPage("modelGraphicsUsage")} - <span>{" "}{productName}</span>
 							</h1>
 							<div className="w-full flex justify-evenly items-center gap-4">
 								<div className="w-24 md:w-36 h-24 md:h-36 bg-gray-300">

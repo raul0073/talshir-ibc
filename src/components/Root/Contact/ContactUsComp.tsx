@@ -67,8 +67,8 @@ function ContactUsCopmp() {
 					{content("description")}
 				</p>
 			</div>
-			<div className="grid sm:grid-cols-2 gap-12 py-24">
-				<div className="form sm:w-3/4 col-span-2">
+			<div className="py-24">
+				<div className="form sm:w-3/4 ">
 					<ContactForm setFormComplete={setFormComplete} />
 				</div>
 			</div>

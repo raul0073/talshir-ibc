@@ -7,15 +7,24 @@ import {
 	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
+import ShadowButton from "@/components/ui/shadow-button";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { IconSend } from "@tabler/icons-react";
+import {
+	IconBrandGmail,
+	IconBrandWhatsapp,
+	IconPhone,
+	IconSend,
+} from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
+import { Dispatch, SetStateAction } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { InputComp } from "./ContactUsComp";
-import { Dispatch, SetStateAction } from "react";
-import ShadowButton from "@/components/ui/shadow-button";
-function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateAction<boolean>>}) {
+function ContactForm({
+	setFormComplete,
+}: {
+	setFormComplete: Dispatch<SetStateAction<boolean>>;
+}) {
 	const locale = useLocale();
 	const isRTL = locale === "he" || locale === "ar";
 	const labels = useTranslations("Contact.form");
@@ -35,6 +44,16 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 				message: labels.raw("minLength"),
 			})
 			.max(30, {
+				message: labels.raw("maxLength"),
+			}),
+		company: z
+			.string({
+				message: labels.raw("required"),
+			})
+			.min(2, {
+				message: labels.raw("minLength"),
+			})
+			.max(60, {
 				message: labels.raw("maxLength"),
 			}),
 		email: z
@@ -83,6 +102,7 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 		resolver: zodResolver(contactFormSchema),
 		defaultValues: {
 			full_name: "",
+			company: "",
 			email: "",
 			phone: "",
 			role: "",
@@ -91,7 +111,7 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 	});
 	function onSubmit(values: z.infer<typeof contactFormSchema>) {
 		// Do something with the form values.
-		handleFormCompleted()
+		handleFormCompleted();
 		console.log(values);
 		form.reset();
 	}
@@ -100,7 +120,7 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 		<Form {...form}>
 			<form
 				onSubmit={form.handleSubmit(onSubmit)}
-				className="grid sm:grid-cols-2 gap-4 sm:gap-8">
+				className="space-y-4 sm:grid sm:grid-cols-2 sm:space-y-0 gap-4">
 				<FormField
 					control={form.control}
 					name="full_name"
@@ -109,6 +129,19 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 							<FormLabel>{labels("name")}</FormLabel>
 							<FormControl>
 								<InputComp placeholder={labels("name") + "*"} {...field} />
+							</FormControl>
+							<FormMessage />
+						</FormItem>
+					)}
+				/>
+				<FormField
+					control={form.control}
+					name="company"
+					render={({ field }) => (
+						<FormItem className="flex flex-col gap-1">
+							<FormLabel>{labels("company")}</FormLabel>
+							<FormControl>
+								<InputComp placeholder={labels("company") + "*"} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -172,7 +205,41 @@ function ContactForm({setFormComplete}: {setFormComplete: Dispatch<SetStateActio
 					)}
 				/>
 
-				<div className="w-full flex justify-end items-center pt-12">
+				<div className="flex justify-between items-center pt-12 col-span-2">
+					<div className="flex gap-4">
+						<ul className="space-y-3">
+							<li className="capitalize flex items-center justify-start gap-2 w-full">
+								<span>
+									<IconPhone
+										className="inline text-gray-600"
+										width={40}
+										height={40}
+									/>
+								</span>
+								<span className="text-black/50">+972 555555555</span>
+							</li>
+							<li className="capitalize flex items-center justify-start gap-2 w-full">
+								<span>
+									<IconBrandWhatsapp
+										className="inline text-lime-600"
+										width={40}
+										height={40}
+									/>
+								</span>
+								<span className="text-black/50">+972 5555555 / 60</span>
+							</li>
+							<li className=" flex items-center justify-start gap-2 w-full">
+								<span>
+									<IconBrandGmail
+										className="inline text-red-600"
+										width={40}
+										height={40}
+									/>
+								</span>
+								<span className="text-black/50">talshir@email.com</span>
+							</li>
+						</ul>
+					</div>
 					<ShadowButton
 						icon={<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />}
 						variant="default"

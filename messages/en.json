@@ -90,55 +90,49 @@
   },
   "Products": {
     "title": "Our Products",
-    "description": "Talshir-IBC's products span various industries, including infrastructure, residential, commercial, and industrial construction.",
+    "description": "We specialize in the design and development of unique and exclusive products designed to improve construction processes, work quality, reduce costs and provide a variety of solutions for the construction industry.",
     "ProductsList": [
       {
         "id": 1,
-        "modelName": "SPACER",
-        "modelDescription": "A standardized concrete form spacer ensuring maximal precision in placing concrete forms and meshes, saving time, money, and manpower.",
+        "modelName": "Dividag Pipe",
+        "modelDescription": "High-quality Dividag pipe for Dividag bolt and maintains distance between opposite formwork.",
         "modelUsage": [
-          "Universal plastic accessory, easy to install with a click.\n",
-          "Designed for casting concrete walls, columns, and beams.\n",
-          "Compatible with 6-12 mm rebars.\n",
-          "Maintains standard spaces between reinforcing meshes and forms.\n",
-          "High compressive strength.\n",
-          "Minimal interface with forms.\n",
-          "Recommended use: 3-4 units per 1 m².\n"
+          "Prevents concrete from entering the metal ducts.",
+          "Quick and easy installation.",
+          "Suitable for reuse."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30-1030x641.jpg",
-          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG1.jpg",
-          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg",
-          "usage3": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg"
-        },
-        "modelSizes": [
-          20,
-          25,
-          30
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": "60215"
-      },
-      {
-        "id": 2,
-        "modelName": "Nadal – Rotem",
-        "modelDescription": "A specialized spacer designed for specific reinforcement needs in construction projects.",
-        "modelUsage": [
-          "Ensures proper spacing between reinforcement elements.",
-          "Facilitates accurate concrete coverage.",
-          "Easy to install and adjust."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/dividag/dividag_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": true,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 2,
+        "modelName": "Stopper",
+        "modelDescription": "Seal for water and gases under high pressure for Dividag pipe in concrete walls.",
+        "modelUsage": [
+          "Easy to install.",
+          "Suitable for a variety of casting molds.",
+          "Prevents distortions in walls."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/stopper/stopper_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -148,28 +142,22 @@
       },
       {
         "id": 3,
-        "modelName": "Bench – Upper Reinforcement",
-        "modelDescription": "The 'Sharon' Bench is designed to support upper reinforcement in ceilings, ensuring stability and precise positioning.",
+        "modelName": "Spacer - Keeper",
+        "modelDescription": "High-quality spacer for formwork in concrete walls.",
         "modelUsage": [
-          "Suitable for ceilings with a thickness of 20–27 cm.",
-          "Easy and quick assembly with a bottom iron clip.",
-          "Provides a straight line for mounting support iron to the net.",
-          "Cost-effective, requiring 1 unit per square meter of upper mesh.",
-          "High load resistance, with each bench supporting up to 200 kg."
+          "Protects bolts from concrete ingress.",
+          "Suitable for a variety of bolt diameters.",
+          "Designed for reuse."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-1.jpg",
-          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-3.jpg",
-          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-2.jpg",
+          "thumbnail": "/images/products/keeper/keeper_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
           "usage3": ""
         },
-        "modelSizes": [
-          20,
-          23,
-          25,
-          27
-        ],
+        "modelSizesCustomize": true,
+        "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -178,73 +166,45 @@
       },
       {
         "id": 4,
-        "modelName": "Universal Spacer",
-        "modelDescription": "A circular distance guard with a diameter of 8 cm, suitable for various building elements.",
+        "modelName": "Nadal Rotem (50cm)",
+        "modelDescription": "High-quality and strong spacer for the lower mesh in concrete floors + clip for concrete walls.",
         "modelUsage": [
-          "Applicable for walls, columns, beams, and ceilings.",
-          "Easy and quick to assemble, attaching easily to iron.",
-          "Cost-effective, suitable for all construction elements.",
-          "Available in concrete cover thicknesses of 2.5 cm and 3 cm."
+          "Ensures stability before and after casting.",
+          "Suitable for precast concrete elements.",
+          "Resistant to high loads."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Universal-spacer2.jpg",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizes": [
-          2.5,
-          3
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 5,
-        "modelName": "Tube Spacer",
-        "modelDescription": "A premium protective tube spacer designed to maintain proper spacing and prevent water infiltration.",
-        "modelUsage": [
-          "Ensures correct distance between reinforcing mesh and framework.",
-          "Built-in sealing rings prevent water infiltration along the pipe.",
-          "Significant savings in expenses and labor.",
-          "Available in lengths up to 200 cm."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/צינור-דיווידג-מחוזק1.jpg",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizes": [
-          200
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 5,
-        "modelName": "BASE LEVELER",
-        "modelDescription": "Designed to level prefabricated concrete elements such as walls, columns, and beams during installation.",
-        "modelUsage": [
-          "Easy to install and adjust.",
-          "Suitable for various prefabricated elements.",
-          "Prevents shifting during concrete curing."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/nadal/nadal_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 5,
+        "modelName": "Sharon Bench for Upper Mesh",
+        "modelDescription": "Bench for upper iron in concrete floors with thickness (19-30cm).",
+        "modelUsage": [
+          "Easy installation and adjustment.",
+          "Suitable for a variety of precast concrete elements.",
+          "Prevents movement during concrete hardening."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/safsal/safsal_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -254,20 +214,21 @@
       },
       {
         "id": 6,
-        "modelName": "TIE ROD SPACER",
-        "modelDescription": "A reusable accessory that maintains the correct distance between concrete form panels.",
+        "modelName": "Flexstop",
+        "modelDescription": "Flexible and high-quality seal for Dividag pipe.",
         "modelUsage": [
-          "Ensures consistent wall thickness.",
-          "Prevents bending of form panels.",
+          "Ensures uniform wall thickness.",
+          "Prevents bending of formwork.",
           "Reduces the need for manual measurements."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/palscope/palscope_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -277,20 +238,21 @@
       },
       {
         "id": 7,
-        "modelName": "PIPE HOLDER",
-        "modelDescription": "Securely holds pipes within concrete walls or slabs during casting.",
+        "modelName": "Nadal +",
+        "modelDescription": "Spacer for the lower mesh for heavy iron loads in massive ceilings.",
         "modelUsage": [
-          "Easy installation without tools.",
-          "Compatible with different pipe diameters.",
-          "Prevents pipes from floating during pouring."
+          "Simple installation without tools.",
+          "Suitable for different pipe diameters.",
+          "Prevents pipe flotation during casting."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -300,20 +262,21 @@
       },
       {
         "id": 8,
-        "modelName": "END CAP",
-        "modelDescription": "Protects the ends of rebars from damage and prevents injuries.",
+        "modelName": "Dividag Pipe with Adjustable Spacer",
+        "modelDescription": "Spacer mounted on the pipe by pressing with a 360-degree rotation mechanism.",
         "modelUsage": [
-          "Simple push-on design.",
+          "Easy-to-install design.",
           "Durable plastic material.",
-          "Complies with safety regulations."
+          "Meets safety standards."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -323,20 +286,21 @@
       },
       {
         "id": 9,
-        "modelName": "CONCRETE COVER BLOCK",
-        "modelDescription": "Ensures consistent concrete cover over rebars in slabs and walls.",
+        "modelName": "Universal Spacer",
+        "modelDescription": "Spacer with a diameter of (8cm) suitable for all concrete elements in the building.",
         "modelUsage": [
-          "Made from durable plastic.",
-          "Different sizes available.",
+          "Made of durable plastic.",
+          "Available in different sizes.",
           "Prevents corrosion by maintaining proper cover."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -346,20 +310,21 @@
       },
       {
         "id": 10,
-        "modelName": "REBAR CLIP",
-        "modelDescription": "Quickly attaches rebars together without the need for wire ties.",
+        "modelName": "Sleeve",
+        "modelDescription": "Protection sleeve for porcelain granite in wall cladding.",
         "modelUsage": [
-          "Speeds up rebar installation.",
-          "Reusable design.",
-          "Compatible with various rebar diameters."
+          "Eco Wall.",
+          "Suitable for a variety of construction applications.",
+          "High pressure resistance."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -369,20 +334,21 @@
       },
       {
         "id": 11,
-        "modelName": "CONE SPACER",
-        "modelDescription": "Used to create consistent gaps between concrete panels and maintain proper spacing.",
+        "modelName": "3/4 Inch Gutter",
+        "modelDescription": "End accessory for rainwater gutter.",
         "modelUsage": [
-          "Ensures uniform gaps.",
+          "End accessory for pipe passage in exterior walls.",
           "Lightweight plastic design.",
           "Easy to install and remove."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -392,20 +358,69 @@
       },
       {
         "id": 12,
-        "modelName": "WALL SPACER",
-        "modelDescription": "Maintains a fixed distance between double-wall prefabricated elements during casting.",
+        "modelName": "Adjustable Clip for Plaster Corner",
+        "modelDescription": "Plastic clip mounted on the plaster corner that allows adjustment in two wall planes.",
         "modelUsage": [
-          "Prevents wall shifting.",
+          "Prevents wall movement.",
           "Quick installation.",
           "Durable material for long-lasting performance."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal-noBG.png",
+          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 13,
+        "modelName": "Adjustable Clip for Micas",
+        "modelDescription": "Allows easy and quick mounting and adjustment of micas with maximum precision.",
+        "modelUsage": [
+          "Prevents wall movement.",
+          "Quick installation.",
+          "Durable material for long-lasting performance."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 14,
+        "modelName": "Sliding Wheel for Piles",
+        "modelDescription": "Wheel with a diameter of 110mm, keeps the iron cage out of contact with the ground.",
+        "modelUsage": [
+          "Prevents wall movement.",
+          "Quick installation.",
+          "Durable material for long-lasting performance."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -415,9 +430,17 @@
       }
     ],
     "Certifications": {
-      "fireProof": "fire proof",
-      "waterResistant": "water resistant",
-      "madeIn": "made in israel"
+      "fireProof": "Fireproof",
+      "waterResistant": "Water Resistant",
+      "madeIn": "Made in Israel",
+      "pikod_haoref": "Home Front Command",
+      "mati": "Standards Institution of Israel",
+      "customizable": "Available custom made",
+      "moreSizesAvailable": "More sizes available",
+      "customColors": "Available in a variety of colors"
+    },
+    "Actions": {
+      "btnProductPage": "Product Page"
     }
   },
   "Contact": {
@@ -425,6 +448,7 @@
     "description": "Our team of experts is here for you.",
     "form": {
       "name": "Full Name",
+      "company" : "Company",
       "email": "Email",
       "phone": "Phone",
       "message": "Message",

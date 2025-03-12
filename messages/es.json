@@ -42,7 +42,7 @@
   },
   "Hero": {
     "title": "Talshir-IBC",
-    "description": "Desarrollo, fabricación y comercialización de productos únicos en la industria de la construcción.",
+    "description": "Desarrollo, producción y comercialización de productos únicos en la industria de la construcción.",
     "highlight": "Todos los productos cuentan con patentes únicas y diseños exclusivos.",
     "actions": {
       "products": "Nuestros productos",
@@ -89,56 +89,50 @@
     "description": "Brindamos soluciones avanzadas e innovadoras a las principales empresas de construcción y desarrolladores privados, mejorando la eficiencia, la sostenibilidad y el éxito del proyecto."
   },
   "Products": {
-    "title": "Nuestras Soluciones",
-    "description": "Los productos de Talshir-IBC abarcan diversas industrias, incluidas la infraestructura, la construcción residencial, comercial e industrial.",
+    "title": "Nuestros Productos",
+    "description": "Nos especializamos en el diseño y desarrollo de productos únicos y exclusivos destinados a mejorar los procesos de construcción, la calidad del trabajo, reducir costos y proporcionar una variedad de soluciones para la industria de la construcción.",
     "ProductsList": [
       {
         "id": 1,
-        "modelName": "SPACER",
-        "modelDescription": "Un separador de hormigón estandarizado que garantiza la máxima precisión al colocar encofrados y mallas de hormigón, ahorrando tiempo, dinero y mano de obra.",
+        "modelName": "Tubo Dividag",
+        "modelDescription": "Tubo Dividag de alta calidad para perno Dividag y mantiene la distancia entre encofrados opuestos.",
         "modelUsage": [
-          "Accesorio plástico universal, fácil de instalar con un clic.",
-          "Diseñado para fundir paredes, columnas y vigas de hormigón.",
-          "Compatible con barras de refuerzo de 6-12 mm.",
-          "Mantiene espacios estándar entre mallas de refuerzo y encofrados.",
-          "Alta resistencia a la compresión.",
-          "Interfaz mínima con los encofrados.",
-          "Uso recomendado: 3-4 unidades por 1 m²."
+          "Evita la entrada de hormigón en los conductos metálicos.",
+          "Instalación rápida y sencilla.",
+          "Apto para reutilización."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30-1030x641.jpg",
-          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG1.jpg",
-          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg",
-          "usage3": "https://talshir-ibc.com/wp-content/uploads/2019/05/Keeper-20-25-IBC-ENG3.jpg"
-        },
-        "modelSizes": [
-          20,
-          25,
-          30
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": "60215"
-      },
-      {
-        "id": 2,
-        "modelName": "Nadal – Rotem",
-        "modelDescription": "Un separador especializado diseñado para necesidades específicas de refuerzo en proyectos de construcción.",
-        "modelUsage": [
-          "Garantiza la distancia adecuada entre elementos de refuerzo.",
-          "Facilita una cobertura precisa de hormigón.",
-          "Fácil de instalar y ajustar."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/dividag/dividag_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": true,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 2,
+        "modelName": "Tapón",
+        "modelDescription": "Sello para agua y gases a alta presión para tubo Dividag en paredes de hormigón.",
+        "modelUsage": [
+          "Fácil de instalar.",
+          "Adecuado para una variedad de encofrados de fundición.",
+          "Evita deformaciones en las paredes."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/stopper/stopper_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -148,28 +142,22 @@
       },
       {
         "id": 3,
-        "modelName": "Bench – Spacer for Upper Reinforcement",
-        "modelDescription": "El banco 'Sharon' está diseñado para soportar refuerzos superiores en techos, garantizando estabilidad y posicionamiento preciso.",
+        "modelName": "Separador - Keeper",
+        "modelDescription": "Separador de alta calidad para encofrados en paredes de hormigón.",
         "modelUsage": [
-          "Adecuado para techos con un grosor de 20–27 cm.",
-          "Montaje rápido y sencillo con un clip de hierro inferior.",
-          "Proporciona una línea recta para montar el hierro de soporte a la red.",
-          "Rentable, se requiere 1 unidad por metro cuadrado de malla superior.",
-          "Alta resistencia a la carga, con cada banco soportando hasta 200 kg."
+          "Protege los pernos de la entrada de hormigón.",
+          "Adecuado para una variedad de diámetros de pernos.",
+          "Diseñado para reutilización."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-1.jpg",
-          "usage1": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-3.jpg",
-          "usage2": "https://talshir-ibc.com/wp-content/uploads/2019/05/Bench-ENG-2.jpg",
+          "thumbnail": "/images/products/keeper/keeper_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
           "usage3": ""
         },
-        "modelSizes": [
-          20,
-          23,
-          25,
-          27
-        ],
+        "modelSizesCustomize": true,
+        "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
@@ -178,73 +166,45 @@
       },
       {
         "id": 4,
-        "modelName": "Universal Spacer",
-        "modelDescription": "Un protector de distancia circular con un diámetro de 8 cm, adecuado para diversos elementos de construcción.",
+        "modelName": "Nadal Rotem (50cm)",
+        "modelDescription": "Separador fuerte y de alta calidad para la malla inferior en pisos de hormigón + clip para paredes de hormigón.",
         "modelUsage": [
-          "Aplicable para paredes, columnas, vigas y techos.",
-          "Fácil y rápido de montar, se fija fácilmente al hierro.",
-          "Rentable, adecuado para todos los elementos de construcción.",
-          "Disponible en espesores de recubrimiento de hormigón de 2.5 cm y 3 cm."
+          "Garantiza la estabilidad antes y después del vertido.",
+          "Adecuado para elementos de hormigón prefabricado.",
+          "Resistente a altas cargas."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/Universal-spacer2.jpg",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizes": [
-          2.5,
-          3
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 5,
-        "modelName": "High Quality Tube Spacer",
-        "modelDescription": "Un separador de tubo protector de alta calidad diseñado para mantener la distancia adecuada y evitar la infiltración de agua.",
-        "modelUsage": [
-          "Garantiza la distancia correcta entre la malla de refuerzo y el encofrado.",
-          "Los anillos de sellado integrados evitan la infiltración de agua a lo largo de la tubería.",
-          "Ahorros significativos en gastos y mano de obra.",
-          "Disponible en longitudes de hasta 200 cm."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/05/צינור-דיווידג-מחוזק1.jpg",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizes": [
-          200
-        ],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 5,
-        "modelName": "BASE LEVELER",
-        "modelDescription": "Diseñado para nivelar elementos prefabricados de hormigón como paredes, columnas y vigas durante la instalación.",
-        "modelUsage": [
-          "Fácil de instalar y ajustar.",
-          "Adecuado para varios elementos prefabricados.",
-          "Evita el desplazamiento durante el fraguado del hormigón."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/nadal/nadal_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 5,
+        "modelName": "Banco Sharon para malla superior",
+        "modelDescription": "Banco para hierro superior en pisos de hormigón con espesor (19-30cm).",
+        "modelUsage": [
+          "Fácil instalación y ajuste.",
+          "Adecuado para una variedad de elementos de hormigón prefabricado.",
+          "Evita el movimiento durante el endurecimiento del hormigón."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/safsal/safsal_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -254,20 +214,21 @@
       },
       {
         "id": 6,
-        "modelName": "TIE ROD SPACER",
-        "modelDescription": "Accesorio reutilizable que mantiene la distancia correcta entre paneles de encofrado de hormigón.",
+        "modelName": "Flexstop",
+        "modelDescription": "Sello flexible y de alta calidad para tubo Dividag.",
         "modelUsage": [
           "Garantiza un espesor de pared uniforme.",
-          "Evita la flexión de los paneles de encofrado.",
+          "Evita la flexión de los encofrados.",
           "Reduce la necesidad de mediciones manuales."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/palscope/palscope_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -277,20 +238,21 @@
       },
       {
         "id": 7,
-        "modelName": "PIPE HOLDER",
-        "modelDescription": "Sujeta de forma segura las tuberías dentro de las paredes o losas de hormigón durante el vertido.",
+        "modelName": "Nadal +",
+        "modelDescription": "Separador para la malla inferior para cargas pesadas de hierro en techos macizos.",
         "modelUsage": [
           "Instalación sencilla sin herramientas.",
-          "Compatible con diferentes diámetros de tuberías.",
-          "Evita que las tuberías floten durante el vertido."
+          "Adecuado para diferentes diámetros de tubería.",
+          "Evita la flotación de las tuberías durante el vertido."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -300,20 +262,21 @@
       },
       {
         "id": 8,
-        "modelName": "END CAP",
-        "modelDescription": "Protege los extremos de las barras de refuerzo contra daños y previene lesiones.",
+        "modelName": "Tubo Dividag con separador ajustable",
+        "modelDescription": "Separador montado en el tubo mediante presión con mecanismo de rotación de 360 grados.",
         "modelUsage": [
-          "Diseño de fácil colocación.",
+          "Diseño fácil de instalar.",
           "Material plástico duradero.",
-          "Cumple con las normativas de seguridad."
+          "Cumple con las normas de seguridad."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -323,20 +286,21 @@
       },
       {
         "id": 9,
-        "modelName": "CONCRETE COVER BLOCK",
-        "modelDescription": "Garantiza una cobertura de hormigón uniforme sobre las barras de refuerzo en losas y paredes.",
+        "modelName": "Separador universal",
+        "modelDescription": "Separador con un diámetro de (8 cm) adecuado para todos los elementos de hormigón en el edificio.",
         "modelUsage": [
-          "Fabricado con plástico duradero.",
+          "Hecho de plástico duradero.",
           "Disponible en diferentes tamaños.",
-          "Previene la corrosión manteniendo la cobertura adecuada."
+          "Evita la corrosión al mantener una cubierta adecuada."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -346,20 +310,21 @@
       },
       {
         "id": 10,
-        "modelName": "PLASTIC REBAR SPACER",
-        "modelDescription": "Espaciador de plástico para barras de refuerzo que garantiza la separación correcta entre las mallas de refuerzo y los encofrados.",
+        "modelName": "Manguito",
+        "modelDescription": "Manguito de protección para gres porcelánico en revestimiento de paredes.",
         "modelUsage": [
-          "Fácil instalación con ajuste a presión.",
-          "Adecuado para varias aplicaciones de construcción.",
-          "Alta resistencia a la compresión."
+          "Eco Wall.",
+          "Adecuado para una variedad de aplicaciones de construcción.",
+          "Alta resistencia a la presión."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -369,20 +334,21 @@
       },
       {
         "id": 11,
-        "modelName": "REBAR CHAIR",
-        "modelDescription": "Soporte para barras de refuerzo que garantiza la posición adecuada de la malla de refuerzo en losas y elementos de hormigón.",
+        "modelName": "Canalón de 3/4 de pulgada",
+        "modelDescription": "Accesorio de extremo para canalón de agua de lluvia.",
         "modelUsage": [
-          "Proporciona estabilidad y espacio uniforme.",
-          "Fácil de instalar sin herramientas adicionales.",
-          "Disponible en diferentes alturas."
+          "Accesorio de extremo para el paso de tuberías en paredes exteriores.",
+          "Diseño de plástico ligero.",
+          "Fácil de instalar y quitar."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -392,20 +358,69 @@
       },
       {
         "id": 12,
-        "modelName": "PLASTIC PIPE SPACER",
-        "modelDescription": "Espaciador de plástico para tuberías que garantiza la posición correcta de las tuberías dentro de los elementos de hormigón.",
+        "modelName": "Clip ajustable para esquina de yeso",
+        "modelDescription": "Clip de plástico montado en la esquina del yeso que permite el ajuste en dos planos de la pared.",
         "modelUsage": [
-          "Instalación rápida sin herramientas.",
-          "Compatible con diferentes diámetros de tuberías.",
-          "Evita el desplazamiento durante el vertido."
+          "Evita el movimiento de las paredes.",
+          "Instalación rápida.",
+          "Material duradero para un rendimiento duradero."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/spacer-noBG.png",
+          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
           "productPageMain": "",
           "usage1": "",
           "usage2": "",
           "usage3": ""
         },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 13,
+        "modelName": "Clip ajustable para micas",
+        "modelDescription": "Permite el montaje y ajuste de las mas micas de forma fácil y rápida con la máxima precisión.",
+        "modelUsage": [
+          "Evita el movimiento de las paredes.",
+          "Instalación rápida.",
+          "Material duradero para un rendimiento duradero."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": 14,
+        "modelName": "Rueda deslizante para pilotes",
+        "modelDescription": "Rueda con un diámetro de 110 mm, mantiene la jaula de hierro fuera de contacto con el suelo.",
+        "modelUsage": [
+          "Evita el movimiento de las paredes.",
+          "Instalación rápida.",
+          "Material duradero para un rendimiento duradero."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+          "productPageMain": "",
+          "usage1": "",
+          "usage2": "",
+          "usage3": ""
+        },
+        "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelSpecification": "",
@@ -415,9 +430,17 @@
       }
     ],
     "Certifications": {
-      "fireProof": "a prueba de fuego",
-      "waterResistant": "resistente al agua",
-      "madeIn": "Hecho en Israel"
+      "fireProof": "A prueba de fuego",
+      "waterResistant": "Resistente al agua",
+      "madeIn": "Hecho en Israel",
+      "pikod_haoref": "Mando del Frente Interior",
+      "mati": "Instituto de Normas de Israel",
+      "customizable": "Disponible a medida",
+      "moreSizesAvailable": "Disponible en tamaños adicionales",
+      "customColors": "Disponible en una variedad de colores"
+    },
+    "Actions": {
+      "btnProductPage": "Página del producto"
     }
   },
   "Contact": {
