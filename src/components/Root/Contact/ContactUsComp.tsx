@@ -97,7 +97,7 @@ export const InputComp = ({
 		<input
 			type={type}
 			placeholder={placeholder}
-			className={`inputComp focus:outline-none shadow-md border border-gray-400 p-3 placeholder:text-red-600 text-gray-700 font-medium text-lg ${className}`}
+			className={`inputComp focus:outline-none shadow-md border border-sky-900 p-3 placeholder:text-neutral-600 text-gray-700 font-medium text-lg rounded-[.2rem] ${className}`}
 			value={value}
 			onChange={onChange}
 		/>

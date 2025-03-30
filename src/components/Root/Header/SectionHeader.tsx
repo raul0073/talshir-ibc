@@ -20,7 +20,7 @@ function SectionHeader({
 			<h2
 			{...props}
 			className={cn(
-				"text-5xl lg:text-7xl tracking-tight font-medium capitalize text-zinc-800 w-full",
+				"text-5xl lg:text-7xl tracking-tight font-bold capitalize text-appTextBlue w-full",
 				props.className
 			)}>
 			{children} 

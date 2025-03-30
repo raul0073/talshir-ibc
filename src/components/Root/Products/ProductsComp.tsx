@@ -1,8 +1,11 @@
+"use client";
 import fire from "@/app/assets/icons/FIRE-resistance-icon 2.svg";
 import made from "@/app/assets/icons/ILMADE.svg";
 import water from "@/app/assets/icons/WATER-resistance-icon 2.svg";
-import mati from "@/app/assets/icons/mati.svg";
 import pikod from "@/app/assets/icons/pikod_haoref.svg";
+import carmel2 from "@/app/assets/images/certifications/carmel-ap.png";
+import carmel from "@/app/assets/images/certifications/carmel.png";
+import mati2 from "@/app/assets/images/certifications/mati.png";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment, useMemo } from "react";
@@ -26,18 +29,11 @@ function ProductsComp() {
 						{content.title.split(" ")[0]}{" "}
 						<span className="font-bold">{content.title.split(" ")[1]}</span>
 					</SectionHeader>
-					<p className="max-w-2xl text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-6">
-						{content.description}
-					</p>
-					<CertificationsIcons />
 				</div>
-				<div className="products w-full grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 pt-12">
+				<div className="products w-full grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 pt-20">
 					{products.map((prod, i) => {
 						return (
-							<ProductCard
-								key={`${prod.modelName}-${i}`}
-								product={prod}
-							/>
+							<ProductCard key={`${prod.modelName}-${i}`} product={prod} />
 						);
 					})}
 				</div>
@@ -104,19 +100,47 @@ export const CertificationsIcons = () => {
 					{content("pikod_haoref")}
 				</span>
 			</div>
-			<div className="il w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
-				<Image
-					src={mati}
-					loading="lazy"
-					alt="institute_of_regulations_israel"
-					width={35}
-					height={35}
-					className="object-fit"
-				/>
-				<span className=" uppercase text-sm sm:text-xl font-medium">
-					{content("mati")}
-				</span>
-			</div>
 		</div>
 	);
 };
+
+export function MatiApprovedIcon() {
+	const content = useTranslations("Products.Certifications");
+	return (
+		<div className="il w-fit py-2 flex justify-start gap-2 items-end text-nowrap">
+			<Image
+				src={mati2}
+				loading="lazy"
+				alt="institute_of_regulations_israel"
+				width={42}
+				height={42}
+				className="object-fit"
+			/>
+			<span className=" uppercase text-sm sm:text-xl font-medium">
+				{content("mati")}
+			</span>
+		</div>
+	);
+}
+export function CarmelApprovedIcon() {
+	return (
+		<div className="il w-full py-2 flex items-center justify-center gap-4">
+			<Image
+				src={carmel2}
+				loading="lazy"
+				alt="carmel_testing"
+				width={300}
+				height={100}
+				className="object-fit sm:w-96 w-32"
+			/>
+			<Image
+				src={carmel}
+				loading="lazy"
+				alt="carmel_testing"
+				width={80}
+				height={80}
+				className="object-fit"
+			/>
+		</div>
+	);
+}

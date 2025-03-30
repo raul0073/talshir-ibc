@@ -16,7 +16,13 @@
     "modelDescription": "תיאור ",
     "modelUsage" : "הסבר שימוש ",
     "modelGraphicsUsage" : "דוגמאות לשימוש ",
-    "modelMoreData" : "מידע נוסף"
+    "modelMoreData" : "מידע נוסף",
+    "downloadSpecs" : "הורדת נתוני דגם",
+    "matiDownload" : "אישור מכון התקנים להורדה",
+    "prospectDownload" : "פרוספקט להורדה",
+    "downloadCertification" : "הורדת אישוריי דגם",
+    "plasticCetrification" : "נבדק במרכז הישראלי לפלסטיק וגומי",
+    "playDemoVideo" : "סרטון דמו"
   },
   "Navbar": {
     "home": "בית",
@@ -47,7 +53,7 @@
   },
   "Hero": {
     "title": "טלשיר-IBC",
-    "description": "פיתוח, ייצור ושיווק מוצרים יחודיים בענף הבניה חדשנות ופריצת דרך בשיטות עבודה בתחום השלד וגמרים",  
+    "description": "פיתוח, ייצור ושיווק מוצרים יחודיים בענף הבניה חדשנות ופריצת דרך בשיטות עבודה בתחום השלד וגמרים.",  
     "highlight": "כל המוצרים כוללים פטנטים ייחודיים ועיצובים בלעדיים.",
     "actions": {
       "products": "המוצרים שלנו",
@@ -55,9 +61,11 @@
     }
   },
   "About": {
-    "title": "אודות טלשיר",
+    "title": "אודותינו ",
     "tag": "בונים מצוינות מאז 1994",
-    "innovation": "חברת טלשיר - אילן בר בע\"מ נוסדה ב-1994. בראשית דרכה התמקדה החברה בבניית בתי מגורים רבי קומות ובתים פרטיים בישראל. במסגרת הפעילות רבת השנים ונוכח היכרות עמוקה ומעשית בתחום הביצועי וההנדסי, נחשפה החברה לאפשרויות בקידום ופיתוח תהליכי עבודה. כחלק מפעילות החברה, החלה החברה בתכנון ופיתוח מוצרים ייחודיים ובלעדיים המיועדים לשיפור תהליכי בנייה, איכות עבודה, הוזלת עלויות ומתן מגוון פתרונות לענף הבנייה. המוצרים שלנו מהווים פריצת דרך וחדשנות, ומשווקים בהצלחה בחברות הבנייה הגדולות והמובילות בישראל." 
+    "header": "חברת טלשיר - אילן בר בע\"מ נוסדה ב-1994.",
+    "footer": "המוצרים שלנו מהווים פריצת דרך וחדשנות, ומשווקים בהצלחה בחברות הבנייה הגדולות והמובילות בישראל.",
+    "innovation": "בראשית דרכה, התמקדה החברה בבניית בתי מגורים, רבי קומות ובתים פרטיים בישראל. במסגרת הפעילות רבת השנים ונוכח היכרות עמוקה ומעשית בתחום הביצועי וההנדסי נחשפה החברה לאפשרויות בקידום ופיתוח תהליכי עבודה. כחלק מפעילות החברה, החלה החברה בתכנון ופיתוח מוצרים ייחודיים ובלעדיים המיועדים לשיפור תהליכי בנייה, איכות עבודה, הוזלת עלויות ומתן מגוון פתרונות לענף הבנייה."
    },
   "WhyUs": {
     "title": "מדוע לבחור בפטנטים שלנו",
@@ -98,90 +106,150 @@
     "description": "אנחנו מתמחים בתכנון ופיתוח מוצרים ייחודיים ובלעדיים המיועדים לשיפור תהליכי בנייה, איכות עבודה, הוזלת עלויות ומתן מגוון פתרונות לענף הבנייה.",
     "ProductsList": [
       {
-        "id": 1,
-        "modelName": " צינור דיווידג ",
-        "modelDescription": "צינור דיווידג איכותי לבורג דיווידג ושומר מרחק בין תבניות נגדיות.",
-        "modelUsage": [
-          "מונע חדירת בטון לתוך תעלות המתכת.",
-          "התקנה מהירה וקלה.",
-          "מתאים לשימוש חוזר."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/dividag/dividag_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": true,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 2,
-        "modelName": "סטופר ",
-        "modelDescription": "אטם למים וגזים בלחץ גבוה לצינור דיווידג בקירות בטון ",
-        "modelUsage": [
-          "קל להתקנה.",
-          "מתאים למגוון תבניות יציקה.",
-          "מונע עיוותים בקירות."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/stopper/stopper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 3,
+        "id": "1-keeper",
         "modelName": "שומר מרחק - keeper",
+        "modelNamePage" :"שומר מרחק - keeper",
         "modelDescription": "שומר מרחק איכותי לטפסנות בקירות בטון. ",
         "modelUsage": [
-          "מגן על הברגים מפני חדירת בטון.",
-          "מתאים למגוון קטרים של ברגים.",
-          "מיועד לשימוש חוזר."
+          "אביזר פלסטיק אוניברסלי",
+          "מיוצר מ- ABS",
+          "מורכב בלחיצה",
+          "שומר מרחק המתאים ליציקת קירות, עמודים וקורות לטווח קוטרים של 6 עד 12 מ\"מ",
+          "חסכון משמעותי בזמן ובכח אדם הנדרש לעבודת קשירת הברזל",
+          "שמירה על מרווחים תיקניים בין הרשתות לתבניות",
+          "עמידות בעומסי לחיצה גדולים – ראה בדיקת מכון תקנים – לחץ כאן",
+          "דיוק מירבי בהצבת הרשתות והתבניות. ממשק מינימלי עם התבנית",
+          "שלושה מעצורי מים טבעתיים מובנים למניעת חדירת מים, קורוזיה ותופעות סדיקה",
+          "משקל עצמי נמוך, נוח לעבודה, הובלה ואחסון",
+          "שימוש מומלץ – 3-4 יח'/מ\"ר"
         ],
         "modelImages": {
           "thumbnail": "/images/products/keeper/keeper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/03/talshir-KEEP.jpg",
+          "usages" : [
+           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+          ]
         },
         "modelSizesCustomize": true,
-        "modelSizes": [],
+        "modelSizes": [ 14, 15, 20, 22, 25, 30],
         "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
+          "modelExtra": ""
+        },
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelProspect" : "",
+        "modelPatentNo": "עיצוב רשום 60215 Patent Pending",
+        "modelExtraContent" : {
+          "header" : "שומר מרחק במידות מיוחדות",
+          "desc" : "כאשר נדרשות מידות מיוחדות, לא סטנדרטיות, אנו מספקים צינורות חתוכים+ אביזר קצה. באופן הזה, ניתן לקבל כל מידה.",
+          "img" : "/images/products/keeper/keeper_adjustable_noBG.png"
+        }
       },
       {
-        "id": 4,
-        "modelName": "נדל רותם (50cm)",
-        "modelDescription": "שומר מרחק איכותי וחזק לרשת תחתונה ברצפות בטון + תפס לקירות בטון  ",
+        "id": "2-dividag",
+        "modelName": "צינור דיווידג איכותי",
+        "modelNamePage" :"צינור דיווידג איכותי",
+        "modelDescription": "צינור דיווידג איכותי לבורג דיווידג ושומר מרחק בין תבניות נגדיות.",
         "modelUsage": [
-          "מבטיח יציבות לפני ואחרי היציקה.",
-          "מתאים לאלמנטים מבטון טרומי.",
-          "עמיד בפני עומסים גבוהים."
+          "צינור הגנה איכותי לבורג 'דיווידג' ושומר מרחק בין תבניות נגדיות.",
+          "עומד בעומסי עבודה גדולים, על הצינור מעצורי מים טבעתיים מובנים למניעת חדירת מים דרך המעטפת החיצונית של הצינור.",
+          "לאחר פירוק התבניות, שני הקונוסים מנותקים בקלות בנקודת השבירה של הקונוס.",
+          "הצינור בנוי מפלסטיק איכותי, חזק ומדויק, נוח לעבודה, הובלה ואחסון."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal/nadal_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
+          "thumbnail": "/images/products/dividag/dividag_noBG.png",
+          "productPageMain": "/images/products/dividag/dividagMain_noBG.png",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+           ]
+        },
+        "modelSizesCustomize": true,
+        "modelSizes": [ 35, 30, 25, 23, 22, 20, 15],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "",
+          "modelExtra": ""
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "",
+        "modelExtraContent" : {
+          "header" : "צינור דיווידג איכותי במידות מיוחדות",
+          "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
+      },
+      {
+        "id": "3-stopper",
+        "modelName": "סטופר - אטם",
+        "modelNamePage" :"סטופר - אטם ללחץ גבוה",
+        "modelDescription": "אטם למים וגזים בלחץ גבוה לצינור דיווידג בקירות בטון ",
+        "modelUsage": [
+          "אוטם למים וגזים בלחץ גבוה.",
+          "חיסכון גדול בזמן ובעלויות העבודה.",
+          "הרכבה מהירה ופשוטה.",
+          "הסטופר בנוי מחומרים איכותיים ועמידים לשנים רבות.",
+          "מיוצר בצבע בטון למראה נקי ואסתטי."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/stopper/stopper_noBG.png",
+          "productPageMain": "/images/products/stopper/stopper_noBG.png",
+         "usages" : [
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-10-1030x690.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-06-1030x690.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-05-1030x690.jpg"
+        ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "pikodHaorefApproved" : "מאושר ע”י פיקוד העורף לשימוש במקלטים ובמרחבים מוגנים.",
+        "modelPatentNo": "פטנט רשום 262718  עיצוב רשום 63012",
+        "modelExtraContent" : {
+          "header" : "הסטופר נבדק בהצלחה בהתאם לתקן הישראלי 1476 חלק 2, במהלך הבדיקה הסטופר עמד בלחץ קבוע של 5 אטמוספרות בתוך מים בתא לחץ.",
+          "desc" : "הסטופר נבדק בהצלחה במכון התקנים הישראלי ונמצא מתאים להנחיות פיקוד העורף כפי שהוגדרו במפרט לאיטום מעברי צנרת במרחבים מוגנים.עומד בהנחיות האיטום בלחץ גז הליום פנימי וחיצוני.",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : "`הדגמה בצינור שקוף להמחשת התהליך בצינור “דיווידג”`"
+        }
+      },
+      {
+        "id": "4-nadal-rotem-50",
+        "modelName": "נדל רותם - 50",
+        "modelNamePage" :"נדל רותם - שומר מרחק לרשת תחתונה",
+        "modelDescription": "שומר מרחק לרשת תחתונה לעומסים כבדים של ברזל בתקרות מאסיביות ",
+        "modelUsage": [
+          "אביזר פלסטיק המיוצר מחומר איכותי המיועד לשמירת מרחק בין רשת תחתונה לטפסות.",
+          "עומד בעומס משקל גדול.",
+          "יציב, אינו נוטה להתעקם.",
+          "יחידה 1 למטר מרובע של רשת ברזל.",
+          "חיסכון בעלויות ובזמן עבודה של סידור הברזל התחתון.",
+          "כיסוי בטון: מגיע בשתי מידות- 2.5 ס”מ, 3 ס”מ "
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
+          "productPageMain": "/images/products/nadal_plus/nadal_plus_CUT_noBG.png",
+          "usage1": "/images/products/nadal_plus/model_usage.png",
           "usage2": "",
           "usage3": ""
         },
@@ -191,132 +259,250 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "עיצוב רשום",
+        "modelExtraContent" : {
+          "header" : "נדל רותם 50+ תפס",
+          "desc" : "שומר מרחק 50 ס”מ לרשתות בקירות בטון",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : "התפס- אביזר פלסטיק שמורכב בקלות על הנדל ומאפשר את תליית הנדל על רשת אנכית. אפשרות לשימוש בתפס נוסף להצמדה מלאה של הנדל לרשת הברזל."
+        }
       },
       {
-        "id": 5,
-        "modelName": "ספסל שרון לרשת עליונה ",
+        "id": "5-dividag-with-spacer",
+        "modelName": "צינור דיווידג עם שומר מרחק מתכוונן ",
+        "modelNamePage" : "צינור דיווידג עם שומר מרחק מתכוונן ",
+        "modelDescription": "שומר מרחק מורכב על הצינור בלחיצה עם מנגנון סיבובי 360 מעלות ",
+        "modelUsage": [
+         "צינור הגנה איכותי לבורג 'דיווידג' ושומר מרחק בין תבניות נגדיות.",
+         "חסכון משמעותי בזמן ובכח אדם הנדרש בסגירת התבניות ליציקת בטון.",
+         "עומד בעומסי עבודה גדולים.",
+         "שומר המרחק מורכב על הצינור בלחיצה עם מנגנון סיבובי של 360° מעלות, המנגנון מחזיק את הצינור ניצב לתבנית ומקל על הרכבת התבניות.",
+         "הקונוס בנוי עם 2 טבעות אטימה ו-4 שקעים המיועדים לאטימה ואחיזת 'הכוחלה' – רובה בשיטת ברנוביץ.",
+         "על הצינור מעצורי מים טבעתיים מובנים למניעת חדירת מים דרך המעטפת החיצונית של הצינור.",
+         "אביזר פלסטיק מדויק ואיכותי, נוח לעבודה, הובלה ואחסון."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1500x519.jpg",
+          "usages" : [
+          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-2.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-4.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-3.jpg"
+          ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "",
+        "modelExtraContent" : {
+          "header" : "הסטופר נבדק בהצלחה בהתאם לתקן הישראלי 1476 חלק 2, במהלך הבדיקה הסטופר עמד בלחץ קבוע של 5 אטמוספרות בתוך מים בתא לחץ.",
+          "desc" : "הסטופר נבדק בהצלחה במכון התקנים הישראלי ונמצא מתאים להנחיות פיקוד העורף כפי שהוגדרו במפרט לאיטום מעברי צנרת במרחבים מוגנים.עומד בהנחיות האיטום בלחץ גז הליום פנימי וחיצוני.",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
+      },
+      {
+        "id": "6-safsal",
+        "modelName": "ספסל לרשת עליונה ",
+        "modelNamePage" : "ספסל שרון לרשת עליונה 18-30 ס”מ",
         "modelDescription": "ספסל לברזל עליון ברצפת בטון בעובי (19-30cm)",
         "modelUsage": [
-          "התקנה והתאמה קלה.",
+          
+          "ספסל שרון מיועד לתקרות בעובי 18-30cm",
+          "תפס ברזל תחתון מיועד להיתפס לברזל תחתון בקלות ובמהירות ולייצב את הספסל. כמו כן הוא נותן קוו ישר להרכבת ברזל התמיכה לרשת.",
+          "חסכון בעלויות ובזמן העבודה, 1 יחידה למטר מרובע של רשת עליונה.",
+       "עמידות לעומס גבוה – כל ספסל עומד בעומס של 200kg (ראה בדיקה)",
           "מתאים למגוון אלמנטים מבטון טרומי.",
           "מונע תזוזה במהלך התקשות הבטון."
         ],
         "modelImages": {
           "thumbnail": "/images/products/safsal/safsal_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F1.jpg",
+          "usage1": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F2-962x1030.jpg",
           "usage2": "",
           "usage3": ""
         },
+        
         "modelSizesCustomize": false,
         "modelSizes": [],
-        "modelDemoVideo": "",
+        "modelDemoVideo": "/models/safsal_demo.mp4",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+        },
         "modelSpecification": "",
-        "modelCertification": "",
+        "modelCertification": "נבדק במרכז הישראלי לפלסטיק וגומי",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "עיצוב רשום- 70228 Patent Pending",
+        "modelExtraContent" : {
+          "header" : "הסטופר נבדק בהצלחה בהתאם לתקן הישראלי 1476 חלק 2, במהלך הבדיקה הסטופר עמד בלחץ קבוע של 5 אטמוספרות בתוך מים בתא לחץ.",
+          "desc" : "הסטופר נבדק בהצלחה במכון התקנים הישראלי ונמצא מתאים להנחיות פיקוד העורף כפי שהוגדרו במפרט לאיטום מעברי צנרת במרחבים מוגנים.עומד בהנחיות האיטום בלחץ גז הליום פנימי וחיצוני.",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
       },
       {
-        "id": 6,
+        "id": "7-palscope",
         "modelName": "פלקסטופ ",
+        "modelNamePage" : "פלקסטופ",
         "modelDescription": "אטם גמיש ואיכותי לצינור דיווידג  ",
         "modelUsage": [
-          "מבטיח עובי קיר אחיד.",
-          "מונע כיפוף של התבניות.",
-          "מפחית את הצורך במדידות ידניות."
+         "אטימה למים באמצעות 4 טבעות אטימה גמישות.",
+         "מבנה האטם בשילוב דבק אטימה יוצר אטימה מוחלטת והידבקות חזקה בין האטם לצינור.",
+         "הרכבה מהירה ופשוטה, חיסכון משמעותי בזמן ובעלויות העבודה.",
+         "ה FlexStop מיוצר מחומרים איכותיים שעמידים לשנים רבות.",
+         "איטום יעיל ומהיר בקירות בטון וקירות אבן בשיטת ברנוביץ."
         ],
         "modelImages": {
           "thumbnail": "/images/products/palscope/palscope_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/04/FlexStopHEB.jpg",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2022/03/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-%D7%9C%D7%9C%D7%90-%D7%93%D7%91%D7%A7-898x1030.jpg"
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+          "modelExtra": ""
+        },
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "עיצוב רשום- 67164",
+        "modelExtraContent" : {
+          "header" : "שלבי התקנה בשיטת ברנוביץ",
+          "desc" : "עומד בבדיקת אטימות למים בהתאם לתקן הישראלי 4422 ",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
       },
       {
-        "id": 7,
-        "modelName": "נדל + ",
-        "modelDescription": "שומר מרחק לרשת תחתונה לעומסים כבדים של ברזל בתקרות מאסיביות ",
+        "id": "8-nadal-rotem-plus",
+        "modelName": "נדל רותם +",
+        "modelNamePage" : "נדל רותם +",
+        "modelDescription": "שומר מרחק לרשת תחתונה לעומסים כבדים",
         "modelUsage": [
-          "התקנה פשוטה ללא כלים.",
-          "מתאים לקטרי צינור שונים.",
-          "מונע ציפה של הצינורות במהלך היציקה."
+         "קל ומהיר להרכבה – אביזר פלסטיק המוצמד לרשת בקלות ובמהירות.",
+         "חסכון בעלויות ובזמן עבודה – 1 יחידה למ'ר של רשת, סידור מהיר של ברזל תחתון על גבי הטפסות.",
+         "עומד בעומס משקל של 954kg.",
+         " יציב מאוד ואינו נוטה להתעקם.",
+         "כיסוי בטון – מגיע בשתי מידות 25 מ'מ ו 30 מ'מ."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+          "thumbnail": "/images/products/nadal/nadal_noBG.png",
+          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D.jpg",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-2.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-1-1.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-%D7%9C%D7%93%D7%A4%D7%95%D7%A1.jpg"
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 8,
-        "modelName": "צינור דיווידג עם שומר מרחק מתכוונן ",
-        "modelDescription": "שומר מרחק מורכב על הצינור בלחיצה עם מנגנון סיבובי 360 מעלות ",
-        "modelUsage": [
-          "עיצוב קל להתקנה.",
-          "חומר פלסטי עמיד.",
-          "עומד בתקני בטיחות."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
         },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "פטנט רשום-292694 עיצוב רשום- 68889",
+        "modelExtraContent" : {
+          "header" : "שלבי התקנה בשיטת ברנוביץ",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
       },
       {
-        "id": 9,
+        "id": "9-universal-keeper",
         "modelName": "שומר מרחק אוניברסלי ",
-        "modelDescription": "שומר מרחק בקוטר (8cm) המתאים לכל האלמנטים מבטון בבניין. ",
+        "modelNamePage" :  "שומר מרחק אוניברסלי ",
+        "modelDescription": "שומר מרחק עגול בקוטר 8cm המתאים לכל האלמנטים בבנין – קירות, עמודים, קורות ותקרות.",
         "modelUsage": [
-          "עשוי מפלסטיק עמיד.",
-          "זמין בגדלים שונים.",
-          "מונע קורוזיה באמצעות שמירה על כיסוי מתאים."
+         "קל ומהיר להרכבה – אביזר פלסטיק המוצמד לברזל בקלות ובמהירות.",
+         "חסכון בעלויות ובזמן העבודה – מתאים לכל האלמנטים בבניין סוג אחד שנותן פיתרון לכל אלמנט.",
+         "עובי כיסוי בטון – מגיע בשתי מידות - 2.5cm, 3cm"
         ],
         "modelImages": {
           "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+          "productPageMain": "/images/products/universal_keeper/universal_keeper_noBG.png",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%992-1030x909.jpg"
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+        },
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "עיצוב רשום- 70232 ",
+        "modelExtraContent" : {
+          "header" : "שלבי התקנה בשיטת ברנוביץ",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
       },
       {
-        "id": 10,
-        "modelName": "שרוולון ",
-        "modelDescription": "שרוול הגנה לגרניט פורצלן בחיפוי קירות ",
+        "id": "10-sealer",
+        "modelName": "אטמון",
+        "modelDescription": "אביזר קצה למרזב מי גשם ",
+        "modelUsage": [
+          "אביזר קצה למעבר צנרת בקירות חוץ",
+          "עיצוב פלסטיק קל משקל.",
+          "קל להתקנה והסרה."
+        ],
+        "modelImages": {
+          "thumbnail": "",
+          "productPageMain": "",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+           ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "",
+          "modelExtra": ""
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "",
+        "modelExtraContent" : {
+          "header" : "צינור דיווידג איכותי במידות מיוחדות",
+          "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
+      },
+      {
+        "id": "11-nozzle",
+        "modelName": "מרזבון \"3 \"4",
+                "modelDescription": "שרוול הגנה לגרניט פורצלן בחיפוי קירות ",
         "modelUsage": [
           "אקו וול",
           "מתאים למגוון יישומי בנייה.",
@@ -338,8 +524,8 @@
         "modelPatentNo": ""
       },
       {
-        "id": 11,
-        "modelName": "מרזבון 3/4 צול",
+        "id": "12-sleeve",
+        "modelName": "שרוולון הגנה לגרניט פורצלן",
         "modelDescription": "אביזר קצה למרזב מי גשם ",
         "modelUsage": [
           "אביזר קצה למעבר צנרת בקירות חוץ",
@@ -362,87 +548,189 @@
         "modelPatentNo": ""
       },
       {
-        "id": 12,
-        "modelName": "תפס מתכוונן לפינת טיח ",
-        "modelDescription": "תפס מפלסטיק המורכב לפינת הטיח המאפשר כיוונון בשני מישורי הקיר.",
-        "modelUsage": [
-          "מונע תזוזת קירות.",
-          "התקנה מהירה.",
-          "חומר עמיד לביצועים לאורך זמן."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 13,
-        "modelName": "תפס מתכוונן למייקים ",
-        "modelDescription": "מאפשר הרכבה וכיוון המייק באופן קל ומהיר ובדיוק מירבי . ",
-        "modelUsage": [
-          "מונע תזוזת קירות.",
-          "התקנה מהירה.",
-          "חומר עמיד לביצועים לאורך זמן."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 14,
+        "id": "13-sliding-wheel",
         "modelName": "גלגל החלקה לכלונסאות ",
-        "modelDescription": "גלגל בקוטר 110 ממ, שומר על כלוב הברזל ממגע עם האדמה. ",
+        "modelNamePage" :  "גלגל החלקה לכלונסאות",
+        "modelDescription": "שומר על מרחק בין כלוב הברזל של הכלונס לבין מגע עם האדמה בזמן יציקת הכלונס.",
         "modelUsage": [
-          "מונע תזוזת קירות.",
-          "התקנה מהירה.",
-          "חומר עמיד לביצועים לאורך זמן."
+        "גלגל החקלה לכלונסאות בקוטר 110 מ\"מ",
+         "קל להרכבה.",
+         "3 יחידות למטר אורך."
         ],
         "modelImages": {
           "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
+          "productPageMain": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+          "usages" : [
+            
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
         "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+        },
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": ""
+        "modelPatentNo": "",
+        "modelExtraContent" : {
+          "header" : "שלבים בתהליך העבודה",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
+      },
+      {
+        "id": "14-corners-clips",
+        "modelName": "תפס מתכוונן לפינת טיח ",
+        "modelNamePage" :  "תפס מתכוונן - לפינת טיח ",
+        "modelDescription": "תפס מתכוונן מפלסטיק המורכב באופן קל ומהיר לפינות הטיח.",
+        "modelUsage": [
+          "חסכון משמעותי בזמן ובעלויות העבודה הנדרשת להרכבת פינות טיח בבניין",
+          "דיוק מירבי בהרכבת פינות הטיח עם אפשרות כיוונון בשני המישורים בו זמנית",
+          "נוח לעבודה, הרכבה פשוטה עם פטישון, צבע סימון, פטיש ופלס.",
+          "מומלץ להשתמש ב- 3 יח' לפינת טיח של 3 מטר."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
+          "productPageMain": "/images/products/clipper_adjustable_corners/talshirIBC-pina_noBG.png",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+          ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "פטנט 253345 עיצוב 60823",
+        "modelExtraContent" : {
+          "header" : "שלבים בתהליך העבודה",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
+      },
+      {
+        "id": "15-mik-clips",
+        "modelName": "תפס מתכוונן לְמַיָק",
+        "modelNamePage" :"תפס מתכוונן לְמַיָק",
+        "modelDescription": "יתרונות",
+        "modelUsage": [
+          "הרכבה וכיוון המַיָק באופן קל ומהיר בדיוק מירבי.",
+         "חיסכון גדול בזמן ובעלויות העבודה הנדרשת להרכבת מַיָק.",
+          "מומלץ להשתמש ב 2-3 יחידות למַיָק באורך 3 מטר."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
+          "productPageMain": "/images/products/clipper_adjustable_mikes/talshirIBC-Mike.png",
+          "usages" : [
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike1.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike2.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike3.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike4.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike5-723x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike6-723x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike7-723x1030.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike8-723x1030.jpg"
+           ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "",
+          "modelExtra": ""
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "פטנט רשום 289577",
+        "modelExtraContent" : {
+          "header" : "שלבים בתהליך העבודה",
+          "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
+          "img" : "/images/products/dividag/dividag_noBG.png"
+        }
+      },
+      {
+        "id": "16-dividag-custom",
+        "modelName": "צינור דיווידג מידות מיוחדות",
+        "modelNamePage" :  "צינור דיווידג מידות מיוחדות",
+        "modelDescription": "תפס מתכוונן מפלסטיק המורכב באופן קל ומהיר לפינות הטיח.",
+        "modelUsage": [
+          "חסכון משמעותי בזמן ובעלויות העבודה הנדרשת להרכבת פינות טיח בבניין",
+          "דיוק מירבי בהרכבת פינות הטיח עם אפשרות כיוונון בשני המישורים בו זמנית",
+          "נוח לעבודה, הרכבה פשוטה עם פטישון, צבע סימון, פטיש ופלס.",
+          "מומלץ להשתמש ב- 3 יח' לפינת טיח של 3 מטר."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/dividag/dividag_noBG.png",
+          "productPageMain": "/images/products/dividag/dividag_noBG.png",
+          "usages" : [
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+          ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelLinks": {
+          "modelPikod" : "",
+          "modelMati" : "",
+          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+        },
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": "פטנט 253345 עיצוב 60823",
+        "modelExtraContent" : {
+          "header" : "שלבים בתהליך העבודה",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
       }
+
     ],
     "Certifications": {
       "fireProof": "עמיד אש",
       "waterResistant": " דוחה מים",
       "madeIn": "מיוצר בישראל",
-      "pikod_haoref" : "פיקוד העורף",
+      "pikod_haoref" : "אישור פיקוד העורף להורדה",
       "mati" :"מכון התקנים ישראל",
       "customizable" : "ניתן להשיג לפי מידה",
       "moreSizesAvailable" : "זמין במידות נוספות",
-      "customColors": "זמין במגוון צבעים"
+      "standardSizesAvailable" : "זמין במידות קבועות",
+      "customColors": "זמין במגוון צבעים",
+      "prospectDownload": "פרוספקט להורדה",
+      "sealingSpecs" : "מפרט לאיטום מעברי צנרת במרחבים מוגנים"
     },
     "Actions" :{
       "btnProductPage" : "עמוד מוצר"

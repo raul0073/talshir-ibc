@@ -11,7 +11,18 @@
     "countries": "Countries"
   },
   "ProductPage": {
-    "exploreModel": "Explore Model"
+    "exploreModel": "Explore Model",
+    "modelName": "Model Name",
+    "modelDescription": "Model Description",
+    "modelUsage": "Usage Instructions",
+    "modelGraphicsUsage": "Usage Examples",
+    "modelMoreData": "More Information",
+    "downloadSpecs": "Download Model Specifications",
+    "matiDownload": "Standards Institution Approval Download",
+    "prospectDownload": "Prospect Download",
+    "downloadCertification": "Download Model Certifications",
+    "plasticCetrification": "Tested at the Israeli Plastics and Rubber Center",
+    "playDemoVideo": "Play Demo Video"
   },
   "Navbar": {
     "home": "Home",
@@ -52,7 +63,9 @@
   "About": {
     "title": "About Talshir",
     "tag": "Building Excellence Since 1994",
-      "innovation": "Talshir - Ilan Bar Ltd. was founded in 1994. Initially, the company focused on constructing high-rise residential buildings and private homes in Israel. Over the years, with extensive hands-on experience in the operational and engineering fields, the company identified opportunities to advance and develop work processes. As part of its activities, the company began designing and developing unique and exclusive products aimed at improving construction processes, work quality, cost reduction, and providing a variety of solutions for the construction industry. Our products represent a breakthrough and innovation and are successfully marketed in the leading construction companies in Israel."
+    "header": "Talshir - Ilan Bar Ltd. was founded in 1994. ",
+    "footer": "Our products represent a breakthrough and innovation and are successfully marketed in the leading construction companies in Israel.",
+      "innovation": "Initially, the company focused on constructing high-rise residential buildings and private homes in Israel. Over the years, with extensive hands-on experience in the operational and engineering fields, the company identified opportunities to advance and develop work processes. As part of its activities, the company began designing and developing unique and exclusive products aimed at improving construction processes, work quality, cost reduction, and providing a variety of solutions for the construction industry."
   },
   "WhyUs": {
     "title": "Why Choose Our Products",
@@ -91,354 +104,646 @@
   "Products": {
     "title": "Our Products",
     "description": "We specialize in the design and development of unique and exclusive products designed to improve construction processes, work quality, reduce costs and provide a variety of solutions for the construction industry.",
-    "ProductsList": [
-      {
-        "id": 1,
-        "modelName": "Dividag Pipe",
-        "modelDescription": "High-quality Dividag pipe for Dividag bolt and maintains distance between opposite formwork.",
-        "modelUsage": [
-          "Prevents concrete from entering the metal ducts.",
-          "Quick and easy installation.",
-          "Suitable for reuse."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/dividag/dividag_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": true,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 2,
-        "modelName": "Stopper",
-        "modelDescription": "Seal for water and gases under high pressure for Dividag pipe in concrete walls.",
-        "modelUsage": [
-          "Easy to install.",
-          "Suitable for a variety of casting molds.",
-          "Prevents distortions in walls."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/stopper/stopper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 3,
-        "modelName": "Spacer - Keeper",
-        "modelDescription": "High-quality spacer for formwork in concrete walls.",
-        "modelUsage": [
-          "Protects bolts from concrete ingress.",
-          "Suitable for a variety of bolt diameters.",
-          "Designed for reuse."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/keeper/keeper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": true,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 4,
-        "modelName": "Nadal Rotem (50cm)",
-        "modelDescription": "High-quality and strong spacer for the lower mesh in concrete floors + clip for concrete walls.",
-        "modelUsage": [
-          "Ensures stability before and after casting.",
-          "Suitable for precast concrete elements.",
-          "Resistant to high loads."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/nadal/nadal_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 5,
-        "modelName": "Sharon Bench for Upper Mesh",
-        "modelDescription": "Bench for upper iron in concrete floors with thickness (19-30cm).",
-        "modelUsage": [
-          "Easy installation and adjustment.",
-          "Suitable for a variety of precast concrete elements.",
-          "Prevents movement during concrete hardening."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/safsal/safsal_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 6,
-        "modelName": "Flexstop",
-        "modelDescription": "Flexible and high-quality seal for Dividag pipe.",
-        "modelUsage": [
-          "Ensures uniform wall thickness.",
-          "Prevents bending of formwork.",
-          "Reduces the need for manual measurements."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/palscope/palscope_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 7,
-        "modelName": "Nadal +",
-        "modelDescription": "Spacer for the lower mesh for heavy iron loads in massive ceilings.",
-        "modelUsage": [
-          "Simple installation without tools.",
-          "Suitable for different pipe diameters.",
-          "Prevents pipe flotation during casting."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 8,
-        "modelName": "Dividag Pipe with Adjustable Spacer",
-        "modelDescription": "Spacer mounted on the pipe by pressing with a 360-degree rotation mechanism.",
-        "modelUsage": [
-          "Easy-to-install design.",
-          "Durable plastic material.",
-          "Meets safety standards."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 9,
-        "modelName": "Universal Spacer",
-        "modelDescription": "Spacer with a diameter of (8cm) suitable for all concrete elements in the building.",
-        "modelUsage": [
-          "Made of durable plastic.",
-          "Available in different sizes.",
-          "Prevents corrosion by maintaining proper cover."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 10,
-        "modelName": "Sleeve",
-        "modelDescription": "Protection sleeve for porcelain granite in wall cladding.",
-        "modelUsage": [
-          "Eco Wall.",
-          "Suitable for a variety of construction applications.",
-          "High pressure resistance."
-        ],
-        "modelImages": {
-          "thumbnail": "",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 11,
-        "modelName": "3/4 Inch Gutter",
-        "modelDescription": "End accessory for rainwater gutter.",
-        "modelUsage": [
-          "End accessory for pipe passage in exterior walls.",
-          "Lightweight plastic design.",
-          "Easy to install and remove."
-        ],
-        "modelImages": {
-          "thumbnail": "",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 12,
-        "modelName": "Adjustable Clip for Plaster Corner",
-        "modelDescription": "Plastic clip mounted on the plaster corner that allows adjustment in two wall planes.",
-        "modelUsage": [
-          "Prevents wall movement.",
-          "Quick installation.",
-          "Durable material for long-lasting performance."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 13,
-        "modelName": "Adjustable Clip for Micas",
-        "modelDescription": "Allows easy and quick mounting and adjustment of micas with maximum precision.",
-        "modelUsage": [
-          "Prevents wall movement.",
-          "Quick installation.",
-          "Durable material for long-lasting performance."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      },
-      {
-        "id": 14,
-        "modelName": "Sliding Wheel for Piles",
-        "modelDescription": "Wheel with a diameter of 110mm, keeps the iron cage out of contact with the ground.",
-        "modelUsage": [
-          "Prevents wall movement.",
-          "Quick installation.",
-          "Durable material for long-lasting performance."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
-          "productPageMain": "",
-          "usage1": "",
-          "usage2": "",
-          "usage3": ""
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
-      }
+"ProductsList": [
+  {
+    "id": "1-keeper",
+    "modelName": "Distance Keeper - Keeper",
+    "modelNamePage": "Distance Keeper - Keeper",
+    "modelDescription": "High-quality distance keeper for concrete wall formwork.",
+    "modelUsage": [
+      "Universal plastic accessory",
+      "Manufactured from ABS",
+      "Snap-fit assembly",
+      "Distance keeper suitable for casting walls, columns, and beams for rebar diameters ranging from 6 to 12 mm",
+      "Significant savings in time and labor required for rebar tying",
+      "Maintains standard spacing between rebar mesh and formwork",
+      "High compressive load resistance – see Standards Institution test – click here",
+      "Maximum precision in positioning rebar mesh and formwork, minimal interface with formwork",
+      "Three integrated annular water stops to prevent water ingress, corrosion, and cracking",
+      "Low self-weight, convenient for handling, transport, and storage",
+      "Recommended usage – 3-4 units/sqm"
     ],
-    "Certifications": {
-      "fireProof": "Fireproof",
-      "waterResistant": "Water Resistant",
-      "madeIn": "Made in Israel",
-      "pikod_haoref": "Home Front Command",
-      "mati": "Standards Institution of Israel",
-      "customizable": "Available custom made",
-      "moreSizesAvailable": "More sizes available",
-      "customColors": "Available in a variety of colors"
+    "modelImages": {
+      "thumbnail": "/images/products/keeper/keeper_noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/03/talshir-KEEP.jpg",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+      ]
     },
+    "modelSizesCustomize": true,
+    "modelSizes": [
+      14,
+      15,
+      20,
+      22,
+      25,
+      30
+    ],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
+      "modelExtra": ""
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelProspect": "",
+    "modelPatentNo": "Registered Design 60215 Patent Pending",
+    "modelExtraContent": {
+      "header": "Distance Keeper in Special Sizes",
+      "desc": "When special, non-standard sizes are required, we provide cut pipes + end accessory. This allows for any size.",
+      "img": "/images/products/keeper/keeper_adjustable_noBG.png"
+    }
+  },
+  {
+    "id": "2-dividag",
+    "modelName": "High-Quality Dividag Pipe",
+    "modelNamePage": "High-Quality Dividag Pipe",
+    "modelDescription": "High-quality Dividag pipe for Dividag bolt and distance keeping between opposing formwork.",
+    "modelUsage": [
+      "High-quality protective pipe for 'Dividag' bolt and distance keeping between opposing formwork.",
+      "Withstands high working loads, the pipe has integrated annular water stops to prevent water ingress through the outer shell of the pipe.",
+      "After formwork removal, the two cones are easily detached at the cone's breaking point.",
+      "The pipe is constructed from high-quality, strong, and precise plastic, convenient for handling, transport, and storage."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/dividag/dividag_noBG.png",
+      "productPageMain": "/images/products/dividag/dividagMain_noBG.png",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+      ]
+    },
+    "modelSizesCustomize": true,
+    "modelSizes": [
+      35,
+      30,
+      25,
+      23,
+      22,
+      20,
+      15
+    ],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "",
+      "modelExtra": ""
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "",
+    "modelExtraContent": {
+      "header": "High-Quality Dividag Pipe in Special Sizes",
+      "desc": "Can be ordered in any size. Packed in bags of 100 units. 'Dividag' pipe end connection is done manually with a light press.",
+      "img": "/images/products/dividag/dividag_noBG.png"
+    }
+  },
+  {
+    "id": "3-stopper",
+    "modelName": "Stopper - Seal",
+    "modelNamePage": "Stopper - High-Pressure Seal",
+    "modelDescription": "High-pressure water and gas seal for Dividag pipe in concrete walls.",
+    "modelUsage": [
+      "High-pressure water and gas seal.",
+      "Significant savings in time and labor costs.",
+      "Quick and simple assembly.",
+      "The stopper is constructed from high-quality and durable materials for many years.",
+      "Manufactured in concrete color for a clean and aesthetic appearance."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/stopper/stopper_noBG.png",
+      "productPageMain": "/images/products/stopper/stopper_noBG.png",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-10-1030x690.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-06-1030x690.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-05-1030x690.jpg"
+      ]
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "pikodHaorefApproved": "Approved by the Home Front Command for use in shelters and protected spaces.",
+    "modelPatentNo": "Registered Patent 262718 Registered Design 63012",
+    "modelExtraContent": {
+      "header": "The stopper was successfully tested according to Israeli Standard 1476 Part 2, during the test the stopper withstood a constant pressure of 5 atmospheres in water in a pressure chamber.",
+      "desc": "The stopper was successfully tested at the Standards Institution of Israel and found suitable for the Home Front Command instructions as defined in the specification for sealing pipe passages in protected spaces. Meets the sealing instructions under internal and external helium gas pressure.",
+      "img": "/images/products/dividag/dividag_noBG.png",
+      "extraContent" : "Demonstration in a transparent pipe to illustrate the process in a 'Dividag' pipe."
+    }
+  },
+  {
+    "id": "4-nadal-rotem-50",
+    "modelName": "Nadal Rotem - 50",
+    "modelNamePage": "Nadal Rotem - Bottom Mesh Distance Keeper",
+    "modelDescription": "Bottom mesh distance keeper for heavy rebar loads in massive ceilings.",
+    "modelUsage": [
+      "Plastic accessory made of high-quality material designed to maintain distance between bottom mesh and formwork.",
+      "Withstands high weight load.",
+      "Stable, does not tend to bend.",
+      "1 unit per square meter of rebar mesh.",
+      "Savings in costs and labor time for arranging the bottom rebar.",
+      "Concrete cover: comes in two sizes - 2.5 cm, 3 cm"
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
+      "productPageMain": "/images/products/nadal_plus/nadal_plus_CUT_noBG.png",
+      "usage1": "/images/products/nadal_plus/model_usage.png",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "Registered Design",
+    "modelExtraContent": {
+      "header": "Nadal Rotem 50 + Clip",
+      "desc": "50 cm distance keeper for rebar mesh in concrete walls",
+      "img": "/images/products/dividag/dividag_noBG.png",
+      "extraContent": "The clip - a plastic accessory that easily mounts on the Nadal and allows the Nadal to be hung on a vertical mesh. Option to use an additional clip for full attachment of the Nadal to the rebar mesh."
+    }
+  },
+  {
+    "id": "5-dividag-with-spacer",
+    "modelName": "Dividag Pipe with Adjustable Distance Keeper",
+    "modelNamePage": "Dividag Pipe with Adjustable Distance Keeper",
+    "modelDescription": "Distance keeper mounted on the pipe with a 360-degree swivel mechanism.",
+    "modelUsage": [
+      "High-quality protective pipe for 'Dividag' bolt and distance keeping between opposing formwork.",
+      "Significant savings in time and labor required for closing formwork for concrete casting.",
+      "Withstands high working loads.",
+      "The distance keeper is mounted on the pipe with a 360° swivel mechanism, the mechanism holds the pipe perpendicular to the formwork and facilitates the assembly of the formwork.",
+      "The cone is constructed with 2 sealing rings and 4 recesses designed for sealing and holding the 'grout' - grout using the Branovitch method.",
+      "The pipe has integrated annular water stops to prevent water ingress through the outer shell of the pipe.",
+      "Precise and high-quality plastic accessory, convenient for handling, transport, and storage."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1500x519.jpg",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-2.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-4.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-3.jpg"
+      ]
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "",
+    "modelExtraContent": {
+      "header": "The stopper was successfully tested according to Israeli Standard 1476 Part 2, during the test the stopper withstood a constant pressure of 5 atmospheres in water in a pressure chamber.",
+      "desc": "The stopper was successfully tested at the Standards Institution of Israel and found suitable for the Home Front Command instructions as defined in the specification for sealing pipe passages in protected spaces. Meets the sealing instructions under internal and external helium gas pressure.",
+      "img": "/images/products/dividag/dividag_noBG.png"
+    }
+  },
+  {
+    "id": "6-safsal",
+    "modelName": "Upper Mesh Bench",
+    "modelNamePage": "Sharon Bench for Upper Mesh 18-30 cm",
+    "modelDescription": "Bench for upper rebar in concrete floor with thickness (19-30cm).",
+    "modelUsage": [
+      "Sharon bench is designed for ceilings with thickness 18-30cm",
+      "Bottom rebar clip is designed to easily and quickly clip to the bottom rebar and stabilize the bench. It also provides a straight line for assembling the support rebar for the mesh.",
+      "Savings in costs and labor time, 1 unit per square meter of upper mesh.",
+      "High load resistance - each bench withstands a load of 200kg (see test)",
+      "Suitable for a variety of precast concrete elements.",
+      "Prevents movement during concrete hardening."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/safsal/safsal_noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F1.jpg",
+      "usage1": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F2-962x1030.jpg",
+      "usage2": "",
+      "usage3": ""
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "/models/safsal_demo.mp4",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+    },
+    "modelSpecification": "",
+    "modelCertification": "Tested at the Israeli Plastics and Rubber Center",
+    "model3DObject": "",
+    "modelPatentNo": "Registered Design- 70228 Patent Pending",
+    "modelExtraContent": {
+      "header": "The stopper was successfully tested according to Israeli Standard 1476 Part 2, during the test the stopper withstood a constant pressure of 5 atmospheres in water in a pressure chamber.",
+      "desc": "The stopper was successfully tested at the Standards Institution of Israel and found suitable for the Home Front Command instructions as defined in the specification for sealing pipe passages in protected spaces. Meets the sealing instructions under internal and external helium gas pressure.",
+      "img": "/images/products/dividag/dividag_noBG.png"
+    }
+  },
+  {
+    "id": "7-palscope",
+    "modelName": "FlexStop",
+    "modelNamePage": "FlexStop",
+    "modelDescription": "Flexible and high-quality seal for Dividag pipe.",
+    "modelUsage": [
+      "Water sealing with 4 flexible sealing rings.",
+      "The seal structure combined with a sealing adhesive creates a complete seal and strong adhesion between the seal and the pipe.",
+      "Quick and simple assembly, significant savings in time and labor costs.",
+      "FlexStop is manufactured from high-quality materials that are durable for many years.",
+      "Efficient and fast sealing in concrete walls and stone walls using the Branovitch method."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/palscope/palscope_noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/04/FlexStopHEB.jpg",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/03/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-%D7%9C%D7%9C%D7%90-%D7%93%D7%91%D7%A7-898x1030.jpg"
+      ]
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+      "modelExtra": ""
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "Registered Design- 67164",
+    "modelExtraContent": {
+      "header": "Installation Steps Using the Branovitch Method",
+      "desc": "Meets water tightness test according to Israeli Standard 4422",
+      "img": "/images/products/dividag/dividag_noBG.png"
+    }
+  },
+  {
+    "id": "8-nadal-rotem-plus",
+    "modelName": "Nadal Rotem +",
+    "modelNamePage": "Nadal Rotem +",
+    "modelDescription": "Bottom mesh distance keeper for heavy loads.",
+    "modelUsage": [
+      "Quick and easy to assemble – plastic accessory that easily and quickly attaches to the mesh.",
+      "Savings in costs and labor time – 1 unit per sqm of mesh, quick arrangement of bottom rebar on the formwork.",
+      "Withstands a weight load of 954kg.",
+      "Very stable and does not tend to bend.",
+      "Concrete cover – comes in two sizes 25mm and 30mm."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/nadal/nadal_noBG.png",
+      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D.jpg",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-2.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-1-1.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-%D7%9C%D7%93%D7%A4%D7%95%D7%A1.jpg"
+      ]
+    },
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "Registered Patent-292694 Registered Design- 68889",
+    "modelExtraContent": {
+      "header": "Installation Steps Using the Branovitch Method",
+      "desc": "Assembly method",
+      "img": "/images/products/dividag/dividag_noBG.png",
+      "extraContent": "Rotem + is designed for massive concrete ceilings where the rebar weight is particularly high. The Rotem unit withstands a high load according to the test conducted at the Israeli Plastics Center."
+    }
+  },
+  {
+    "id": "9-universal-keeper",
+    "modelName": "Universal Distance Keeper",
+    "modelNamePage": "Universal Distance Keeper",
+    "modelDescription": "8cm diameter round distance keeper suitable for all building elements – walls, columns, beams, and ceilings.",
+    "modelUsage": [
+      "Quick and easy to assemble – plastic accessory that easily and quickly attaches to the rebar.",
+      "Savings in costs and labor time – suitable for all building elements, one type provides a solution for all elements.",
+      "Concrete cover thickness – comes in two sizes - 2.5cm, 3cm"
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
+      "productPageMain": "/images/products/universal_keeper/universal_keeper_noBG.png",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%992-1030x909.jpg"
+        ]
+      },
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelLinks": {
+        "modelPikod": "",
+        "modelMati": "",
+        "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
+        "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+      },
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": "Registered Design- 70232",
+      "modelExtraContent": {
+        "header": "Installation Steps Using the Branovitch Method",
+        "desc": "Assembly method",
+        "img": "/images/products/dividag/dividag_noBG.png",
+        "extraContent": "Rotem + is designed for massive concrete ceilings where the rebar weight is particularly high. The Rotem unit withstands a high load according to the test conducted at the Israeli Plastics Center."
+      }
+    },
+    {
+      "id": "10-sealer",
+      "modelName": "Sealer",
+      "modelDescription": "End accessory for rainwater gutter.",
+      "modelUsage": [
+        "End accessory for pipe passage in exterior walls.",
+        "Lightweight plastic design.",
+        "Easy to install and remove."
+      ],
+      "modelImages": {
+        "thumbnail": "",
+        "productPageMain": "",
+        "usages": [
+          "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+        ]
+      },
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelLinks": {
+        "modelPikod": "",
+        "modelMati": "",
+        "modelProspect": "",
+        "modelExtra": ""
+      },
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": "",
+      "modelExtraContent": {
+        "header": "High-Quality Dividag Pipe in Special Sizes",
+        "desc": "Can be ordered in any size. Packed in bags of 100 units. 'Dividag' pipe end connection is done manually with a light press.",
+        "img": "/images/products/dividag/dividag_noBG.png"
+      }
+    },
+    {
+      "id": "11-nozzle",
+      "modelName": "Nozzle \"3\" \"4\"",
+      "modelDescription": "Protection sleeve for porcelain granite in wall cladding.",
+      "modelUsage": [
+        "Eco Wall.",
+        "Suitable for a variety of construction applications.",
+        "High pressure resistance."
+      ],
+      "modelImages": {
+        "thumbnail": "",
+        "productPageMain": "",
+        "usage1": "",
+        "usage2": "",
+        "usage3": ""
+      },
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": ""
+    },
+    {
+      "id": "12-sleeve",
+      "modelName": "Protection Sleeve for Porcelain Granite",
+      "modelDescription": "End accessory for rainwater gutter.",
+      "modelUsage": [
+        "End accessory for pipe passage in exterior walls.",
+        "Lightweight plastic design.",
+        "Easy to install and remove."
+      ],
+      "modelImages": {
+        "thumbnail": "",
+        "productPageMain": "",
+        "usage1": "",
+        "usage2": "",
+        "usage3": ""
+      },
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": ""
+    },
+    {
+      "id": "13-sliding-wheel",
+      "modelName": "Sliding Wheel for Piles",
+      "modelNamePage": "Sliding Wheel for Piles",
+      "modelDescription": "Maintains distance between the rebar cage of the pile and contact with the ground during pile casting.",
+      "modelUsage": [
+        "Sliding wheel for piles with a diameter of 110 mm.",
+        "Easy to assemble.",
+        "3 units per linear meter."
+      ],
+      "modelImages": {
+        "thumbnail": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+        "productPageMain": "/images/products/sliding_wheel/sliding_wheel_noBG.png",
+        "usages": []
+      },
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelLinks": {
+        "modelPikod": "",
+        "modelMati": "",
+        "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+        "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+      },
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": "",
+      "modelExtraContent": {
+        "header": "Steps in the Work Process",
+        "desc": "Assembly method",
+        "img": "/images/products/dividag/dividag_noBG.png",
+        "extraContent": "Rotem + is designed for massive concrete ceilings where the rebar weight is particularly high. The Rotem unit withstands a high load according to the test conducted at the Israeli Plastics Center."
+      }
+    },
+    {
+      "id": "14-corners-clips",
+      "modelName": "Adjustable Clip for Plaster Corners",
+      "modelNamePage": "Adjustable Clip - for Plaster Corners",
+      "modelDescription": "Adjustable plastic clip that is easily and quickly assembled for plaster corners.",
+      "modelUsage": [
+        "Significant savings in time and labor costs required for assembling plaster corners in a building.",
+        "Maximum precision in assembling plaster corners with simultaneous adjustment in two planes.",
+        "Convenient for work, simple assembly with a hammer drill, marking paint, hammer, and level.",
+        "Recommended to use 3 units per 3-meter plaster corner."
+      ],
+      "modelImages": {
+        "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
+        "productPageMain": "/images/products/clipper_adjustable_corners/talshirIBC-pina_noBG.png",
+        "usages": [
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+          "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+        ],
+      
+      "modelSizesCustomize": false,
+      "modelSizes": [],
+      "modelDemoVideo": "",
+      "modelLinks": {
+        "modelPikod": "",
+        "modelMati": "",
+        "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+        "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+      },
+      "modelSpecification": "",
+      "modelCertification": "",
+      "model3DObject": "",
+      "modelPatentNo": "Patent 253345 Design 60823",
+      "modelExtraContent": {
+        "header": "Steps in the Work Process",
+        "desc": "Assembly method",
+        "img": "/images/products/dividag/dividag_noBG.png",
+        "extraContent": "Rotem + is designed for massive concrete ceilings where the rebar weight is particularly high. The Rotem unit withstands a high load according to the test conducted at the Israeli Plastics Center."
+      }
+    }
+  },
+  {
+    "id": "15-mik-clips",
+    "modelName": "Adjustable Clip for Mikes",
+    "modelNamePage": "Adjustable Clip for Mikes",
+    "modelDescription": "Advantages",
+    "modelUsage": [
+      "Easy and quick assembly and adjustment of the Mikes with maximum precision.",
+      "Significant savings in time and labor costs required for assembling Mikes.",
+      "Recommended to use 2-3 units per 3-meter long Mike."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
+      "productPageMain": "/images/products/clipper_adjustable_mikes/talshirIBC-Mike.png",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike1.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike2.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike3.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike4.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike5-723x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike6-723x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike7-723x1030.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike8-723x1030.jpg"
+      ],
+    
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "",
+      "modelExtra": ""
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "Registered Patent 289577",
+    "modelExtraContent": {
+      "header": "Steps in the Work Process",
+      "desc": "Can be ordered in any size. Packed in bags of 100 units. 'Dividag' pipe end connection is done manually with a light press.",
+      "img": "/images/products/dividag/dividag_noBG.png"
+    }
+  }
+  },
+  {
+    "id": "16-dividag-custom",
+    "modelName": "Dividag Pipe Special Sizes",
+    "modelNamePage": "Dividag Pipe Special Sizes",
+    "modelDescription": "Adjustable plastic clip that is easily and quickly assembled for plaster corners.",
+    "modelUsage": [
+      "Significant savings in time and labor costs required for assembling plaster corners in a building.",
+      "Maximum precision in assembling plaster corners with simultaneous adjustment in two planes.",
+      "Convenient for work, simple assembly with a hammer drill, marking paint, hammer, and level.",
+      "Recommended to use 3 units per 3-meter plaster corner."
+    ],
+    "modelImages": {
+      "thumbnail": "/images/products/dividag/dividag_noBG.png",
+      "productPageMain": "/images/products/dividag/dividag_noBG.png",
+      "usages": [
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+      ],
+    "modelSizesCustomize": false,
+    "modelSizes": [],
+    "modelDemoVideo": "",
+    "modelLinks": {
+      "modelPikod": "",
+      "modelMati": "",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+    },
+    "modelSpecification": "",
+    "modelCertification": "",
+    "model3DObject": "",
+    "modelPatentNo": "Patent 253345 Design 60823",
+    "modelExtraContent": {
+      "header": "Steps in the Work Process",
+      "desc": "Assembly method",
+      "img": "/images/products/dividag/dividag_noBG.png",
+      "extraContent": "Rotem + is designed for massive concrete ceilings where the rebar weight is particularly high. The Rotem unit withstands a high load according to the test conducted at the Israeli Plastics Center."
+    }
+  }
+  }
+  ],
+  "Certifications": {
+    "fireProof": "Fireproof",
+    "waterResistant": "Water Resistant",
+    "madeIn": "Made in Israel",
+    "pikod_haoref": "Home Front Command Approval for Download",
+    "mati": "Standards Institution of Israel",
+    "customizable": "Customizable",
+    "moreSizesAvailable": "More Sizes Available",
+    "standardSizesAvailable": "Standard Sizes Available",
+    "customColors": "Custom Colors",
+    "prospectDownload": "Prospect Download",
+    "sealingSpecs": "Sealing Specs for Pipe Passages in Protected Spaces"
+  },
     "Actions": {
       "btnProductPage": "Product Page"
     }
@@ -477,3 +782,7 @@
     }
   }
 }
+
+
+
+

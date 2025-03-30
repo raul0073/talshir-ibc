@@ -3,21 +3,20 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { HTMLAttributes, useMemo } from "react";
 import SectionHeader from "../Header/SectionHeader";
-import Tag from "../Hero/Tag";
-import "./styles/about.scss";
 function About() {
 	const t = useTranslations("About");
 	const content = useMemo(() => {
 		return {
 			title: t("title"),
-			tag: t("tag"),
+			footer: t("footer"),
 			innovation: t("innovation"),
+			header: t("header"),
 		};
 	}, [t]);
 	return (
-		<div className="container mx-auto !w-screen sm:pt-36">
-			<div className="grid md:grid-cols-2 w-full h-full mt-24 gap-4 lg:gap-8   px-2">
-				<motion.div
+		<div className="container mx-auto py-28">
+			<div className="w-full max-w-7xl mx-auto h-full px-2 flex flex-col justify-center items-center text-center">
+				{/* <motion.div
 					initial={{ opacity: 0, y: "60%" }}
 					whileInView={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6, ease: "easeInOut" }}
@@ -31,23 +30,36 @@ function About() {
 							allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen></iframe>
 					</div>
-				</motion.div>
-
-				<div className="right w-full p-4 md:pl-24">
-					<SectionHeader className="mb-4">
-						{content.title.split(" ")[0]}{" "}
-						<span className="font-bold">{content.title.split(" ")[1]}</span>
-					</SectionHeader>
-					<Tag>{content.tag}</Tag>
-					<motion.p
-						initial={{ opacity: 0, y: "60%" }}
-						whileInView={{ opacity: 1, y: "0" }}
-						transition={{ duration: 0.6, ease: "easeInOut" }}
-						viewport={{ once: true }}
-						className="text-zinc-800 mt-6 md:text-lg">
-						{content.innovation}
-					</motion.p>
-				</div>
+				</motion.div> */}
+				<SectionHeader className="mb-12">
+					{content.title.split(" ")[0]}{" "}
+					<span className="font-[900]">{content.title.split(" ")[1]}</span>
+				</SectionHeader>
+				<motion.p
+					initial={{ opacity: 0, y: "-30%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
+					viewport={{ once: true }}
+					className="sm:text-2xl mb-2">
+					{content.header}
+				</motion.p>{" "}
+				<br />
+				<motion.p
+					initial={{ opacity: 0, y: "40%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
+					viewport={{ once: true }}
+					className="text-zinc-800 mt-6 sm:text-2xl">
+					{content.innovation} <br />
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "80%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
+					viewport={{ once: true }}
+					className="sm:text-2xl mt-6 text-appSubTextBlue font-bold">
+					{content.footer}
+				</motion.p>
 			</div>
 		</div>
 	);

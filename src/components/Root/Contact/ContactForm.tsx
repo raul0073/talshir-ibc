@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import {
 	Form,
 	FormControl,
@@ -7,11 +8,10 @@ import {
 	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
-import ShadowButton from "@/components/ui/shadow-button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
-	IconBrandGmail,
 	IconBrandWhatsapp,
+	IconMessage,
 	IconPhone,
 	IconSend,
 } from "@tabler/icons-react";
@@ -197,7 +197,7 @@ function ContactForm({
 								<textarea
 									placeholder={labels("message") + "*"}
 									{...field}
-									className="border border-gray-400 p-3 placeholder:text-red-600 focus:outline-none font-medium text-lg"
+									className="border border-sky-900 p-3 shadow-md placeholder:text-neutral-600 focus:outline-none font-medium text-lg rounded-[.2rem]"
 								/>
 							</FormControl>
 							<FormMessage />
@@ -207,49 +207,45 @@ function ContactForm({
 
 				<div className="flex justify-between items-center pt-12 col-span-2">
 					<div className="flex gap-4">
-						<ul className="space-y-3">
-							<li className="capitalize flex items-center justify-start gap-2 w-full">
-								<span>
+						<ul className="flex gap-8">
+							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
+								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
 									<IconPhone
-										className="inline text-gray-600"
-										width={40}
-										height={40}
+										className="inline text-zinc-900 group-hover:text-sky-900"
+										width={20}
+										height={20}
 									/>
 								</span>
-								<span className="text-black/50">+972 555555555</span>
+								<span className="hidden text-black/50">+972 555555555</span>
 							</li>
-							<li className="capitalize flex items-center justify-start gap-2 w-full">
-								<span>
+							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
+								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
 									<IconBrandWhatsapp
-										className="inline text-lime-600"
-										width={40}
-										height={40}
+										className="inline text-zinc-900 group-hover:text-sky-900"
+										width={20}
+										height={20}
 									/>
 								</span>
-								<span className="text-black/50">+972 5555555 / 60</span>
+								<span className="hidden text-black/50">+972 5555555</span>
 							</li>
-							<li className=" flex items-center justify-start gap-2 w-full">
-								<span>
-									<IconBrandGmail
-										className="inline text-red-600"
-										width={40}
-										height={40}
+							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
+								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
+									<IconMessage
+										className="inline text-zinc-900 group-hover:text-sky-900"
+										width={20}
+										height={20}
 									/>
 								</span>
-								<span className="text-black/50">talshir@email.com</span>
+								<span className="hidden text-black/50">talshir@email.com</span>
 							</li>
 						</ul>
 					</div>
-					<ShadowButton
-						icon={<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />}
-						variant="default"
-						submit
-						className={`pt-8 `}
-						style={{
-							height: "40px",
-						}}>
-						{labels("submit")}
-					</ShadowButton>
+					<Button type="submit" className="px-6 bg-appTextBlue">
+						<span>{labels("submit")}</span>
+						<span>
+							<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />
+						</span>
+					</Button>
 				</div>
 			</form>
 		</Form>
