@@ -6,8 +6,11 @@ import KeeperComp from "@/app/[locale]/(main)/product/[productId]/components/pro
 import MickClipComp from "@/app/[locale]/(main)/product/[productId]/components/products/MickClipComp";
 import NadalRotem50 from "@/app/[locale]/(main)/product/[productId]/components/products/NadalRotem50";
 import NadalRotemPlus from "@/app/[locale]/(main)/product/[productId]/components/products/NadalRotemPlus";
+import NozzleComp from "@/app/[locale]/(main)/product/[productId]/components/products/NozzleComp";
 import Palscope from "@/app/[locale]/(main)/product/[productId]/components/products/Palscope";
 import SafsalComp from "@/app/[locale]/(main)/product/[productId]/components/products/SafsalComp";
+import SealerComp from "@/app/[locale]/(main)/product/[productId]/components/products/SealerComp";
+import SleeverComp from "@/app/[locale]/(main)/product/[productId]/components/products/SleeverComp";
 import SlidingWheelComp from "@/app/[locale]/(main)/product/[productId]/components/products/SlidingWheelComp";
 import StopperComp from "@/app/[locale]/(main)/product/[productId]/components/products/StopperComp";
 import UniversalKeeperComp from "@/app/[locale]/(main)/product/[productId]/components/products/UniversalKeeperComp";
@@ -377,12 +380,14 @@ export const PRODUCTS_COMPONENTS: Record<string, ReactNode> = {
   '7-palscope' : <Palscope id='7-palscope' />,
   '8-nadal-rotem-plus' : <NadalRotemPlus id='8-nadal-rotem-plus' />,
   '9-universal-keeper' : <UniversalKeeperComp id='9-universal-keeper' />,
-  // '10-sealer' : <UniversalKeeperComp id='10-sealer' />,
-  // '11-nozzle' : <UniversalKeeperComp id='11-nozzle' />,
-  // '12-sleeve' : <UniversalKeeperComp id='12-sleeve' />,
+  '10-sealer' : <SealerComp id='10-sealer' />,
+  '11-nozzle' : <NozzleComp id='11-nozzle' />,
+  '12-sleeve' : <SleeverComp id='12-sleeve' />,
   '13-sliding-wheel' : <SlidingWheelComp id='13-sliding-wheel' />,
   '14-corners-clips' : <CornersClipComp id='14-corners-clips' />,
   '15-mik-clips' : <MickClipComp id='15-mik-clips' />,
   '16-dividag-custom' : <DividagComp id='2-dividag' />,
+  '17-concrete-keeper' : <DividagComp id='17-concrete-keeper' />,
+  '18-magen-nano-stone' : <DividagComp id='18-magen-nano-stone' />,
 
 };

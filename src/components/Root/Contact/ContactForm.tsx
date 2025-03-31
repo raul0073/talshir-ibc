@@ -205,7 +205,7 @@ function ContactForm({
 					)}
 				/>
 
-				<div className="flex justify-between items-center pt-12 col-span-2">
+				<div className="flex flex-col sm:flex-row gap-6 justify-between items-center pt-12 col-span-2">
 					<div className="flex gap-4">
 						<ul className="flex gap-8">
 							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
@@ -240,7 +240,7 @@ function ContactForm({
 							</li>
 						</ul>
 					</div>
-					<Button type="submit" className="px-6 bg-appTextBlue">
+					<Button type="submit" className="px-6 bg-appTextBlue sm:mt-0 mt-8">
 						<span>{labels("submit")}</span>
 						<span>
 							<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />

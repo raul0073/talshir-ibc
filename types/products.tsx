@@ -5,6 +5,15 @@ export type ProductImage = {
   productPageMain: string;
   usages: string[]
 };
+export type AltImages = {
+  label: string;
+  img: string | StaticImageData
+}
+export type ProductImageAlternative = {
+  thumbnail: StaticImageData;
+  productPageMain: string;
+  usages: AltImages[]
+};
 
 export type ModelLinks = {
   modelPikod: string;
@@ -25,6 +34,24 @@ export type ProductItem = {
   modelDescription: string;
   modelUsage: string[];
   modelImages: ProductImage;
+  modelSizesCustomize: boolean;
+  modelSizes: string[];
+  modelDemoVideo: string;
+  modelLinks: ModelLinks;
+  modelSpecification: string;
+  modelCertification: string;
+  modelCustomizable: boolean;
+  model3DObject: string;
+  modelPatentNo: string;
+  modelExtraContent: ModelExtraContent
+};
+export type ProductItemAlt = {
+  id: string;
+  modelName: string;
+  modelNamePage: string;
+  modelDescription: string;
+  modelUsage: string[];
+  modelImages: ProductImageAlternative
   modelSizesCustomize: boolean;
   modelSizes: string[];
   modelDemoVideo: string;

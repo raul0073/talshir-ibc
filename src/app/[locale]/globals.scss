@@ -61,7 +61,7 @@
 
 @layer utilities {
 	html {
-		@apply overflow-x-hidden max-w-full;
+		@apply overflow-x-hidden max-w-full !w-screen;
 		@apply scroll-smooth;
 	}
 	.logoImg {
@@ -73,7 +73,7 @@
 		@apply border-border;
 	}
 	body {
-		@apply bg-background text-foreground;
+		@apply bg-background text-foreground overflow-x-hidden max-w-full !w-screen;
 	}
 }
 
@@ -96,6 +96,7 @@
 	text-align: center;
 	line-height: 1.2;
 	color: transparent; 
+
 	-webkit-text-stroke: 2px rgb(4, 4, 92); /* Default for mobile */
 	animation: strokeFill 2s ease-in-out forwards;
   }
@@ -133,3 +134,5 @@
 	  height: 100vh;  /* Make sure the hero section height takes up the full screen on mobile */
 	}
   }
+
+

@@ -23,7 +23,7 @@ function CornersClipComp({ id }: { id: string }) {
 						<Separator />
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-2">
 							<div>
-								<p className="text-xl uppercase text-appSubTextBlue mb-4 text-center">
+								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
 									{thisProd.modelDescription}
 								</p>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">

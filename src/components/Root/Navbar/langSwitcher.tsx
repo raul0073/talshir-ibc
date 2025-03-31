@@ -6,9 +6,7 @@ import { useTransition } from "react";
 
 const languages = [
 	{ code: "en", label: "En ", flag: "🇺🇸" },
-	{ code: "es", label: "Es", flag: "🇪🇸" },
 	{ code: "he", label: "עב", flag: "🇮🇱" },
-	{ code: "ar", label: "Ar", flag: "🇸🇦" },
 ];
 
 export default function LocaleSwitcher({

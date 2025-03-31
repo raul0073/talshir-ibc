@@ -53,7 +53,6 @@ function HeroContent() {
 						alt="talshir-ibc logo 300X300"
 						width={300}
 						height={300}
-						loading="eager"
 						className=" z-10 relative hover:-translate-y-2 transition-transform duration-200 ease-in-out saturate-200 w-36 sm:w-64 h-auto"
 					/>
 				</motion.div>

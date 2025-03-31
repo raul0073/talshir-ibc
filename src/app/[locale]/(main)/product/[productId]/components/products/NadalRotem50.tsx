@@ -50,13 +50,22 @@ function NadalRotem50({ id }: { id: string }) {
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.desc}
 							</p>
+							<div className="flex justify-center items-center">
 							<EnlargeableImage
 								src={thisProd.modelExtraContent.img}
 								alt={thisProd.modelName}
-								width={700}
-								height={700}
+								width={500}
+								height={500}
 								className="py-6"
 							/>
+							<EnlargeableImage
+								src={thisProd.modelExtraContent.img2}
+								alt={thisProd.modelName}
+								width={200}
+								height={200}
+								className="py-6"
+							/>
+							</div>
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.extraContent}
 							</p>

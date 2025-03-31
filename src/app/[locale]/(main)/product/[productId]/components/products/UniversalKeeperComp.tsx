@@ -23,7 +23,7 @@ function UniversalKeeperComp({ id }: { id: string }) {
 						<Separator />
 						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6">
 							<div className="flex flex-col items-center">
-								<p className="text-xl uppercase text-appSubTextBlue mb-4 text-center">
+								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
 									{thisProd.modelDescription}{" "}
 								</p>
 								<div className="model-usage p-3 sm:p-4">

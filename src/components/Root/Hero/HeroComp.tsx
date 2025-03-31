@@ -2,13 +2,14 @@ import SectionWithLocale from "@/components/Section/SectionWithLocale";
 import Image from "next/image";
 import HeroContent from "./HeroContent";
 import mobileBG from '@/app/assets/images/hero/mobile.jpeg';
+import desktopBG from '@/app/assets/images/hero/desktopBG.png';
 
 function HeroComp() {
   return (
     <SectionWithLocale
       sectionName="hero"
       className="relative hero pt-0 pb-0">
-      <div className="absolute left-0 top-0 w-full h-full inset-0 z-0 bg-gradient-to-b from-white/10 sm:from-white/60 to-black/80 sm:to-black/40"></div>
+     <div className="absolute inset-0 w-full h-full z-0 bg-gradient-to-b from-black/30 via-transparent to-black/80 sm:from-black/40 sm:via-black/10 sm:to-black/90"></div>
 
       <div className="absolute left-0 top-0 w-full h-full -z-10">
         {/* Mobile background image */}
@@ -26,12 +27,11 @@ function HeroComp() {
         {/* Desktop background image */}
         <div className="hidden lg:block w-full h-full">
           <Image
-            src="https://images.pexels.com/photos/2036686/pexels-photo-2036686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src={desktopBG}
             alt="desktop_bg"
-            layout="cover"
-			width={1200}
-			height={900}
-            objectFit="cover"
+            layout="fill"
+
+            objectFit="fill"
             objectPosition="bottom"
             className="w-full h-full"
           />
