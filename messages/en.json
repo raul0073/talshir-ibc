@@ -767,10 +767,9 @@
           "Using the galvanized iron wire, the distance keeper is tied to the rebar to ensure stability during casting."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/sleever/sleever_noBG.png",
-          "productPageMain": "/images/products/sleever/sleever_noBG.png",
-          "usage1": "/images/products/sleever/usage_1.png",
-          "usage2": "/images/products/sleever/usage_2.png"
+          "thumbnail": "/images/products/concrete_keeper/concrete_keeper_noBG.png",
+          "productPageMain": "/images/products/concrete_keeper/concrete_keeper_noBG.png",
+          "usages": []
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
@@ -778,13 +777,19 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": "Design- 72306"
+        "modelPatentNo": "",
+        "modelExtraContent": {
+          "header": "Stages in the work process",
+          "desc": "Assembly method",
+          "img": "/images/products/dividag/dividag_noBG.png",
+          "extraContent": "Rotem + Designed for massive concrete ceilings where the weight of the iron is particularly large. The Rotem unit withstands high loads according to a test conducted at the Israeli Plastics Center."
+        }
       },
       {
         "id": "18-magen-nano-stone",
         "modelName": "Magen-Nano Stone",
         "modelNamePage": "Magen-Nano Stone Revolutionary Nano Technology Surface Protection Coating",
-        "modelDescription": "Concrete distance keepers are intended for several uses:",
+        "modelDescription": "Advantages:",
         "modelUsage": [
           "Water repellent.",
           "High repulsion capacity and resistant to corrosion and disintegration.",
@@ -794,10 +799,9 @@
           "Comes in a 20-liter container."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/sleever/sleever_noBG.png",
-          "productPageMain": "/images/products/sleever/sleever_noBG.png",
-          "usage1": "/images/products/sleever/usage_1.png",
-          "usage2": "/images/products/sleever/usage_2.png"
+          "thumbnail": "/images/products/magen/magen_noBG.png",
+          "productPageMain": "/images/products/magen/magen_noBG.png",
+          "usages": []
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
@@ -805,7 +809,7 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": "Design- 72306"
+        "modelPatentNo": ""
       }
     ],
   
