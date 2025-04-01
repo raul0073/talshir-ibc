@@ -1,8 +1,10 @@
 
+import ConcreteKeepers from "@/app/[locale]/(main)/product/[productId]/components/products/ConcreteKeepers";
 import CornersClipComp from "@/app/[locale]/(main)/product/[productId]/components/products/CornersClipComp";
 import DividagComp from "@/app/[locale]/(main)/product/[productId]/components/products/DividagComp";
 import DividagWithSpacer from "@/app/[locale]/(main)/product/[productId]/components/products/DividagWithSpacer";
 import KeeperComp from "@/app/[locale]/(main)/product/[productId]/components/products/KeeperComp";
+import MagenNanoStone from "@/app/[locale]/(main)/product/[productId]/components/products/MagenNanoStone";
 import MickClipComp from "@/app/[locale]/(main)/product/[productId]/components/products/MickClipComp";
 import NadalRotem50 from "@/app/[locale]/(main)/product/[productId]/components/products/NadalRotem50";
 import NadalRotemPlus from "@/app/[locale]/(main)/product/[productId]/components/products/NadalRotemPlus";
@@ -387,7 +389,7 @@ export const PRODUCTS_COMPONENTS: Record<string, ReactNode> = {
   '14-corners-clips' : <CornersClipComp id='14-corners-clips' />,
   '15-mik-clips' : <MickClipComp id='15-mik-clips' />,
   '16-dividag-custom' : <DividagComp id='2-dividag' />,
-  '17-concrete-keeper' : <DividagComp id='17-concrete-keeper' />,
-  '18-magen-nano-stone' : <DividagComp id='18-magen-nano-stone' />,
+  '17-concrete-keeper' : <ConcreteKeepers id='17-concrete-keeper' />,
+  '18-magen-nano-stone' : <MagenNanoStone id='18-magen-nano-stone' />,
 
 };

@@ -1,7 +1,7 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { Separator } from "@/components/ui/separator";
 import { IconBrandYoutube } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { useMemo } from "react";
 import { AltImages, ProductItemAlt } from "../../../../../../../../types/products";
@@ -10,7 +10,8 @@ import ModelHeader from "../shared/ModelHeader";
 
 function SealerComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-
+	const locale = useLocale()
+	const isRTL = locale === "he"
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItemAlt) => p.id === id);
 	}, [t, id]);
@@ -71,7 +72,7 @@ function SealerComp({ id }: { id: string }) {
 										alt={thisProd.modelName}
 										width={200}
 										height={200}
-										className="border"
+										className={`border ${isRTL? '' : 'scale-x-[-1]'}`}
 									/>
 								</div>
 							</div>

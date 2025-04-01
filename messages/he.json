@@ -737,10 +737,10 @@
           "באמצעות חוט הברזל המגולוון קושרים את שומר המרחק למוט הברזל להבטחת יציבות בעת היציקה."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/sleever/sleever_noBG.png",
-          "productPageMain": "/images/products/sleever/sleever_noBG.png",
-          "usage1": "/images/products/sleever/usage_1.png",
-          "usage2": "/images/products/sleever/usage_2.png"
+          "thumbnail": "/images/products/concrete_keeper/concrete_keeper_noBG.png",
+          "productPageMain": "/images/products/concrete_keeper/concrete_keeper_noBG.png",
+          "usages" : [
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
@@ -748,13 +748,19 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": "עיצוב- 72306"
+        "modelPatentNo": "" ,
+        "modelExtraContent" : {
+          "header" : "שלבים בתהליך העבודה",
+          "desc" : "אופן הרכבה",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
+        }
       },
       {
         "id": "18-magen-nano-stone",
         "modelName": "מגן- ננו סטון",
         "modelNamePage" :  "מגן- ננו סטון ציפוי מגן למשטחים בטכנולוגיית ננו מהפכנית",
-        "modelDescription": "שומרי מרחק מבטון מיועדים למספר שימושים:",
+        "modelDescription": "יתרונות:",
         "modelUsage": [
          "דוחה מים.",
          "בעל כושר דחייה גבוה ועמיד בפני איכול והתפוררות.",
@@ -764,10 +770,10 @@
          "מגיע במיכל של 20 ליטר ."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/sleever/sleever_noBG.png",
-          "productPageMain": "/images/products/sleever/sleever_noBG.png",
-          "usage1": "/images/products/sleever/usage_1.png",
-          "usage2": "/images/products/sleever/usage_2.png"
+          "thumbnail": "/images/products/magen/magen_noBG.png",
+          "productPageMain": "/images/products/magen/magen_noBG.png",
+          "usages" : [
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
@@ -775,7 +781,7 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": "עיצוב- 72306"
+        "modelPatentNo": ""
       }
     ],
     "Certifications": {

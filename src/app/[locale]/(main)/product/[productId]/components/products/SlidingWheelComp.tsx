@@ -24,6 +24,13 @@ function SlidingWheelComp({ id }: { id: string }) {
 								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
 									{thisProd.modelDescription}
 								</p>
+								<div className="w-2/3 mx-auto">
+							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
+								{thisProd.modelUsage.map((line: string, index: number) => (
+									<li key={index}>{line}</li>
+								))}
+							</ul>
+						</div>
 							</div>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">
 								<EnlargeableImage
@@ -34,13 +41,7 @@ function SlidingWheelComp({ id }: { id: string }) {
 								/>
 							</div>
 						</div>
-						<div className="w-2/3 mx-auto">
-							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
-								{thisProd.modelUsage.map((line: string, index: number) => (
-									<li key={index}>{line}</li>
-								))}
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 			) : (
