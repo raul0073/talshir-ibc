@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@font-face {
+	font-family: 'Suez One';
+	src: url('/fonts/SuezOne-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+  }
 @layer base {
 	:root {
 		--background: 0 0% 100%;
@@ -58,7 +64,7 @@
 		--chart-5: 340 75% 55%;
 	}
 }
-
+  
 @layer utilities {
 	html {
 		@apply overflow-x-hidden max-w-full !w-screen;

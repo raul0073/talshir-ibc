@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Rajdhani, Assistant } from "next/font/google";
+
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
@@ -12,6 +13,8 @@ export const metadata: Metadata = {
 	description: 'Ilan Ber Co. Construction Solutions',
   }
 
+  // local font
+const suez_one = 
 // Define fonts
 const rajdhani = Rajdhani({
 	variable: "--font-rajdhani",
