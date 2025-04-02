@@ -13,8 +13,6 @@ export const metadata: Metadata = {
 	description: 'Ilan Ber Co. Construction Solutions',
   }
 
-  // local font
-const suez_one = 
 // Define fonts
 const rajdhani = Rajdhani({
 	variable: "--font-rajdhani",
