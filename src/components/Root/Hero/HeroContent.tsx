@@ -1,5 +1,5 @@
 "use client";
-import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
+import logo from "@/app/assets/images/logo/logo.png";
 import { motion, stagger, useAnimate, useScroll } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -13,8 +13,10 @@ function HeroContent() {
 	const titleRef = useRef<HTMLParagraphElement>(null);
 	const content = useMemo(() => {
 		return {
-			highlight: t("highlight"),
-			description: t("description"),
+			line1: t("line1"),
+			line2: t("line2"),
+			line3: t("line3"),
+			title: t("title"),
 			actions: {
 				products: t("actions.products"),
 				contact: t("actions.contact"),
@@ -40,16 +42,16 @@ function HeroContent() {
 	}, [titleAnimate, scrollY]);
 	return (
 		<div className="text-center absolute left-1/2 -translate-x-1/2 sm:top-2/3 top-1/2 -translate-y-1/2 w-full z-10">
-			<div className="w-2/3 mx-auto flex justify-start items-start gap-4 mt-12 sm:mt-0">
+			<div className="w-2/3 mx-auto flex justify-start items-start gap-4 mt-24 sm:mt-0">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 0.95 }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 3 }}
 					exit={{ scale: 0.1, opacity: 0 }}
 					viewport={{ once: true }}
-					className={`relative sm:-top-44`}>
+					className={`relative md:-top-24 lg:-top-44 lg:-right-36 `}>
 					<Image
-						src={logo2}
+						src={logo}
 						alt="talshir-ibc logo 300X300"
 						width={300}
 						height={300}
@@ -65,9 +67,11 @@ function HeroContent() {
 							animate={{ opacity: 1 }}
 							ref={titleRef}
 							viewport={{ once: true }}
-							className="heroText text-4xl md:text-6xl font-[900] capitalize">
-							{content.description} <br />{" "}
-							<span className="text-2xl md:text-5xl mt-4">{content.highlight}</span>
+							className="heroText text-4xl lg:text-5xl capitalize">
+							{content.title} <br />{" "}
+							{content.line1} <br />{" "}
+							{content.line2} <br />{" "}
+							{content.line3} 
 						</motion.h1>
 					</div>
 				</div>

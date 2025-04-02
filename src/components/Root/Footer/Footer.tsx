@@ -1,5 +1,5 @@
 "use client";
-import logo2 from "@/app/assets/images/logo/IBC-300x230-noBG.png";
+import logo2 from "@/app/assets/images/logo/logo.png";
 import {
 	IconBrandWhatsapp,
 	IconClockCheck,

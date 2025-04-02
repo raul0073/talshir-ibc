@@ -389,7 +389,7 @@ export const PRODUCTS_COMPONENTS: Record<string, ReactNode> = {
   '14-corners-clips' : <CornersClipComp id='14-corners-clips' />,
   '15-mik-clips' : <MickClipComp id='15-mik-clips' />,
   '16-dividag-custom' : <DividagComp id='2-dividag' />,
-  '17-concrete-keeper' : <ConcreteKeepers id='17-concrete-keeper' />,
-  '18-magen-nano-stone' : <MagenNanoStone id='18-magen-nano-stone' />,
+  '17-magen-nano-stone' : <MagenNanoStone id='18-magen-nano-stone' />,
+  '18-concrete-keeper' : <ConcreteKeepers id='17-concrete-keeper' />,
 
 };

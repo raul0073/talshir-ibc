@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 @layer base {
 	:root {
 		--background: 0 0% 100%;
@@ -67,6 +67,9 @@
 	.logoImg {
 		@apply w-[100px] sm:w-[200px] h-auto;
 	}
+	.font-suez {
+		font-family: 'Suez One', sans-serif;
+	}
 }
 @layer base {
 	* {
@@ -91,48 +94,38 @@
   }
   
   h1.heroText {
-	font-size: clamp(2rem, 4vw, 6rem);
-	font-weight: 900;
+	font-weight: 700; /* Ensures bold appearance */
+	font-family: 'Suez One', sans-serif;
 	text-align: center;
-	line-height: 1.2;
-	color: transparent; 
+	color: white; /* Set actual fill color */
 
-	-webkit-text-stroke: 2px rgb(4, 4, 92); /* Default for mobile */
+	/* Create outer stroke effect using text-shadow */
+	text-shadow:
+    -3px -3px 0 #173454,  
+     3px -3px 0 #173454,  
+    -3px  3px 0 #173454,  
+     3px  3px 0 #173454,
+    -4px -4px 3px rgba(23, 52, 84, 0.7),  
+     4px -4px 3px rgba(23, 52, 84, 0.7),  
+    -4px  4px 3px rgba(23, 52, 84, 0.7),  
+     4px  4px 3px rgba(23, 52, 84, 0.7);
+	
 	animation: strokeFill 2s ease-in-out forwards;
   }
   
-  /* Adjust stroke size for larger screens */
-  @media (min-width: 640px) { /* sm breakpoint */
-	h1.heroText {
-	  -webkit-text-stroke: 2.5px rgb(4, 4, 92);
-	}
-  }
-  
-  @media (min-width: 1024px) { /* lg breakpoint */
-	h1.heroText {
-	  -webkit-text-stroke: 3px rgb(4, 4, 92);
-	}
-  }
-  
-  /* Animation */
+  /* Animation for text fill */
   @keyframes strokeFill {
-	0% {
-	  -webkit-text-fill-color: transparent;
-	}
-	100% {
-	  -webkit-text-fill-color: white;
-	}
+	0% { color: transparent; }
+	100% { color: white; }
   }
-
+  
   .hero {
 	height: 100vh;
-	/* Ensure the hero section takes full viewport height */
   }
   
+  /* Ensure full screen height on mobile */
   @media (max-width: 768px) {
 	.hero {
-	  height: 100vh;  /* Make sure the hero section height takes up the full screen on mobile */
+	  height: 100vh;
 	}
   }
-
-

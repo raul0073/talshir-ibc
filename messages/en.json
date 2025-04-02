@@ -47,19 +47,27 @@
   },
   "Hero": {
     "title": "Talshir-IBC",
-    "description": "Development, manufacturing and marketing of unique products in the construction industry.",
-    "highlight": "All products hold unique patents and exclusive designs.",
+    "line1": "Development, production, and marketing of unique products in the construction industry.",
+    "line2": "Innovating methods in the field of framework and finishes.",
+    "line3": "The products are registered as patents-designs in Israel.",
     "actions": {
       "products": "Our products",
-      "contact": "contact sales"
+      "contact": "Contact us"
     }
   },
   "About": {
-    "title": "About Us",
-    "tag": "Building Excellence Since 1994",
-    "header": "Talshir - Ilan Bar Ltd. was founded in 1994. ",
-    "footer": "Our products represent a breakthrough and innovation and are successfully marketed in the leading construction companies in Israel.",
-      "innovation": "Initially, the company focused on constructing high-rise residential buildings and private homes in Israel. Over the years, with extensive hands-on experience in the operational and engineering fields, the company identified opportunities to advance and develop work processes. As part of its activities, the company began designing and developing unique and exclusive products aimed at improving construction processes, work quality, cost reduction, and providing a variety of solutions for the construction industry."
+    "title": "About us",
+    "line1": "Talshir-Ilan Bar Ltd. was founded in 1994.",
+    "line2": "In its early days, the company focused on building residential homes, multi-story buildings, and private homes in Israel.",
+    "line3": "As part of its many years of activity and given its deep and practical knowledge in the field of execution and engineering, the company began to promote and develop work processes.",
+    "line4": "The company is currently engaged in the planning and development of unique and exclusive products designed to improve construction processes, work quality, reduce costs, and provide a range of solutions to the building industry.",
+    "line5": "The company is currently engaged in the planning and development of unique and exclusive products designed to improve construction processes,",
+    "line6": "work quality, reduce costs, and provide a range of solutions to the building industry.",
+    "footer": {
+      "line1": "Our products represent a breakthrough and innovation",
+      "line2": "and are successfully marketed to the largest and leading construction companies in Israel.",
+      "line3": "and are successfully marketed to the largest and leading construction companies in Israel."
+    }
   },
   "Coops": {
     "title": "Our Clients",
@@ -167,7 +175,9 @@
     "modelExtraContent": {
       "header": "High-Quality Dividag Pipe in Special Sizes",
       "desc": "Can be ordered in any size. Packed in bags of 100 units. 'Dividag' pipe end connection is done manually with a light press.",
-      "img": "/images/products/dividag/dividag_noBG.png"
+      "img": "/images/products/dividag/dividag_noBG.png",
+                "extraContent2": "Dividag pipe ending",
+          "extraContent3": "Dividag custom cut"
     }
   },
   {
@@ -215,19 +225,19 @@
   {
     "id": "4-nadal-rotem-50",
     "modelName": "Nadal Rotem - 50",
-    "modelNamePage": "Nadal Rotem - Bottom Mesh Distance Keeper",
-    "modelDescription": "Bottom mesh distance keeper for heavy rebar loads in massive ceilings.",
+    "modelNamePage": "Nadal Rotem- Keeper for Bottom Mesh",
+    "modelDescription": "Distance keeper for bottom mesh for heavy iron loads in massive ceilings.",
     "modelUsage": [
-      "Plastic accessory made of high-quality material designed to maintain distance between bottom mesh and formwork.",
-      "Withstands high weight load.",
+      "Plastic accessory made of high-quality material designed to maintain distance between the bottom mesh and formwork.",
+      "Withstands heavy weight loads.",
       "Stable, does not tend to bend.",
       "1 unit per square meter of rebar mesh.",
       "Savings in costs and labor time for arranging the bottom rebar.",
-      "Concrete cover: comes in two sizes - 2.5 cm, 3 cm"
+      "Concrete cover: comes in two sizes - 2.5 cm, 3 cm."
     ],
     "modelImages": {
-      "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
-      "productPageMain": "/images/products/nadal_plus/nadal_plus_CUT_noBG.png",
+      "thumbnail": "/images/products/nadal_plus/nadal_rotem.png",
+      "productPageMain": "/images/products/nadal_plus/nadal_rotem_main.png",
       "usage1": "/images/products/nadal_plus/model_usage.png",
       "usage2": "",
       "usage3": ""
@@ -238,13 +248,14 @@
     "modelSpecification": "",
     "modelCertification": "",
     "model3DObject": "",
-    "modelPatentNo": "Registered Design",
+    "modelPatentNo": "Registered design",
     "modelExtraContent": {
-      "header": "Nadal Rotem 50 + Clip",
-      "desc": "50 cm distance keeper for rebar mesh in concrete walls",
-      "img" : "/images/products/nadal_plus/nadal_50.png",
-      "img2" : "/images/products/nadal_plus/nadal_clip.png",
-      "extraContent": "The clip - a plastic accessory that easily mounts on the Nadal and allows the Nadal to be hung on a vertical mesh. Option to use an additional clip for full attachment of the Nadal to the rebar mesh."
+      "header": "Nadal Rotem 50+ Clip",
+      "desc": "50 cm distance keeper for meshes in concrete walls.",
+      "img": "/images/products/nadal_plus/nadal_50.png",
+      "img2": "/images/products/nadal_plus/nadal_clip.png",
+      "extraContent2": "Clip for hanging on the mesh",
+      "extraContent": "The clip - a plastic accessory that is easily mounted on the Nadal and allows the Nadal to be hung on a vertical mesh. Option to use an additional clip for full adhesion of the Nadal to the rebar mesh."
     }
   },
   {

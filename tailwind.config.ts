@@ -17,8 +17,9 @@ export default {
   			foreground: 'hsl(var(--foreground))',
   			appRed: '#b61e13',
   			appBlue: '#4F7DF0',
-			appTextBlue: '#3871bd',
-			appSubTextBlue: '#4574b1',
+			appText: "#173454",
+			appTextBlue: '#0170A3',
+			appSubTextBlue: '#376ea0',
   			appGray: '#F1F1F1',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

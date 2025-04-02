@@ -7,8 +7,8 @@ function ModelHeader({thisProd, no3D}: {thisProd: ProductItem, no3D?: boolean}) 
     const tPage = useTranslations("ProductPage");
   return (
     <div className="model-header p-3 sm:p-4 flex justify-center items-center relative">
-    <div className="w-full text-center">
-        <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl uppercase text-appTextBlue">
+    <div className="w-full sm:w-2/3 text-center">
+    <h1 className="text-2xl md:text-3xl lg:text-5xl uppercase text-appTextBlue font-suez">
             {thisProd.modelNamePage}
         </h1>
     {!no3D && (

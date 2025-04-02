@@ -47,8 +47,9 @@
   },
   "Hero": {
     "title": "טלשיר-IBC",
-    "description": "פיתוח, ייצור ושיווק מוצרים יחודיים בענף הבניה חדשנות ופריצת דרך בשיטות עבודה בתחום השלד וגמרים.",  
-    "highlight": "כל המוצרים כוללים פטנטים ייחודיים ועיצובים בלעדיים.",
+    "line1": "פיתוח, יצור ושיווק מוצרים יחודיים בענף הבנייה.",
+    "line2" : "חדשנות ופריצת דרך בשיטות עבודה בתחום השלד וגמרים.",
+    "line3" : "המוצרים רשומים כפטנטים- עיצובים בישראל.",
     "actions": {
       "products": "המוצרים שלנו",
       "contact": "צור קשר   "
@@ -56,10 +57,17 @@
   },
   "About": {
     "title": "אודותינו ",
-    "tag": "בונים מצוינות מאז 1994",
-    "header": "חברת טלשיר - אילן בר בע\"מ נוסדה ב-1994.",
-    "footer": "המוצרים שלנו מהווים פריצת דרך וחדשנות, ומשווקים בהצלחה בחברות הבנייה הגדולות והמובילות בישראל.",
-    "innovation": "בראשית דרכה, התמקדה החברה בבניית בתי מגורים, רבי קומות ובתים פרטיים בישראל. במסגרת הפעילות רבת השנים ונוכח היכרות עמוקה ומעשית בתחום הביצועי וההנדסי נחשפה החברה לאפשרויות בקידום ופיתוח תהליכי עבודה. כחלק מפעילות החברה, החלה החברה בתכנון ופיתוח מוצרים ייחודיים ובלעדיים המיועדים לשיפור תהליכי בנייה, איכות עבודה, הוזלת עלויות ומתן מגוון פתרונות לענף הבנייה."
+    "line1": "חברת טלשיר- אילן בר בע”מ נוסדה בשנת 1994. ",
+    "line2" : "בראשית דרכה, התמקדה החברה בבניית בתי מגורים, רבי קומות ובתים פרטיים בישראל. ",
+    "line3" : "במסגרת הפעילות רבת השנים ונוכח היכרות עמוקה ומעשית בתחום הביצועי וההנדסי החלה",
+    "line4" : "החברה בקידום ובפיתוח תהליכי עבודה.",
+    "line5" : "החברה עוסקת כיום בתכנון ופיתוח מוצרים יחודיים ובלעדיים המיועדים לשיפור תהליכי בנייה,",
+    "line6" : "איכות עבודה, הוזלת עלויות ומתן מגוון פתרונות לענף הבניין.",
+    "footer": {
+      "line1": "המוצרים שלנו מהווים פריצת דרך וחדשנות ",
+      "line2": "ומשווקים בהצלחה בחברות הבנייה הגדולות ",
+      "line3": "והמובילות בישראל."
+    }
    },
   "Coops": {
     "title": "הלקוחות שלנו",
@@ -128,12 +136,12 @@
           "הצינור בנוי מפלסטיק איכותי, חזק ומדויק, נוח לעבודה, הובלה ואחסון."
         ],
         "modelImages": {
-          "thumbnail": "/images/products/dividag/dividag_noBG.png",
-          "productPageMain": "/images/products/dividag/dividagMain_noBG.png",
+          "thumbnail": "/images/products/dividag/dividagMain_noBG.png",
+          "productPageMain": "/images/products/dividag/dividagMain.png",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+            "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1.jpg",
+            "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-6.jpg",
+           "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-5.jpg"
            ]
         },
         "modelSizesCustomize": true,
@@ -151,15 +159,18 @@
         "modelPatentNo": "",
         "modelExtraContent" : {
           "header" : "צינור דיווידג איכותי במידות מיוחדות",
-          "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
-          "img" : "/images/products/dividag/dividag_noBG.png"
+          "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.",
+          "img" : "/images/products/dividag/dividag_noBG.png",
+          "extraContent2": "קצה צינור “דיווידג”",
+          "extraContent3": " צינור “דיווידג” חתוך לפי מידה",
+          "extraContent4" : " חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה"
         }
       },
       {
         "id": "3-stopper",
         "modelName": "סטופר - אטם",
         "modelNamePage" :"סטופר - אטם ללחץ גבוה",
-        "modelDescription": "אטם למים וגזים בלחץ גבוה לצינור דיווידג בקירות בטון ",
+        "modelDescription": "אטם לצינור “דיווידג” בקירות בטון",
         "modelUsage": [
           "אוטם למים וגזים בלחץ גבוה.",
           "חיסכון גדול בזמן ובעלויות העבודה.",
@@ -194,7 +205,9 @@
           "header" : "הסטופר נבדק בהצלחה בהתאם לתקן הישראלי 1476 חלק 2, במהלך הבדיקה הסטופר עמד בלחץ קבוע של 5 אטמוספרות בתוך מים בתא לחץ.",
           "desc" : "הסטופר נבדק בהצלחה במכון התקנים הישראלי ונמצא מתאים להנחיות פיקוד העורף כפי שהוגדרו במפרט לאיטום מעברי צנרת במרחבים מוגנים.עומד בהנחיות האיטום בלחץ גז הליום פנימי וחיצוני.",
           "img" : "/images/products/dividag/dividag_noBG.png",
-          "extraContent" : "`הדגמה בצינור שקוף להמחשת התהליך בצינור “דיווידג”`"
+          "extraContent" : "הדגמה בצינור שקוף להמחשת התהליך בצינור “דיווידג” -- הסטופר בתוך קונוס הבטון",
+          "extraContent2" : "השימוש בקירות חיצוניים ללא דבק",
+          "extraContent3" : "השימוש בקירות פנימיים בעזרת דבק דו רכיבי."
         }
       },
       {
@@ -211,8 +224,8 @@
           "כיסוי בטון: מגיע בשתי מידות- 2.5 ס”מ, 3 ס”מ "
         ],
         "modelImages": {
-          "thumbnail": "/images/products/nadal_plus/nadal_plus_noBG.png",
-          "productPageMain": "/images/products/nadal_plus/nadal_plus_CUT_noBG.png",
+          "thumbnail": "/images/products/nadal_plus/nadal_rotem.png",
+          "productPageMain": "/images/products/nadal_plus/nadal_rotem_main.png",
           "usage1": "/images/products/nadal_plus/model_usage.png",
           "usage2": "",
           "usage3": ""
@@ -228,6 +241,8 @@
           "header" : "נדל רותם 50+ תפס",
           "desc" : "שומר מרחק 50 ס”מ לרשתות בקירות בטון",
           "img" : "/images/products/nadal_plus/nadal_50.png",
+          "img2" : "/images/products/nadal_plus/nadal_clip.png",
+          "extraContent2" : "תפס לתלייה על רשת",
           "extraContent" : "התפס- אביזר פלסטיק שמורכב בקלות על הנדל ומאפשר את תליית הנדל על רשת אנכית. אפשרות לשימוש בתפס נוסף להצמדה מלאה של הנדל לרשת הברזל."
         }
       },
@@ -726,7 +741,34 @@
         }
       },
       {
-        "id": "17-concrete-keeper",
+        "id": "17-magen-nano-stone",
+        "modelName": "מגן- ננו סטון",
+        "modelNamePage" :  "מגן- ננו סטון ציפוי מגן למשטחים בטכנולוגיית ננו מהפכנית",
+        "modelDescription": "יתרונות:",
+        "modelUsage": [
+         "דוחה מים.",
+         "בעל כושר דחייה גבוה ועמיד בפני איכול והתפוררות.",
+         "בעל עמידות UV הנשמרת לאורך זמן.",
+         "שקוף, לא משפיע על מראה המשטח.",
+         "בעל כושר ניקוי עצמי.",
+         "מגיע במיכל של 20 ליטר ."
+        ],
+        "modelImages": {
+          "thumbnail": "/images/products/magen/magen_noBG.png",
+          "productPageMain": "/images/products/magen/magen_noBG.png",
+          "usages" : [
+          ]
+        },
+        "modelSizesCustomize": false,
+        "modelSizes": [],
+        "modelDemoVideo": "",
+        "modelSpecification": "",
+        "modelCertification": "",
+        "model3DObject": "",
+        "modelPatentNo": ""
+      },
+      {
+        "id": "18-concrete-keeper",
         "modelName": "שומרי מרחק מבטון",
         "modelNamePage" :  "שומרי מרחק מבטון",
         "modelDescription": "שומרי מרחק מבטון מיועדים למספר שימושים:",
@@ -755,33 +797,6 @@
           "img" : "/images/products/dividag/dividag_noBG.png",
           "extraContent" : " רותם + מיועד לתקרות בטון מסיביות בהן משקל הברזל גדול במיוחד. יחידת רותם עומדת בעומס גבוה בהתאם לבדיקה שנערכה במרכז הישראלי לפלסטיק."
         }
-      },
-      {
-        "id": "18-magen-nano-stone",
-        "modelName": "מגן- ננו סטון",
-        "modelNamePage" :  "מגן- ננו סטון ציפוי מגן למשטחים בטכנולוגיית ננו מהפכנית",
-        "modelDescription": "יתרונות:",
-        "modelUsage": [
-         "דוחה מים.",
-         "בעל כושר דחייה גבוה ועמיד בפני איכול והתפוררות.",
-         "בעל עמידות UV הנשמרת לאורך זמן.",
-         "שקוף, לא משפיע על מראה המשטח.",
-         "בעל כושר ניקוי עצמי.",
-         "מגיע במיכל של 20 ליטר ."
-        ],
-        "modelImages": {
-          "thumbnail": "/images/products/magen/magen_noBG.png",
-          "productPageMain": "/images/products/magen/magen_noBG.png",
-          "usages" : [
-          ]
-        },
-        "modelSizesCustomize": false,
-        "modelSizes": [],
-        "modelDemoVideo": "",
-        "modelSpecification": "",
-        "modelCertification": "",
-        "model3DObject": "",
-        "modelPatentNo": ""
       }
     ],
     "Certifications": {
@@ -792,7 +807,7 @@
       "mati" :"מכון התקנים ישראל",
       "customizable" : "ניתן להשיג לפי מידה",
       "moreSizesAvailable" : "זמין במידות נוספות",
-      "standardSizesAvailable" : "זמין במידות קבועות",
+      "standardSizesAvailable" : "מיוצר במידות סטנדרטיות",
       "customColors": "זמין במגוון צבעים",
       "prospectDownload": "פרוספקט להורדה",
       "sealingSpecs" : "מפרט לאיטום מעברי צנרת במרחבים מוגנים"

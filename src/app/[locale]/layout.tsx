@@ -2,7 +2,7 @@ import { LocaleOptions, routing } from "@/i18n/routing";
 import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { Rajdhani, Rubik } from "next/font/google";
+import { Rajdhani, Assistant } from "next/font/google";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
@@ -19,10 +19,11 @@ const rajdhani = Rajdhani({
 	weight: ["300", "400", "500", "600", "700"],
 	display: "swap",
 });
-const rubik = Rubik({
-	variable: "--font-rajdhani",
+
+const assistant = Assistant({
+	variable: "--font-assistant",
 	subsets: ["hebrew"],
-	weight: ["300", "400", "500", "600", "700", "800", "900"],
+	weight: ["200", "300", "400", "500", "600", "700", "800"],
 	display: "swap",
 });
 
@@ -46,7 +47,7 @@ export default async function Layout({
 	const messages = await getMessages({ locale: storedLocale });
 
 	const isRtl = storedLocale === "he" || storedLocale === "ar";
-	const fontClass = isRtl ? rubik.variable : rajdhani.variable;
+	const fontClass = isRtl ? assistant.variable : rajdhani.variable;
 
 	return (
 		<html lang={storedLocale} dir={isRtl ? "rtl" : "ltr"}>

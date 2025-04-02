@@ -5,24 +5,28 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
 const languages = [
-	{ code: "en", label: "En ", flag: "🇺🇸" },
+	{ code: "en", label: "En", flag: "🇺🇸" },
 	{ code: "he", label: "עב", flag: "🇮🇱" },
 ];
 
 export default function LocaleSwitcher({
-	currentLocale,
+	currentLocale = "he", // Default to Hebrew
 	className,
 }: {
-	currentLocale: string;
+	currentLocale?: string;
 	className?: string;
 }) {
 	const router = useRouter();
 	const path = usePathname();
 	const [isPending, startTransition] = useTransition();
 
-	const changeLanguage = async (locale: string) => {
-		if (locale === currentLocale) return;
-		const newPathname = `/${locale}${path.replace(/^\/[a-z]{2}/, "")}`;
+	// Find the current language index
+	const currentIndex = languages.findIndex((lang) => lang.code === currentLocale);
+	// Toggle to the next language
+	const nextLocale = languages[(currentIndex + 1) % languages.length];
+
+	const toggleLanguage = () => {
+		const newPathname = `/${nextLocale.code}${path.replace(/^\/[a-z]{2}/, "")}`;
 
 		startTransition(() => {
 			router.push(newPathname);
@@ -30,25 +34,17 @@ export default function LocaleSwitcher({
 	};
 
 	return (
-		<div className={cn("text-xs", `${className}`)}>
-			<select
-				onChange={(e) => changeLanguage(e.target.value)}
-				disabled={isPending}
-				defaultValue={currentLocale}
-				className="py-1  bg-transparent rounded-none p-2 flex items-center">
-				{languages.map(({ code, label, flag }) => (
-					<option
-						key={code}
-						value={code}
-						className="rounded-none text-xs font-sans">
-					
-						{label}&emsp;
-					
-						{flag}
-
-					</option>
-				))}
-			</select>
-		</div>
+		<button
+			onClick={toggleLanguage}
+			disabled={isPending}
+			className={cn(
+				"py-1 px-3 bg-transparent rounded-md flex items-center gap-2 text-xs font-sans transition-opacity outline-none",
+				{ "opacity-50": isPending }, // Show loading state
+				className
+			)}
+		>
+			<span>{nextLocale.label}</span>
+			<span>{nextLocale.flag}</span>
+		</button>
 	);
 }

@@ -26,8 +26,8 @@ function ProductsComp() {
 			<div className="container mx-auto p-6 ">
 				<div className="header w-full max-w-3xl">
 					<SectionHeader className="">
-						{content.title.split(" ")[0]}{" "}
-						<span className="font-bold">{content.title.split(" ")[1]}</span>
+						{content.title}{" "}
+						
 					</SectionHeader>
 				</div>
 				<div className="products w-full grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 pt-20">

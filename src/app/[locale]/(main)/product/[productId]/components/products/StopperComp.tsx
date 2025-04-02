@@ -1,10 +1,7 @@
-import {
-	CarmelApprovedIcon,
-	MatiApprovedIcon,
-} from "@/components/Root/Products/ProductsComp";
+import carmel from "@/app/assets/images/certifications/carmel-ap2.jpg";
+import mati_complete from "@/app/assets/images/certifications/mati_complete.jpg";
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonPikod, ButtonProspect } from "@/components/ui/button-arrow";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
@@ -14,7 +11,6 @@ import ModelHeader from "../shared/ModelHeader";
 
 function StopperComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-	const tPage = useTranslations("ProductPage");
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id.trim() === id);
 	}, [t, id]);
@@ -24,12 +20,9 @@ function StopperComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
-						<Separator />
-
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 place-items-center">
 							<div>
-								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6">
+								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6 text-nowrap">
 									{thisProd.modelDescription}
 								</h2>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
@@ -57,15 +50,14 @@ function StopperComp({ id }: { id: string }) {
 								/>
 							</div>
 						</div>
-						<Separator />
 						<div className="images-col p-4 w-full flex justify-center flex-col items-center mt-6">
 							<h3 className="font-bold text-2xl uppercase text-appSubTextBlue mb-4">
 								{thisProd.pikodHaorefApproved}
 							</h3>
-							<h3 className="font-bold text-2xl uppercase text-appSubTextBlue mb-4">
-								{tPage("modelGraphicsUsage")} -{" "}
-								<span> {thisProd.modelName}</span>
-							</h3>
+							<ul className="px-12 w-full flex justify-start flex-col">
+								<li>{thisProd.modelExtraContent.extraContent2}</li>
+								<li>{thisProd.modelExtraContent.extraContent3}</li>
+							</ul>
 							<div className="w-full flex justify-evenly items-center gap-4">
 								<div className="flex gap-4 py-2">
 									{thisProd.modelImages.usages.map(
@@ -90,16 +82,26 @@ function StopperComp({ id }: { id: string }) {
 						</div>
 						<div className="certifications p-4">
 							<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
-								<div className="bg-slate-200 rounded-xl p-4">
-									<MatiApprovedIcon />
-									<p className="text-appSubTextBlue text-lg">
+								<div className="bg-white rounded-xl p-4">
+									<EnlargeableImage
+										src={mati_complete}
+										alt={"mati"}
+										width={500}
+										height={500}
+									/>
+									<p className="text-appSubTextBlue text-lg font-bold">
 										{thisProd.modelExtraContent.desc}
 									</p>
 								</div>
 
-								<div className="bg-slate-200 rounded-xl p-4">
-									<CarmelApprovedIcon />
-									<p className="text-appSubTextBlue text-lg">
+								<div className="bg-white rounded-xl p-4">
+									<EnlargeableImage
+										src={carmel}
+										alt={"carmel"}
+										width={500}
+										height={500}
+									/>
+									<p className="text-appSubTextBlue text-lg font-bold">
 										{thisProd.modelExtraContent.header}
 									</p>
 								</div>

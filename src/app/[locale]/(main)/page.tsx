@@ -35,7 +35,7 @@ export default function Home() {
 	return (
 		<Fragment>
 			<HeroComp />
-			<SectionWithLocale sectionName="about" className="bg-appGray " id="about">
+			<SectionWithLocale sectionName="about" className="bg-white " id="about">
 				<DynamicAboutSection />
 			</SectionWithLocale>
 			<SectionWithLocale

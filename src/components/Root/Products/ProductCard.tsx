@@ -32,7 +32,7 @@ function ProductCard({ product }: { product: ProductItem }) {
 							alt="thumbnail"
 						/>
 					</CardHeader>
-					<CardFooter className="flex justify-center text-2xl sm:text-3xl text-appSubTextBlue font-semibold text-center">
+					<CardFooter className="flex justify-center text-2xl sm:text-3xl text-appTextBlue font-suez text-center uppercase">
 						{product.modelName}
 					</CardFooter>
 				</Link>

@@ -10,25 +10,31 @@ function About() {
 	const content = useMemo(() => {
 		return {
 			title: t("title"),
-			footer: t("footer"),
-			innovation: t("innovation"),
-			header: t("header"),
+			line1: t("line1"),
+			line2: t("line2"),
+			line3: t("line3"),
+			line4: t("line4"),
+			line5: t("line5"),
+			line6: t("line6"),
+			footer1: t("footer.line1"),
+			footer2: t("footer.line2"),
+			footer3: t("footer.line3"),
 		};
 	}, [t]);
 	return (
 		<div className="relative container mx-auto py-28">
-			<div className=" w-full max-w-7xl mx-auto h-full px-2 flex flex-col justify-center items-center text-center">
+			<div className=" w-full max-w-7xl mx-auto h-full px-2 flex flex-col justify-center items-center text-center space-y-2 sm:space-y-4">
 				<SectionHeader className="mb-12">
 					{content.title.split(" ")[0]}{" "}
 					<span className="font-[900]">{content.title.split(" ")[1]}</span>
 				</SectionHeader>
 				<motion.p
-					initial={{ opacity: 0, y: "-30%" }}
+					initial={{ opacity: 0, y: "30%" }}
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
 					viewport={{ once: true }}
-					className="sm:text-2xl mb-2">
-					{content.header}
+					className="sm:text-3xl">
+					{content.line1}
 				</motion.p>{" "}
 				<br />
 				<motion.p
@@ -36,23 +42,71 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 mt-6 sm:text-2xl">
-					{content.innovation} <br />
+					className="text-zinc-800 sm:text-3xl">
+					{content.line2} 
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "50%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
+					viewport={{ once: true }}
+					className="text-zinc-800 sm:text-3xl">
+					{content.line3}
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "60%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
+					viewport={{ once: true }}
+					className="text-zinc-800 sm:text-3xl">
+					{content.line4} 
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "70%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
+					viewport={{ once: true }}
+					className="text-zinc-800 sm:text-3xl">
+					{content.line5} 
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "40%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
+					viewport={{ once: true }}
+					className="text-zinc-800 sm:text-3xl">
+					{content.line6} 
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "80%" }}
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
-					className="sm:text-2xl mt-6 text-appSubTextBlue font-bold">
-					{content.footer}
+					className="sm:text-4xl text-appSubTextBlue font-bold pt-12 font-suez">
+					{content.footer1} 
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "80%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
+					viewport={{ once: true }}
+					className="sm:text-4xl text-appSubTextBlue font-bold font-suez">
+					{content.footer2}
+				</motion.p>
+				<motion.p
+					initial={{ opacity: 0, y: "80%" }}
+					whileInView={{ opacity: 1, y: "0" }}
+					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
+					viewport={{ once: true }}
+					className="sm:text-4xl text-appSubTextBlue font-bold font-suez">
+					{content.footer3} 
 				</motion.p>
 			
 			</div>
 			<Image
 			    src={art}
                 width={300}                height={300}
-                className="absolute -bottom-24 md:-left-24 left-0 z-50 w-44 lg:w-72 h-auto"
+                className="absolute -bottom-24 left-0 z-50 w-44 lg:w-72 h-auto"
 				alt="asd"
             />
 		</div>

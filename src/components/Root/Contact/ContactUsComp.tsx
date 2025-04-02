@@ -12,8 +12,7 @@ import { useRef } from "react";
 function ContactUsCopmp() {
 	const [formComplete, setFormComplete] = useState<boolean>(false);
 	const content = useTranslations("Contact");
-	const title = content.raw("title").split(" ")[0] || "";
-	const lastWord = content.raw("title").split(" ")[1] || "";
+	const title = content.raw("title")
 	const containerRef = useRef<HTMLDivElement>(null);
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
@@ -61,7 +60,7 @@ function ContactUsCopmp() {
 			</motion.div>
 			<div className="header w-full max-w-xl">
 				<SectionHeader>
-					{title} <span className="font-bold">{lastWord}</span>
+					{title} 
 				</SectionHeader>
 				<p className="text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-4">
 					{content("description")}
