@@ -30,13 +30,15 @@ function NadalRotem50({ id }: { id: string }) {
 								/>
 							</div>
 							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
-								{thisProd.modelUsage.slice(0,5).map((line: string, index: number) => (
-									<li key={index}>{line}</li>
-								))}
+								{thisProd.modelUsage
+									.slice(0, 5)
+									.map((line: string, index: number) => (
+										<li key={index}>{line}</li>
+									))}
 							</ul>
 							<p className="text-2xl uppercase text-appSubTextBlue mt-4 text-center">
-									{thisProd.modelUsage[5]}
-								</p>
+								{thisProd.modelUsage[5]}
+							</p>
 							<EnlargeableImage
 								src={thisProd.modelImages.usage1}
 								alt={thisProd.modelName}
@@ -46,37 +48,41 @@ function NadalRotem50({ id }: { id: string }) {
 							/>
 						</div>
 						<Separator />
-						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
+						<div className="w-full flex justify-center flex-col items-center gap-4 mt-12 px-4">
+							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.desc}
 							</p>
-							<div className="flex justify-center items-center">
-							<div className="relative">
-							<EnlargeableImage
-								src={thisProd.modelExtraContent.img2}
-								alt={thisProd.modelName}
-								width={200}
-								height={200}
-								className="py-6"
-							/>
-<span className="absolute -left-32 bottom-24 bg-appTextBlue px-4 py-2 text-white before:absolute before:-right-2 before:top-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:border-y-8 before:border-l-8 before:border-y-transparent before:border-l-appTextBlue">
-  {thisProd.modelExtraContent.extraContent2}
-</span>
-							</div>
-							<EnlargeableImage
-								src={thisProd.modelExtraContent.img}
-								alt={thisProd.modelName}
-								width={500}
-								height={500}
-								className="py-6"
-							/>
-							
+							<div className="flex justify-center gap-6">
+								<div className="relative">
+									<EnlargeableImage
+										src={thisProd.modelExtraContent.img2}
+										alt={thisProd.modelName}
+										width={200}
+										height={200}
+										className="py-6"
+									/>
+									<span className="absolute -left-32 bottom-16 sm:bottom-24 bg-appTextBlue px-4 py-2 text-white before:absolute before:-right-2 before:top-1/2 before:-translate-y-1/2 before:w-0 before:h-0 before:border-y-8 before:border-l-8 before:border-y-transparent before:border-l-appTextBlue text-xs sm:text-base">
+										{thisProd.modelExtraContent.extraContent2}
+									</span>
+								</div>
+								<div className="flex flex-col justify-start items-center">
+								<EnlargeableImage
+									src={thisProd.modelExtraContent.img}
+									alt={thisProd.modelName}
+									width={500}
+									height={400}
+									className="py-6"
+								/>
+								</div>
 							</div>
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.extraContent}
+							</p>
+							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
+								{thisProd.modelExtraContent.extraContent3}
 							</p>
 						</div>
 					</div>

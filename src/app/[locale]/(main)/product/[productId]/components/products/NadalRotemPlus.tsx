@@ -26,7 +26,7 @@ function NadalRotemPlus({ id }: { id: string }) {
 							{thisProd.modelDescription}
 						</h2>
 						<Separator />
-						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6">
+						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2">
 							<div className="flex flex-col items-center">
 								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
 									{thisProd.modelExtraContent.extraContent}{" "}
@@ -88,9 +88,10 @@ function NadalRotemPlus({ id }: { id: string }) {
 									height={650}
 								/>
 							</div>
-							<div className="flex flex-col items-center gap-6">
+							<div className="flex flex-col items-center gap-6 border w-full">
 								<iframe
-									width="200"
+								className="w-full sm:w-[200px]"
+									width="150"
 									height="400"
 									src="https://www.youtube.com/embed/ncQcqkb1Zos"
 									title='שומר מרחק "נדל" - רותם'
@@ -98,7 +99,8 @@ function NadalRotemPlus({ id }: { id: string }) {
 									referrerPolicy="strict-origin-when-cross-origin"
 									allowFullScreen></iframe>
 								<iframe
-									width="200"
+								className="w-full sm:w-[200px]"
+									width="150"
 									height="400"
 									src="https://www.youtube.com/embed/DryVwsQRnJE"
 									title='שומר מרחק "נדל" - רותם'

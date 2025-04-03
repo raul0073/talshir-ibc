@@ -28,7 +28,7 @@ function MickClipComp({ id }: { id: string }) {
 								height={600}
 							/>
 							<div>
-								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
+								<p className="text-2xl uppercase text-appTextBlue mb-4 text-center">
 									{thisProd.modelDescription}
 								</p>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
@@ -41,7 +41,7 @@ function MickClipComp({ id }: { id: string }) {
 
 						<Separator />
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appSubTextBlue tracking-tighter">
+							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-4">

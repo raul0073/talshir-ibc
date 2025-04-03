@@ -16,7 +16,7 @@
     "prospectDownload" : "פרוספקט להורדה",
     "downloadCertification" : "הורדת אישוריי דגם",
     "plasticCetrification" : "נבדק במרכז הישראלי לפלסטיק וגומי",
-    "playDemoVideo" : "סרטון דמו"
+    "playDemoVideo" : "מוצר תלת מימד"
   },
   "Navbar": {
     "home": "בית",
@@ -182,9 +182,9 @@
           "thumbnail": "/images/products/stopper/stopper_noBG.png",
           "productPageMain": "/images/products/stopper/stopper_noBG.png",
          "usages" : [
-        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-10-1030x690.jpg",
-        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-06-1030x690.jpg",
-        "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper-05-1030x690.jpg"
+        "/images/products/stopper/usage_1.webp",
+        "/images/products/stopper/usage_2.webp",
+        "/images/products/stopper/usage_3.webp"
         ]
         },
         "modelSizesCustomize": false,
@@ -243,7 +243,8 @@
           "img" : "/images/products/nadal_plus/nadal_50.png",
           "img2" : "/images/products/nadal_plus/nadal_clip.png",
           "extraContent2" : "תפס לתלייה על רשת",
-          "extraContent" : "התפס- אביזר פלסטיק שמורכב בקלות על הנדל ומאפשר את תליית הנדל על רשת אנכית. אפשרות לשימוש בתפס נוסף להצמדה מלאה של הנדל לרשת הברזל."
+          "extraContent3" : "אפשרות לשימוש בתפס נוסף להצמדה מלאה של הנדל לרשת הברזל",
+          "extraContent" : "התפס- אביזר פלסטיק שמורכב בקלות על הנדל ומאפשר את תליית הנדל על רשת אנכית."
         }
       },
       {
@@ -408,11 +409,11 @@
         "id": "9-universal-keeper",
         "modelName": "שומר מרחק אוניברסלי ",
         "modelNamePage" :  "שומר מרחק אוניברסלי ",
-        "modelDescription": "שומר מרחק עגול בקוטר 8cm המתאים לכל האלמנטים בבנין – קירות, עמודים, קורות ותקרות.",
+        "modelDescription": "שומר מרחק עגול בקוטר 8 ס\"מ המתאים לכל האלמנטים בבנין – קירות, עמודים, קורות ותקרות.",
         "modelUsage": [
          "קל ומהיר להרכבה – אביזר פלסטיק המוצמד לברזל בקלות ובמהירות.",
          "חסכון בעלויות ובזמן העבודה – מתאים לכל האלמנטים בבניין סוג אחד שנותן פיתרון לכל אלמנט.",
-         "עובי כיסוי בטון – מגיע בשתי מידות - 2.5cm, 3cm"
+         "עובי כיסוי בטון – מגיע בשתי מידות - 2.5ס\"מ"
         ],
         "modelImages": {
           "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
@@ -448,11 +449,13 @@
         "modelDescription": "אביזר אטימה למעבר צנרת בקירות חוץ",
         "modelUsage": [
           "מיוצר מחומר פלסטי איכותי",
-          "עמיד בתנאי מזג אוויר קשים"
+          "עמיד בתנאי מזג אוויר קשים",
+          "הוראות הרכבה ",
+          "ואביזרים באריזה"
         ],
         "modelImages": {
           "thumbnail": "/images/products/sealer/sealer_noBG.png",
-          "productPageMain": "/images/products/sealer/sealer.png",
+          "productPageMain": "/images/products/sealer/sealer_text.jpg",
           "usages" : [
             {"label":  "שלב ראשון", "img": "/images/products/sealer/usage_1.png"},
             {"label":"מירכוז שבלונה", "img": "/images/products/sealer/usage_2.png"},
@@ -495,7 +498,9 @@
                 "modelDescription": "אביזר קצה למרזב מי גשם",
                 "modelUsage": [
                   "מיוצר מחומר פלסטי איכותי",
-                  "עמיד בתנאי מזג אוויר קשים"
+                  "עמיד בתנאי מזג אוויר קשים",
+                  "הוראות הרכבה ",
+                  "ואביזרים באריזה"
                 ],
         "modelImages": {
           "thumbnail": "/images/products/nozzle/nozzle_noBG.png",

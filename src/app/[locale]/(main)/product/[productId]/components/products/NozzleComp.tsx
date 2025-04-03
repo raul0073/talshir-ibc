@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { IconBrandYoutube } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
@@ -20,9 +19,8 @@ function NozzleComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
-						<Separator />
-						<p className="text-2xl uppercase text-appSubTextBlue my-4 text-center">
+						<ModelHeader thisProd={thisProd} noPatent/>
+						<p className="text-3xl uppercase text-appTextBlue my-4 text-center font-suez">
 							{thisProd.modelDescription}
 						</p>
 						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center">
@@ -36,7 +34,7 @@ function NozzleComp({ id }: { id: string }) {
 								<span>{"YouTube Video"}</span>
 							</div>
 							<div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
-								<div className="flex flex-col items-center mt-4 sm:mt-0">
+								<div className="flex flex-col items-center mt-4 sm:mt-0 order-1 sm:order-none">
 									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
 										{thisProd.modelExtraContent.extraContent2}
 									</div>
@@ -86,7 +84,6 @@ function NozzleComp({ id }: { id: string }) {
 								<span>{thisProd.modelPatentNo}</span>
 							</div>
 						</div>
-						<Separator />
 						<div className="w-full sm:w-fit mx-auto  mt-6">
 							<div className="bg-appTextBlue text-white p-2 text-center my-2">
 								{thisProd.modelExtraContent.extraContent5}
@@ -96,15 +93,15 @@ function NozzleComp({ id }: { id: string }) {
 									(item: AltImages, indx: number) => (
 										<div
 											key={indx}
-											className="w-full max-w-[12rem] lg:max-w-[14rem]">
+											className="flex flex-col items-center w-full">
 											<EnlargeableImage
 												src={item.img}
 												alt={`${thisProd.modelName}_usage_${indx}`}
-												width={250}
-												height={250}
-												className=""
+												width={150}
+												height={150}
+												className="w-full h-full"
 											/>
-											<div className="bg-appTextBlue text-white p-2 text-center my-2">
+											<div className="bg-appTextBlue text-white p-2 text-center my-2 w-full min-h-16">
 												{item.label}
 											</div>
 										</div>
@@ -112,11 +109,19 @@ function NozzleComp({ id }: { id: string }) {
 								)}
 							</div>
 						</div>
+						<div className="flex flex-col sm:flex-row gap-8 justify-center">
 						<div className="flex flex-col items-center mt-4">
-							<p className="border-4 border-appGray p-8 font-bold">
+							<p className="border-4 border-appGray p-8 font-bold text-center">
 								{thisProd.modelUsage[0]} <br />
 								{thisProd.modelUsage[1]}
 							</p>
+						</div>
+						<div className="flex flex-col items-center mt-4">
+							<p className="border-4 border-appGray p-8 font-bold text-center">
+								{thisProd.modelUsage[2]} <br />
+								{thisProd.modelUsage[3]}
+							</p>
+						</div>
 						</div>
 					</div>
 				</div>

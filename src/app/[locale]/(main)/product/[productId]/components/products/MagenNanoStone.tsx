@@ -22,7 +22,7 @@ function MagenNanoStone({ id }: { id: string }) {
                 <div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row items-center mt-12 w-full justify-center">
               
                     <div>
-                        <p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center my-6">
+                        <p className="text-2xl uppercase text-appTextBlue mb-4 text-center my-6">
                             {thisProd.modelDescription}
                         </p>
                         <ul className="text-sm md:text-lg capitalize w-fit mx-auto list-disc px-2 sm:px-1 space-y-1 mt-8">

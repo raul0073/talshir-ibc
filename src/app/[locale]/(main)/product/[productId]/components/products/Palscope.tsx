@@ -56,7 +56,7 @@ function Palscope({ id }: { id: string }) {
 						</div>
 
 						<Separator />
-						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
+						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12 p-4 sm:p-4">
 							<h2 className="font-bold text-2xl md:text-3xl uppercase text-appSubTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.header}
 							</h2>

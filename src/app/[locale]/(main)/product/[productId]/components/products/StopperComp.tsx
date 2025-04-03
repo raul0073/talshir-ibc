@@ -27,7 +27,7 @@ function StopperComp({ id }: { id: string }) {
 								</h2>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
 									{thisProd.modelUsage.map((line: string, index: number) => (
-										<li key={index}>{line}</li>
+										<li key={index} className="text-nowrap">{line}</li>
 									))}
 								</ul>
 							</div>
@@ -43,22 +43,22 @@ function StopperComp({ id }: { id: string }) {
 
 							<div>
 								<EnlargeableImage
-									src="https://talshir-ibc.com/wp-content/uploads/2019/03/HOME03.jpg"
+									src="https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper.jpg"
 									alt={thisProd.modelName}
 									width={500}
 									height={500}
 								/>
 							</div>
 						</div>
-						<div className="images-col p-4 w-full flex justify-center flex-col items-center mt-6">
-							<h3 className="font-bold text-2xl uppercase text-appSubTextBlue mb-4">
+						<div className="images-col p-4 w-full flex justify-center flex-col items-center mt-6 max-w-2xl mx-auto">
+							<h3 className="font-bold text-2xl uppercase text-appTextBlue mb-4 max-w-xl">
 								{thisProd.pikodHaorefApproved}
 							</h3>
-							<ul className="px-12 w-full flex justify-start flex-col">
+							<ul className="px-12 w-full flex justify-center flex-col items-start list-disc sm:px-1 space-y-1 max-w-xl">
 								<li>{thisProd.modelExtraContent.extraContent2}</li>
 								<li>{thisProd.modelExtraContent.extraContent3}</li>
 							</ul>
-							<div className="w-full flex justify-evenly items-center gap-4">
+							<div className="w-full flex flex-col items-centermax-w-2xl mt-2">
 								<div className="flex gap-4 py-2">
 									{thisProd.modelImages.usages.map(
 										(src: StaticImageData, indx: number) => {
@@ -75,10 +75,11 @@ function StopperComp({ id }: { id: string }) {
 										}
 									)}
 								</div>
-							</div>
-							<p className="bg-appSubTextBlue rounded-[.5rem] p-6 w-fit mx-auto text-white">
+								<p className="bg-appTextBlue rounded-[.5rem] w-full px-4 py-1 mx-auto text-white">
 								{thisProd.modelExtraContent.extraContent}
 							</p>
+							</div>
+							
 						</div>
 						<div className="certifications p-4">
 							<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
@@ -89,7 +90,7 @@ function StopperComp({ id }: { id: string }) {
 										width={500}
 										height={500}
 									/>
-									<p className="text-appSubTextBlue text-lg font-bold">
+									<p className="text-appTextBlue text-lg font-bold">
 										{thisProd.modelExtraContent.desc}
 									</p>
 								</div>
@@ -101,7 +102,7 @@ function StopperComp({ id }: { id: string }) {
 										width={500}
 										height={500}
 									/>
-									<p className="text-appSubTextBlue text-lg font-bold">
+									<p className="text-appTextBlue text-lg font-bold">
 										{thisProd.modelExtraContent.header}
 									</p>
 								</div>

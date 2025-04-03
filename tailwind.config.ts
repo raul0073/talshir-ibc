@@ -19,7 +19,7 @@ export default {
   			appBlue: '#4F7DF0',
 			appText: "#173454",
 			appTextBlue: '#0170A3',
-			appSubTextBlue: '#376ea0',
+			appSubTextBlue: '#0170A3',
   			appGray: '#F1F1F1',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

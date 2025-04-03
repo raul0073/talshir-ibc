@@ -3,12 +3,12 @@ import { ProductItem } from '../../../../../../../../types/products'
 import { ButtonPlayDemo } from '@/components/ui/button-arrow'
 import { useTranslations } from 'next-intl';
 
-function ModelHeader({thisProd, no3D}: {thisProd: ProductItem, no3D?: boolean}) {
+function ModelHeader({thisProd, no3D, noPatent}: {thisProd: ProductItem, no3D?: boolean, noPatent?: boolean}) {
     const tPage = useTranslations("ProductPage");
   return (
     <div className="model-header p-3 sm:p-4 flex justify-center items-center relative">
     <div className="w-full sm:w-2/3 text-center">
-    <h1 className="text-2xl md:text-3xl lg:text-5xl uppercase text-appTextBlue font-suez">
+    <h1 className="text-4xl sm:text-5xl uppercase text-appTextBlue font-suez">
             {thisProd.modelNamePage}
         </h1>
     {!no3D && (
@@ -18,9 +18,11 @@ function ModelHeader({thisProd, no3D}: {thisProd: ProductItem, no3D?: boolean}) 
        
     </Fragment>
     )}
-     <p className="mt-4 text-lg text-appSubTextBlue">
-            {thisProd.modelPatentNo}
-        </p>
+     {!noPatent && (
+      <p className="mt-4 text-lg text-appSubTextBlue">
+      {thisProd.modelPatentNo}
+  </p>
+     )}
     </div>
 </div>
   )

@@ -25,15 +25,16 @@ function KeeperComp({ id }: { id: string }) {
 								</h3>
 								<ul className="flex gap-4">
 									{thisProd.modelSizes.map((size: string, index: number) => (
-										<li key={index} className="after:content-['cm']">
+										<li key={index} className="after:content-[','] last:after:content-none">
 											{size}
 										</li>
 									))}
+									<li className="mx-1"> {` ס"מ `} </li>
 								</ul>
 							</div>
 						)}
 
-						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-2">
+						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2">
 							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
 								{thisProd.modelUsage.map((line: string, index: number) => (
 									<li key={index}>{line}</li>
@@ -71,17 +72,17 @@ function KeeperComp({ id }: { id: string }) {
 							</div>
 						</div>
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appSubTextBlue tracking-tighter">
+							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<Image
 								src={thisProd.modelExtraContent.img}
 								alt={thisProd.modelName}
-								width={700}
-								height={700}
+								width={500}
+								height={500}
 								className="py-6"
 							/>
-							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
+							<p className="text-xl sm:text-2xl text-appTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.desc}
 							</p>
 						</div>
