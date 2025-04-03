@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { useLocale, useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -67,7 +66,7 @@ function DividagComp({ id }: { id: string }) {
 								)}
 							</ul>
 						</div>
-						<Separator />
+						
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
 							<h2 className="text-2xl md:text-5xl uppercase text-appTextBlue font-suez">
 								{thisProd.modelExtraContent.header}

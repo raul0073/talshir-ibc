@@ -1,6 +1,5 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -20,7 +19,6 @@ function UniversalKeeperComp({ id }: { id: string }) {
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
 
-						<Separator />
 						<div className="grid grid-cols-1 sm:grid-cols-3 mt-6 gap-6">
 							<div className="flex flex-col items-center justify-center">
 								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">

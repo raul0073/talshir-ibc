@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -18,7 +17,7 @@ function SleeverComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} no3D />
-						<Separator />
+						
 						<div className="model-usage p-3 sm:p-4 flex flex-col items-center">
 							<EnlargeableImage
 								src={thisProd.modelImages.productPageMain}
@@ -55,7 +54,7 @@ function SleeverComp({ id }: { id: string }) {
 								</ul>
 							</div>
 						</div>
-						<Separator />
+					
 					</div>
 				</div>
 			) : (

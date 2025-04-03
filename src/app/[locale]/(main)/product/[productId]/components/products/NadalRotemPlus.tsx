@@ -1,6 +1,5 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
-import { Separator } from "@/components/ui/separator";
 import { Link2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
@@ -25,7 +24,7 @@ function NadalRotemPlus({ id }: { id: string }) {
 						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue mb-4 text-center">
 							{thisProd.modelDescription}
 						</h2>
-						<Separator />
+						
 						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2">
 							<div className="flex flex-col items-center">
 								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
@@ -57,7 +56,7 @@ function NadalRotemPlus({ id }: { id: string }) {
 							</div>
 						</div>
 
-						<Separator />
+					
 						<div className="w-full flex justify-center flex-col items-center gap-8">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appSubTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.desc}

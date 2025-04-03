@@ -1,6 +1,5 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
@@ -20,7 +19,7 @@ function CornersClipComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
+
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-2">
 							<div>
 								<p className="text-2xl uppercase text-appTextBlue mb-4 text-center">
@@ -41,7 +40,7 @@ function CornersClipComp({ id }: { id: string }) {
 								/>
 							</div>
 						</div>
-						<Separator />
+
 						<div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4 justify-items-center py-6 px-2">
 							<iframe
 								className="w-full h-full"
@@ -65,7 +64,7 @@ function CornersClipComp({ id }: { id: string }) {
 								referrerPolicy="strict-origin-when-cross-origin"
 								allowFullScreen></iframe>
 						</div>
-						<Separator />
+
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.header}

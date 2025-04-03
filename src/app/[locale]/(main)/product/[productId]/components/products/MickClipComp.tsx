@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
@@ -19,7 +18,7 @@ function MickClipComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
+					
 						<div className="model-usage p-3 sm:p-4 flex flex-col items-center">
 							<EnlargeableImage
 								src={thisProd.modelImages.productPageMain}
@@ -39,7 +38,7 @@ function MickClipComp({ id }: { id: string }) {
 							</div>
 						</div>
 
-						<Separator />
+						
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.header}

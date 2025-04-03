@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
@@ -18,7 +17,7 @@ function DividagWithSpacer({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
+						
 
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 max-w-2xl mx-auto">
 							<div className="w-full flex justify-center h-fit">

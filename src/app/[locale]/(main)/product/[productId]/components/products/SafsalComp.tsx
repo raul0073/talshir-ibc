@@ -1,6 +1,5 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -18,7 +17,7 @@ function SafsalComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
+					
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto">
 							<div className="actions grid grid-cols-1 mt-12 place-items-center p-4 order-3 sm:order-none">
 								<ButtonProspect link="https://talshir-ibc.com/wp-content/uploads/2023/09/Results_Talshir-22.06.23.pdf">

@@ -1,9 +1,8 @@
-import { useTranslations } from 'next-intl';
-import React, { useMemo } from 'react'
-import { ProductItem } from '../../../../../../../../types/products';
 import ProductPageSkeleton from '@/components/Skeletons/ProductPageSkeleton';
+import { useTranslations } from 'next-intl';
+import { useMemo } from 'react';
+import { ProductItem } from '../../../../../../../../types/products';
 import EnlargeableImage from '../shared/ImageComp';
-import { Separator } from '@/components/ui/separator';
 import ModelHeader from '../shared/ModelHeader';
 
 function ConcreteKeepers({ id }: { id: string }) {
@@ -18,7 +17,7 @@ function ConcreteKeepers({ id }: { id: string }) {
         <div className="grid grid-cols-1 px-2">
             <div className="">
                 <ModelHeader thisProd={thisProd} no3D />
-                <Separator />
+                
                 <div className="model-usage p-3 sm:p-4 flex flex-col items-center mt-12">
                     <EnlargeableImage
                         src={thisProd.modelImages.productPageMain}

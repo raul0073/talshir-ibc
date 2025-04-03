@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -17,8 +16,7 @@ function NadalRotem50({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<Separator />
-
+					
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 max-w-2xl mx-auto">
 							<div className="w-full flex justify-center h-fit py-3 mb-4">
 								<EnlargeableImage
@@ -47,7 +45,7 @@ function NadalRotem50({ id }: { id: string }) {
 								className="mt-4"
 							/>
 						</div>
-						<Separator />
+						
 						<div className="w-full flex justify-center flex-col items-center gap-4 mt-12 px-4">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez">
 								{thisProd.modelExtraContent.header}
