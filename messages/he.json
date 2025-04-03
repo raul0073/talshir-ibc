@@ -227,7 +227,7 @@
           "thumbnail": "/images/products/nadal_plus/nadal_rotem.png",
           "productPageMain": "/images/products/nadal_plus/nadal_rotem_main.png",
           "usages" : [
-            "/images/products/nadal_plus/model_usage.png",
+            "/images/products/nadal_plus/model_usage.webp",
             "",
             ""
           ]
@@ -459,9 +459,9 @@
           "thumbnail": "/images/products/sealer/sealer_noBG.png",
           "productPageMain": "/images/products/sealer/sealer_text.jpg",
           "usages" : [
-            {"label":  "שלב ראשון", "img": "/images/products/sealer/usage_1.png"},
-            {"label":"מירכוז שבלונה", "img": "/images/products/sealer/usage_2.png"},
-            {"label": "הרכבה עם 2 ברגי נירוסטה", "img": "/images/products/sealer/usage_3.png"}
+            {"label":  "שלב ראשון", "img": "/images/products/sealer/usage_1.webp"},
+            {"label":"מירכוז שבלונה", "img": "/images/products/sealer/usage_2.webp"},
+            {"label": "הרכבה עם 2 ברגי נירוסטה", "img": "/images/products/sealer/usage_3.webp"}
            ]
         },
         "modelSizesCustomize": false,
@@ -480,10 +480,10 @@
         "modelExtraContent" : {
           "header" : "צינור דיווידג איכותי במידות מיוחדות",
           "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
-          "img" : "/images/products/sealer/nozzle_1.png",
+          "img" : "/images/products/sealer/nozzle_1.webp",
           "images" : [
-          "/images/products/sealer/colors.png",
-           "/images/products/sealer/patent.png"
+          "/images/products/sealer/colors.webp",
+           "/images/products/sealer/patent.webp"
           ],
 
           "extraContent2" : "צבעים",
@@ -510,10 +510,10 @@
           "thumbnail": "/images/products/nozzle/nozzle_noBG.png",
           "productPageMain": "/images/products/nozzle/nozzle.png",
           "usages" : [
-            {"label":  "מצב ראשוני קיים ", "img": "/images/products/nozzle/usage_1.png"},
-            {"label":"חיתוך צינור והשארת בליטה 1-2 ס”מ", "img": "/images/products/nozzle/usage_2.png"},
-            {"label": "מירכוז השבלונה וסימון חורי קדיחה", "img": "/images/products/nozzle/usage_3.png"},
-            {"label": "הרכבה עם 2 ברגי נירוסטה", "img": "/images/products/nozzle/usage_3.png"}
+            {"label":  "מצב ראשוני קיים ", "img": "/images/products/nozzle/usage_1.webp"},
+            {"label":"חיתוך צינור והשארת בליטה 1-2 ס”מ", "img": "/images/products/nozzle/usage_2.webp"},
+            {"label": "מירכוז השבלונה וסימון חורי קדיחה", "img": "/images/products/nozzle/usage_3.webp"},
+            {"label": "הרכבה עם 2 ברגי נירוסטה", "img": "/images/products/nozzle/usage_4.webp"}
            ]
         },
         "modelSizesCustomize": false,
@@ -526,10 +526,10 @@
         "modelExtraContent" : {
           "header" : "צינור דיווידג איכותי במידות מיוחדות",
           "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
-          "img" : "/images/products/sealer/nozzle_1.png",
+          "img" : "/images/products/sealer/nozzle_1.webp",
           "images" : [
-            "/images/products/sealer/colors.png",
-             "/images/products/sealer/patent.png"
+            "/images/products/sealer/colors.webp",
+             "/images/products/sealer/patent.webp"
             ],
 
           "extraContent2" : "צבעים",
