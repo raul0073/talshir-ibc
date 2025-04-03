@@ -25,6 +25,14 @@ export type ModelExtraContent = {
   header: string;
   desc: string;
   img: string;
+  images: string
+  extraContent?: string
+}
+export type ModelExtraContentAlt = {
+  header: string;
+  desc: string;
+  img: string ;
+  images: string[] | StaticImageData[]
   extraContent?: string
 }
 export type ProductItem = {
@@ -61,5 +69,5 @@ export type ProductItemAlt = {
   modelCustomizable: boolean;
   model3DObject: string;
   modelPatentNo: string;
-  modelExtraContent: ModelExtraContent
+  modelExtraContent: ModelExtraContentAlt
 };

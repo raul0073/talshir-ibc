@@ -38,7 +38,7 @@ function NadalRotem50({ id }: { id: string }) {
 								{thisProd.modelUsage[5]}
 							</p>
 							<EnlargeableImage
-								src={thisProd.modelImages.usage1}
+								src={thisProd.modelImages.usages[0]}
 								alt={thisProd.modelName}
 								width={500}
 								height={500}

@@ -226,9 +226,11 @@
         "modelImages": {
           "thumbnail": "/images/products/nadal_plus/nadal_rotem.png",
           "productPageMain": "/images/products/nadal_plus/nadal_rotem_main.png",
-          "usage1": "/images/products/nadal_plus/model_usage.png",
-          "usage2": "",
-          "usage3": ""
+          "usages" : [
+            "/images/products/nadal_plus/model_usage.png",
+            "",
+            ""
+          ]
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
@@ -479,8 +481,10 @@
           "header" : "צינור דיווידג איכותי במידות מיוחדות",
           "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
           "img" : "/images/products/sealer/nozzle_1.png",
-          "extraContent" : "/images/products/sealer/colors.png",
-          "extraContent9" : "/images/products/sealer/patent.png",
+          "images" : [
+          "/images/products/sealer/colors.png",
+           "/images/products/sealer/patent.png"
+          ],
 
           "extraContent2" : "צבעים",
           "extraContent3" : "אטמון לאחר הרכבה",
@@ -523,8 +527,10 @@
           "header" : "צינור דיווידג איכותי במידות מיוחדות",
           "desc" : "ניתן להזמין בכל מידה. ארוז בשקיות של 100 יחידות.  חיבור קצה צינור “דיווידג” נעשה באופן ידני ובלחיצה קלה.",
           "img" : "/images/products/sealer/nozzle_1.png",
-          "extraContent" : "/images/products/sealer/colors.png",
-          "extraContent9" : "/images/products/sealer/patent.png",
+          "images" : [
+            "/images/products/sealer/colors.png",
+             "/images/products/sealer/patent.png"
+            ],
 
           "extraContent2" : "צבעים",
           "extraContent3" : "המרזבון במצב עבודה",

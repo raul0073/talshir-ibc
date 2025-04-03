@@ -32,8 +32,8 @@ function SleeverComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelImages.usages[1]}
 											alt={thisProd.modelName}
-											width={300}
-											height={300}
+											width={500}
+											height={500}
 										/>
 									</div>
 									<div>
@@ -41,8 +41,8 @@ function SleeverComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelImages.usages[0]}
 											alt={thisProd.modelName}
-											width={300}
-											height={300}
+											width={500}
+											height={500}
 										/>
 									</div>
 								

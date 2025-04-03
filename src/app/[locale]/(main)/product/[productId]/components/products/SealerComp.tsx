@@ -42,7 +42,7 @@ function SealerComp({ id }: { id: string }) {
 										{thisProd.modelExtraContent.extraContent2}
 									</div>
 									<EnlargeableImage
-										src={thisProd.modelExtraContent.extraContent}
+										src={thisProd.modelExtraContent.images[0]}
 										alt={thisProd.modelName}
 										width={100}
 										height={200}
@@ -82,7 +82,7 @@ function SealerComp({ id }: { id: string }) {
 									width={80}
 									height={80}
 									alt="patent"
-									src={thisProd.modelExtraContent.extraContent9}
+									src={thisProd.modelExtraContent.images[1]}
 								/>
 								<span>{thisProd.modelPatentNo}</span>
 							</div>

@@ -23,7 +23,7 @@ function NozzleComp({ id }: { id: string }) {
 						<p className="text-3xl uppercase text-appTextBlue my-4 text-center font-suez">
 							{thisProd.modelDescription}
 						</p>
-						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center">
+						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center mx-auto max-w-5xl">
 							<div className="flex flex-col items-center justify-center w-fit text-center border-2 px-6 py-6 border-appGray">
 								<IconBrandYoutube
 									color="white"
@@ -39,7 +39,7 @@ function NozzleComp({ id }: { id: string }) {
 										{thisProd.modelExtraContent.extraContent2}
 									</div>
 									<EnlargeableImage
-										src={thisProd.modelExtraContent.extraContent}
+										src={thisProd.modelExtraContent.images[0]}
 										alt={thisProd.modelName}
 										width={100}
 										height={200}
@@ -79,7 +79,7 @@ function NozzleComp({ id }: { id: string }) {
 									width={80}
 									height={80}
 									alt="patent"
-									src={thisProd.modelExtraContent.extraContent9}
+									src={thisProd.modelExtraContent.images[1]}
 								/>
 								<span>{thisProd.modelPatentNo}</span>
 							</div>
