@@ -508,7 +508,7 @@
                 ],
         "modelImages": {
           "thumbnail": "/images/products/nozzle/nozzle_noBG.png",
-          "productPageMain": "/images/products/nozzle/nozzle.png",
+          "productPageMain": "/images/products/nozzle/nozzle.webp",
           "usages" : [
             {"label":  "מצב ראשוני קיים ", "img": "/images/products/nozzle/usage_1.webp"},
             {"label":"חיתוך צינור והשארת בליטה 1-2 ס”מ", "img": "/images/products/nozzle/usage_2.webp"},

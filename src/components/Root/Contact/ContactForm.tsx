@@ -240,8 +240,8 @@ function ContactForm({
 							</li>
 						</ul>
 					</div>
-					<Button type="submit" className="px-6 bg-appTextBlue sm:mt-0 mt-8">
-						<span>{labels("submit")}</span>
+					<Button type="submit" className="px-6 bg-appTextBlue sm:mt-0 mt-8 py-6 rounded-[.4rem]">
+						<span className="text-lg">{labels("submit")}</span>
 						<span>
 							<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />
 						</span>

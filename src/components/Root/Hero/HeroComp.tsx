@@ -9,7 +9,7 @@ function HeroComp() {
     <SectionWithLocale
       sectionName="hero"
       className="relative hero pt-0 pb-0">
-     <div className="absolute inset-0 w-full h-full z-0 bg-gradient-to-b from-black/60 via-black/20  to-black/80 sm:from-black/40 sm:via-black/10 sm:to-black/90"></div>
+     <div className="absolute inset-0 w-full h-full z-0 bg-gradient-to-b from-black/60 via-black/20  to-black/80 sm:from-black/10 sm:via-white/10 sm:to-black/90"></div>
 
       <div className="absolute left-0 top-0 w-full h-full -z-10">
         {/* Mobile background image */}

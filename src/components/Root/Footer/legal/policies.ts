@@ -1,63 +1,109 @@
 import { ModalType } from "@/components/Root/Footer/Modal";
 
- const PRIVACY_POLICY = `**Privacy Policy** 
 
-**Effective Date:** [Date]
+const PRIVACY_POLICY = `**מדיניות פרטיות**  
 
-**1. Introduction**
-Welcome to [Website Name]. 
-We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. 
-This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
+**תאריך תחולה:** [תאריך]  
 
-**2. Information We Collect**
-We may collect the following types of information:
-- **Personal Information:** Name, email address, phone number, and other contact details you provide when filling out forms on our website.
-- **Usage Data:** Information on how you interact with our website, including IP addresses, browser type, pages visited, and time spent on the website.
-- **Cookies and Tracking Technologies:** Data collected through cookies and similar technologies to enhance your browsing experience.
+**1. מבוא**  
+ברוכים הבאים ל-[שם האתר].  
+אנו מחויבים להגן על פרטיותכם ולהבטיח שהמידע האישי שלכם מטופל בצורה בטוחה ואחראית.  
+מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם בעת ביקורכם באתר שלנו.  
 
-**3. How We Use Your Information**
-We use the information collected for the following purposes:
-- To provide and improve our services.
-- To respond to your inquiries and provide customer support.
-- To send newsletters or promotional materials, if you have opted in.
-- To analyze website usage and improve user experience.
-- To comply with legal obligations.
+**2. מידע שאנו אוספים**  
+אנו עשויים לאסוף את סוגי המידע הבאים:  
+- **מידע אישי:** שם, כתובת אימייל, מספר טלפון ופרטים נוספים שתספקו בעת מילוי טפסים באתר.  
+- **נתוני שימוש:** מידע על האינטראקציה שלכם עם האתר, כולל כתובות IP, סוג דפדפן, עמודים שנצפו וזמן שהייה באתר.  
+- **עוגיות וטכנולוגיות מעקב:** נתונים שנאספים באמצעות עוגיות וטכנולוגיות דומות לשיפור חוויית הגלישה שלכם.  
 
-**4. Sharing Your Information**
-We do not sell, rent, or trade your personal information to third parties. However, we may share your information with:
-- Service providers who help us operate the website and provide services.
-- Legal authorities if required by law or to protect our rights.
+**3. כיצד אנו משתמשים במידע שלכם**  
+אנו משתמשים במידע שנאסף למטרות הבאות:  
+- לספק ולשפר את השירותים שלנו.  
+- להגיב לפניותיכם ולספק תמיכה ללקוחות.  
+- לשלוח ניוזלטרים או חומרים פרסומיים, אם נרשמתם לכך.  
+- לנתח את השימוש באתר ולשפר את חוויית המשתמש.  
+- לעמוד בדרישות חוקיות.  
 
-**5. Data Security**
-We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, or misuse.
+**4. שיתוף המידע שלכם**  
+איננו מוכרים, משכירים או מעבירים את המידע האישי שלכם לצדדים שלישיים. עם זאת, אנו עשויים לשתף מידע עם:  
+- ספקי שירות המסייעים לנו בהפעלת האתר ושיפור השירותים.  
+- רשויות משפטיות אם נדרש לכך על פי חוק או להגנה על זכויותינו.  
 
-**6. Your Rights**
-You have the right to:
-- Access the personal information we hold about you.
-- Request corrections to inaccurate information.
-- Request the deletion of your personal information.
-- Object to the processing of your data in certain circumstances.
+**5. אבטחת מידע**  
+אנו מיישמים אמצעים טכניים וארגוניים מתאימים להגנה על המידע האישי שלכם מפני גישה לא מורשית, אובדן או שימוש לרעה.  
 
-To exercise these rights, please contact us at [Email Address].
+**6. זכויותיכם**  
+יש לכם את הזכות:  
+- לגשת למידע האישי שאנו מחזיקים עליכם.  
+- לבקש תיקון מידע שגוי.  
+- לבקש מחיקה של המידע האישי שלכם.  
+- להתנגד לעיבוד הנתונים שלכם בנסיבות מסוימות.  
 
-**7. Third-Party Links**
-Our website may contain links to third-party websites. We are not responsible for the privacy practices of those websites and encourage you to review their privacy policies.
+למימוש זכויותיכם, אנא צרו קשר בכתובת [כתובת אימייל].  
 
-**8. Changes to This Policy**
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+**7. קישורים לאתרים חיצוניים**  
+האתר שלנו עשוי לכלול קישורים לאתרים של צדדים שלישיים. אנו לא אחראים למדיניות הפרטיות שלהם וממליצים לעיין במדיניות הפרטיות של אותם אתרים.  
 
-**9. Contact Us**
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-[Website Name]
-[Email Address]
-[Phone Number]
+**8. שינויים במדיניות זו**  
+אנו עשויים לעדכן את מדיניות פרטיות זו מעת לעת. כל שינוי יפורסם בעמוד זה עם תאריך עדכון חדש.  
+
+**9. יצירת קשר**  
+אם יש לכם שאלות או חששות בנוגע למדיניות פרטיות זו, ניתן ליצור איתנו קשר בכתובת:  
+[שם האתר]  
+[כתובת אימייל]  
+[מספר טלפון]  
 `;
- const TERMS_AND_CONDITIONS = `Terms and Conditions content here...`;
- const ACCESSIBILITY = `Accessibility content here...`;
- const IMPRESSIUM = `Impressium content here...`;
- export const policyMap: Record<ModalType, string> = {
-    terms: TERMS_AND_CONDITIONS,
-    accessibility: ACCESSIBILITY,
-    privacy: PRIVACY_POLICY,
-    impressum: IMPRESSIUM,
-  };
+
+const TERMS_AND_CONDITIONS = `**תנאים והגבלות**  
+
+**1. הקדמה**  
+ברוכים הבאים לאתר [שם האתר]. השימוש באתר כפוף לתנאים והגבלות אלה, וכל שימוש באתר מהווה הסכמה לתנאים אלו.  
+
+**2. שימוש באתר**  
+- אינך רשאי להשתמש באתר למטרות בלתי חוקיות או לא מוסריות.  
+- התוכן באתר מסופק כפי שהוא ("AS IS") ללא אחריות מכל סוג שהוא.  
+- אנו שומרים לעצמנו את הזכות לשנות, להשהות או להפסיק את האתר בכל עת וללא הודעה מוקדמת.  
+
+**3. זכויות קניין רוחני**  
+- כל התכנים, לרבות טקסטים, תמונות, לוגואים, עיצובים ותכנים אחרים, הם רכושו של [שם החברה] ומוגנים על פי חוקי הקניין הרוחני.  
+- אין להעתיק, לשכפל או להפיץ תכנים אלו ללא אישור מפורש בכתב.  
+
+**4. הגבלת אחריות**  
+- האתר מסופק "כפי שהוא" וללא אחריות לכל נזק ישיר או עקיף הנובע משימוש בו.  
+- אנו לא אחראים לתוכן של אתרים חיצוניים המקושרים מהאתר שלנו.  
+
+**5. שינויים בתנאים**  
+אנו רשאים לעדכן תנאים והגבלות אלו בכל עת. המשך השימוש באתר לאחר ביצוע השינויים יהווה הסכמה לתנאים המעודכנים.  
+
+**6. יצירת קשר**  
+לכל שאלה או בירור, ניתן לפנות אלינו בכתובת [כתובת אימייל].  
+`;
+
+const ACCESSIBILITY = `**הצהרת נגישות**  
+
+אנו מחויבים להבטיח שהאתר שלנו יהיה נגיש לכלל המשתמשים, לרבות אנשים עם מוגבלויות.  
+
+**1. שיפורים בנגישות**  
+אנו פועלים לפי תקני הנגישות המקובלים ומשתמשים בטכנולוגיות נגישות, כולל:  
+- ניווט קל ופשוט לכלל המשתמשים.  
+- אפשרות להגדלת טקסט והתאמות ניגודיות צבעים.  
+- שילוב תמיכה בקוראי מסך.  
+
+**2. פנייה אלינו בנוגע לנגישות**  
+אם נתקלתם בקושי בגלישה באתר או שיש לכם הצעות לשיפור הנגישות, נשמח לשמוע מכם בכתובת [כתובת אימייל].  
+
+**3. התחייבות להמשך שיפור**  
+אנו ממשיכים לעבוד על שיפורי נגישות כדי להבטיח חוויית משתמש נוחה ושוויונית לכלל המשתמשים.  
+`;
+
+const IMPRESSIUM = `**אימפרסיום**  
+
+[תוכן האימפרסיום לפי דרישה]  
+`;
+
+export const policyMap: Record<ModalType, string> = {
+  terms: TERMS_AND_CONDITIONS,
+  accessibility: ACCESSIBILITY,
+  privacy: PRIVACY_POLICY,
+  impressum: IMPRESSIUM,
+};

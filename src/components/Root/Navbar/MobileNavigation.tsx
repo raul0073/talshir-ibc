@@ -58,7 +58,7 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 							))}
 							<li className="relative group/nav-item transition-all duration-300 ease-in-out  border-b dark:border-stone-200/10 border-zinc-800/10 py-4">
 								<span className="group/nav-item flex h-full justify-between items-center text-blue-900 text-4xl group-hover/nav-item:pl-4  group-hover/nav-item:text-appBlue transition-all duration-500 ease-in-out isolate">
-									<LocaleSwitcher currentLocale={locale} className="text-lg" />
+									<LocaleSwitcher currentLocale={locale} className="text-lg hidden" />
 								</span>
 							</li>
 						</ul>
