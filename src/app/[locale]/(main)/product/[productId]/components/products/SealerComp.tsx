@@ -37,46 +37,49 @@ function SealerComp({ id }: { id: string }) {
 								<span>{"YouTube Video"}</span>
 							</div>
 							<div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
-								<div className="flex flex-col items-center mt-4 sm:mt-0 order-1 sm:order-none">
-									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
-										{thisProd.modelExtraContent.extraContent2}
-									</div>
-									<EnlargeableImage
-										src={thisProd.modelExtraContent.images[0]}
-										alt={thisProd.modelName}
-										width={100}
-										height={200}
-									/>
-								</div>
+  {/* Left (Slim) */}
+  <div className="flex flex-col items-center mt-4 sm:mt-0 order-1 sm:order-none flex-1">
+    <div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
+      {thisProd.modelExtraContent.extraContent2}
+    </div>
+    <div className="w-full h-[300px] flex justify-center items-center overflow-hidden">
+      <EnlargeableImage
+        src={thisProd.modelExtraContent.images[0]}
+        alt={thisProd.modelName}
+        className="object-contain h-full"
+      />
+    </div>
+  </div>
 
-								<div className="flex flex-col items-center mt-4 sm:mt-0">
-									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
-										{thisProd.modelExtraContent.extraContent3}
-									</div>
+  {/* Middle (Wide) */}
+  <div className="flex flex-col items-center mt-4 sm:mt-0 flex-[2]">
+    <div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
+      {thisProd.modelExtraContent.extraContent3}
+    </div>
+    <div className="w-full h-[300px] flex justify-center items-center overflow-hidden">
+      <EnlargeableImage
+        src={thisProd.modelImages.productPageMain}
+        alt={thisProd.modelName}
+        className="object-cover h-full border"
+      />
+    </div>
+  </div>
 
-									<EnlargeableImage
-										src={thisProd.modelImages.productPageMain}
-										alt={thisProd.modelName}
-										width={400}
-										height={400}
-										className="border"
-									/>
-								</div>
+  {/* Right (Slim) */}
+  <div className="flex flex-col items-center mt-4 sm:mt-0 flex-1">
+    <div className="bg-appTextBlue text-white w-full p-2 text-center my-2 text-nowrap">
+      {thisProd.modelExtraContent.extraContent4}
+    </div>
+    <div className="w-full h-[300px] flex justify-center items-center overflow-hidden">
+      <EnlargeableImage
+        src={thisProd.modelExtraContent.img}
+        alt={thisProd.modelName}
+        className={`object-contain h-full border ${isRTL ? "" : "scale-x-[-1]"}`}
+      />
+    </div>
+  </div>
+</div>
 
-								<div className="flex flex-col items-center mt-4 sm:mt-0">
-									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2 text-nowrap">
-										{thisProd.modelExtraContent.extraContent4}
-									</div>
-
-									<EnlargeableImage
-										src={thisProd.modelExtraContent.img}
-										alt={thisProd.modelName}
-										width={200}
-										height={200}
-										className={`border ${isRTL ? "" : "scale-x-[-1]"}`}
-									/>
-								</div>
-							</div>
 							<div className="hidden sm:flex flex-col items-center justify-center w-fit text-center border-2 px-6 py-6 border-appGray">
 								<Image
 									width={80}
@@ -91,7 +94,7 @@ function SealerComp({ id }: { id: string }) {
 							<div className="bg-appTextBlue text-white p-2 text-center my-2">
 								{thisProd.modelExtraContent.extraContent5}
 							</div>
-							<div className="grid grid-cols-1 sm:grid-cols-3 place-items-center justify-items-center gap-4 mx-auto w-full p-4">
+							<div className="grid grid-cols-1 sm:grid-cols-3 place-items-center justify-items-center gap-4 mx-auto w-full">
 								{thisProd.modelImages.usages.map(
 									(item: AltImages, indx: number) => (
 										<div

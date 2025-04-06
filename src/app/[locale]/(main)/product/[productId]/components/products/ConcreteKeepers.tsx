@@ -26,7 +26,7 @@ function ConcreteKeepers({ id }: { id: string }) {
                         height={600}
                     />
                     <div>
-                        <p className="text-2xl uppercase text-appTextBlue mb-4 text-center my-6">
+                        <p className="text-2xl uppercase text-appTextBlue mb-4 text-center my-6 font-bold">
                             {thisProd.modelDescription}
                         </p>
                         <ul className="text-sm md:text-lg capitalize w-fit mx-auto list-disc px-2 sm:px-1 space-y-1 mt-8">

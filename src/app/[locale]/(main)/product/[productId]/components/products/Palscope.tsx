@@ -25,10 +25,10 @@ function Palscope({ id }: { id: string }) {
 									src={thisProd.modelImages.productPageMain}
 									alt={thisProd.modelName}
 									width={500}
-									height={500}
+									height={400}
 								/>
 							</div>
-							<div className="w-full flex flex-col sm:flex-row justify-center items-center gap-4">
+							<div className="w-full flex flex-col sm:flex-row justify-center  gap-4">
 								<ul className="text-sm md:text-lg capitalize list-disc px-2 sm:px-1 space-y-1">
 									{thisProd.modelUsage.map((line: string, index: number) => (
 										<li key={index}>{line}</li>

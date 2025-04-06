@@ -17,29 +17,29 @@ function SlidingWheelComp({ id }: { id: string }) {
 				<div className="grid grid-cols-1">
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
-						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center">
+						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center max-w-5xl mx-auto">
 							<div>
-								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
+								<p className="text-3xl uppercase text-appSubTextBlue mb-4 text-center font-bold max-w-2xl">
 									{thisProd.modelDescription}
 								</p>
-								<div className="w-2/3 mx-auto">
-							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
-								{thisProd.modelUsage.map((line: string, index: number) => (
-									<li key={index}>{line}</li>
-								))}
-							</ul>
-						</div>
+								
 							</div>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">
 								<EnlargeableImage
 									src={thisProd.modelImages.productPageMain}
 									alt={thisProd.modelName}
-									width={600}
-									height={600}
+									width={700}
+									height={700}
 								/>
 							</div>
 						</div>
-						
+						<div className="w-fit mx-auto">
+							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
+								{thisProd.modelUsage.map((line: string, index: number) => (
+									<li key={index} className="text-appTextBlue text-xl font-bold">{line}</li>
+								))}
+							</ul>
+						</div>
 					</div>
 				</div>
 			) : (

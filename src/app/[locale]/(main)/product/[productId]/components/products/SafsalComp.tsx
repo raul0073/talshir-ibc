@@ -18,7 +18,7 @@ function SafsalComp({ id }: { id: string }) {
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
 					
-						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto">
+						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto ">
 							<div className="actions grid grid-cols-1 mt-12 place-items-center p-4 order-3 sm:order-none">
 								<ButtonProspect link="https://talshir-ibc.com/wp-content/uploads/2023/09/Results_Talshir-22.06.23.pdf">
 									{thisProd.modelCertification}
@@ -43,8 +43,8 @@ function SafsalComp({ id }: { id: string }) {
 								/>
 							</div>
 						</div>
-						<div className="w-full flex justify-center px-4">
-							<ul className="max-w-2xl text-sm md:text-lg capitalize  list-disc px-2 sm:px-1 space-y-1">
+						<div className="w-full flex justify-center items-center px-2 sm:px-1 mt-4">
+							<ul className="max-w-xl text-sm md:text-lg capitalize  list-disc  space-y-1">
 								{thisProd.modelUsage.map((line: string, index: number) => (
 									<li key={index}>{line}</li>
 								))}

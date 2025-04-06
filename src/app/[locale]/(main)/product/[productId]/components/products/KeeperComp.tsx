@@ -19,25 +19,29 @@ function KeeperComp({ id }: { id: string }) {
 					<div className="">
 						<ModelHeader thisProd={thisProd} />
 						{thisProd.modelSizes.length > 0 && (
-							<div className="model-sizes p-3 sm:p-4 flex flex-col justify-center items-center">
-								<h3 className="font-medium text-lg md:text-xl uppercase text-appTextBlue tracking-tighter">
+							<div className="model-sizes p-3 sm:p-4 flex flex-col  justify-center items-center">
+								<h3 className="font-bold text-lg md:text-2xl uppercase text-appTextBlue tracking-tighter">
 									{t("Certifications.standardSizesAvailable")}
 								</h3>
-								<ul className="flex gap-4">
-									{thisProd.modelSizes.map((size: string, index: number) => (
-										<li key={index} className="after:content-[','] last:after:content-none">
-											{size}
-										</li>
-									))}
-									<li className="mx-1"> {` ס"מ `} </li>
-								</ul>
+								<ul className="flex gap-1">
+										{thisProd.modelSizes.map((size: string, index: number) => (
+										<li
+										key={index}
+										className="text-appTextBlue text-xl">
+										{size}{index < thisProd.modelSizes.length - 1 && (
+											<span>{`, `}</span>
+										)}
+									</li>
+										))}
+										<li className="mx-1 text-appTextBlue text-xl"> {` ס"מ `} </li>
+									</ul>
 							</div>
 						)}
 
-						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2">
-							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
+						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto">
+							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1 mt-12">
 								{thisProd.modelUsage.map((line: string, index: number) => (
-									<li key={index}>{line}</li>
+									<li key={index} className="text-nowrap">{line}</li>
 								))}
 							</ul>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">

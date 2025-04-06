@@ -24,7 +24,7 @@ function ProductsComp() {
 	return (
 		<Fragment>
 			<div className="container mx-auto p-6 ">
-				<div className="header w-full max-w-3xl">
+				<div className="header w-full text-center">
 					<SectionHeader className="">
 						{content.title}{" "}
 						

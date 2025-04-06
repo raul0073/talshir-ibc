@@ -37,6 +37,7 @@ function NadalRotem50({ id }: { id: string }) {
 							<p className="text-2xl uppercase text-appSubTextBlue mt-4 text-center">
 								{thisProd.modelUsage[5]}
 							</p>
+							<div className="flex justify-center">
 							<EnlargeableImage
 								src={thisProd.modelImages.usages[0]}
 								alt={thisProd.modelName}
@@ -44,6 +45,7 @@ function NadalRotem50({ id }: { id: string }) {
 								height={500}
 								className="mt-4"
 							/>
+							</div>
 						</div>
 						
 						<div className="w-full flex justify-center flex-col items-center gap-4 mt-12 px-4">
@@ -76,11 +78,8 @@ function NadalRotem50({ id }: { id: string }) {
 								/>
 								</div>
 							</div>
-							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
-								{thisProd.modelExtraContent.extraContent}
-							</p>
-							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
-								{thisProd.modelExtraContent.extraContent3}
+							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-4xl text-center">
+								{thisProd.modelExtraContent.extraContent} {" "} {thisProd.modelExtraContent.extraContent3}
 							</p>
 						</div>
 					</div>

@@ -20,20 +20,20 @@ function NadalRotemPlus({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
-						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue mb-4 text-center">
+						<ModelHeader thisProd={thisProd} noPatent />
+						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue  text-center">
 							{thisProd.modelDescription}
 						</h2>
-						
-						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2">
+						<p className="font-bold text-2xl uppercase text-appSubTextBlue mb-4 text-center">{thisProd.modelPatentNo}</p>
+						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2 max-w-6xl mx-auto">
 							<div className="flex flex-col items-center">
-								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center">
+								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center font-bold">
 									{thisProd.modelExtraContent.extraContent}{" "}
 									<Link href={thisProd.modelLinks.modelExtra}>
 										<Link2 className="inline" />
 									</Link>
 								</p>
-								<div className="model-usage p-3 sm:p-4">
+								<div className="model-usage p-3 sm:p-4 mt-12">
 									<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
 										{thisProd.modelUsage.map((line: string, index: number) => (
 											<li key={index}>{line}</li>
@@ -45,8 +45,8 @@ function NadalRotemPlus({ id }: { id: string }) {
 								<EnlargeableImage
 									src={thisProd.modelImages.productPageMain}
 									alt={thisProd.modelName}
-									width={400}
-									height={400}
+									width={600}
+									height={600}
 								/>
 							</div>
 							<div className="sm:col-span-2 w-full flex justify-end p-4">
@@ -57,19 +57,19 @@ function NadalRotemPlus({ id }: { id: string }) {
 						</div>
 
 					
-						<div className="w-full flex justify-center flex-col items-center gap-8">
+						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appSubTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.desc}
 							</h2>
 						</div>
 						<div className="flex flex-col sm:flex-row gap-4 w-2/3 mx-auto mt-6">
 							<div className="flex flex-col items-center gap-6 w-full">
-								<div className="flex gap-4 justify-center">
+								<div className="flex gap-1">
 									{thisProd.modelImages.usages
 										.slice(0, 2)
 										.map((src: StaticImageData, indx: number) => {
 											return (
-												<div key={indx} className="w-36 md:w-96 h-36 md:h-96">
+												<div key={indx} className="w-36 md:w-96 h-auto md:h-auto flex justify-center">
 													<EnlargeableImage
 														src={src}
 														alt={thisProd.modelName + "_usage_" + indx}
@@ -85,9 +85,10 @@ function NadalRotemPlus({ id }: { id: string }) {
 									alt={thisProd.modelName}
 									width={650}
 									height={650}
+									className="mt-12"
 								/>
 							</div>
-							<div className="flex flex-col items-center gap-6 border w-full">
+							<div className="flex flex-col items-center gap-6 w-full">
 								<iframe
 								className="w-full sm:w-[200px]"
 									width="150"

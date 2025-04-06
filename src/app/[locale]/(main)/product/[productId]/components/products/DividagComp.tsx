@@ -30,18 +30,20 @@ function DividagComp({ id }: { id: string }) {
 							</div>
 							{thisProd.modelSizes.length > 0 && (
 								<div className="model-sizes p-3 sm:p-4 flex flex-col sm:flex-row items-center">
-									<h3 className="font-medium text-lg md:text-xl uppercase text-appTextBlue tracking-tighter px-12">
+									<h3 className="text-lg md:text-2xl uppercase text-appTextBlue tracking-tighter px-12 font-bold">
 										{t("Certifications.standardSizesAvailable")}
 									</h3>
 									<ul className="flex gap-1">
 										{thisProd.modelSizes.map((size: string, index: number) => (
 											<li
 												key={index}
-												className="after:content-[','] last:after:content-[] text-appText  text-lg">
-												{size}
+												className="text-appTextBlue text-xl">
+												{size}{index < thisProd.modelSizes.length - 1 && (
+													<span>{`, `}</span>
+												)}
 											</li>
 										))}
-										<li className="mx-1"> {` ס"מ `} </li>
+										<li className="mx-1 text-appText text-xl"> {` ס"מ `} </li>
 									</ul>
 								</div>
 							)}

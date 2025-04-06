@@ -47,9 +47,9 @@ function SleeverComp({ id }: { id: string }) {
 									</div>
 								
 								</div>
-								<ul className="text-sm md:text-lg capitalize w-fit mx-auto list-disc px-2 sm:px-1 space-y-1 mt-6">
+								<ul className="text-sm md:text-lg capitalize w-fit mx-auto list-disc px-2 sm:px-1 space-y-1 mt-12 ">
 									{thisProd.modelUsage.map((line: string, index: number) => (
-										<li key={index}>{line}</li>
+										<li key={index} className="text-appTextBlue font-bold">{line}</li>
 									))}
 								</ul>
 							</div>

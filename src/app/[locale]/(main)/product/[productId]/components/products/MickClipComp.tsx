@@ -23,11 +23,11 @@ function MickClipComp({ id }: { id: string }) {
 							<EnlargeableImage
 								src={thisProd.modelImages.productPageMain}
 								alt={thisProd.modelName}
-								width={600}
-								height={600}
+								width={700}
+								height={700}
 							/>
 							<div>
-								<p className="text-2xl uppercase text-appTextBlue mb-4 text-center">
+								<p className="text-2xl uppercase text-appTextBlue mb-4 text-center font-bold">
 									{thisProd.modelDescription}
 								</p>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
