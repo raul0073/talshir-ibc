@@ -102,3 +102,35 @@ export function ButtonPlayDemo({
 		</Dialog>
 	);
 }
+export function ButtonPlayDemoFixed({
+	children,
+	videoUrl,
+}: {
+	children: React.ReactNode;
+	videoUrl: string;
+}) {
+	const [open, setOpen] = useState(false);
+
+	return (
+		<Dialog open={open} onOpenChange={setOpen}>
+			<DialogTrigger asChild>
+				<Button
+					variant="outline"
+					className="py-8 sm:py-12 px-4 sm:px-8 flex flex-col items-center gap-1 sm:gap-3 uppercase border-gray border-4 w-full sm:w-fit">
+					<span className="text-sky-800">{children}</span>
+					<span className="rounded-full bg-white border-sky-900 border text-sky-900 p-1">
+						<IconPlayerPlay />
+					</span>
+				</Button>
+			</DialogTrigger>
+			<DialogContent className="max-w-6xl">
+				<video
+					src={videoUrl}
+					controls
+					className="w-full h-auto rounded-lg"
+					autoPlay
+				/>
+			</DialogContent>
+		</Dialog>
+	);
+}
