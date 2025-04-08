@@ -30,7 +30,7 @@ export default function EnlargeableImage({ src, alt, width = 400, height = 300, 
         <DialogContent className="flex items-center justify-center bg-white p-8">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1.4 }}
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.3 }}
             className="relative w-full max-w-6xl"

@@ -549,8 +549,8 @@
           "thumbnail": "/images/products/sleever/sleever_noBG.png",
           "productPageMain": "/images/products/sleever/sleever_noBG.png",
           "usages" : [
-            "/images/products/sleever/usage_1_text.png",
-            "/images/products/sleever/usage_2_text.png"
+            "/images/products/sleever/usage_1_text.jpg",
+            "/images/products/sleever/usage_2_text.jpg"
            ]
         },
         "modelSizesCustomize": false,
