@@ -79,7 +79,7 @@ function NadalRotem50({ id }: { id: string }) {
 								</div>
 							</div>
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-4xl text-center">
-								{thisProd.modelExtraContent.extraContent} {" "} {thisProd.modelExtraContent.extraContent3}
+								{thisProd.modelExtraContent.extraContent} <br /> {" "} {thisProd.modelExtraContent.extraContent3}
 							</p>
 						</div>
 					</div>

@@ -62,9 +62,6 @@ function ContactUsCopmp() {
 				<SectionHeader>
 					{title} 
 				</SectionHeader>
-				<p className="text-transparent bg-gradient-to-br from-zinc-800 to-stone-600 bg-clip-text text-lg md:text-xl mt-4">
-					{content("description")}
-				</p>
 			</div>
 			<div className="py-24">
 				<div className="form sm:w-3/4 ">

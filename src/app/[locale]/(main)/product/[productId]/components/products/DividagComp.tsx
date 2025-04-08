@@ -43,7 +43,7 @@ function DividagComp({ id }: { id: string }) {
 												)}
 											</li>
 										))}
-										<li className="mx-1 text-appText text-xl"> {` ס"מ `} </li>
+										<li className="mx-1 text-appTextBlue text-xl"> {` ס"מ `} </li>
 									</ul>
 								</div>
 							)}

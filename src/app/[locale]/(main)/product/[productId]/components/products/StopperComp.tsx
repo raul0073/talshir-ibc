@@ -22,7 +22,7 @@ function StopperComp({ id }: { id: string }) {
 						<ModelHeader thisProd={thisProd} />
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 place-items-center max-w-6xl mx-auto">
 							<div>
-								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6 text-nowrap">
+								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6 text-nowrap font-bold">
 									{thisProd.modelDescription}
 								</h2>
 								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
