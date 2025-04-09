@@ -16,7 +16,7 @@ function SleeverComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} no3D />
+						<ModelHeader thisProd={thisProd} />
 						
 						<div className="model-usage p-3 sm:p-4 flex flex-col items-center">
 							<EnlargeableImage

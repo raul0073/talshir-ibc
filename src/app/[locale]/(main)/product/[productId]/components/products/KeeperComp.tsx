@@ -41,7 +41,7 @@ function KeeperComp({ id }: { id: string }) {
 						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto">
 							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1 mt-12">
 								{thisProd.modelUsage.map((line: string, index: number) => (
-									<li key={index} className="text-nowrap">{line}</li>
+									<li key={index} className="sm:text-nowrap">{line}</li>
 								))}
 							</ul>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">
@@ -76,7 +76,7 @@ function KeeperComp({ id }: { id: string }) {
 							</div>
 						</div>
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez">
+							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez text-center">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<Image

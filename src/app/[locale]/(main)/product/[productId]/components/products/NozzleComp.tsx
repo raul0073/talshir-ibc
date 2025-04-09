@@ -9,6 +9,7 @@ import {
 } from "../../../../../../../../types/products";
 import EnlargeableImage from "../shared/ImageComp";
 import ModelHeader from "../shared/ModelHeader";
+import Link from "next/link";
 
 function NozzleComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
@@ -27,16 +28,20 @@ function NozzleComp({ id }: { id: string }) {
 						<p className="text-3xl uppercase text-appTextBlue my-4 text-center font-suez">
 							{thisProd.modelDescription}
 						</p>
-						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center mx-auto max-w-5xl">
-							<div className="flex flex-col items-center justify-center w-fit text-center border-2 px-8 py-6 border-appGray">
-								<IconBrandYoutube
+						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center mx-auto max-w-6xl">
+						<Link
+							className="flex flex-col items-center justify-center w-full md:w-fit text-center border-2 px-8 py-6 border-appGray"
+								href={thisProd.modelLinks.modelExtra}
+								target="_blank"
+								>
+									<IconBrandYoutube
 									color="white"
 									fill="red"
 									size={60}
 									className=" cursor-pointer"
 								/>
 								<span>{"YouTube Video"}</span>
-							</div>
+								</Link>
 							<div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
 								{/* Left (Slim) */}
 								<div className="flex flex-col items-center mt-4 sm:mt-0 order-1 sm:order-none flex-1">

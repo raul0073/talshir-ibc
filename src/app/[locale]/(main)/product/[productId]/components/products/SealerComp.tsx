@@ -2,6 +2,7 @@ import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonPlayDemoFixed } from "@/components/ui/button-arrow";
 import { IconBrandYoutube } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 import { useMemo } from "react";
 import {
 	AltImages,
@@ -28,8 +29,12 @@ function SealerComp({ id }: { id: string }) {
 						<p className="text-3xl uppercase text-appTextBlue my-4 text-center font-suez">
 							{thisProd.modelDescription}
 						</p>
-						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center mx-auto max-w-5xl">
-							<div className="flex flex-col items-center justify-center w-fit text-center border-2 px-8 py-6 border-appGray">
+						<div className="model-usage p-3 md:p-4 flex flex-col md:flex-row justify-center gap-6 items-center mx-auto max-w-6xl">
+							<Link
+							className="flex flex-col items-center justify-center w-full md:w-fit text-center border-2 px-8 py-6 border-appGray"
+								href={thisProd.modelLinks.modelExtra}
+									target="_blank"
+								>
 								<IconBrandYoutube
 									color="white"
 									fill="red"
@@ -37,10 +42,10 @@ function SealerComp({ id }: { id: string }) {
 									className=" cursor-pointer"
 								/>
 								<span>{"YouTube Video"}</span>
-							</div>
-							<div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
+							</Link>
+							<div className="flex flex-col md:flex-row justify-center gap-4 w-full">
 								{/* Left (Slim) */}
-								<div className="flex flex-col items-center mt-4 sm:mt-0 order-1 sm:order-none flex-1">
+								<div className="flex flex-col items-center mt-4 md:mt-0 order-1 md:order-none flex-1">
 									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
 										{thisProd.modelExtraContent.extraContent2}
 									</div>
@@ -54,7 +59,7 @@ function SealerComp({ id }: { id: string }) {
 								</div>
 
 								{/* Middle (Wide) */}
-								<div className="flex flex-col items-center mt-4 sm:mt-0 flex-[2]">
+								<div className="flex flex-col items-center mt-4 md:mt-0 flex-[2]">
 									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2">
 										{thisProd.modelExtraContent.extraContent3}
 									</div>
@@ -68,7 +73,7 @@ function SealerComp({ id }: { id: string }) {
 								</div>
 
 								{/* Right (Slim) */}
-								<div className="flex flex-col items-center mt-4 sm:mt-0 flex-1">
+								<div className="flex flex-col items-center mt-4 md:mt-0 flex-1">
 									<div className="bg-appTextBlue text-white w-full p-2 text-center my-2 text-nowrap">
 										{thisProd.modelExtraContent.extraContent4}
 									</div>
@@ -84,17 +89,15 @@ function SealerComp({ id }: { id: string }) {
 								</div>
 							</div>
 
-							
-								<ButtonPlayDemoFixed videoUrl={thisProd.modelDemoVideo || "#"}>
-									{tPage("playDemoVideo")}
-								</ButtonPlayDemoFixed>
-					
+							<ButtonPlayDemoFixed videoUrl={thisProd.modelDemoVideo || "#"}>
+								{tPage("playDemoVideo")}
+							</ButtonPlayDemoFixed>
 						</div>
-						<div className="w-full sm:w-fit mx-auto  mt-6">
+						<div className="w-full md:w-fit mx-auto  mt-6">
 							<div className="bg-appTextBlue text-white p-2 text-center my-2">
 								{thisProd.modelExtraContent.extraContent5}
 							</div>
-							<div className="grid grid-cols-1 sm:grid-cols-3 place-items-center justify-items-center gap-4 mx-auto w-full">
+							<div className="grid grid-cols-1 md:grid-cols-3 place-items-center justify-items-center gap-4 mx-auto w-full">
 								{thisProd.modelImages.usages.map(
 									(item: AltImages, indx: number) => (
 										<div
@@ -115,7 +118,7 @@ function SealerComp({ id }: { id: string }) {
 								)}
 							</div>
 						</div>
-						<div className="flex flex-col sm:flex-row gap-8 justify-center">
+						<div className="flex flex-col md:flex-row gap-8 justify-center">
 							<div className="flex flex-col items-center mt-4">
 								<p className="border-4 border-appGray p-8 font-bold text-center">
 									{thisProd.modelUsage[0]} <br />
