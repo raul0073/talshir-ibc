@@ -18,12 +18,6 @@ const DynamicProductsSection = dynamic(
 	}
 );
 
-const DynamicCoopsSection = dynamic(
-	() => import("@/components/Root/Coops/CoopsComp"),
-	{
-		loading: () => <Skeleton className="w-full h-full" />,
-	}
-);
 const DynamicContactSection = dynamic(
 	() => import("@/components/Root/Contact/ContactUsComp"),
 	{
@@ -38,12 +32,7 @@ export default function Home() {
 			<SectionWithLocale sectionName="about" className="bg-white " id="about">
 				<DynamicAboutSection />
 			</SectionWithLocale>
-			<SectionWithLocale
-				sectionName="coops"
-				className="relative bg-white pt-0"
-				id="coops">
-				<DynamicCoopsSection />
-			</SectionWithLocale>
+
 			<SectionWithLocale
 				sectionName="products"
 				className="min-h-screen bg-white"

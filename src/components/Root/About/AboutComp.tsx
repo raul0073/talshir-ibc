@@ -1,10 +1,10 @@
 "use client";
+import art from "@/app/assets/images/about/man_point.png";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { HTMLAttributes, useMemo } from "react";
 import SectionHeader from "../Header/SectionHeader";
-import Image from "next/image";
-import art from '@/app/assets/images/about/man_point.png'
 function About() {
 	const t = useTranslations("About");
 	const content = useMemo(() => {
@@ -43,7 +43,7 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
 					className="text-zinc-800 sm:text-3xl">
-					{content.line2} 
+					{content.line2}
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "50%" }}
@@ -59,7 +59,7 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
 					className="text-zinc-800 sm:text-3xl">
-					{content.line4} 
+					{content.line4}
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "70%" }}
@@ -67,7 +67,7 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
 					className="text-zinc-800 sm:text-3xl">
-					{content.line5} 
+					{content.line5}
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "40%" }}
@@ -75,7 +75,7 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
 					className="text-zinc-800 sm:text-3xl">
-					{content.line6} 
+					{content.line6}
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "80%" }}
@@ -83,7 +83,7 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
 					className="sm:text-4xl text-appSubTextBlue font-bold pt-12 font-suez">
-					{content.footer1} 
+					{content.footer1}
 				</motion.p>
 				<motion.p
 					initial={{ opacity: 0, y: "80%" }}
@@ -99,16 +99,18 @@ function About() {
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
 					className="sm:text-4xl text-appSubTextBlue font-bold font-suez">
-					{content.footer3} 
+					{content.footer3}
 				</motion.p>
-			
 			</div>
-			<Image
-			    src={art}
-                width={300}                height={300}
-                className="absolute -bottom-24 left-0 z-50 w-44 lg:w-72 h-auto"
-				alt="asd"
-            />
+			<div className="w-full  h-6 sm:h-12 relative ">
+				<Image
+					src={art}
+					width={300}
+					height={300}
+					className="absolute -bottom-44 left-12 md:left-1/4 -translate-x-1/2 z-30 w-44 lg:w-72 h-auto"
+					alt="asd"
+				/>
+			</div>
 		</div>
 	);
 }
