@@ -62,7 +62,7 @@ function HeroContent() {
 			</div>
 			<div className="container mx-auto w-full  p-2 mt-8 sm:mt-0">
 				<div className="relative w-full  mx-auto h-full flex flex-col items-center text-center">
-					<div className="w-full justify-center flex gap-4 items-center mt-40">
+					<div className="w-full justify-center flex gap-4 items-center mt-12 sm:mt-40">
 						<motion.h1
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}

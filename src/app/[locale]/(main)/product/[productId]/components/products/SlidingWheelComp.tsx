@@ -16,7 +16,7 @@ function SlidingWheelComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
+						<ModelHeader thisProd={thisProd} no3D />
 						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center max-w-5xl mx-auto">
 							<div>
 								<p className="text-3xl uppercase text-appSubTextBlue mb-4 text-center font-bold max-w-2xl">

@@ -17,7 +17,7 @@ function UniversalKeeperComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
+						<ModelHeader thisProd={thisProd} no3D/>
 						<div className="grid grid-cols-1 sm:grid-cols-3 mt-6 gap-6 max-w-6xl mx-auto">
 							<div className="flex flex-col items-center justify-center">
 								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center font-bold">

@@ -16,7 +16,7 @@ function DividagWithSpacer({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
+						<ModelHeader thisProd={thisProd} no3D />
 						
 
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 max-w-2xl mx-auto">

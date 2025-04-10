@@ -20,7 +20,7 @@ function NadalRotemPlus({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} noPatent />
+						<ModelHeader thisProd={thisProd} noPatent no3D/>
 						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue  text-center">
 							{thisProd.modelDescription}
 						</h2>

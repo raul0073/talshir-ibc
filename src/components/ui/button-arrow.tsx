@@ -2,7 +2,7 @@
 import pdf from "@/app/assets/icons/pdf.png";
 import mati from "@/app/assets/images/certifications/mati.png";
 import pikod from "@/app/assets/images/certifications/Pakar.svg.png";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { IconBrandYoutube, IconPlayerPlay } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -88,6 +88,9 @@ export function ButtonPlayDemo({ thisProd }: { thisProd: ProductItem }) {
 				</button>
 			</DialogTrigger>
 			<DialogContent className="max-w-6xl w-fit">
+				<DialogTitle className="text-center text-appTextBlue font-bold text-lg">
+					{thisProd.modelNamePage}
+				</DialogTitle>
 				<iframe
 					className="w-[250px] h-[500px] sm:h-[600px] sm:w-[350px]"
 					src={thisProd.modelDemoVideo}

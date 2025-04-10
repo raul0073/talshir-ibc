@@ -19,7 +19,7 @@ function StopperComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
+						<ModelHeader thisProd={thisProd} no3D />
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 place-items-center max-w-6xl mx-auto">
 							<div>
 								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6 text-nowrap font-bold">
