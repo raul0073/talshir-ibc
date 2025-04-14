@@ -1,6 +1,6 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonMati, ButtonProspect } from "@/components/ui/button-arrow";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -9,6 +9,8 @@ import ModelHeader from "../shared/ModelHeader";
 
 function KeeperComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
+	const locale = useLocale()
+	const isRTL = locale === 'he'
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id.trim() === id);
 	}, [t, id]);
@@ -33,15 +35,15 @@ function KeeperComp({ id }: { id: string }) {
 										)}
 									</li>
 										))}
-										<li className="mx-1 text-appTextBlue text-xl"> {` ס"מ `} </li>
+										<li className="mx-1 text-appTextBlue text-xl"> {` ${isRTL? 'ס"מ' : 'cm'}`} </li>
 									</ul>
 							</div>
 						)}
 
-						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto">
+						<div className="model-usage p-4 sm:p-4 grid grid-cols-1 sm:grid-cols-2 max-w-7xl mx-auto">
 							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1 mt-12">
 								{thisProd.modelUsage.map((line: string, index: number) => (
-									<li key={index} className="sm:text-nowrap">{line}</li>
+									<li key={index} className={`${isRTL? "sm:text-nowrap" : ''}`}>{line}</li>
 								))}
 							</ul>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">

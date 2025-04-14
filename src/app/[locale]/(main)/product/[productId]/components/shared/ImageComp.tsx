@@ -1,6 +1,6 @@
 'use client'
 import Image, { StaticImageData } from "next/image";
-import { Dialog, DialogContent } from "@/components/ui/dialog"; // shadcn/ui dialog
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"; // shadcn/ui dialog
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -27,13 +27,16 @@ export default function EnlargeableImage({ src, alt, width = 400, height = 300, 
       />
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="flex items-center justify-center bg-white p-8">
+        <DialogContent className="flex items-center justify-center  md:p-8 p-2 w-[90%] lg:w-fit">
+          <DialogTitle>
+            {}
+          </DialogTitle>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1.4 }}
+            animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full max-w-6xl"
+            className="relative"
           >
             <Image
               src={src}

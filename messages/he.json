@@ -467,7 +467,7 @@
           "modelPikod" : "",
           "modelMati" : "",
           "modelProspect" : "",
-          "modelExtra": "https://www.youtube.com/watch?v=Bx6Wp2xyFt0"
+          "modelExtra": "https://www.youtube.com/embed/1naCAl7-8fM"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -833,6 +833,13 @@
   "Contact": {
     "title": "צרו איתנו קשר",
     "description": "צוות המומחים שלנו כאן בשבילך.",
+    "ilanPhone" : "972-052-8338555",
+    "ilanWhatsApp" : "+972528338555",
+    "itamarPhone" : "972-054-7570195",
+    "itamarWhatsApp" : "+972547570195",
+    "ilanEmail" : "ilanber11@walla.co.il",
+    "ilan": "אילן",
+    "Itamar": "איתמר",
     "form": {
       "name": "שם",
       "company" : "חברה",

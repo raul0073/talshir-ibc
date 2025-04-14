@@ -28,7 +28,7 @@ function Palscope({ id }: { id: string }) {
 									height={400}
 								/>
 							</div>
-							<div className="w-full flex flex-col sm:flex-row justify-center  gap-4">
+							<div className="w-full flex flex-col items-center sm:flex-row justify-center  gap-4">
 								<ul className="text-sm md:text-lg capitalize list-disc px-2 sm:px-1 space-y-1">
 									{thisProd.modelUsage.map((line: string, index: number) => (
 										<li key={index}>{line}</li>
@@ -66,7 +66,7 @@ function Palscope({ id }: { id: string }) {
 											.slice(0, 2)
 											.map((src: StaticImageData, indx: number) => {
 												return (
-													<div key={indx} className="w-24 md:w-36 h-24 md:h-36">
+													<div key={indx} className="w-36 md:w-48 h-36 md:h-48">
 														<EnlargeableImage
 															src={src}
 															alt={thisProd.modelName + "_usage_" + indx}

@@ -17,7 +17,8 @@ function DividagComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} no3D/>
+						
+						<ModelHeader thisProd={thisProd} />
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 max-w-2xl mx-auto">
 							<div className="w-full flex justify-center h-fit pb-4">
 								<EnlargeableImage
@@ -30,7 +31,7 @@ function DividagComp({ id }: { id: string }) {
 							</div>
 							{thisProd.modelSizes.length > 0 && (
 								<div className="model-sizes p-3 sm:p-4 flex flex-col sm:flex-row items-center">
-									<h3 className="text-lg md:text-2xl uppercase text-appTextBlue tracking-tighter px-12 font-bold">
+									<h3 className={`text-lg md:text-2xl uppercase text-appTextBlue tracking-tighter ${isRTL ? 'px-12' : 'px-4'} font-bold`}>
 										{t("Certifications.standardSizesAvailable")}
 									</h3>
 									<ul className="flex gap-1">
@@ -43,7 +44,7 @@ function DividagComp({ id }: { id: string }) {
 												)}
 											</li>
 										))}
-										<li className="mx-1 text-appTextBlue text-xl"> {` ס"מ `} </li>
+										<li className="mx-1 text-appTextBlue text-xl"> {` ${isRTL? 'ס"מ' : 'cm'}`} </li>
 									</ul>
 								</div>
 							)}
@@ -70,7 +71,7 @@ function DividagComp({ id }: { id: string }) {
 						</div>
 						
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="text-2xl md:text-5xl uppercase text-appTextBlue font-suez">
+							<h2 className="text-2xl md:text-5xl uppercase text-appTextBlue font-suez text-center">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<div className="relative">

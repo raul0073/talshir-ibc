@@ -1,5 +1,5 @@
 import { ButtonPlayDemo } from "@/components/ui/button-arrow";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -17,6 +17,9 @@ function ModelHeader({
 }) {
 	const tPage = useTranslations("ProductPage");
   console.log(tPage("playDemoVideo"));
+  const locale = useLocale()
+  const isRTL = locale === 'he'
+  const side = isRTL ? 'left' : 'right'
 	return (
 		<div className="model-header p-3 sm:p-4 flex justify-center items-center relative">
 			<div className="w-full sm:w-2/3 text-center">
@@ -24,7 +27,7 @@ function ModelHeader({
 					{thisProd.modelNamePage}
 				</h1>
 				{patentLogo && (
-					<div className="w-full mt-2 sm:w-fit px-4 sm:px-8 py-2 md:py-4 lg:py-8 border-4 border-gray uppercase flex flex-col items-center gap-2 sm:gap-3 relative sm:absolute sm:left-0 md:left-[1%] lg:left-[3%] xl:left-[14%] sm:top-1/2 sm:-translate-y-1/2">
+					<div className={`w-full mt-2 sm:w-fit px-4 sm:px-6 py-2 md:py-4 lg:py-6 border-4 border-gray uppercase flex flex-col items-center gap-2 relative sm:absolute sm:${side}-0 md:${side}-[1%] lg:${side}-[3%] xl:${side}-[14%] sm:top-1/2 sm:-translate-y-1/2`}>
 						<Image
 							width={80}
 							height={80}
@@ -37,7 +40,7 @@ function ModelHeader({
 				{!no3D && (
 					<Fragment>
 						<div className="mt-2 sm:mt-0  ">
-							<ButtonPlayDemo thisProd={thisProd} />
+							<ButtonPlayDemo thisProd={thisProd} disabled={thisProd.modelDemoVideo ? false : true} />
 							{/* <YoutubeButton link={thisProd.modelDemoVideo || '#'} /> */}
 						</div>
 					</Fragment>

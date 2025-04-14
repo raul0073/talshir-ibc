@@ -16,7 +16,7 @@ function DividagWithSpacer({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} no3D />
+						<ModelHeader thisProd={thisProd}  />
 						
 
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 max-w-2xl mx-auto">
@@ -24,8 +24,8 @@ function DividagWithSpacer({ id }: { id: string }) {
 								<EnlargeableImage
 									src={thisProd.modelImages.productPageMain}
 									alt={thisProd.modelName}
-									width={500}
-									height={500}
+									width={700}
+									height={700}
 									className=""
 								/>
 							</div>

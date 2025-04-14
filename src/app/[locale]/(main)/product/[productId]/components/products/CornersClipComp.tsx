@@ -18,7 +18,7 @@ function CornersClipComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} no3D />
+						<ModelHeader thisProd={thisProd}  />
 
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto">
 							<div>
@@ -66,15 +66,15 @@ function CornersClipComp({ id }: { id: string }) {
 						</div>
 
 						<div className="w-full flex justify-center flex-col items-center gap-8 mt-12">
-							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
+							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter text-center">
 								{thisProd.modelExtraContent.header}
 							</h2>
-							<div className="grid grid-cols-3 md:grid-cols-4  gap-4">
+							<div className="grid grid-cols-2 md:grid-cols-4  gap-4">
 								{thisProd.modelImages.usages.map(
 									(img: StaticImageData, indx: number) => (
 										<div
 											key={indx}
-											className="w-full max-w-[6rem] sm:max-w-[10rem] md:max-w-[12rem] lg:max-w-[14rem]">
+											className="w-full max-w-[7rem] sm:max-w-[10rem] md:max-w-[12rem] lg:max-w-[14rem]">
 											<EnlargeableImage
 												src={img}
 												alt={`${thisProd.modelName}_usage_${indx}`}

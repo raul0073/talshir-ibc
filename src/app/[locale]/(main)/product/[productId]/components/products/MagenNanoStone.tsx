@@ -1,5 +1,5 @@
 import ProductPageSkeleton from '@/components/Skeletons/ProductPageSkeleton';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { ProductItem } from '../../../../../../../../types/products';
 import EnlargeableImage from '../shared/ImageComp';
@@ -8,7 +8,8 @@ import Image from 'next/image';
 
 function MagenNanoStone({ id }: { id: string }) {
 	const t = useTranslations("Products");
-
+    const locale = useLocale()
+    const isRTL = locale === 'he'
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id === id);
 	}, [t, id]);
@@ -17,12 +18,12 @@ function MagenNanoStone({ id }: { id: string }) {
     {thisProd ? (
         <div className="grid grid-cols-1 px-2">
             <div className="">
-                <ModelHeader thisProd={thisProd} no3D />
+                <ModelHeader thisProd={thisProd}  />
                
                 <div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row items-center mt-12 w-full justify-center">
               
-                    <div>
-                        <p className="text-2xl uppercase text-appTextBlue mb-4 text-center my-6 font-bold">
+                    <div className='order-2 sm:order-none'>
+                        <p className="text-2xl uppercase text-appTextBlue mb-4 text-center my-6 font-bold ">
                             {thisProd.modelDescription}
                         </p>
                         <ul className="text-sm md:text-lg capitalize w-fit mx-auto list-disc px-2 sm:px-1 space-y-1 mt-8">
@@ -44,7 +45,9 @@ function MagenNanoStone({ id }: { id: string }) {
                         alt={thisProd.modelName}
                         width={250}
                         height={250}
-                        className='mt-8 sm:mt-0'
+                        className={`mt-8 sm:mt-0  ${
+                            isRTL ? "" : "scale-x-[-1] hover:scale-x-[-1]"
+                        }`}
                     />
                   
                 </div>

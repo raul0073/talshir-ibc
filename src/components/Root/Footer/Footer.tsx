@@ -1,18 +1,13 @@
 "use client";
 import logo2 from "@/app/assets/images/logo/logo.png";
-import {
-	IconBrandWhatsapp,
-	IconClockCheck,
-	IconMail,
-	IconPhone,
-} from "@tabler/icons-react";
+import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
 import { GrLinkedin, GrTwitter, GrYoutube } from "react-icons/gr";
 import { getMenusOptions } from "../Navbar/data/menus";
+import ContactCard from "./ContactCard";
 import Modal, { ModalType } from "./Modal";
-import { Separator } from "@/components/ui/separator";
 function Footer() {
 	const [modalOn, setModalOn] = useState<boolean>(false);
 	const [modalType, setModalType] = useState<ModalType | null>(null);
@@ -25,7 +20,7 @@ function Footer() {
 
 	const content = useTranslations("Navbar");
 	const rootContent = useTranslations("Root");
-	const SEOContent = useTranslations("Footer.SEO");
+	const contactContent = useTranslations("Contact");
 	const MENUS_OPTIONS = getMenusOptions(content);
 
 	return (
@@ -37,34 +32,20 @@ function Footer() {
 							<h3 className="uppercase mb-4 text-lg md:text-xl">
 								{content("contact")}
 							</h3>
-							<ul className="space-y-3">
-								<li className="capitalize flex items-center justify-start gap-2 w-full">
-									<span>
-										<IconPhone className="inline text-white/50 w-4 h-4" />
-									</span>
-									<span className="text-white/50">+972 555555555</span>
-								</li>
-								<li className="capitalize flex items-center justify-start gap-2 w-full">
-									<span>
-										<IconBrandWhatsapp className="inline text-white/50 w-4 h-4" />
-									</span>
-									<span className="text-white/50">111 333 444</span>
-								</li>
-								<li className="flex items-center justify-start gap-2 w-full">
-									<span>
-										<IconMail className="inline text-white/50 w-4 h-4" />
-									</span>
-									<span className="text-white/50">talshir@email.com</span>
-								</li>
-								<li className="capitalize flex items-center justify-start gap-2 w-full">
-									<span>
-										<IconClockCheck className="inline text-white/50 w-4 h-4" />
-									</span>
-									<span className="text-white/50">
-										SUN - FRI @ 07:00 - 16:30
-									</span>
-								</li>
-							</ul>
+							<div className="space-y-6">
+								<ContactCard
+									name={contactContent("ilan")}
+									phone={contactContent("ilanPhone")}
+									whatsapp={contactContent("ilanWhatsApp")}
+									email={contactContent("ilanEmail")}
+								/>
+								<ContactCard
+									name={contactContent("Itamar")}
+									phone={contactContent("itamarPhone")}
+									whatsapp={contactContent("itamarWhatsApp")}
+									email={contactContent("ilanEmail")}
+								/>
+							</div>
 						</nav>
 						<div className="md:hidden flex justify-end items-center w-fit">
 							<Image
@@ -92,7 +73,7 @@ function Footer() {
 								))}
 							</ul>
 							{modalType && modalOn && (
-								<Modal modalOn={() => setModalType(null)} type={modalType } />
+								<Modal modalOn={() => setModalType(null)} type={modalType} />
 							)}
 						</nav>
 						<nav className="w-full">
@@ -105,7 +86,7 @@ function Footer() {
 										key={href}
 										className="capitalize text-white/50"
 										onClick={(e) => handleClick(href, e)}>
-										<a href={''} className="">
+										<a href={""} className="">
 											{label}{" "}
 										</a>
 									</li>
@@ -139,26 +120,6 @@ function Footer() {
 							{" "}
 							HaSharon District, ISRAEL
 						</p>
-
-						<div className="SEO w-full grid grid-cols-2 place-items-center gap-8 mt-6 text-white/40 text-xs sm:text-base">
-							<article className="flex justify-start items-start flex-col w-full">
-								<h4 className="uppercase font-semibold text-white/60 mb-2">
-									{SEOContent("left.header")}
-								</h4>
-								<p>
-								{SEOContent("left.content")}
-								</p>
-							</article>
-
-							<article className="flex justify-start items-start flex-col w-full">
-								<h4 className="uppercase font-semibold text-white/60 mb-2">
-								{SEOContent("right.header")}
-								</h4>
-								<p>
-								{SEOContent("right.content")}
-								</p>
-							</article>
-						</div>
 					</div>
 				</div>
 			</div>

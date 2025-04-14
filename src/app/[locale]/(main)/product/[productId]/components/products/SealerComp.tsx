@@ -1,5 +1,4 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { ButtonPlayDemoFixed } from "@/components/ui/button-arrow";
 import { IconBrandYoutube } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
@@ -13,8 +12,6 @@ import ModelHeader from "../shared/ModelHeader";
 
 function SealerComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-	const tPage = useTranslations("ProductPage");
-
 	const locale = useLocale();
 	const isRTL = locale === "he";
 	const thisProd = useMemo(() => {
@@ -24,12 +21,12 @@ function SealerComp({ id }: { id: string }) {
 		<div className="container  mx-auto min-h-[90vh]">
 			{thisProd ? (
 				<div className="grid grid-cols-1">
-					<div className="">
+					<div className="px-2">
 						<ModelHeader thisProd={thisProd} noPatent no3D patentLogo />
 						<p className="text-3xl uppercase text-appTextBlue my-4 text-center font-suez">
 							{thisProd.modelDescription}
 						</p>
-						<div className="model-usage p-3 md:p-4 flex flex-col md:flex-row justify-center gap-6 items-center mx-auto max-w-6xl">
+						<div className="model-usage p-3 md:p-4 flex flex-col md:flex-row justify-center gap-6 items-center mx-auto max-w-5xl">
 							<Link
 							className="flex flex-col items-center justify-center w-full md:w-fit text-center border-2 px-8 py-6 border-appGray"
 								href={thisProd.modelLinks.modelExtra}
@@ -82,18 +79,16 @@ function SealerComp({ id }: { id: string }) {
 											src={thisProd.modelExtraContent.img}
 											alt={thisProd.modelName}
 											className={`object-contain h-full border ${
-												isRTL ? "" : "scale-x-[-1]"
+												isRTL ? "" : "scale-x-[-1] hover:scale-x-[-1]"
 											}`}
 										/>
 									</div>
 								</div>
 							</div>
-
-							<ButtonPlayDemoFixed videoUrl={thisProd.modelDemoVideo || "#"}>
-								{tPage("playDemoVideo")}
-							</ButtonPlayDemoFixed>
+												<div className="w-fit"></div>
+		
 						</div>
-						<div className="w-full md:w-fit mx-auto  mt-6">
+						<div className="w-full mx-auto max-w-5xl  mt-6">
 							<div className="bg-appTextBlue text-white p-2 text-center my-2">
 								{thisProd.modelExtraContent.extraContent5}
 							</div>

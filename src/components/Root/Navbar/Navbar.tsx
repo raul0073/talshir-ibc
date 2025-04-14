@@ -7,10 +7,13 @@ import NavigationLinks from "./NavigationLinks";
 import { useScroll } from "framer-motion";
 import Link from "next/link";
 import logo from '@/app/assets/images/logo/IBC-300x230-noBG.png'
+import { usePathname } from "next/navigation";
 
 function NavigationComp() {
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 	const [isScrolled, setIsScrolled] = useState<boolean>(false);
+	const path = usePathname()
+	const isMainPage = path === '/he' || path === '/en'
 	const { scrollY } = useScroll();
 	useEffect(() => {
 		// Listen to changes in scrollY
@@ -33,7 +36,7 @@ function NavigationComp() {
 							alt="Logo"
 							width={70}
 							height={70}
-							className={`hover:opacity-100 ${isScrolled ? 'transition-transform duration-300 ease-in-out' :'opacity-20'} transition-transform duration-300 ease-in-out`}
+							className={`hover:opacity-100 ${isScrolled || !isMainPage ? 'transition-transform duration-300 ease-in-out' : 'opacity-20'} transition-transform duration-300 ease-in-out`}
 						/>
 						</Link>
 					</div>

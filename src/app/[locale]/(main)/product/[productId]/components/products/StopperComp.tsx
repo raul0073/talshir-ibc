@@ -2,7 +2,7 @@ import carmel from "@/app/assets/images/certifications/carmel-ap2.jpg";
 import mati_complete from "@/app/assets/images/certifications/mati_complete.jpg";
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonPikod, ButtonProspect } from "@/components/ui/button-arrow";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -11,6 +11,8 @@ import ModelHeader from "../shared/ModelHeader";
 
 function StopperComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
+		const locale = useLocale()
+	const isRTL = locale === 'he'
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id.trim() === id);
 	}, [t, id]);
@@ -19,15 +21,15 @@ function StopperComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} no3D />
-						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 place-items-center max-w-6xl mx-auto">
+						<ModelHeader thisProd={thisProd}  />
+						<div className="model-usage p-3 md:p-4 grid grid-cols-1 md:grid-cols-3 place-items-center max-w-7xl mx-auto">
 							<div>
-								<h2 className="text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6 text-nowrap font-bold">
+								<h2 className={`text-xl md:text-2xl uppercase text-appTextBlue tracking-tighter mb-6  font-bold ${isRTL && 'text-nowrap'}`}>
 									{thisProd.modelDescription}
 								</h2>
-								<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
+								<ul className="text-md md:text-lg capitalize w-full list-disc px-2 md:px-1 space-y-1">
 									{thisProd.modelUsage.map((line: string, index: number) => (
-										<li key={index} className="text-nowrap">{line}</li>
+										<li key={index} className={`${isRTL && "text-nowrap"}`}>{line}</li>
 									))}
 								</ul>
 							</div>
@@ -54,7 +56,7 @@ function StopperComp({ id }: { id: string }) {
 							<h3 className="font-bold text-2xl uppercase text-appTextBlue mb-4 max-w-xl">
 								{thisProd.pikodHaorefApproved}
 							</h3>
-							<ul className="px-12 w-full flex justify-center flex-col items-start list-disc sm:px-1 space-y-1 max-w-xl">
+							<ul className="px-12 w-full flex justify-center flex-col items-start list-disc md:px-1 space-y-1 max-w-xl">
 								<li>{thisProd.modelExtraContent.extraContent2}</li>
 								<li>{thisProd.modelExtraContent.extraContent3}</li>
 							</ul>
@@ -82,7 +84,7 @@ function StopperComp({ id }: { id: string }) {
 							
 						</div>
 						<div className="certifications p-4 max-w-7xl mx-auto">
-							<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-6">
 								<div className="bg-white rounded-xl p-4">
 									<EnlargeableImage
 										src={mati_complete}
@@ -107,12 +109,12 @@ function StopperComp({ id }: { id: string }) {
 									</p>
 								</div>
 							</div>
-							<div className="flex flex-col sm:flex-row gap-6 items-center justify-center pt-12">
+							<div className="flex flex-col md:flex-row gap-6 items-center justify-center pt-12">
 								<ButtonProspect link={thisProd.modelLinks.modelExtra}>
 									{t("Certifications.sealingSpecs")}
 								</ButtonProspect>
 								<ButtonProspect link={thisProd.modelLinks.modelProspect}>
-									{thisProd.modelName} {t("Certifications.prospectDownload")}
+									{thisProd.modelNamePage} {t("Certifications.prospectDownload")}
 								</ButtonProspect>
 								<ButtonPikod link={thisProd.modelLinks.modelPikod}>
 									{t("Certifications.pikod_haoref")}

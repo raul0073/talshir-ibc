@@ -34,7 +34,7 @@ function NadalRotem50({ id }: { id: string }) {
 										<li key={index}>{line}</li>
 									))}
 							</ul>
-							<p className="text-2xl uppercase text-appSubTextBlue mt-4 text-center">
+							<p className="text-2xl uppercase text-appSubTextBlue mt-4 text-center md:text-nowrap">
 								{thisProd.modelUsage[5]}
 							</p>
 							<div className="flex justify-center">
@@ -48,14 +48,14 @@ function NadalRotem50({ id }: { id: string }) {
 							</div>
 						</div>
 						
-						<div className="w-full flex justify-center flex-col items-center gap-4 mt-12 px-4">
+						<div className="w-full flex justify-center flex-col items-center gap-4 mt-12 px-4 text-center">
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue font-suez">
 								{thisProd.modelExtraContent.header}
 							</h2>
 							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-xl text-center">
 								{thisProd.modelExtraContent.desc}
 							</p>
-							<div className="flex justify-center gap-6">
+							<div className="flex md:flex-row flex-col items-center justify-center gap-6">
 								<div className="relative">
 									<EnlargeableImage
 										src={thisProd.modelExtraContent.img2}
@@ -68,7 +68,7 @@ function NadalRotem50({ id }: { id: string }) {
 										{thisProd.modelExtraContent.extraContent2}
 									</span>
 								</div>
-								<div className="flex flex-col justify-start items-center">
+								<div className="flex flex-col justify-center md:justify-start items-center">
 								<EnlargeableImage
 									src={thisProd.modelExtraContent.img}
 									alt={thisProd.modelName}
@@ -78,7 +78,7 @@ function NadalRotem50({ id }: { id: string }) {
 								/>
 								</div>
 							</div>
-							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-4xl text-center">
+							<p className="text-xl sm:text-2xl text-appSubTextBlue font-medium max-w-4xl text-center capitalize">
 								{thisProd.modelExtraContent.extraContent} <br /> {" "} {thisProd.modelExtraContent.extraContent3}
 							</p>
 						</div>

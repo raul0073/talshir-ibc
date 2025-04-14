@@ -15,11 +15,11 @@ function SlidingWheelComp({ id }: { id: string }) {
 		<div className="container  mx-auto min-h-[90vh]">
 			{thisProd ? (
 				<div className="grid grid-cols-1">
-					<div className="">
-						<ModelHeader thisProd={thisProd} no3D />
+					<div className="px-2">
+						<ModelHeader thisProd={thisProd}  />
 						<div className="model-usage p-3 sm:p-4 flex flex-col sm:flex-row justify-center gap-6 items-center max-w-5xl mx-auto">
 							<div>
-								<p className="text-3xl uppercase text-appSubTextBlue mb-4 text-center font-bold max-w-2xl">
+								<p className="text-3xl capitalize text-appSubTextBlue mb-4 text-center font-bold max-w-2xl">
 									{thisProd.modelDescription}
 								</p>
 								
@@ -33,7 +33,7 @@ function SlidingWheelComp({ id }: { id: string }) {
 								/>
 							</div>
 						</div>
-						<div className="w-fit mx-auto">
+						<div className="w-fit mx-auto px-2">
 							<ul className="text-sm md:text-lg capitalize w-full list-disc px-2 sm:px-1 space-y-1">
 								{thisProd.modelUsage.map((line: string, index: number) => (
 									<li key={index} className="text-appTextBlue text-xl font-bold">{line}</li>

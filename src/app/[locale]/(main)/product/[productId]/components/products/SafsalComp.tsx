@@ -15,7 +15,7 @@ function SafsalComp({ id }: { id: string }) {
 		<div className="container  mx-auto min-h-[90vh]">
 			{thisProd ? (
 				<div className="grid grid-cols-1">
-					<div className="">
+					<div className="px-2">
 						<ModelHeader thisProd={thisProd} />
 					
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto ">

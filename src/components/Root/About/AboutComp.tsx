@@ -1,12 +1,14 @@
 "use client";
 import art from "@/app/assets/images/about/man_point.png";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { HTMLAttributes, useMemo } from "react";
 import SectionHeader from "../Header/SectionHeader";
 function About() {
 	const t = useTranslations("About");
+	const locale = useLocale()
+	const isRTL = locale === 'he'
 	const content = useMemo(() => {
 		return {
 			title: t("title"),
@@ -23,7 +25,7 @@ function About() {
 	}, [t]);
 	return (
 		<div className="relative container mx-auto py-28">
-			<div className=" w-full max-w-7xl mx-auto h-full px-2 flex flex-col justify-center items-center text-center space-y-2 sm:space-y-4">
+			<div className=" w-full max-w-8xl mx-auto h-full px-2 flex flex-col justify-center items-center text-center space-y-2 sm:space-y-4">
 				<SectionHeader className="mb-12">
 					{content.title.split(" ")[0]}{" "}
 					<span className="font-[900]">{content.title.split(" ")[1]}</span>
@@ -33,7 +35,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
 					viewport={{ once: true }}
-					className="sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line1}
 				</motion.p>{" "}
 				<br />
@@ -42,7 +44,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line2}
 				</motion.p>
 				<motion.p
@@ -50,7 +52,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line3}
 				</motion.p>
 				<motion.p
@@ -58,7 +60,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line4}
 				</motion.p>
 				<motion.p
@@ -66,7 +68,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line5}
 				</motion.p>
 				<motion.p
@@ -74,7 +76,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.5 }}
 					viewport={{ once: true }}
-					className="text-zinc-800 sm:text-3xl">
+					className={`${isRTL? 'sm:text-3xl ' : "sm:text-2xl capitalize"}`}>
 					{content.line6}
 				</motion.p>
 				<motion.p
@@ -82,7 +84,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
-					className="sm:text-4xl text-appSubTextBlue font-bold pt-12 font-suez">
+					className="sm:text-4xl text-appSubTextBlue font-bold pt-12 font-suez capitalize">
 					{content.footer1}
 				</motion.p>
 				<motion.p
@@ -90,7 +92,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
-					className="sm:text-4xl text-appSubTextBlue font-bold font-suez">
+					className="sm:text-4xl text-appSubTextBlue font-bold font-suez capitalize">
 					{content.footer2}
 				</motion.p>
 				<motion.p
@@ -98,7 +100,7 @@ function About() {
 					whileInView={{ opacity: 1, y: "0" }}
 					transition={{ duration: 0.6, ease: "easeInOut", delay: 0.6 }}
 					viewport={{ once: true }}
-					className="sm:text-4xl text-appSubTextBlue font-bold font-suez">
+					className="sm:text-4xl text-appSubTextBlue font-bold font-suez capitalize">
 					{content.footer3}
 				</motion.p>
 			</div>
@@ -107,7 +109,7 @@ function About() {
 					src={art}
 					width={300}
 					height={300}
-					className="absolute -bottom-44 left-12 md:left-1/4 -translate-x-1/2 z-30 w-44 lg:w-72 h-auto"
+					className="absolute -bottom-48 left-12 md:left-1/4 -translate-x-1/2 z-30 w-44 lg:w-72 h-auto"
 					alt="asd"
 				/>
 			</div>

@@ -1,7 +1,7 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
 import { Link2 } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
@@ -11,6 +11,9 @@ import ModelHeader from "../shared/ModelHeader";
 
 function NadalRotemPlus({ id }: { id: string }) {
 	const t = useTranslations("Products");
+	const locale = useLocale()
+	//eslint-disable-next-line
+	const isRTL = locale === 'he'
 	const tPage = useTranslations("ProductPage");
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id.trim() === id);
@@ -20,14 +23,14 @@ function NadalRotemPlus({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} noPatent no3D/>
+						<ModelHeader thisProd={thisProd} noPatent />
 						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue  text-center">
 							{thisProd.modelDescription}
 						</h2>
 						<p className="font-bold text-2xl uppercase text-appSubTextBlue mb-4 text-center">{thisProd.modelPatentNo}</p>
-						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2 max-w-6xl mx-auto">
+						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2 max-w-7xl mx-auto">
 							<div className="flex flex-col items-center">
-								<p className="text-2xl uppercase text-appSubTextBlue mb-4 text-center font-bold">
+								<p className="text-2xl capitalize text-appSubTextBlue mb-4 text-center font-bold">
 									{thisProd.modelExtraContent.extraContent}{" "}
 									<Link href={thisProd.modelLinks.modelExtra}>
 										<Link2 className="inline" />

@@ -6,10 +6,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ProductItem } from "../../../../types/products";
 import { motion } from "framer-motion";
+import { useLocale } from "next-intl";
 
 function ProductCard({ product }: { product: ProductItem }) {
 	const path = usePathname();
-
+	const locale = useLocale()
+	const isRTL = locale === 'he'
 	return (
 		<motion.div
 			initial={{ opacity: 0, y: 50 }}
@@ -32,7 +34,7 @@ function ProductCard({ product }: { product: ProductItem }) {
 							alt="thumbnail"
 						/>
 					</CardHeader>
-					<CardFooter className="flex justify-center text-2xl sm:text-3xl text-appTextBlue font-suez text-center uppercase">
+					<CardFooter className={`flex justify-center text-appTextBlue font-suez text-center uppercase ${isRTL? 'text-2xl sm:text-3xl' : 'text-2xl'}`}>
 						{product.modelName}
 					</CardFooter>
 				</Link>
