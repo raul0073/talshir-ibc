@@ -27,7 +27,9 @@ function NadalRotemPlus({ id }: { id: string }) {
 						<h2 className="font-bold text-2xl uppercase text-appSubTextBlue  text-center">
 							{thisProd.modelDescription}
 						</h2>
-						<p className="font-bold text-2xl uppercase text-appSubTextBlue mb-4 text-center">{thisProd.modelPatentNo}</p>
+						<p className="mt-1 text-lg text-appSubTextBlue  text-center">
+						{thisProd.modelPatentNo}
+					</p>
 						<div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6 px-2 max-w-7xl mx-auto">
 							<div className="flex flex-col items-center">
 								<p className="text-2xl capitalize text-appSubTextBlue mb-4 text-center font-bold">

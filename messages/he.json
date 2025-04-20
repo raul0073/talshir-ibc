@@ -67,7 +67,7 @@
     "footer": {
       "line1": "המוצרים שלנו מהווים פריצת דרך וחדשנות ",
       "line2": "ומשווקים בהצלחה בחברות הבנייה הגדולות ",
-      "line3": "והמובילות בישראל."
+      "line3": "והמובילות בישראל"
     }
    },
   "Coops": {
@@ -212,7 +212,7 @@
       {
         "id": "4-nadal-rotem-50",
         "modelName": "נדל רותם - 50",
-        "modelNamePage" :"נדל רותם - שומר מרחק לרשת תחתונה",
+        "modelNamePage" :"נדל רותם 50- שומר מרחק לרשת תחתונה",
         "modelDescription": "שומר מרחק לרשת תחתונה לעומסים כבדים של ברזל בתקרות מאסיביות ",
         "modelUsage": [
           "אביזר פלסטיק המיוצר מחומר איכותי המיועד לשמירת מרחק בין רשת תחתונה לטפסות.",
@@ -233,7 +233,7 @@
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
-        "modelDemoVideo": "https://www.youtube.com/embed/ibRXvBDCScA",
+        "modelDemoVideo": "",
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
@@ -277,7 +277,7 @@
         "modelSpecification": "",
         "modelCertification": "",
         "model3DObject": "",
-        "modelPatentNo": "",
+        "modelPatentNo": "פטנט רשום- 267811",
         "modelExtraContent" : {
           "header" : "הסטופר נבדק בהצלחה בהתאם לתקן הישראלי 1476 חלק 2, במהלך הבדיקה הסטופר עמד בלחץ קבוע של 5 אטמוספרות בתוך מים בתא לחץ.",
           "desc" : "הסטופר נבדק בהצלחה במכון התקנים הישראלי ונמצא מתאים להנחיות פיקוד העורף כפי שהוגדרו במפרט לאיטום מעברי צנרת במרחבים מוגנים.עומד בהנחיות האיטום בלחץ גז הליום פנימי וחיצוני.",
@@ -332,7 +332,8 @@
          "מבנה האטם בשילוב דבק אטימה יוצר אטימה מוחלטת והידבקות חזקה בין האטם לצינור.",
          "הרכבה מהירה ופשוטה, חיסכון משמעותי בזמן ובעלויות העבודה.",
          "ה FlexStop מיוצר מחומרים איכותיים שעמידים לשנים רבות.",
-         "איטום יעיל ומהיר בקירות בטון וקירות אבן בשיטת ברנוביץ."
+         "איטום יעיל ומהיר בקירות בטון וקירות אבן בשיטת ברנוביץ.",
+         "מיוצר בשלושה צבעים: שחור, צהוב ואפור בהתאם לצורך באתר הבנייה."
         ],
         "modelImages": {
           "thumbnail": "/images/products/palscope/palscope_noBG.png",
@@ -369,10 +370,11 @@
         "modelDescription": "שומר מרחק לרשת תחתונה לעומסים כבדים",
         "modelUsage": [
          "קל ומהיר להרכבה – אביזר פלסטיק המוצמד לרשת בקלות ובמהירות.",
-         "חסכון בעלויות ובזמן עבודה – 1 יחידה למ'ר של רשת, סידור מהיר של ברזל תחתון על גבי הטפסות.",
-         "עומד בעומס משקל של 954kg.",
+         "חסכון בעלויות ובזמן עבודה – 1 יחידה למ''ר של רשת, סידור מהיר של ברזל תחתון על גבי הטפסות.",
+         "עומד בעומס משקל של 954 ק\"ג.",
          " יציב מאוד ואינו נוטה להתעקם.",
-         "כיסוי בטון – מגיע בשתי מידות 25 מ'מ ו 30 מ'מ."
+         "כיסוי בטון– מגיע בשתי מידות 25 מ''מ ו 30 מ''מ.",
+         "כיסוי בטון- אופציה למידות גובה מיוחדות בהתאם לבקשת הלקוח."
         ],
         "modelImages": {
           "thumbnail": "/images/products/nadal/nadal_noBG.png",
@@ -385,7 +387,7 @@
         },
         "modelSizesCustomize": false,
         "modelSizes": [],
-        "modelDemoVideo": "",
+        "modelDemoVideo": "https://www.youtube.com/embed/ibRXvBDCScA",
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
@@ -427,7 +429,7 @@
           "modelPikod" : "",
           "modelMati" : "",
           "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -442,7 +444,7 @@
       },
       {
         "id": "10-sealer",
-        "modelName": "אטמון",
+        "modelName": "אטמון- אביזר אטימה למעבר צנרת",
         "modelNamePage" :  "אטמון \"3 \"4",
         "modelDescription": "אביזר אטימה למעבר צנרת בקירות חוץ",
         "modelUsage": [
@@ -488,7 +490,8 @@
           "extraContent5" : "התקנה קלה ומהירה",
           "extraContent6" : "שלב ראשון",
           "extraContent7" : "מירכוז שבלונה",
-          "extraContent8" : "הרכבה עם 2 ברגי נירוסטה"
+          "extraContent8" : "הרכבה עם 2 ברגי נירוסטה",
+          "extraContent9" : "אביזר אטימה למעבר צנרת"
         }
       },
       {
