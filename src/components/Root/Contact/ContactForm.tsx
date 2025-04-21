@@ -10,9 +10,6 @@ import {
 } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
-	IconBrandWhatsapp,
-	IconMessage,
-	IconPhone,
 	IconSend,
 } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
@@ -205,41 +202,8 @@ function ContactForm({
 					)}
 				/>
 
-				<div className="flex flex-col sm:flex-row gap-6 justify-between items-center pt-12 col-span-2">
-					<div className="flex gap-4">
-						<ul className="flex gap-8">
-							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
-								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
-									<IconPhone
-										className="inline text-zinc-900 group-hover:text-sky-900"
-										width={20}
-										height={20}
-									/>
-								</span>
-								<span className="hidden text-black/50">+972 555555555</span>
-							</li>
-							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
-								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
-									<IconBrandWhatsapp
-										className="inline text-zinc-900 group-hover:text-sky-900"
-										width={20}
-										height={20}
-									/>
-								</span>
-								<span className="hidden text-black/50">+972 5555555</span>
-							</li>
-							<li className="group capitalize flex items-center justify-start gap-2 w-full cursor-pointer">
-								<span className="group bg-gray-200 rounded-full h-12 w-12 flex justify-center items-center hover:bg-white transition-all duration-200 ease-in-out">
-									<IconMessage
-										className="inline text-zinc-900 group-hover:text-sky-900"
-										width={20}
-										height={20}
-									/>
-								</span>
-								<span className="hidden text-black/50">talshir@email.com</span>
-							</li>
-						</ul>
-					</div>
+				<div className="flex gap-6 justify-end items-center pt-12 col-span-2">
+			
 					<Button type="submit" className="px-6 bg-appTextBlue sm:mt-0 mt-8 py-6 rounded-[.4rem]">
 						<span className="text-lg">{labels("submit")}</span>
 						<span>

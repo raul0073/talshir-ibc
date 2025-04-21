@@ -206,7 +206,8 @@
           "img" : "/images/products/dividag/dividag_noBG.png",
           "extraContent" : "הדגמה בצינור שקוף להמחשת התהליך בצינור “דיווידג” -- הסטופר בתוך קונוס הבטון",
           "extraContent2" : "השימוש בקירות חיצוניים ללא דבק.",
-          "extraContent3" : "השימוש בקירות פנימיים בעזרת דבק דו רכיבי."
+          "extraContent3" : "השימוש בקירות פנימיים בעזרת דבק דו רכיבי.",
+          "extraContent4" : "סטופר- מכון תקנים"
         }
       },
       {
@@ -444,7 +445,8 @@
       },
       {
         "id": "10-sealer",
-        "modelName": "אטמון- אביזר אטימה למעבר צנרת",
+        "modelName": "אטמון",
+        "modelExtraName" : "אביזר אטימה למעבר צנרת",
         "modelNamePage" :  "אטמון \"3 \"4",
         "modelDescription": "אביזר אטימה למעבר צנרת בקירות חוץ",
         "modelUsage": [
@@ -497,6 +499,7 @@
       {
         "id": "11-nozzle",
         "modelName": "מרזבון \"3 \"4",
+        "modelExtraName" : "אביזר קצה למרזב מי גשם",
         "modelNamePage" :  "מרזבון \"3 \"4",
                 "modelDescription": "אביזר קצה למרזב מי גשם",
                 "modelUsage": [
@@ -840,7 +843,8 @@
     "ilanWhatsApp" : "+972528338555",
     "itamarPhone" : "972-054-7570195",
     "itamarWhatsApp" : "+972547570195",
-    "ilanEmail" : "ilanber11@walla.co.il",
+    "ilanEmail" : "ilanber@talshir-ibc.com",
+    "itamarEmail":" itamarweiss@talshir-ibc.com",
     "ilan": "אילן",
     "Itamar": "איתמר",
     "form": {

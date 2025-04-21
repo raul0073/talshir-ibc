@@ -12,7 +12,7 @@
     "modelGraphicsUsage": "Usage Examples",
     "modelMoreData": "More Information",
     "downloadSpecs": "Download Model Specifications",
-    "matiDownload": "Standards Institution Approval Download",
+    "matiDownload": "Standards Institution Approval (IL) Download",
     "prospectDownload": "Prospect Download",
     "downloadCertification": "Download Model Certifications",
     "plasticCetrification": "Tested at the Israeli Plastics and Rubber Center",
@@ -219,7 +219,8 @@
       "img": "/images/products/dividag/dividag_noBG.png",
       "extraContent": "Demonstration in a transparent pipe to illustrate the process in a “Dividag” sheathing -- the stopper inside the concrete cone.",
       "extraContent2": "Use in external walls without adhesive.",
-      "extraContent3": "Use in internal walls with two-component adhesive."
+      "extraContent3": "Use in internal walls with two-component adhesive.",
+      "extraContent4" : "Stopper- Standards Institution Approval"
     }
   },
   {
@@ -457,6 +458,7 @@
     {
       "id": "10-sealer",
       "modelName": "Sealer",
+      "modelExtraName" :"External Sealing accessory",
       "modelNamePage": "Sealer \"3 \"4",
       "modelDescription": "Sealing accessory for pipe in external walls.",
       "modelUsage": [
@@ -515,7 +517,8 @@
     },
     {
       "id": "11-nozzle",
-      "modelName": "Drainage Nozzle",
+      "modelName": "Nozzle 3\" 4\"",
+      "modelExtraName" :"External Drainage accessory",
       "modelNamePage": "Drainage Nozzle \"3 \"4",
       "modelDescription": "End accessory for rainwater drainage.",
       "modelUsage": [
@@ -871,6 +874,7 @@
     "itamarPhone" : "972-054-7570195",
     "itamarWhatsApp" : "+972547570195",
     "ilanEmail" : "ilanber11@walla.co.il",
+    "itamarEmail" : "itamarweiss@talshir-ibc.com",
     "ilan": "Ilan",
     "Itamar": "Itamar",
     "form": {

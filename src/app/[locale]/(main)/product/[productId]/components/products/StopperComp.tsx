@@ -1,7 +1,7 @@
 import carmel from "@/app/assets/images/certifications/carmel-ap2.jpg";
 import mati_complete from "@/app/assets/images/certifications/mati_complete.jpg";
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { ButtonPikod, ButtonProspect } from "@/components/ui/button-arrow";
+import { ButtonMati, ButtonPikod, ButtonProspect } from "@/components/ui/button-arrow";
 import { useLocale, useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
@@ -113,9 +113,9 @@ function StopperComp({ id }: { id: string }) {
 								<ButtonProspect link={thisProd.modelLinks.modelExtra}>
 									{t("Certifications.sealingSpecs")}
 								</ButtonProspect>
-								<ButtonProspect link={thisProd.modelLinks.modelProspect}>
-									{thisProd.modelNamePage} {t("Certifications.prospectDownload")}
-								</ButtonProspect>
+								<ButtonMati link={thisProd.modelLinks.modelProspect}>
+									{thisProd.modelExtraContent.extraContent4}
+								</ButtonMati>
 								<ButtonPikod link={thisProd.modelLinks.modelPikod}>
 									{t("Certifications.pikod_haoref")}
 								</ButtonPikod>

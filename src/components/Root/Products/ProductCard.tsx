@@ -12,6 +12,17 @@ function ProductCard({ product }: { product: ProductItem }) {
 	const path = usePathname();
 	const locale = useLocale()
 	const isRTL = locale === 'he'
+	let secondName;
+
+
+	if (product.id === '10-sealer' || product.id === '11-nozzle'){
+		secondName = product.modelExtraName
+	} 
+	 else {
+		secondName = null
+	}
+	
+	
 	return (
 		<motion.div
 			initial={{ opacity: 0, y: 50 }}
@@ -36,6 +47,7 @@ function ProductCard({ product }: { product: ProductItem }) {
 					</CardHeader>
 					<CardFooter className={`flex justify-center text-appTextBlue font-suez text-center uppercase ${isRTL? 'text-2xl sm:text-3xl' : 'text-2xl'}`}>
 						{product.modelName}
+					{secondName && "- "}	{secondName}
 					</CardFooter>
 				</Link>
 			</Card>

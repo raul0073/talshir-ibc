@@ -38,6 +38,7 @@ export type ModelExtraContentAlt = {
 export type ProductItem = {
   id: string;
   modelName: string;
+  modelExtraName: null | string;
   modelNamePage: string;
   modelDescription: string;
   modelUsage: string[];
