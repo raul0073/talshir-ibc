@@ -24,7 +24,7 @@ function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 				<li className="hover:text-appBlue border-b border-appBlue/80 px-3 py-1 hover:border-b-2 transition-colors duration-300 ease-in-out">
 					<Link href="/#contact">{content("contact")}</Link>
 				</li>
-				<li className={`hidden`}>
+				<li className={``}>
 					<LocaleSwitcher currentLocale={locale} />
 				</li>
 			</ul>
