@@ -462,10 +462,10 @@
       "modelNamePage": "ATAMON 3\" 4\"",
       "modelDescription": "Sealing accessory for pipe in external walls.",
       "modelUsage": [
-        "Manufactured from high-quality plastic material.",
-        "Durable under harsh weather conditions.",
-        "Assembly instructions",
-        "and accessories included in packaging."
+        "Made of high-quality",
+        "plastic material",
+        "Parts and explanation in",
+        "the package"
       ],
       "modelImages": {
         "thumbnail": "/images/products/sealer/sealer_noBG.png",
@@ -507,12 +507,12 @@
           "/images/products/sealer/patent.webp"
         ],
         "extraContent2": "Colors",
-        "extraContent3": "Sealer After Assembly",
-        "extraContent4": "Sealer Connection Principle",
+        "extraContent3": "In Action Mode",
+        "extraContent4": "Connection Concept",
         "extraContent5": "Quick and Easy Installation",
-        "extraContent6": "First Stage",
-        "extraContent7": "Centering Template",
-        "extraContent8": "Assembly with 2 Stainless Steel Screws"
+        "extraContent6": "Step one",
+        "extraContent7": "Centering Template and mark drill holes",
+        "extraContent8": "Assemble with 2 Stainless Steel Screws"
       }
     },
     {
@@ -522,21 +522,21 @@
       "modelNamePage": "Downspout Nozzle 3\" 4\"",
       "modelDescription": "End accessory for rainwater drainage.",
       "modelUsage": [
-        "Manufactured from high-quality plastic material.",
-        "Durable under harsh weather conditions.",
-        "Assembly instructions",
-        "and accessories included in packaging."
+        "Made of high-quality",
+        "plastic material",
+        "Parts and explanation in",
+        "the package"
       ],
       "modelImages": {
         "thumbnail": "/images/products/nozzle/nozzle_noBG.png",
         "productPageMain": "/images/products/nozzle/nozzle.webp",
         "usages": [
           {
-            "label": "Existing Initial State",
+            "label": "Current Condition",
             "img": "/images/products/nozzle/usage_1.webp"
           },
           {
-            "label": "Cut Pipe, Leaving 1-2 cm Protrusion",
+            "label": "cutting and leaving 1-2 cm tube end",
             "img": "/images/products/nozzle/usage_2.webp"
           },
           {
@@ -571,8 +571,8 @@
           "/images/products/sealer/patent.webp"
         ],
         "extraContent2": "Colors",
-        "extraContent3": "Drainage Nozzle in Operation",
-        "extraContent4": "Drainage Nozzle Connection Principle",
+        "extraContent3": "In Action Mode",
+        "extraContent4": "Connection Concept",
         "extraContent5": "Quick and Easy Installation",
         "extraContent6": "Cut Pipe, Leaving 1-2 cm Protrusion",
         "extraContent7": "Center Template & Mark Drilling Holes",

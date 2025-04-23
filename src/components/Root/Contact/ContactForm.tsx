@@ -9,14 +9,13 @@ import {
 	FormMessage,
 } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import {
-	IconSend,
-} from "@tabler/icons-react";
+import { IconSend } from "@tabler/icons-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Dispatch, SetStateAction } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { InputComp } from "./ContactUsComp";
+import { sendEmailService } from "./EmailService";
 function ContactForm({
 	setFormComplete,
 }: {
@@ -106,11 +105,14 @@ function ContactForm({
 			message: "",
 		},
 	});
-	function onSubmit(values: z.infer<typeof contactFormSchema>) {
-		// Do something with the form values.
-		handleFormCompleted();
-		console.log(values);
-		form.reset();
+	async function onSubmit(values: z.infer<typeof contactFormSchema>) {
+		try {
+			await sendEmailService(values);
+			handleFormCompleted();
+			form.reset();
+		} catch (error) {
+			console.error(error);
+		}
 	}
 
 	return (
@@ -203,8 +205,9 @@ function ContactForm({
 				/>
 
 				<div className="flex gap-6 justify-end items-center pt-12 col-span-2">
-			
-					<Button type="submit" className="px-6 bg-appTextBlue sm:mt-0 mt-8 py-6 rounded-[.4rem]">
+					<Button
+						type="submit"
+						className="px-6 bg-appTextBlue sm:mt-0 mt-8 py-6 rounded-[.4rem]">
 						<span className="text-lg">{labels("submit")}</span>
 						<span>
 							<IconSend className={`${isRTL && "-rotate-[90deg]"}`} />

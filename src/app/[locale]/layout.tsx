@@ -9,8 +9,21 @@ import { notFound } from "next/navigation";
 import "./globals.scss";
 
 export const metadata: Metadata = {
-	title: 'Talshir-IBC',
-	description: 'Ilan Ber Co. Construction Solutions',
+	title: "טלשיר IBC – פתרונות חדשניים לתעשיית הבנייה",
+	description: "טלשיר IBC מציעה מוצרים וטכנולוגיות מתקדמות לשיפור תהליכי הבנייה – מהשלד ועד הגמר. איכות, חדשנות ויעילות באתר אחד.",
+	keywords: [
+	  "טלשיר IBC",
+	  "פתרונות לבנייה",
+	  "מוצרים חדשניים לבנייה",
+	  "טכנולוגיות בנייה",
+	  "תעשיית הבנייה בישראל",
+	  "פיתוח מוצרים לבנייה",
+	  "הנדסת בניין",
+	  "שיפור תהליכי בנייה"
+	],
+	alternates: {
+	  canonical: "https://www.talshir-ibc.com",
+	},
 }
 
 const assistant = Assistant({
