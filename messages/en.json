@@ -115,7 +115,7 @@
     "modelLinks": {
       "modelPikod": "",
       "modelMati": "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
-      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/05/SPACER-20-25-30.pdf",
       "modelExtra": ""
     },
     "modelSpecification": "",
@@ -141,7 +141,7 @@
     ],
     "modelImages": {
       "thumbnail": "/images/products/dividag/dividagMain_noBG.png",
-      "productPageMain": "/images/products/dividag/dividagMain.png",
+      "productPageMain": "/images/products/dividag/dividagMain_en.jpg",
       "usages": [
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-5.jpg",
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-4.jpg",
@@ -180,8 +180,8 @@
   },
   {
     "id": "3-stopper",
-    "modelName": "Dividag Seal",
-    "modelNamePage": "Stopper - High-Pressure Seal",
+    "modelName": "Stopper",
+    "modelNamePage": "Stopper - High Pressure Seal",
     "modelDescription": "Seal for “Dividag” sheathing in concrete walls.",
     "modelUsage": [
       "High-pressure water and gas seal.",
@@ -206,7 +206,7 @@
       "modelPikod": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-20-11-2023.jpg",
       "modelMati": "",
       "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
-      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+      "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2019/05/Stopper-ENG-IBC.pdf"
     },
     "modelSpecification": "",
     "modelCertification": "",
@@ -225,8 +225,8 @@
   },
   {
     "id": "4-nadal-rotem-50",
-    "modelName": "Bottom Spacer",
-    "modelNamePage": "Nadal Rotem - Spacer for Bottom Mesh",
+    "modelName": "Nadal Rotem 50",
+    "modelNamePage": "Nadal Rotem 50 - Spacer for Bottom Mesh",
     "modelDescription": "Spacer for bottom reinforcement mesh for heavy rebar loads in massive slabs.",
     "modelUsage": [
       "Plastic accessory made of high-quality material designed to maintain the required concrete cover for the bottom reinforcement mesh.",
@@ -247,7 +247,7 @@
     },
     "modelSizesCustomize": false,
     "modelSizes": [],
-    "modelDemoVideo": "https://www.youtube.com/embed/ibRXvBDCScA",
+    "modelDemoVideo": "",
     "modelSpecification": "",
     "modelCertification": "",
     "model3DObject": "",
@@ -264,7 +264,7 @@
   },
   {
     "id": "5-dividag-with-spacer",
-    "modelName": "Tube With Adjustable Keeper",
+    "modelName": "TUBE SPACER WITH ADJUSTABLE SPACER",
     "modelNamePage": "Tube Pipe with Adjustable Distance Keeper",
     "modelDescription": "Distance keeper mounted on the pipe with a 360-degree swivel mechanism.",
     "modelUsage": [
@@ -300,7 +300,7 @@
   },
   {
     "id": "6-safsal",
-    "modelName": "Upper Mesh Bench",
+    "modelName": "SHARON BENCH 18-30CM",
     "modelNamePage": "Sharon Bench for Upper Mesh 18-30cm",
     "modelDescription": "Bench for upper rebar in concrete floor with thickness (19-30cm).",
     "modelUsage": [
@@ -320,7 +320,7 @@
     },
     "modelSizesCustomize": false,
     "modelSizes": [],
-    "modelDemoVideo": "/models/safsal_demo.mp4",
+    "modelDemoVideo": "https://www.youtube.com/embed/QP5HlNzxYX0",
     "modelLinks": {
       "modelPikod": "",
       "modelMati": "",
@@ -355,7 +355,7 @@
       "usages": [
         "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
         "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
-        "https://talshir-ibc.com/wp-content/uploads/2022/03/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-%D7%9C%D7%9C%D7%90-%D7%93%D7%91%D7%A7-898x1030.jpg"
+        "https://talshir-ibc.com/wp-content/uploads/2023/11/flexible-seal-for-Tube-spacer-898x1030.jpg"
       ]
     },
     "modelSizesCustomize": false,
@@ -364,7 +364,7 @@
     "modelLinks": {
       "modelPikod": "",
       "modelMati": "",
-      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+      "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/download-flexstop-ENG-2023.pdf",
       "modelExtra": ""
     },
     "modelSpecification": "",
@@ -400,7 +400,7 @@
     },
     "modelSizesCustomize": false,
     "modelSizes": [],
-    "modelDemoVideo": "",
+    "modelDemoVideo":  "https://www.youtube.com/embed/ibRXvBDCScA",
     "modelLinks": {
       "modelPikod": "",
       "modelMati": "",
@@ -422,7 +422,7 @@
     "id": "9-universal-keeper",
     "modelName": "Universal Distance Keeper",
     "modelNamePage": "Universal Distance Keeper",
-    "modelDescription": "8cm diameter round distance keeper suitable for all building elements – walls, columns, beams, and ceilings.",
+    "modelDescription": "8cm diameter round distance keeper suitable for all building elements – walls, columns, beams and ceilings.",
     "modelUsage": [
       "Quick and easy to assemble – plastic accessory that easily and quickly attaches to the rebar.",
       "Savings in costs and labor time – suitable for all building elements, one type provides a solution for all elements.",
@@ -441,8 +441,8 @@
       "modelLinks": {
         "modelPikod": "",
         "modelMati": "",
-        "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
-        "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+        "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2023/10/Universal-spacer2.pdf",
+        "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2023/10/Universal-spacer2.pdf"
       },
       "modelSpecification": "",
       "modelCertification": "",
@@ -457,9 +457,9 @@
     },
     {
       "id": "10-sealer",
-      "modelName": "Sealer",
+      "modelName": "ATAMON 3\" 4\"",
       "modelExtraName" :"External Sealing accessory",
-      "modelNamePage": "Sealer \"3 \"4",
+      "modelNamePage": "ATAMON 3\" 4\"",
       "modelDescription": "Sealing accessory for pipe in external walls.",
       "modelUsage": [
         "Manufactured from high-quality plastic material.",
@@ -517,9 +517,9 @@
     },
     {
       "id": "11-nozzle",
-      "modelName": "Nozzle 3\" 4\"",
+      "modelName": "Downspout Nozzle 3\" 4\"",
       "modelExtraName" :"External Drainage accessory",
-      "modelNamePage": "Drainage Nozzle \"3 \"4",
+      "modelNamePage": "Downspout Nozzle 3\" 4\"",
       "modelDescription": "End accessory for rainwater drainage.",
       "modelUsage": [
         "Manufactured from high-quality plastic material.",
@@ -581,7 +581,7 @@
     },
     {
       "id": "12-sleeve",
-      "modelName": "Porcelain Sleeve",
+      "modelName": "PROTECTION SLEEVE FOR PORCELAIN",
       "modelNamePage": "Protection Sleeve for Porcelain Cladding",
       "modelDescription": "End accessory for rainwater drainage.",
       "modelUsage": [
@@ -620,7 +620,7 @@
     },
     {
       "id": "13-sliding-wheel",
-      "modelName": "Pile Spacer Wheel",
+      "modelName": "Sliding Wheel for Piles",
       "modelNamePage": "Sliding Wheel for Piles",
       "modelDescription": "Maintains distance between the pile's rebar cage and soil contact during pile casting.",
       "modelUsage": [
@@ -684,7 +684,7 @@
         "modelLinks": {
           "modelPikod": "",
           "modelMati": "",
-          "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelProspect": "https://talshir-ibc.com/wp-content/uploads/2019/05/KLIPP-ENG-no-tel-Reservations.pdf",
           "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
         },
         "modelSpecification": "",

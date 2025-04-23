@@ -46,7 +46,7 @@ function UniversalKeeperComp({ id }: { id: string }) {
 									{tPage("prospectDownload")}
 								</ButtonProspect>
 							</div>
-							<div className="flex flex-col items-center relative bottom-0 sm:bottom-24 mt-4 sm:mt-0 p-2">
+							<div className="flex flex-col items-center relative bottom-0 sm:bottom-24 mt-4 sm:mt-0 p-2 border">
 							<h3 className="font-bold text-lg uppercase text-appSubTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.desc}
 							</h3>

@@ -5,8 +5,8 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
 const languages = [
-	{ code: "en", label: "En", flag: "🇺🇸" },
-	{ code: "he", label: "עב", flag: "🇮🇱" },
+	{ code: "en", label: "English", flag: "🇺🇸" },
+	{ code: "he", label: "עברית", flag: "🇮🇱" },
 ];
 
 export default function LocaleSwitcher({
