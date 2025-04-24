@@ -1,6 +1,6 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { IconBrandYoutube } from "@tabler/icons-react";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useMemo } from "react";
 import {
@@ -12,8 +12,6 @@ import ModelHeader from "../shared/ModelHeader";
 
 function SealerComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-	const locale = useLocale();
-	const isRTL = locale === "he";
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItemAlt) => p.id === id);
 	}, [t, id]);
@@ -28,10 +26,9 @@ function SealerComp({ id }: { id: string }) {
 						</p>
 						<div className="model-usage p-3 md:p-4 flex flex-col md:flex-row justify-center gap-6 items-center mx-auto max-w-5xl">
 							<Link
-							className="flex flex-col items-center justify-center w-full md:w-fit text-center border-2 px-8 py-6 border-appGray"
+								className="flex flex-col items-center justify-center w-full md:w-fit text-center border-2 px-8 py-6 border-appGray"
 								href={thisProd.modelLinks.modelExtra}
-									target="_blank"
-								>
+								target="_blank">
 								<IconBrandYoutube
 									color="white"
 									fill="red"
@@ -78,15 +75,12 @@ function SealerComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.img}
 											alt={thisProd.modelName}
-											className={`object-contain h-full border ${
-												isRTL ? "" : "scale-x-[-1] hover:scale-x-[-1]"
-											}`}
+											className={`object-contain h-full border `}
 										/>
 									</div>
 								</div>
 							</div>
-												<div className="w-fit"></div>
-		
+							<div className="w-fit"></div>
 						</div>
 						<div className="w-full mx-auto max-w-5xl  mt-6">
 							<div className="bg-appTextBlue text-white p-2 text-center my-2">

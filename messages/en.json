@@ -141,11 +141,11 @@
     ],
     "modelImages": {
       "thumbnail": "/images/products/dividag/dividagMain_noBG.png",
-      "productPageMain": "/images/products/dividag/dividagMain_en.jpg",
+      "productPageMain": "/images/products/dividag/dividagMain_en.webp",
       "usages": [
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-5.jpg",
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-4.jpg",
-        "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-5.jpg"
+        "/images/products/dividag/usage_3.webp"
       ]
     },
     "modelSizesCustomize": true,
@@ -180,7 +180,7 @@
   },
   {
     "id": "3-stopper",
-    "modelName": "Stopper",
+    "modelName": "Stopper- High Pressure Seal",
     "modelNamePage": "Stopper - High Pressure Seal",
     "modelDescription": "Seal for “Dividag” sheathing in concrete walls.",
     "modelUsage": [
@@ -240,7 +240,7 @@
       "thumbnail": "/images/products/nadal_plus/nadal_rotem.png",
       "productPageMain": "/images/products/nadal_plus/nadal_rotem_main.png",
       "usages": [
-        "/images/products/nadal_plus/model_usage.webp",
+        "/images/products/nadal_plus/nadal_50_how_to.png",
         "",
         ""
       ]
@@ -280,7 +280,7 @@
       "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
       "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-1.jpg",
       "usages": [
-        "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-2.jpg",
+        "",
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-3.jpg",
         "https://talshir-ibc.com/wp-content/uploads/2023/04/Protective-tube-spacer-with-adjustable-spacer-2.jpg"
       ]
@@ -353,8 +353,8 @@
       "thumbnail": "/images/products/palscope/palscope_noBG.png",
       "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/04/FlexStopENG-1500x844.jpg",
       "usages": [
-        "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
-        "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
+        "/images/products/palscope/palscope_usage_en.png",
+        "",
         "https://talshir-ibc.com/wp-content/uploads/2023/11/flexible-seal-for-Tube-spacer-898x1030.jpg"
       ]
     },
@@ -462,14 +462,14 @@
       "modelNamePage": "ATAMON 3\" 4\"",
       "modelDescription": "Sealing accessory for pipe in external walls.",
       "modelUsage": [
-        "Made of high-quality",
-        "plastic material",
+        "Made of high-quality plastic material",
+        "Durable under harsh weather conditions.",
         "Parts and explanation in",
         "the package"
       ],
       "modelImages": {
         "thumbnail": "/images/products/sealer/sealer_noBG.png",
-        "productPageMain": "/images/products/sealer/sealer_text.jpg",
+        "productPageMain": "/images/products/sealer/sealer_text_en.jpg",
         "usages": [
           {
             "label": "First Stage",
@@ -501,9 +501,9 @@
       "modelExtraContent": {
         "header": "Custom Size High-Quality Dividag Sheathing",
         "desc": "Available in any length. Packed in bags of 100 units. Manual, light-pressure connection of “Dividag” sheathing end.",
-        "img": "/images/products/sealer/nozzle_1.webp",
+        "img": "/images/products/nozzle/nozzle_1en.webp",
         "images": [
-          "/images/products/sealer/colors.webp",
+          "/images/products/nozzle/colors_en.webp",
           "/images/products/sealer/patent.webp"
         ],
         "extraContent2": "Colors",
@@ -522,8 +522,8 @@
       "modelNamePage": "Downspout Nozzle 3\" 4\"",
       "modelDescription": "End accessory for rainwater drainage.",
       "modelUsage": [
-        "Made of high-quality",
-        "plastic material",
+        "Made of high-quality plastic material",
+        "Durable under harsh weather conditions.",
         "Parts and explanation in",
         "the package"
       ],
@@ -565,9 +565,9 @@
       "modelExtraContent": {
         "header": "Custom Size High-Quality Dividag Sheathing",
         "desc": "Available in any length. Packed in bags of 100 units. Manual, light-pressure connection of “Dividag” sheathing end.",
-        "img": "/images/products/sealer/nozzle_1.webp",
+        "img": "/images/products/nozzle/nozzle_1en.webp",
         "images": [
-          "/images/products/sealer/colors.webp",
+          "/images/products/nozzle/colors_en.webp",
           "/images/products/sealer/patent.webp"
         ],
         "extraContent2": "Colors",
@@ -592,8 +592,8 @@
         "thumbnail": "/images/products/sleever/sleever_noBG.png",
         "productPageMain": "/images/products/sleever/sleever_noBG.png",
         "usages": [
-          "/images/products/sleever/usage_1_text.jpg",
-          "/images/products/sleever/usage_2_text.jpg"
+          "/images/products/sleever/usage_1_en.png",
+          "/images/products/sleever/usage_2_en.png"
         ]
       },
       "modelSizesCustomize": false,
@@ -710,16 +710,9 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
-          "productPageMain": "/images/products/clipper_adjustable_mikes/mikes1.jpg",
+          "productPageMain": "/images/products/clipper_adjustable_mikes/main_en.png",
           "usages": [
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike1.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike2.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike3.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike4.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike5-723x1030.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike6-723x1030.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike7-723x1030.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike8-723x1030.jpg"
+            "/images/products/clipper_adjustable_mikes/usage_full_en.png"
           ]
         },
         "modelSizesCustomize": false,

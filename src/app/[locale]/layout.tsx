@@ -7,6 +7,7 @@ import { Assistant } from "next/font/google";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	title: "טלשיר IBC – פתרונות חדשניים לתעשיית הבנייה",
@@ -56,6 +57,10 @@ export default async function Layout({
 
 	return (
 		<html lang={storedLocale} dir={isRtl ? "rtl" : "ltr"}>
+			{/* enable */}
+				<Script
+				src="https://cdn.enable.co.il/licenses/enable-L42107b9h82swz73-0425-70393/init.js" />
+			
 			<body
 				className={`${assistant.variable} antialiased bg-white`}>
 				<NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>

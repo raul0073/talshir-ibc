@@ -9,11 +9,13 @@ function ModelHeader({
 	no3D,
 	noPatent,
 	patentLogo,
+	withDesc
 }: {
 	thisProd: ProductItem;
 	no3D?: boolean;
 	noPatent?: boolean;
 	patentLogo?: boolean;
+	withDesc?: boolean
 }) {
 	const tPage = useTranslations("ProductPage");
   console.log(tPage("playDemoVideo"));
@@ -26,6 +28,13 @@ function ModelHeader({
 				<h1 className="text-4xl sm:text-5xl uppercase text-appTextBlue font-suez">
 					{thisProd.modelNamePage}
 				</h1>
+				{
+					withDesc && (
+						<h3 className="text-4xl uppercase text-appTextBlue my-4 text-center font-suez">
+							{thisProd.modelDescription}
+						</h3>
+					)
+				}
 				{patentLogo && (
 					<div className={`w-full mt-2 sm:w-fit px-4 sm:px-6 py-2 md:py-4 lg:py-6 border-4 border-gray uppercase flex flex-col items-center gap-2 relative sm:absolute sm:${side}-0 md:${side}-[1%] lg:${side}-[3%] xl:${side}-[14%] sm:top-1/2 sm:-translate-y-1/2`}>
 						<Image

@@ -15,7 +15,8 @@ export async function POST(req: NextRequest) {
 
     const mailOptions = {
       from: process.env.MAIL_ADDRESS,
-      to: "razm.work@gmail.com", 
+      to: process.env.MAIL_ADDRESS_TO, 
+      cc: process.env.MAIL_ADDRESS_CC,
       subject: "השארת פרטים מהאתר",
       html: `
   <div style="padding: 2rem; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333; direction: rtl; text-align: right;">

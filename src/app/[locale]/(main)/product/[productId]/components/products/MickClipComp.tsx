@@ -1,5 +1,5 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -8,7 +8,8 @@ import ModelHeader from "../shared/ModelHeader";
 
 function MickClipComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-
+	const locale = useLocale()
+	const isRTL = locale === 'he'
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id === id);
 	}, [t, id]);
@@ -43,7 +44,8 @@ function MickClipComp({ id }: { id: string }) {
 							<h2 className="font-bold text-3xl md:text-5xl uppercase text-appTextBlue tracking-tighter">
 								{thisProd.modelExtraContent.header}
 							</h2>
-							<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-4">
+							{isRTL ? (
+								<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-4">
 								{thisProd.modelImages.usages.map(
 									(img: StaticImageData, indx: number) => (
 										<div
@@ -60,6 +62,18 @@ function MickClipComp({ id }: { id: string }) {
 									)
 								)}
 							</div>
+							) : (
+								<div
+								className="w-full max-w-6xl">
+								<EnlargeableImage
+									src={thisProd.modelImages.usages[0]}
+									alt={`${thisProd.modelName}_usage_`}
+									width={1440}
+									height={800}
+									className="w-full h-auto"
+								/>
+							</div>
+							)}
 						</div>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { IconBrandYoutube } from "@tabler/icons-react";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useMemo } from "react";
 import {
@@ -12,8 +12,6 @@ import ModelHeader from "../shared/ModelHeader";
 
 function NozzleComp({ id }: { id: string }) {
 	const t = useTranslations("Products");
-	const locale = useLocale();
-	const isRTL = locale === "he";
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItemAlt) => p.id === id);
 	}, [t, id]);
@@ -78,9 +76,7 @@ function NozzleComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.img}
 											alt={thisProd.modelName}
-											className={`object-contain h-full border ${
-												isRTL ? "" : "scale-x-[-1] hover:scale-x-[-1]"
-											}`}
+											className={`object-contain h-full border `}
 										/>
 									</div>
 								</div>

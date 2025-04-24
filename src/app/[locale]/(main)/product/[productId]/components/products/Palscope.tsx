@@ -1,6 +1,6 @@
 import ProductPageSkeleton from "@/components/Skeletons/ProductPageSkeleton";
 import { ButtonProspect } from "@/components/ui/button-arrow";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { StaticImageData } from "next/image";
 import { useMemo } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -9,6 +9,8 @@ import ModelHeader from "../shared/ModelHeader";
 
 function Palscope({ id }: { id: string }) {
 	const t = useTranslations("Products");
+	const locale = useLocale()
+	const isRTL = locale === 'he'
 	const thisProd = useMemo(() => {
 		return t.raw("ProductsList").find((p: ProductItem) => p.id.trim() === id);
 	}, [t, id]);
@@ -17,8 +19,7 @@ function Palscope({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} />
-					
+						<ModelHeader thisProd={thisProd} withDesc/>
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1">
 							<div className="flex justify-center flex-col items-center">
 								<EnlargeableImage
@@ -63,10 +64,10 @@ function Palscope({ id }: { id: string }) {
 								<div className="w-full flex justify-evenly items-center gap-4">
 									<div className="flex gap-4">
 										{thisProd.modelImages.usages
-											.slice(0, 2)
+											.slice(0, `${isRTL ? 2 : 1}`)
 											.map((src: StaticImageData, indx: number) => {
 												return (
-													<div key={indx} className="w-36 md:w-48 h-36 md:h-48">
+													<div key={indx} className="w-48 md:w-56 h-48 md:h-56">
 														<EnlargeableImage
 															src={src}
 															alt={thisProd.modelName + "_usage_" + indx}
