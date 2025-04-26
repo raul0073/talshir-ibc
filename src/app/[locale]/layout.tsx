@@ -20,7 +20,8 @@ export const metadata: Metadata = {
 	  "תעשיית הבנייה בישראל",
 	  "פיתוח מוצרים לבנייה",
 	  "הנדסת בניין",
-	  "שיפור תהליכי בנייה"
+	  "שיפור תהליכי בנייה",
+	  "פטנטים בתעשיית הבנייה"
 	],
 	alternates: {
 	  canonical: "https://www.talshir-ibc.com",

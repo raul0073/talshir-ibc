@@ -16,7 +16,7 @@ function SafsalComp({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="px-2">
-						<ModelHeader thisProd={thisProd} />
+						<ModelHeader thisProd={thisProd} withDesc />
 					
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto ">
 							<div className="actions grid grid-cols-1 mt-12 place-items-center p-4 order-3 sm:order-none">

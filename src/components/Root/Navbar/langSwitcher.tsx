@@ -1,12 +1,13 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
 const languages = [
-	{ code: "en", label: "English", flag: "🇺🇸" },
-	{ code: "he", label: "עברית", flag: "🇮🇱" },
+	{ code: "en", label: "English", flag: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/330px-Flag_of_the_United_States.svg.png" },
+	{ code: "he", label: "עברית", flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/250px-Flag_of_Israel.svg.png" },
 ];
 
 export default function LocaleSwitcher({
@@ -44,7 +45,7 @@ export default function LocaleSwitcher({
 			)}
 		>
 			<span>{nextLocale.label}</span>
-			<span>{nextLocale.flag}</span>
+			<span><Image src={nextLocale.flag} alt={nextLocale.label} width={20} height={20} /></span>
 		</button>
 	);
 }
