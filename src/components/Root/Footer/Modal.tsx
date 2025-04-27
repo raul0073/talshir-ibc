@@ -2,14 +2,15 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Dispatch, SetStateAction } from "react";
 import { policyMap } from "./legal/policies";
 
-export type ModalType = "terms" | "accessibility" | "privacy" | "impressum";
+export type ModalType = "terms" | "accessibility" | "privacy" ;
 
 export interface ModalProps {
   type: ModalType;
   modalOn: Dispatch<SetStateAction<boolean>>;
+  locale: string
 }
 
-function Modal({ type, modalOn }: ModalProps) {
+function Modal({ type, modalOn, locale }: ModalProps) {
   const legalDocType: string = type.split(" ")[0].toLowerCase();
   return (
     <Dialog open onOpenChange={modalOn}>
@@ -20,7 +21,7 @@ function Modal({ type, modalOn }: ModalProps) {
           </DialogTitle>
         </DialogHeader>
         <div className="flex-1 overflow-auto p-4">
-          <pre className="w-full whitespace-pre-wrap break-words text-pretty">
+          <pre className={`w-full whitespace-pre-wrap break-words text-pretty ${locale === 'he' ? 'text-right' : ''}`}>
             {policyMap[legalDocType as ModalType]}
           </pre>
         </div>

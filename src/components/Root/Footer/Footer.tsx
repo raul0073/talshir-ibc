@@ -1,7 +1,7 @@
 "use client";
 import logo2 from "@/app/assets/images/logo/logo.png";
 import { Separator } from "@/components/ui/separator";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
 import { GrLinkedin, GrTwitter, GrYoutube } from "react-icons/gr";
@@ -11,7 +11,7 @@ import Modal, { ModalType } from "./Modal";
 function Footer() {
 	const [modalOn, setModalOn] = useState<boolean>(false);
 	const [modalType, setModalType] = useState<ModalType | null>(null);
-
+	const locale = useLocale()
 	function handleClick(type: string, e: React.MouseEvent) {
 		e.preventDefault();
 		setModalOn(true);
@@ -73,7 +73,7 @@ function Footer() {
 								))}
 							</ul>
 							{modalType && modalOn && (
-								<Modal modalOn={() => setModalType(null)} type={modalType} />
+								<Modal modalOn={() => setModalType(null)} type={modalType} locale={locale} />
 							)}
 						</nav>
 						<nav className="w-full">

@@ -3,17 +3,19 @@ import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Assistant } from "next/font/google";
-
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import "./globals.scss";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-	title: "טלשיר IBC – פתרונות חדשניים לתעשיית הבנייה",
+	title: "טלשיר IBC – פתרונות לתעשיית הבנייה",
 	description: "טלשיר IBC מציעה מוצרים וטכנולוגיות מתקדמות לשיפור תהליכי הבנייה – מהשלד ועד הגמר. איכות, חדשנות ויעילות באתר אחד.",
 	keywords: [
 	  "טלשיר IBC",
+	  "Talshir IBC",
+	  "Talshir-IBC",
+	  "אילן בר",
 	  "פתרונות לבנייה",
 	  "מוצרים חדשניים לבנייה",
 	  "טכנולוגיות בנייה",
