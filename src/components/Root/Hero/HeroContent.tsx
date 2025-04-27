@@ -43,7 +43,7 @@ function HeroContent() {
 	return (
 		<div className="w-full h-full relative">
 			<div className="text-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full mt-12 z-10 ">
-			<div className="relative w-2/3 mx-auto flex justify-start items-start gap-4 mt-24 sm:mt-0 ">
+			<div className="relative w-2/3 mx-auto flex justify-start items-start gap-4 mt-6 sm:mt-0 ">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 0.95 }}
@@ -68,7 +68,7 @@ function HeroContent() {
 							animate={{ opacity: 1 }}
 							ref={titleRef}
 							viewport={{ once: true }}
-							className="heroText text-4xl lg:text-5xl capitalize">
+							className="heroText text-3xl lg:text-5xl capitalize">
 							{content.title} <br />{" "}
 							{content.line1} <br />{" "}
 							{content.line2} <br />{" "}
