@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 	  "Talshir IBC",
 	  "Talshir-IBC",
 	  "אילן בר",
+	  "פטנטים לבנייה",
 	  "פתרונות לבנייה",
 	  "מוצרים חדשניים לבנייה",
 	  "טכנולוגיות בנייה",
