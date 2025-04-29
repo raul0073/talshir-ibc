@@ -47,7 +47,10 @@ function SealerComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.images[0]}
 											alt={thisProd.modelName}
-											className="object-contain h-full"
+											width={120}
+  											height={80}
+  											style={{ objectPosition: 'center' }} 
+											className="h-full"
 										/>
 									</div>
 								</div>
@@ -75,7 +78,10 @@ function SealerComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.img}
 											alt={thisProd.modelName}
-											className={`object-contain h-full border `}
+											width={250}
+  											height={80}
+  											style={{ objectPosition: 'center' }}  
+											className={`h-full border `}
 										/>
 									</div>
 								</div>

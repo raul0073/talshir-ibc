@@ -1,10 +1,10 @@
 'use client'
 import Image, { StaticImageData } from "next/image";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"; // shadcn/ui dialog
-import { useState } from "react";
+import { HTMLAttributes, useState } from "react";
 import { motion } from "framer-motion";
 
-type EnlargeableImageProps = {
+interface EnlargeableImageProps extends HTMLAttributes<HTMLImageElement>  {
   src: string | StaticImageData;
   alt: string;
   width?: number;
@@ -12,7 +12,7 @@ type EnlargeableImageProps = {
   className?: string;
 };
 
-export default function EnlargeableImage({ src, alt, width = 400, height = 300, className }: EnlargeableImageProps) {
+export default function EnlargeableImage({ src, alt, width = 400, height = 300, className, ...props }: EnlargeableImageProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -22,8 +22,9 @@ export default function EnlargeableImage({ src, alt, width = 400, height = 300, 
         alt={alt}
         width={width}
         height={height}
-        className={`cursor-pointer transition-transform hover:scale-105 ${className}`}
+        className={`cursor-pointer transition-transform hover:scale-[102%] ${className}`}
         onClick={() => setOpen(true)}
+        {...props}
       />
 
       <Dialog open={open} onOpenChange={setOpen}>

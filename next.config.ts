@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'files.talshir-ibc.com',
+
+      },
+      {
+        protocol: 'https',
         hostname: 'images.pexels.com',
 
       },

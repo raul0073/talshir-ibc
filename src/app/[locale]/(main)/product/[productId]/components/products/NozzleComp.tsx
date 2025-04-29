@@ -47,8 +47,11 @@ function NozzleComp({ id }: { id: string }) {
 									<div className="w-full h-[300px] flex justify-center items-center overflow-hidden">
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.images[0]}
+											width={120}
+  											height={80}
+  											style={{ objectPosition: 'center' }} 
 											alt={thisProd.modelName}
-											className="object-contain h-full"
+											className="h-full"
 										/>
 									</div>
 								</div>
@@ -76,7 +79,10 @@ function NozzleComp({ id }: { id: string }) {
 										<EnlargeableImage
 											src={thisProd.modelExtraContent.img}
 											alt={thisProd.modelName}
-											className={`object-contain h-full border `}
+											width={250}
+  											height={80}
+  											style={{ objectPosition: 'center' }}  
+											className={`h-full border `}
 										/>
 									</div>
 								</div>
