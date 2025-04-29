@@ -48,7 +48,7 @@ function KeeperComp({ id }: { id: string }) {
 							</ul>
 							<div className="flex justify-center flex-col items-center mt-4 sm:mt-0">
 								<EnlargeableImage
-									src={thisProd.modelImages.productPageMain}
+									src={'https://files.talshir-ibc.com/FLEX.jpg'}
 									alt={thisProd.modelName}
 									width={500}
 									height={500}

@@ -45,7 +45,7 @@ function StopperComp({ id }: { id: string }) {
 
 							<div>
 								<EnlargeableImage
-									src="https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-Stopper.jpg"
+									src="https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-Stopper.jpg"
 									alt={thisProd.modelName}
 									width={500}
 									height={500}

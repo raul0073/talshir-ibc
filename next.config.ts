@@ -6,11 +6,13 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'talshir-ibc.com',
+          pathname: '/**',
 
       },
       {
         protocol: 'https',
         hostname: 'files.talshir-ibc.com',
+          pathname: '/**',
 
       },
       {

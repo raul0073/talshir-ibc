@@ -38,20 +38,20 @@ export const ProductsList = [
     ],
     "modelImages": {
       "thumbnail": "/images/products/keeper/keeper_noBG.png",
-      "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/03/talshir-KEEP.jpg",
+      "productPageMain": "https://files.talshir-ibc.com/uploads/2019/03/talshir-KEEP.jpg",
       "usages" : [
-       "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
-       "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
-      "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+       "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+       "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+      "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
       ]
     },
     "modelSizesCustomize": true,
     "modelSizes": [ 14, 15, 20, 22, 25, 30],
     "modelDemoVideo": "",
     "modelSpecification": "",
-    "modelCertification": "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
+    "modelCertification": "https://files.talshir-ibc.com/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
     "model3DObject": "",
-    "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
+    "modelProspect" : "https://files.talshir-ibc.com/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
     "modelPatentNo": "עיצוב רשום 60215 Patent Pending"
   },
   {

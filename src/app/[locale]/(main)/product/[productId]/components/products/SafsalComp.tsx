@@ -20,7 +20,7 @@ function SafsalComp({ id }: { id: string }) {
 					
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 mx-auto ">
 							<div className="actions grid grid-cols-1 mt-12 place-items-center p-4 order-3 sm:order-none">
-								<ButtonProspect link="https://talshir-ibc.com/wp-content/uploads/2023/09/Results_Talshir-22.06.23.pdf">
+								<ButtonProspect link="https://files.talshir-ibc.com/uploads/2023/09/Results_Talshir-22.06.23.pdf">
 									{thisProd.modelCertification}
 								</ButtonProspect>
 							</div>

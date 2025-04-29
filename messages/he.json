@@ -96,11 +96,11 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/keeper/keeper_noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2019/03/talshir-KEEP.jpg",
+          "productPageMain": "https://files.talshir-ibc.com/uploads/2019/03/talshir-KEEP.jpg",
           "usages" : [
-           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
-          "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
+           "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-11-883x1030.jpg",
+           "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-13-883x1030.jpg",
+          "https://files.talshir-ibc.com/uploads/2019/03/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30-12-883x1030.jpg"
           ]
         },
         "modelSizesCustomize": true,
@@ -108,8 +108,8 @@
         "modelDemoVideo": "https://www.youtube.com/embed/6rJp-9I25y8",
         "modelLinks": {
           "modelPikod" : "",
-          "modelMati" : "https://talshir-ibc.com/wp-content/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
+          "modelMati" : "https://files.talshir-ibc.com/uploads/2019/03/%D7%93%D7%95%D7%97-%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%9E%D7%9B%D7%95%D7%9F-%D7%AA%D7%A7%D7%A0%D7%99%D7%9D-%D7%A2%D7%91%D7%95%D7%A8-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7.pdf",
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2019/05/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-20-25-30.pdf",
           "modelExtra": ""
         },
         "modelSpecification": "",
@@ -138,9 +138,9 @@
           "thumbnail": "/images/products/dividag/dividagMain_noBG.png",
           "productPageMain": "/images/products/dividag/dividagMain.png",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-6.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-5.jpg"
+            "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1.jpg",
+            "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-6.jpg",
+           "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-5.jpg"
            ]
         },
         "modelSizesCustomize": true,
@@ -190,10 +190,10 @@
         "modelSizes": [],
         "modelDemoVideo": "",
         "modelLinks": {
-          "modelPikod" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-20-11-2023.jpg",
+          "modelPikod" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-20-11-2023.jpg",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -265,11 +265,11 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/dividag_plus_shomer/dividag_plus_shomer_noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1500x519.jpg",
+          "productPageMain": "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-1500x519.jpg",
           "usages" : [
-          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-2.jpg",
-          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-4.jpg",
-          "https://talshir-ibc.com/wp-content/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-3.jpg"
+          "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-2.jpg",
+          "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-4.jpg",
+          "https://files.talshir-ibc.com/uploads/2020/07/%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%A2%D7%9D-%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-3.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -298,8 +298,8 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/safsal/safsal_noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F1.jpg",
-          "usage1": "https://talshir-ibc.com/wp-content/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F2-962x1030.jpg",
+          "productPageMain": "https://files.talshir-ibc.com/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F1.jpg",
+          "usage1": "https://files.talshir-ibc.com/uploads/2023/09/%D7%A1%D7%A4%D7%A1%D7%9C-%D7%9C%D7%A8%D7%A9%D7%AA-%D7%A2%D7%9C%D7%99%D7%95%D7%A0%D7%94-%D7%A9%D7%A8%D7%95%D7%9F2-962x1030.jpg",
           "usage2": "",
           "usage3": ""
         },
@@ -310,8 +310,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%AA%D7%99%D7%A7-%D7%9E%D7%95%D7%A6%D7%A8-%D7%A1%D7%98%D7%95%D7%A4%D7%A8-%D7%90%D7%98%D7%9D-%D7%9C%D7%A6%D7%99%D7%A0%D7%95%D7%A8-%D7%93%D7%99%D7%95%D7%95%D7%99%D7%93%D7%92-%D7%91%D7%A7%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%9F-2023.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/07/%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%A9%D7%9C-%D7%A4%D7%99%D7%A7%D7%95%D7%93-%D7%94%D7%A2%D7%95%D7%A8%D7%A3-%D7%9C%D7%A1%D7%98%D7%95%D7%A4%D7%A8-4.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "נבדק במרכז הישראלי לפלסטיק וגומי",
@@ -338,11 +338,11 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/palscope/palscope_noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2023/04/FlexStopHEB.jpg",
+          "productPageMain": "https://files.talshir-ibc.com/uploads/2023/04/FlexStopHEB.jpg",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/03/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-%D7%9C%D7%9C%D7%90-%D7%93%D7%91%D7%A7-898x1030.jpg"
+            "https://files.talshir-ibc.com/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0004_Layer-6-1030x834.jpg",
+            "https://files.talshir-ibc.com/uploads/2023/04/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-_0005_Layer-1-1030x834.jpg",
+            "https://files.talshir-ibc.com/uploads/2022/03/flexstop-%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-%D7%9C%D7%9C%D7%90-%D7%93%D7%91%D7%A7-898x1030.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -351,7 +351,7 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
           "modelExtra": ""
         },
         "modelSpecification": "",
@@ -379,11 +379,11 @@
         ],
         "modelImages": {
           "thumbnail": "/images/products/nadal/nadal_noBG.png",
-          "productPageMain": "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D.jpg",
+          "productPageMain": "https://files.talshir-ibc.com/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D.jpg",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-2.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-1-1.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-%D7%9C%D7%93%D7%A4%D7%95%D7%A1.jpg"
+            "https://files.talshir-ibc.com/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-2.jpg",
+            "https://files.talshir-ibc.com/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-1-1.jpg",
+            "https://files.talshir-ibc.com/uploads/2022/09/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%A0%D7%93%D7%9C-%D7%A8%D7%95%D7%AA%D7%9D-%D7%9C%D7%93%D7%A4%D7%95%D7%A1.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -392,8 +392,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%90%D7%98%D7%9D-%D7%92%D7%9E%D7%99%D7%A9-flexstop-20232.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/09/results_talshir-2.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -420,7 +420,7 @@
           "thumbnail": "/images/products/universal_keeper/universal_keeper_noBG.png",
           "productPageMain": "/images/products/universal_keeper/universal_keeper_noBG.png",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%992-1030x909.jpg"
+            "https://files.talshir-ibc.com/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%992-1030x909.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -429,8 +429,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2023/04/%D7%A9%D7%95%D7%9E%D7%A8-%D7%9E%D7%A8%D7%97%D7%A7-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%9C%D7%99.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -612,8 +612,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/09/results_talshir-2.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -641,14 +641,14 @@
           "thumbnail": "/images/products/clipper_adjustable_corners/clipper_adjustable_corners_noBG.png",
           "productPageMain": "/images/products/clipper_adjustable_corners/talshirIBC-pina_noBG.png",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -657,8 +657,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/09/results_talshir-2.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
@@ -685,14 +685,14 @@
           "thumbnail": "/images/products/clipper_adjustable_mikes/clipper_adjustable_mikes_noBG.png",
           "productPageMain": "/images/products/clipper_adjustable_mikes/mikes1.jpg",
           "usages" : [
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike1.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike2.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike3.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike4.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike5-723x1030.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike6-723x1030.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike7-723x1030.jpg",
-           "https://talshir-ibc.com/wp-content/uploads/2022/01/talshirIBC-Mike8-723x1030.jpg"
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike1.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike2.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike3.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike4.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike5-723x1030.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike6-723x1030.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike7-723x1030.jpg",
+           "https://files.talshir-ibc.com/uploads/2022/01/talshirIBC-Mike8-723x1030.jpg"
            ]
         },
         "modelSizesCustomize": false,
@@ -729,14 +729,14 @@
           "thumbnail": "/images/products/dividag/dividag_noBG.png",
           "productPageMain": "/images/products/dividag/dividag_noBG.png",
           "usages" : [
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
-            "https://talshir-ibc.com/wp-content/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-1.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-2.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-3.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-4.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-5.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-6.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-7.jpg",
+            "https://files.talshir-ibc.com/uploads/2019/02/talshirIBC-pina_lkir-8.jpg"
           ]
         },
         "modelSizesCustomize": false,
@@ -745,8 +745,8 @@
         "modelLinks": {
           "modelPikod" : "",
           "modelMati" : "",
-          "modelProspect" : "https://talshir-ibc.com/wp-content/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
-          "modelExtra": "https://talshir-ibc.com/wp-content/uploads/2022/09/results_talshir-2.pdf"
+          "modelProspect" : "https://files.talshir-ibc.com/uploads/2019/02/%D7%AA%D7%A4%D7%A1-%D7%9E%D7%AA%D7%9B%D7%95%D7%95%D7%A0%D7%9F-%D7%A2%D7%91%D7%95%D7%A8-%D7%A4%D7%99%D7%A0%D7%95%D7%AA-%D7%9C%D7%98%D7%99%D7%97.pdf",
+          "modelExtra": "https://files.talshir-ibc.com/uploads/2022/09/results_talshir-2.pdf"
         },
         "modelSpecification": "",
         "modelCertification": "",
