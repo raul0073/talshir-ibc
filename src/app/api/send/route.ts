@@ -34,10 +34,10 @@ export async function POST(req: NextRequest) {
         <meta charset="UTF-8" />
       </head>
       <body dir="rtl">
-        <div style="padding: 2rem; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333; direction: rtl; text-align: right;">
+        <div style="padding: 40px; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333; direction: rtl; text-align: right;">
           <div style="max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
-            <h2 style="color: #2c3e50; margin-bottom: 1.5rem;">בקשת יצירת קשר חדשה</h2>
-            <table style="width: 100%; font-size: 1.2rem; border-collapse: collapse;">
+            <h2 style="color: #2c3e50; margin-bottom: 20px;">בקשת יצירת קשר חדשה</h2>
+            <table style="width: 100%; font-size: 24px; border-collapse: collapse;">
               <tr><td style="padding: 0.5rem 0;"><strong>שם מלא:</strong></td><td style="padding: 0.5rem 0;">${full_name}</td></tr>
               <tr><td style="padding: 0.5rem 0;"><strong>חברה:</strong></td><td style="padding: 0.5rem 0;">${company}</td></tr>
               <tr><td style="padding: 0.5rem 0;"><strong>תפקיד:</strong></td><td style="padding: 0.5rem 0;">${role}</td></tr>
@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
               <tr><td style="padding: 0.5rem 0;"><strong>אימייל:</strong></td><td style="padding: 0.5rem 0;">${email}</td></tr>
               <tr><td style="padding: 0.5rem 0; vertical-align: top;"><strong>הודעה:</strong></td><td style="padding: 0.5rem 0; white-space: pre-line;">${message}</td></tr>
             </table>
-            <p style="margin-top: 2rem; font-size: 1rem; color: #555;">אנא צור קשר בהקדם האפשרי.</p>
+            <p style="margin-top: 25px; font-size: 18px; color: #555;">אנא צור קשר בהקדם האפשרי.</p>
           </div>
         </div>
       </body>

@@ -3,10 +3,12 @@ import { cn } from "@/lib/utils";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import LocaleSwitcher from "./langSwitcher";
+import { usePathname } from "next/navigation";
 
 function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 	const content = useTranslations("Navbar");
 	const locale = useLocale();
+	const path = usePathname();
 	return (
 		<nav className="hidden md:flex ">
 			<ul
@@ -16,17 +18,17 @@ function NavigationLinks({ isScrolled }: { isScrolled: boolean }) {
 				<li className={`${
 					isScrolled ? "text-zinc-700 hover:text-appTextBlue" : "text-zinc-700 hover:text-zinc-900"
 				}`}>
-					<Link href="/#products">{content("products")}</Link>
+					<Link href={`${path}/#products`}>{content("products")}</Link>
 				</li>
 				<li className={`${
 					isScrolled ? "text-zinc-700 hover:text-appTextBlue" : "text-zinc-700 hover:text-zinc-900"
 				}`}>
-					<Link href="/#about">{content("about")}</Link>
+					<Link href={`${path}/#about`}>{content("about")}</Link>
 				</li>
 				<li className={`${
 					isScrolled ? "text-zinc-700 hover:text-appTextBlue" : "text-zinc-700 hover:text-zinc-900"
 				}`}>
-					<Link href="/#contact">{content("contact")}</Link>
+					<Link href={`${path}/#contact`}>{content("contact")}</Link>
 				</li>
 				<li className={``}>
 					<LocaleSwitcher currentLocale={locale} />
