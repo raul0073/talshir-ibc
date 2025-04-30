@@ -14,7 +14,7 @@ async function Page({
 	const ProductComponent = PRODUCTS_COMPONENTS[prodID.trim()];
   
 	return (
-	  <SectionWithLocale sectionName="product-page" className="pt-28">
+	  <SectionWithLocale sectionName="product-page" className="pt-32">
 		<Suspense key={"product-page"} fallback={<ProductPageSkeleton />}>
 		  {ProductComponent || <ProductPageSkeleton />}
 		</Suspense>

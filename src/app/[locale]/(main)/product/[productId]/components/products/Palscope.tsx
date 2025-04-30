@@ -19,7 +19,7 @@ function Palscope({ id }: { id: string }) {
 			{thisProd ? (
 				<div className="grid grid-cols-1">
 					<div className="">
-						<ModelHeader thisProd={thisProd} withDesc/>
+						<ModelHeader thisProd={thisProd} withDesc />
 						<div className="model-usage p-3 sm:p-4 grid grid-cols-1">
 							<div className="flex justify-center flex-col items-center">
 								<EnlargeableImage

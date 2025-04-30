@@ -50,7 +50,6 @@ function ModelHeader({
 					<Fragment>
 						<div className="mt-2 sm:mt-0  ">
 							<ButtonPlayDemo thisProd={thisProd} disabled={thisProd.modelDemoVideo ? false : true} />
-							{/* <YoutubeButton link={thisProd.modelDemoVideo || '#'} /> */}
 						</div>
 					</Fragment>
 				)}
