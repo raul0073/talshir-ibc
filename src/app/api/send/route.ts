@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
 
 const createRow = (label: string, value: string) => `
   <tr>
-    <td style="font-size: 14px; padding: 8px 0;"><strong>${label}</strong></td>
-    <td style="font-size: 14px; padding: 8px 0;">${value || '-'}</td>
+    <td style="font-size: 14px; padding: 4px 0;"><strong>${label}</strong></td>
+    <td style="font-size: 14px; padding: 4px 0;">${value || '-'}</td>
   </tr>
 `;
 
@@ -33,8 +33,8 @@ export async function POST(req: NextRequest) {
         <head>
           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         </head>
-        <body style="margin: 0; padding: 40px; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333;">
-          <div style="max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+        <body style="padding: 22px; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333; direction: rtl; ">
+          <div style="max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: right;">
             <h2 style="color: #2c3e50; margin-bottom: 20px;">בקשת יצירת קשר חדשה</h2>
             <table style="width: 100%; font-size: 14px; border-collapse: collapse;">
               ${createRow('שם מלא:', full_name)}
@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
                 <td style="padding: 8px 0; white-space: pre-line;">${message || '-'}</td>
               </tr>
             </table>
-            <p style="margin-top: 25px; font-size: 18px; color: #555;">צור קשר בהקדם האפשרי</p>
+            <p style="margin-top: 25px; font-size: 18px; color: #555; text-align: center;">צור קשר בהקדם האפשרי</p>
           </div>
         </body>
       </html>
