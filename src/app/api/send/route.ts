@@ -9,10 +9,15 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+const createRow = (label: string, value: string) => `
+  <tr>
+    <td style="font-size: 14px; padding: 8px 0;"><strong>${label}</strong></td>
+    <td style="font-size: 14px; padding: 8px 0;">${value || '-'}</td>
+  </tr>
+`;
+
 export async function POST(req: NextRequest) {
   try {
-    const data = await req.json();
-
     const {
       full_name = '',
       company = '',
@@ -20,7 +25,43 @@ export async function POST(req: NextRequest) {
       phone = '',
       email = '',
       message = '',
-    } = data;
+    } = await req.json();
+
+    const htmlBody = `
+      <!DOCTYPE html>
+      <html lang="he" dir="rtl">
+        <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        </head>
+        <body style="margin: 0; padding: 40px; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333;">
+          <div style="max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+            <h2 style="color: #2c3e50; margin-bottom: 20px;">בקשת יצירת קשר חדשה</h2>
+            <table style="width: 100%; font-size: 14px; border-collapse: collapse;">
+              ${createRow('שם מלא:', full_name)}
+              ${createRow('חברה:', company)}
+              ${createRow('תפקיד:', role)}
+              ${createRow('טלפון:', phone)}
+              ${createRow('אימייל:', email)}
+              <tr>
+                <td style="padding: 8px 0; vertical-align: top;"><strong>הודעה:</strong></td>
+                <td style="padding: 8px 0; white-space: pre-line;">${message || '-'}</td>
+              </tr>
+            </table>
+            <p style="margin-top: 25px; font-size: 18px; color: #555;">צור קשר בהקדם האפשרי</p>
+          </div>
+        </body>
+      </html>
+    `;
+
+    const plainText = `
+שם מלא: ${full_name}
+חברה: ${company}
+תפקיד: ${role}
+טלפון: ${phone}
+אימייל: ${email}
+הודעה:
+${message}
+    `;
 
     const mailOptions = {
       from: process.env.MAIL_ADDRESS,
@@ -28,50 +69,16 @@ export async function POST(req: NextRequest) {
       cc: process.env.MAIL_ADDRESS_CC,
       replyTo: email,
       subject: 'השארת פרטים מהאתר',
-      html: `
-      <html>
-      <head>
-        <meta charset="UTF-8" />
-      </head>
-      <body dir="rtl">
-        <div style="padding: 40px; font-family: 'Segoe UI', Calibri, sans-serif; background-color: #f9f9f9; color: #333; direction: rtl; text-align: right;">
-          <div style="max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
-            <h2 style="color: #2c3e50; margin-bottom: 20px;">בקשת יצירת קשר חדשה</h2>
-            <table style="width: 100%; font-size: 24px; border-collapse: collapse;">
-              <tr><td style="padding: 0.5rem 0;"><strong>שם מלא:</strong></td><td style="padding: 0.5rem 0;">${full_name}</td></tr>
-              <tr><td style="padding: 0.5rem 0;"><strong>חברה:</strong></td><td style="padding: 0.5rem 0;">${company}</td></tr>
-              <tr><td style="padding: 0.5rem 0;"><strong>תפקיד:</strong></td><td style="padding: 0.5rem 0;">${role}</td></tr>
-              <tr><td style="padding: 0.5rem 0;"><strong>טלפון:</strong></td><td style="padding: 0.5rem 0;">${phone}</td></tr>
-              <tr><td style="padding: 0.5rem 0;"><strong>אימייל:</strong></td><td style="padding: 0.5rem 0;">${email}</td></tr>
-              <tr><td style="padding: 0.5rem 0; vertical-align: top;"><strong>הודעה:</strong></td><td style="padding: 0.5rem 0; white-space: pre-line;">${message}</td></tr>
-            </table>
-            <p style="margin-top: 25px; font-size: 18px; color: #555;">אנא צור קשר בהקדם האפשרי.</p>
-          </div>
-        </div>
-      </body>
-      </html>
-      `,
-      text: `
-      שם מלא: ${full_name}
-      חברה: ${company}
-      תפקיד: ${role}
-      טלפון: ${phone}
-      אימייל: ${email}
-      הודעה:
-      ${message}
-      `,
+      html: htmlBody,
+      text: plainText,
     };
 
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json({ success: true, message: 'Email sent successfully' });
-    //eslint-disable-next-line
-  } catch (error: any) {
-    console.error('Email send error:', error);
 
-    return NextResponse.json(
-      { error: 'Failed to send email' },
-      { status: 500 }
-    );
+  } catch (error) {
+    console.error('Email send error:', error);
+    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
   }
 }
