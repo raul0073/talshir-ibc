@@ -1,5 +1,5 @@
 import { ButtonPlayDemo } from "@/components/ui/button-arrow";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import { Fragment } from "react";
 import { ProductItem } from "../../../../../../../../types/products";
@@ -17,8 +17,6 @@ function ModelHeader({
 	patentLogo?: boolean;
 	withDesc?: boolean
 }) {
-	const tPage = useTranslations("ProductPage");
-  console.log(tPage("playDemoVideo"));
   const locale = useLocale()
   const isRTL = locale === 'he'
   const side = isRTL ? 'left' : 'right'

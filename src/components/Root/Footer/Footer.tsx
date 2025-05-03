@@ -84,6 +84,7 @@ function Footer() {
 								{MENUS_OPTIONS.LEGAL.map(({ label, href }) => (
 									<li
 										key={href}
+										id={`terms`}
 										className="capitalize text-white/50"
 										onClick={(e) => handleClick(href, e)}>
 										<a href={""} className="">

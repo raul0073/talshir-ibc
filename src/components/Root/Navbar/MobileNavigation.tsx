@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { MouseEvent } from "react";
 import { getMenusOptions } from "./data/menus";
 import LocaleSwitcher from "./langSwitcher";
+import { useRouter } from "next/navigation";
 
 interface MobileNavigationProps {
 	isOpen: boolean;
@@ -19,16 +20,32 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 	const content = useTranslations("Navbar");
 	const MENUS_OPTIONS = getMenusOptions(content);
 	const locale = useLocale();
+	const router = useRouter()
 	const isRTL = locale === "he" || locale === "ar";
 	function handleNavigationMove(e: MouseEvent<HTMLAnchorElement>) {
 		e.preventDefault();
 		setIsOpen(false);
+	  
 		const url = new URL(e.currentTarget.href);
 		const hash = url.hash;
+		const targetPath = `/${locale}`; // e.g., /he or /en
+	  
+		// Get current pathname only (no query or hash)
+		const currentPath = window.location.pathname;
+	  
+		if (currentPath !== targetPath) {
+		  // Navigate to root with the hash
+		  return router.push(`${targetPath}/${hash}`)
+		}
+	  
+		// Already on root — scroll to the section
 		const target = document.querySelector(hash);
-		if (!target) return;
-		target.scrollIntoView({ behavior: "smooth" });
-	}
+		if (target) {
+		  setTimeout(() => {
+			target.scrollIntoView({ behavior: "smooth" });
+		  }, 100); // slight delay to ensure layout is ready
+		}
+	  }
 	return (
 		<AnimatePresence>
 			{isOpen && (
