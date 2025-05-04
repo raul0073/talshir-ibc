@@ -8,9 +8,9 @@ export const getMenusOptions = (content: ReturnType<typeof useTranslations>) => 
     { label: content.raw("menus.main.contact"), href: "#contact" },
   ],
   LEGAL: [
-    { label: content.raw("menus.legal.terms"), href: "#terms" },
-    { label: content.raw("menus.legal.accessibility"), href: "#accessibility" },
-    { label: content.raw("menus.legal.privacyPolicy"), href: "#privacy" },
+    { label: content.raw("menus.legal.terms"), href: "terms" },
+    { label: content.raw("menus.legal.accessibility"), href: "accessibility" },
+    { label: content.raw("menus.legal.privacyPolicy"), href: "privacy" },
   ],
   CONTACT: [
     { label: content.raw("menus.contact.email"), href: "mailto:info@example.com" },

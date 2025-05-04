@@ -83,7 +83,7 @@ function MobileNavigation({ isOpen, setIsOpen }: MobileNavigationProps) {
 									key={href}
 									className="relative group/nav-item transition-all duration-300 ease-in-out  border-b border-white/40 py-2">
 									<a
-										href={href}
+										href={`#${href}`}
 										onClick={handleNavigationMove}
 										className="group/nav-item flex h-full justify-between items-center text-zinc-700 group-hover/nav-item:pl-2 transition-all duration-500 ease-in-out isolate text-sm">
 										{label}{" "}
